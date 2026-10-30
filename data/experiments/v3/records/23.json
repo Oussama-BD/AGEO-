@@ -1,0 +1,178 @@
+{
+  "document": {
+    "id": "v3:html:2212.10496",
+    "title": "Precise Zero-Shot Dense Retrieval without Relevance Labels",
+    "source": "https://arxiv.org/abs/2212.10496"
+  },
+  "graph": {
+    "entities": [
+      {
+        "id": "v3:paper:2212.10496",
+        "name": "Precise Zero-Shot Dense Retrieval without Relevance Labels",
+        "type": "Paper"
+      },
+      {
+        "id": "v3:author:0d17e9e15b51f6950404",
+        "name": "Luyu Gao",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:64d00f224451bad6e06f",
+        "name": "Xueguang Ma",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:c9545116c89d347f11cd",
+        "name": "Jimmy Lin",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:578ad2e69bd97206a0e2",
+        "name": "Jamie Callan",
+        "type": "Author"
+      },
+      {
+        "id": "v3:topic:f479b1004f72cc3862e1",
+        "name": "dense retrieval",
+        "type": "Topic"
+      },
+      {
+        "id": "v3:topic:ac5a22ba5334bd466586",
+        "name": "instruction tuning",
+        "type": "Topic"
+      },
+      {
+        "id": "v3:topic:70647950c4f788b4c151",
+        "name": "question answering",
+        "type": "Topic"
+      }
+    ],
+    "relations": [
+      {
+        "source": "v3:author:0d17e9e15b51f6950404",
+        "target": "v3:paper:2212.10496",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Precise Zero-Shot Dense Retrieval without Relevance Labels\" /><meta name=\"citation_author\" content=\"Gao, Luyu\" />",
+        "evidence_start": 5112,
+        "evidence_end": 5262,
+        "evidence_parts": [
+          {
+            "value": "Precise Zero-Shot Dense Retrieval without Relevance Labels",
+            "quote": "<meta name=\"citation_title\" content=\"Precise Zero-Shot Dense Retrieval without Relevance Labels\" />",
+            "start": 5112,
+            "end": 5211
+          },
+          {
+            "value": "Gao, Luyu",
+            "quote": "<meta name=\"citation_author\" content=\"Gao, Luyu\" />",
+            "start": 5211,
+            "end": 5262
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:64d00f224451bad6e06f",
+        "target": "v3:paper:2212.10496",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Precise Zero-Shot Dense Retrieval without Relevance Labels\" /><meta name=\"citation_author\" content=\"Gao, Luyu\" /><meta name=\"citation_author\" content=\"Ma, Xueguang\" />",
+        "evidence_start": 5112,
+        "evidence_end": 5316,
+        "evidence_parts": [
+          {
+            "value": "Precise Zero-Shot Dense Retrieval without Relevance Labels",
+            "quote": "<meta name=\"citation_title\" content=\"Precise Zero-Shot Dense Retrieval without Relevance Labels\" />",
+            "start": 5112,
+            "end": 5211
+          },
+          {
+            "value": "Ma, Xueguang",
+            "quote": "<meta name=\"citation_author\" content=\"Ma, Xueguang\" />",
+            "start": 5262,
+            "end": 5316
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:c9545116c89d347f11cd",
+        "target": "v3:paper:2212.10496",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Precise Zero-Shot Dense Retrieval without Relevance Labels\" /><meta name=\"citation_author\" content=\"Gao, Luyu\" /><meta name=\"citation_author\" content=\"Ma, Xueguang\" /><meta name=\"citation_author\" content=\"Lin, Jimmy\" />",
+        "evidence_start": 5112,
+        "evidence_end": 5368,
+        "evidence_parts": [
+          {
+            "value": "Precise Zero-Shot Dense Retrieval without Relevance Labels",
+            "quote": "<meta name=\"citation_title\" content=\"Precise Zero-Shot Dense Retrieval without Relevance Labels\" />",
+            "start": 5112,
+            "end": 5211
+          },
+          {
+            "value": "Lin, Jimmy",
+            "quote": "<meta name=\"citation_author\" content=\"Lin, Jimmy\" />",
+            "start": 5316,
+            "end": 5368
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:578ad2e69bd97206a0e2",
+        "target": "v3:paper:2212.10496",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Precise Zero-Shot Dense Retrieval without Relevance Labels\" /><meta name=\"citation_author\" content=\"Gao, Luyu\" /><meta name=\"citation_author\" content=\"Ma, Xueguang\" /><meta name=\"citation_author\" content=\"Lin, Jimmy\" /><meta name=\"citation_author\" content=\"Callan, Jamie\" />",
+        "evidence_start": 5112,
+        "evidence_end": 5423,
+        "evidence_parts": [
+          {
+            "value": "Precise Zero-Shot Dense Retrieval without Relevance Labels",
+            "quote": "<meta name=\"citation_title\" content=\"Precise Zero-Shot Dense Retrieval without Relevance Labels\" />",
+            "start": 5112,
+            "end": 5211
+          },
+          {
+            "value": "Callan, Jamie",
+            "quote": "<meta name=\"citation_author\" content=\"Callan, Jamie\" />",
+            "start": 5368,
+            "end": 5423
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:paper:2212.10496",
+        "target": "v3:topic:f479b1004f72cc3862e1",
+        "type": "ABOUT",
+        "quote": "dense retrieval has been shown effective and efficient across tasks and languages",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      },
+      {
+        "source": "v3:paper:2212.10496",
+        "target": "v3:topic:ac5a22ba5334bd466586",
+        "type": "ABOUT",
+        "quote": "HyDE first zero-shot instructs an instruction-following language model (e.g. InstructGPT) to generate a hypothetical document",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      },
+      {
+        "source": "v3:paper:2212.10496",
+        "target": "v3:topic:70647950c4f788b4c151",
+        "type": "ABOUT",
+        "quote": "across various tasks (e.g. web search, QA, fact verification)",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      }
+    ]
+  },
+  "mode": "deterministic_html_metadata",
+  "arxiv_id": "2212.10496",
+  "abstract": "While dense retrieval has been shown effective and efficient across tasks and languages, it remains difficult to create effective fully zero-shot dense retrieval systems when no relevance label is available. In this paper, we recognize the difficulty of zero-shot learning and encoding relevance. Instead, we propose to pivot through Hypothetical Document Embeddings~(HyDE). Given a query, HyDE first zero-shot instructs an instruction-following language model (e.g. InstructGPT) to generate a hypothetical document. The document captures relevance patterns but is unreal and may contain false details. Then, an unsupervised contrastively learned encoder~(e.g. Contriever) encodes the document into an embedding vector. This vector identifies a neighborhood in the corpus embedding space, where similar real documents are retrieved based on vector similarity. This second step ground the generated document to the actual corpus, with the encoder's dense bottleneck filtering out the incorrect details. Our experiments show that HyDE significantly outperforms the state-of-the-art unsupervised dense retriever Contriever and shows strong performance comparable to fine-tuned retrievers, across various tasks (e.g. web search, QA, fact verification) and languages~(e.g. sw, ko, ja).",
+  "llm_calls": 0,
+  "source_sha256": "4e5a0a9f5780e455542dd4a7d0bd52505d248e7270759be505c78184141e8cf1"
+}

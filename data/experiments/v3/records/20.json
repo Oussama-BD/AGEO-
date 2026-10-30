@@ -1,0 +1,194 @@
+{
+  "document": {
+    "id": "v3:html:2205.11916",
+    "title": "Large Language Models are Zero-Shot Reasoners",
+    "source": "https://arxiv.org/abs/2205.11916"
+  },
+  "graph": {
+    "entities": [
+      {
+        "id": "v3:paper:2205.11916",
+        "name": "Large Language Models are Zero-Shot Reasoners",
+        "type": "Paper"
+      },
+      {
+        "id": "v3:author:b5b5cff17a710f16a353",
+        "name": "Takeshi Kojima",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:83cf5444a191f3b5293f",
+        "name": "Shixiang Shane Gu",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:e7a267a258af8b8dc4cc",
+        "name": "Machel Reid",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:5c1c69ece165e59adcc8",
+        "name": "Yutaka Matsuo",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:c137bb63b1121d7c6efd",
+        "name": "Yusuke Iwasawa",
+        "type": "Author"
+      },
+      {
+        "id": "v3:topic:4c306bcd8be69976b898",
+        "name": "few-shot learning",
+        "type": "Topic"
+      },
+      {
+        "id": "v3:topic:1fb3a740773aa66efa9b",
+        "name": "reasoning methods",
+        "type": "Topic"
+      }
+    ],
+    "relations": [
+      {
+        "source": "v3:author:b5b5cff17a710f16a353",
+        "target": "v3:paper:2205.11916",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Large Language Models are Zero-Shot Reasoners\" /><meta name=\"citation_author\" content=\"Kojima, Takeshi\" />",
+        "evidence_start": 5704,
+        "evidence_end": 5847,
+        "evidence_parts": [
+          {
+            "value": "Large Language Models are Zero-Shot Reasoners",
+            "quote": "<meta name=\"citation_title\" content=\"Large Language Models are Zero-Shot Reasoners\" />",
+            "start": 5704,
+            "end": 5790
+          },
+          {
+            "value": "Kojima, Takeshi",
+            "quote": "<meta name=\"citation_author\" content=\"Kojima, Takeshi\" />",
+            "start": 5790,
+            "end": 5847
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:83cf5444a191f3b5293f",
+        "target": "v3:paper:2205.11916",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Large Language Models are Zero-Shot Reasoners\" /><meta name=\"citation_author\" content=\"Kojima, Takeshi\" /><meta name=\"citation_author\" content=\"Gu, Shixiang Shane\" />",
+        "evidence_start": 5704,
+        "evidence_end": 5907,
+        "evidence_parts": [
+          {
+            "value": "Large Language Models are Zero-Shot Reasoners",
+            "quote": "<meta name=\"citation_title\" content=\"Large Language Models are Zero-Shot Reasoners\" />",
+            "start": 5704,
+            "end": 5790
+          },
+          {
+            "value": "Gu, Shixiang Shane",
+            "quote": "<meta name=\"citation_author\" content=\"Gu, Shixiang Shane\" />",
+            "start": 5847,
+            "end": 5907
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:e7a267a258af8b8dc4cc",
+        "target": "v3:paper:2205.11916",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Large Language Models are Zero-Shot Reasoners\" /><meta name=\"citation_author\" content=\"Kojima, Takeshi\" /><meta name=\"citation_author\" content=\"Gu, Shixiang Shane\" /><meta name=\"citation_author\" content=\"Reid, Machel\" />",
+        "evidence_start": 5704,
+        "evidence_end": 5961,
+        "evidence_parts": [
+          {
+            "value": "Large Language Models are Zero-Shot Reasoners",
+            "quote": "<meta name=\"citation_title\" content=\"Large Language Models are Zero-Shot Reasoners\" />",
+            "start": 5704,
+            "end": 5790
+          },
+          {
+            "value": "Reid, Machel",
+            "quote": "<meta name=\"citation_author\" content=\"Reid, Machel\" />",
+            "start": 5907,
+            "end": 5961
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:5c1c69ece165e59adcc8",
+        "target": "v3:paper:2205.11916",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Large Language Models are Zero-Shot Reasoners\" /><meta name=\"citation_author\" content=\"Kojima, Takeshi\" /><meta name=\"citation_author\" content=\"Gu, Shixiang Shane\" /><meta name=\"citation_author\" content=\"Reid, Machel\" /><meta name=\"citation_author\" content=\"Matsuo, Yutaka\" />",
+        "evidence_start": 5704,
+        "evidence_end": 6017,
+        "evidence_parts": [
+          {
+            "value": "Large Language Models are Zero-Shot Reasoners",
+            "quote": "<meta name=\"citation_title\" content=\"Large Language Models are Zero-Shot Reasoners\" />",
+            "start": 5704,
+            "end": 5790
+          },
+          {
+            "value": "Matsuo, Yutaka",
+            "quote": "<meta name=\"citation_author\" content=\"Matsuo, Yutaka\" />",
+            "start": 5961,
+            "end": 6017
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:c137bb63b1121d7c6efd",
+        "target": "v3:paper:2205.11916",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Large Language Models are Zero-Shot Reasoners\" /><meta name=\"citation_author\" content=\"Kojima, Takeshi\" /><meta name=\"citation_author\" content=\"Gu, Shixiang Shane\" /><meta name=\"citation_author\" content=\"Reid, Machel\" /><meta name=\"citation_author\" content=\"Matsuo, Yutaka\" /><meta name=\"citation_author\" content=\"Iwasawa, Yusuke\" />",
+        "evidence_start": 5704,
+        "evidence_end": 6074,
+        "evidence_parts": [
+          {
+            "value": "Large Language Models are Zero-Shot Reasoners",
+            "quote": "<meta name=\"citation_title\" content=\"Large Language Models are Zero-Shot Reasoners\" />",
+            "start": 5704,
+            "end": 5790
+          },
+          {
+            "value": "Iwasawa, Yusuke",
+            "quote": "<meta name=\"citation_author\" content=\"Iwasawa, Yusuke\" />",
+            "start": 6017,
+            "end": 6074
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:paper:2205.11916",
+        "target": "v3:topic:4c306bcd8be69976b898",
+        "type": "ABOUT",
+        "quote": "generally known as excellent few-shot learners with task-specific exemplars",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      },
+      {
+        "source": "v3:paper:2205.11916",
+        "target": "v3:topic:1fb3a740773aa66efa9b",
+        "type": "ABOUT",
+        "quote": "chain of thought (CoT) prompting, a recent technique for eliciting complex multi-step reasoning",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      }
+    ]
+  },
+  "mode": "deterministic_html_metadata",
+  "arxiv_id": "2205.11916",
+  "abstract": "Pretrained large language models (LLMs) are widely used in many sub-fields of natural language processing (NLP) and generally known as excellent few-shot learners with task-specific exemplars. Notably, chain of thought (CoT) prompting, a recent technique for eliciting complex multi-step reasoning through step-by-step answer examples, achieved the state-of-the-art performances in arithmetics and symbolic reasoning, difficult system-2 tasks that do not follow the standard scaling laws for LLMs. While these successes are often attributed to LLMs' ability for few-shot learning, we show that LLMs are decent zero-shot reasoners by simply adding \"Let's think step by step\" before each answer. Experimental results demonstrate that our Zero-shot-CoT, using the same single prompt template, significantly outperforms zero-shot LLM performances on diverse benchmark reasoning tasks including arithmetics (MultiArith, GSM8K, AQUA-RAT, SVAMP), symbolic reasoning (Last Letter, Coin Flip), and other logical reasoning tasks (Date Understanding, Tracking Shuffled Objects), without any hand-crafted few-shot examples, e.g. increasing the accuracy on MultiArith from 17.7% to 78.7% and GSM8K from 10.4% to 40.7% with large InstructGPT model (text-davinci-002), as well as similar magnitudes of improvements with another off-the-shelf large model, 540B parameter PaLM. The versatility of this single prompt across very diverse reasoning tasks hints at untapped and understudied fundamental zero-shot capabilities of LLMs, suggesting high-level, multi-task broad cognitive capabilities may be extracted by simple prompting. We hope our work not only serves as the minimal strongest zero-shot baseline for the challenging reasoning benchmarks, but also highlights the importance of carefully exploring and analyzing the enormous zero-shot knowledge hidden inside LLMs before crafting finetuning datasets or few-shot exemplars.",
+  "llm_calls": 0,
+  "source_sha256": "015ad30c13c043598e88095decd4a7a0b885b4b8bef4df9c44672b65e086a9bd"
+}

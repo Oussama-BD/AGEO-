@@ -1,0 +1,339 @@
+{
+  "document": {
+    "id": "v3:html:2001.08361",
+    "title": "Scaling Laws for Neural Language Models",
+    "source": "https://arxiv.org/abs/2001.08361"
+  },
+  "graph": {
+    "entities": [
+      {
+        "id": "v3:paper:2001.08361",
+        "name": "Scaling Laws for Neural Language Models",
+        "type": "Paper"
+      },
+      {
+        "id": "v3:author:c2ef93e9dd4e98b6731c",
+        "name": "Jared Kaplan",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:49e4f5502ce17eb5c52a",
+        "name": "Sam McCandlish",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:3fd0da6ccc3e197e8626",
+        "name": "Tom Henighan",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:6c3c935907ca85c1b851",
+        "name": "Tom B. Brown",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:98ca07c1111fbdd75aaf",
+        "name": "Benjamin Chess",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:2a9ee5fd0aa7292f7f14",
+        "name": "Rewon Child",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:e497e85583c4eb639a27",
+        "name": "Scott Gray",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:65b6f62f8ad5fd270263",
+        "name": "Alec Radford",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:628c9819b7e546e82ab1",
+        "name": "Jeffrey Wu",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:c80dd7193e8558716e7e",
+        "name": "Dario Amodei",
+        "type": "Author"
+      },
+      {
+        "id": "v3:topic:a4ad4cef28c00f4f5894",
+        "name": "scaling laws",
+        "type": "Topic"
+      },
+      {
+        "id": "v3:topic:05ad72bca39f3f544731",
+        "name": "language-model pretraining",
+        "type": "Topic"
+      }
+    ],
+    "relations": [
+      {
+        "source": "v3:author:c2ef93e9dd4e98b6731c",
+        "target": "v3:paper:2001.08361",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Scaling Laws for Neural Language Models\" /><meta name=\"citation_author\" content=\"Kaplan, Jared\" />",
+        "evidence_start": 4555,
+        "evidence_end": 4690,
+        "evidence_parts": [
+          {
+            "value": "Scaling Laws for Neural Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"Scaling Laws for Neural Language Models\" />",
+            "start": 4555,
+            "end": 4635
+          },
+          {
+            "value": "Kaplan, Jared",
+            "quote": "<meta name=\"citation_author\" content=\"Kaplan, Jared\" />",
+            "start": 4635,
+            "end": 4690
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:49e4f5502ce17eb5c52a",
+        "target": "v3:paper:2001.08361",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Scaling Laws for Neural Language Models\" /><meta name=\"citation_author\" content=\"Kaplan, Jared\" /><meta name=\"citation_author\" content=\"McCandlish, Sam\" />",
+        "evidence_start": 4555,
+        "evidence_end": 4747,
+        "evidence_parts": [
+          {
+            "value": "Scaling Laws for Neural Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"Scaling Laws for Neural Language Models\" />",
+            "start": 4555,
+            "end": 4635
+          },
+          {
+            "value": "McCandlish, Sam",
+            "quote": "<meta name=\"citation_author\" content=\"McCandlish, Sam\" />",
+            "start": 4690,
+            "end": 4747
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:3fd0da6ccc3e197e8626",
+        "target": "v3:paper:2001.08361",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Scaling Laws for Neural Language Models\" /><meta name=\"citation_author\" content=\"Kaplan, Jared\" /><meta name=\"citation_author\" content=\"McCandlish, Sam\" /><meta name=\"citation_author\" content=\"Henighan, Tom\" />",
+        "evidence_start": 4555,
+        "evidence_end": 4802,
+        "evidence_parts": [
+          {
+            "value": "Scaling Laws for Neural Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"Scaling Laws for Neural Language Models\" />",
+            "start": 4555,
+            "end": 4635
+          },
+          {
+            "value": "Henighan, Tom",
+            "quote": "<meta name=\"citation_author\" content=\"Henighan, Tom\" />",
+            "start": 4747,
+            "end": 4802
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:6c3c935907ca85c1b851",
+        "target": "v3:paper:2001.08361",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Scaling Laws for Neural Language Models\" /><meta name=\"citation_author\" content=\"Kaplan, Jared\" /><meta name=\"citation_author\" content=\"McCandlish, Sam\" /><meta name=\"citation_author\" content=\"Henighan, Tom\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" />",
+        "evidence_start": 4555,
+        "evidence_end": 4857,
+        "evidence_parts": [
+          {
+            "value": "Scaling Laws for Neural Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"Scaling Laws for Neural Language Models\" />",
+            "start": 4555,
+            "end": 4635
+          },
+          {
+            "value": "Brown, Tom B.",
+            "quote": "<meta name=\"citation_author\" content=\"Brown, Tom B.\" />",
+            "start": 4802,
+            "end": 4857
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:98ca07c1111fbdd75aaf",
+        "target": "v3:paper:2001.08361",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Scaling Laws for Neural Language Models\" /><meta name=\"citation_author\" content=\"Kaplan, Jared\" /><meta name=\"citation_author\" content=\"McCandlish, Sam\" /><meta name=\"citation_author\" content=\"Henighan, Tom\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" /><meta name=\"citation_author\" content=\"Chess, Benjamin\" />",
+        "evidence_start": 4555,
+        "evidence_end": 4914,
+        "evidence_parts": [
+          {
+            "value": "Scaling Laws for Neural Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"Scaling Laws for Neural Language Models\" />",
+            "start": 4555,
+            "end": 4635
+          },
+          {
+            "value": "Chess, Benjamin",
+            "quote": "<meta name=\"citation_author\" content=\"Chess, Benjamin\" />",
+            "start": 4857,
+            "end": 4914
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:2a9ee5fd0aa7292f7f14",
+        "target": "v3:paper:2001.08361",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Scaling Laws for Neural Language Models\" /><meta name=\"citation_author\" content=\"Kaplan, Jared\" /><meta name=\"citation_author\" content=\"McCandlish, Sam\" /><meta name=\"citation_author\" content=\"Henighan, Tom\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" /><meta name=\"citation_author\" content=\"Chess, Benjamin\" /><meta name=\"citation_author\" content=\"Child, Rewon\" />",
+        "evidence_start": 4555,
+        "evidence_end": 4968,
+        "evidence_parts": [
+          {
+            "value": "Scaling Laws for Neural Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"Scaling Laws for Neural Language Models\" />",
+            "start": 4555,
+            "end": 4635
+          },
+          {
+            "value": "Child, Rewon",
+            "quote": "<meta name=\"citation_author\" content=\"Child, Rewon\" />",
+            "start": 4914,
+            "end": 4968
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:e497e85583c4eb639a27",
+        "target": "v3:paper:2001.08361",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Scaling Laws for Neural Language Models\" /><meta name=\"citation_author\" content=\"Kaplan, Jared\" /><meta name=\"citation_author\" content=\"McCandlish, Sam\" /><meta name=\"citation_author\" content=\"Henighan, Tom\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" /><meta name=\"citation_author\" content=\"Chess, Benjamin\" /><meta name=\"citation_author\" content=\"Child, Rewon\" /><meta name=\"citation_author\" content=\"Gray, Scott\" />",
+        "evidence_start": 4555,
+        "evidence_end": 5021,
+        "evidence_parts": [
+          {
+            "value": "Scaling Laws for Neural Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"Scaling Laws for Neural Language Models\" />",
+            "start": 4555,
+            "end": 4635
+          },
+          {
+            "value": "Gray, Scott",
+            "quote": "<meta name=\"citation_author\" content=\"Gray, Scott\" />",
+            "start": 4968,
+            "end": 5021
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:65b6f62f8ad5fd270263",
+        "target": "v3:paper:2001.08361",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Scaling Laws for Neural Language Models\" /><meta name=\"citation_author\" content=\"Kaplan, Jared\" /><meta name=\"citation_author\" content=\"McCandlish, Sam\" /><meta name=\"citation_author\" content=\"Henighan, Tom\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" /><meta name=\"citation_author\" content=\"Chess, Benjamin\" /><meta name=\"citation_author\" content=\"Child, Rewon\" /><meta name=\"citation_author\" content=\"Gray, Scott\" /><meta name=\"citation_author\" content=\"Radford, Alec\" />",
+        "evidence_start": 4555,
+        "evidence_end": 5076,
+        "evidence_parts": [
+          {
+            "value": "Scaling Laws for Neural Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"Scaling Laws for Neural Language Models\" />",
+            "start": 4555,
+            "end": 4635
+          },
+          {
+            "value": "Radford, Alec",
+            "quote": "<meta name=\"citation_author\" content=\"Radford, Alec\" />",
+            "start": 5021,
+            "end": 5076
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:628c9819b7e546e82ab1",
+        "target": "v3:paper:2001.08361",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Scaling Laws for Neural Language Models\" /><meta name=\"citation_author\" content=\"Kaplan, Jared\" /><meta name=\"citation_author\" content=\"McCandlish, Sam\" /><meta name=\"citation_author\" content=\"Henighan, Tom\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" /><meta name=\"citation_author\" content=\"Chess, Benjamin\" /><meta name=\"citation_author\" content=\"Child, Rewon\" /><meta name=\"citation_author\" content=\"Gray, Scott\" /><meta name=\"citation_author\" content=\"Radford, Alec\" /><meta name=\"citation_author\" content=\"Wu, Jeffrey\" />",
+        "evidence_start": 4555,
+        "evidence_end": 5129,
+        "evidence_parts": [
+          {
+            "value": "Scaling Laws for Neural Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"Scaling Laws for Neural Language Models\" />",
+            "start": 4555,
+            "end": 4635
+          },
+          {
+            "value": "Wu, Jeffrey",
+            "quote": "<meta name=\"citation_author\" content=\"Wu, Jeffrey\" />",
+            "start": 5076,
+            "end": 5129
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:c80dd7193e8558716e7e",
+        "target": "v3:paper:2001.08361",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Scaling Laws for Neural Language Models\" /><meta name=\"citation_author\" content=\"Kaplan, Jared\" /><meta name=\"citation_author\" content=\"McCandlish, Sam\" /><meta name=\"citation_author\" content=\"Henighan, Tom\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" /><meta name=\"citation_author\" content=\"Chess, Benjamin\" /><meta name=\"citation_author\" content=\"Child, Rewon\" /><meta name=\"citation_author\" content=\"Gray, Scott\" /><meta name=\"citation_author\" content=\"Radford, Alec\" /><meta name=\"citation_author\" content=\"Wu, Jeffrey\" /><meta name=\"citation_author\" content=\"Amodei, Dario\" />",
+        "evidence_start": 4555,
+        "evidence_end": 5184,
+        "evidence_parts": [
+          {
+            "value": "Scaling Laws for Neural Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"Scaling Laws for Neural Language Models\" />",
+            "start": 4555,
+            "end": 4635
+          },
+          {
+            "value": "Amodei, Dario",
+            "quote": "<meta name=\"citation_author\" content=\"Amodei, Dario\" />",
+            "start": 5129,
+            "end": 5184
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:paper:2001.08361",
+        "target": "v3:topic:a4ad4cef28c00f4f5894",
+        "type": "ABOUT",
+        "quote": "We study empirical scaling laws for language model performance on the cross-entropy loss.",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      },
+      {
+        "source": "v3:paper:2001.08361",
+        "target": "v3:topic:05ad72bca39f3f544731",
+        "type": "ABOUT",
+        "quote": "The loss scales as a power-law with model size, dataset size, and the amount of compute used for training",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      }
+    ]
+  },
+  "mode": "deterministic_html_metadata",
+  "arxiv_id": "2001.08361",
+  "abstract": "We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size, and the amount of compute used for training, with some trends spanning more than seven orders of magnitude. Other architectural details such as network width or depth have minimal effects within a wide range. Simple equations govern the dependence of overfitting on model/dataset size and the dependence of training speed on model size. These relationships allow us to determine the optimal allocation of a fixed compute budget. Larger models are significantly more sample-efficient, such that optimally compute-efficient training involves training very large models on a relatively modest amount of data and stopping significantly before convergence.",
+  "llm_calls": 0,
+  "source_sha256": "7dab5fc3e98d848c84c647d541e20ca72306e39da69f3488f93b12759e02ab77"
+}

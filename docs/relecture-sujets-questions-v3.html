@@ -1,0 +1,543 @@
+<!doctype html><meta charset="utf-8"><title>AGEO RECHERCHE — Relecture V3</title><style>body{max-width:1000px;margin:40px auto;font:16px system-ui;line-height:1.6;background:#f4f7f8;color:#193b46}article{background:white;border:1px solid #d8e2e6;border-radius:10px;padding:24px;margin:20px 0}textarea{width:100%;min-height:75px}button{padding:12px;background:#176b63;color:white;border:0}input{padding:10px}pre{white-space:pre-wrap}</style><h1>AGEO RECHERCHE · Relecture V3</h1><p>Les références ci-dessous sont des propositions préparées par l’assistant. Aucune validation humaine indépendante n’est attestée. Vérifier les résumés et l’ontologie avant d’approuver ou corriger chaque ensemble attendu. Le téléchargement recueille les avis ; il ne modifie pas automatiquement les références du benchmark.</p><label>Nom du relecteur <input id="reviewer"></label><p><button id="export">Exporter les avis de relecture</button></p><h2>Ontologie</h2>
+<pre>{
+  &quot;attention mechanisms&quot;: &quot;Study or introduce an attention architecture, not merely mention a Transformer model.&quot;,
+  &quot;long-context modeling&quot;: &quot;Introduce mechanisms to handle long sequences or documents.&quot;,
+  &quot;retrieval-augmented generation&quot;: &quot;Combine document retrieval and a language generation or language-model pipeline.&quot;,
+  &quot;dense retrieval&quot;: &quot;Dense embedding or nearest-neighbor based document/passage retrieval is a substantive component.&quot;,
+  &quot;question answering&quot;: &quot;Question answering is a substantive task or evaluated application.&quot;,
+  &quot;language-model pretraining&quot;: &quot;Pretraining objectives, representations, datasets or foundational language-model training are substantive.&quot;,
+  &quot;scaling laws&quot;: &quot;Study empirical scaling relations and compute/data/model size trade-offs.&quot;,
+  &quot;few-shot learning&quot;: &quot;Study task learning or adaptation from examples in the prompt.&quot;,
+  &quot;instruction tuning&quot;: &quot;Train or fine-tune language models to follow instructions.&quot;,
+  &quot;reasoning methods&quot;: &quot;Propose or study a deliberate prompting/reasoning procedure, not just score a reasoning benchmark.&quot;,
+  &quot;conversational generation&quot;: &quot;Dialogue/chat generation is a primary application.&quot;,
+  &quot;external memory&quot;: &quot;Use an explicit external knowledge store or corpus beyond model parameters.&quot;,
+  &quot;knowledge graphs&quot;: &quot;Entity knowledge graphs are a substantive component.&quot;,
+  &quot;summarization&quot;: &quot;Summarization is a substantive method or evaluated application.&quot;
+}</pre>
+<article data-id="paper-1706.03762"><h2>Attention Is All You Need</h2><a href="https://arxiv.org/abs/1706.03762">Source arXiv</a><p>The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.</p><p><b>Sujets proposés pour la référence :</b> attention mechanisms</p><details><summary>Extraction du modèle à comparer après relecture</summary><pre>[
+  {
+    &quot;name&quot;: &quot;attention mechanisms&quot;,
+    &quot;quote&quot;: &quot;We propose a new simple network architecture, the Transformer, based solely on attention mechanisms&quot;,
+    &quot;start&quot;: 239,
+    &quot;end&quot;: 338,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  }
+]</pre></details><label><input type="checkbox" class="approved"> Ensemble proposé vérifié</label><p>Corrections ou réserves :</p><textarea></textarea></article>
+<article data-id="paper-2005.11401"><h2>Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks</h2><a href="https://arxiv.org/abs/2005.11401">Source arXiv</a><p>Large pre-trained language models have been shown to store factual knowledge in their parameters, and achieve state-of-the-art results when fine-tuned on downstream NLP tasks. However, their ability to access and precisely manipulate knowledge is still limited, and hence on knowledge-intensive tasks, their performance lags behind task-specific architectures. Additionally, providing provenance for their decisions and updating their world knowledge remain open research problems. Pre-trained models with a differentiable access mechanism to explicit non-parametric memory can overcome this issue, but have so far been only investigated for extractive downstream tasks. We explore a general-purpose fine-tuning recipe for retrieval-augmented generation (RAG) -- models which combine pre-trained parametric and non-parametric memory for language generation. We introduce RAG models where the parametric memory is a pre-trained seq2seq model and the non-parametric memory is a dense vector index of Wikipedia, accessed with a pre-trained neural retriever. We compare two RAG formulations, one which conditions on the same retrieved passages across the whole generated sequence, the other can use different passages per token. We fine-tune and evaluate our models on a wide range of knowledge-intensive NLP tasks and set the state-of-the-art on three open domain QA tasks, outperforming parametric seq2seq models and task-specific retrieve-and-extract architectures. For language generation tasks, we find that RAG models generate more specific, diverse and factual language than a state-of-the-art parametric-only seq2seq baseline.</p><p><b>Sujets proposés pour la référence :</b> retrieval-augmented generation, dense retrieval, question answering, external memory</p><details><summary>Extraction du modèle à comparer après relecture</summary><pre>[
+  {
+    &quot;name&quot;: &quot;retrieval-augmented generation&quot;,
+    &quot;quote&quot;: &quot;We explore a general-purpose fine-tuning recipe for retrieval-augmented generation (RAG)&quot;,
+    &quot;start&quot;: 671,
+    &quot;end&quot;: 759,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  },
+  {
+    &quot;name&quot;: &quot;dense retrieval&quot;,
+    &quot;quote&quot;: &quot;the non-parametric memory is a dense vector index of Wikipedia, accessed with a pre-trained neural retriever&quot;,
+    &quot;start&quot;: 945,
+    &quot;end&quot;: 1053,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  },
+  {
+    &quot;name&quot;: &quot;question answering&quot;,
+    &quot;quote&quot;: &quot;set the state-of-the-art on three open domain QA tasks&quot;,
+    &quot;start&quot;: 1315,
+    &quot;end&quot;: 1369,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  }
+]</pre></details><label><input type="checkbox" class="approved"> Ensemble proposé vérifié</label><p>Corrections ou réserves :</p><textarea></textarea></article>
+<article data-id="paper-2404.16130"><h2>From Local to Global: A Graph RAG Approach to Query-Focused Summarization</h2><a href="https://arxiv.org/abs/2404.16130">Source arXiv</a><p>The use of retrieval-augmented generation (RAG) to retrieve relevant information from an external knowledge source enables large language models (LLMs) to answer questions over private and/or previously unseen document collections. However, RAG fails on global questions directed at an entire text corpus, such as &quot;What are the main themes in the dataset?&quot;, since this is inherently a query-focused summarization (QFS) task, rather than an explicit retrieval task. Prior QFS methods, meanwhile, do not scale to the quantities of text indexed by typical RAG systems. To combine the strengths of these contrasting methods, we propose GraphRAG, a graph-based approach to question answering over private text corpora that scales with both the generality of user questions and the quantity of source text. Our approach uses an LLM to build a graph index in two stages: first, to derive an entity knowledge graph from the source documents, then to pregenerate community summaries for all groups of closely related entities. Given a question, each community summary is used to generate a partial response, before all partial responses are again summarized in a final response to the user. For a class of global sensemaking questions over datasets in the 1 million token range, we show that GraphRAG leads to substantial improvements over a conventional RAG baseline for both the comprehensiveness and diversity of generated answers.</p><p><b>Sujets proposés pour la référence :</b> retrieval-augmented generation, question answering, external memory, knowledge graphs, summarization</p><details><summary>Extraction du modèle à comparer après relecture</summary><pre>[
+  {
+    &quot;name&quot;: &quot;retrieval-augmented generation&quot;,
+    &quot;quote&quot;: &quot;The use of retrieval-augmented generation (RAG) to retrieve relevant information from an external knowledge source&quot;,
+    &quot;start&quot;: 0,
+    &quot;end&quot;: 114,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  },
+  {
+    &quot;name&quot;: &quot;question answering&quot;,
+    &quot;quote&quot;: &quot;we propose GraphRAG, a graph-based approach to question answering over private text corpora&quot;,
+    &quot;start&quot;: 621,
+    &quot;end&quot;: 712,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  },
+  {
+    &quot;name&quot;: &quot;knowledge graphs&quot;,
+    &quot;quote&quot;: &quot;to derive an entity knowledge graph from the source documents&quot;,
+    &quot;start&quot;: 871,
+    &quot;end&quot;: 932,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  },
+  {
+    &quot;name&quot;: &quot;summarization&quot;,
+    &quot;quote&quot;: &quot;this is inherently a query-focused summarization (QFS) task&quot;,
+    &quot;start&quot;: 364,
+    &quot;end&quot;: 423,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  }
+]</pre></details><label><input type="checkbox" class="approved"> Ensemble proposé vérifié</label><p>Corrections ou réserves :</p><textarea></textarea></article>
+<article data-id="paper-1810.04805"><h2>BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding</h2><a href="https://arxiv.org/abs/1810.04805">Source arXiv</a><p>We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).</p><p><b>Sujets proposés pour la référence :</b> language-model pretraining, question answering</p><details><summary>Extraction du modèle à comparer après relecture</summary><pre>[
+  {
+    &quot;name&quot;: &quot;language-model pretraining&quot;,
+    &quot;quote&quot;: &quot;BERT is designed to pre-train deep bidirectional representations from unlabeled text&quot;,
+    &quot;start&quot;: 182,
+    &quot;end&quot;: 266,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  },
+  {
+    &quot;name&quot;: &quot;question answering&quot;,
+    &quot;quote&quot;: &quot;SQuAD v1.1 question answering Test F1 to 93.2&quot;,
+    &quot;start&quot;: 879,
+    &quot;end&quot;: 924,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  }
+]</pre></details><label><input type="checkbox" class="approved"> Ensemble proposé vérifié</label><p>Corrections ou réserves :</p><textarea></textarea></article>
+<article data-id="paper-1802.05365"><h2>Deep contextualized word representations</h2><a href="https://arxiv.org/abs/1802.05365">Source arXiv</a><p>We introduce a new type of deep contextualized word representation that models both (1) complex characteristics of word use (e.g., syntax and semantics), and (2) how these uses vary across linguistic contexts (i.e., to model polysemy). Our word vectors are learned functions of the internal states of a deep bidirectional language model (biLM), which is pre-trained on a large text corpus. We show that these representations can be easily added to existing models and significantly improve the state of the art across six challenging NLP problems, including question answering, textual entailment and sentiment analysis. We also present an analysis showing that exposing the deep internals of the pre-trained network is crucial, allowing downstream models to mix different types of semi-supervision signals.</p><p><b>Sujets proposés pour la référence :</b> language-model pretraining, question answering</p><details><summary>Extraction du modèle à comparer après relecture</summary><pre>[
+  {
+    &quot;name&quot;: &quot;language-model pretraining&quot;,
+    &quot;quote&quot;: &quot;which is pre-trained on a large text corpus&quot;,
+    &quot;start&quot;: 345,
+    &quot;end&quot;: 388,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  },
+  {
+    &quot;name&quot;: &quot;question answering&quot;,
+    &quot;quote&quot;: &quot;significantly improve the state of the art across six challenging NLP problems, including question answering&quot;,
+    &quot;start&quot;: 468,
+    &quot;end&quot;: 576,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  }
+]</pre></details><label><input type="checkbox" class="approved"> Ensemble proposé vérifié</label><p>Corrections ou réserves :</p><textarea></textarea></article>
+<article data-id="paper-1907.11692"><h2>RoBERTa: A Robustly Optimized BERT Pretraining Approach</h2><a href="https://arxiv.org/abs/1907.11692">Source arXiv</a><p>Language model pretraining has led to significant performance gains but careful comparison between different approaches is challenging. Training is computationally expensive, often done on private datasets of different sizes, and, as we will show, hyperparameter choices have significant impact on the final results. We present a replication study of BERT pretraining (Devlin et al., 2019) that carefully measures the impact of many key hyperparameters and training data size. We find that BERT was significantly undertrained, and can match or exceed the performance of every model published after it. Our best model achieves state-of-the-art results on GLUE, RACE and SQuAD. These results highlight the importance of previously overlooked design choices, and raise questions about the source of recently reported improvements. We release our models and code.</p><p><b>Sujets proposés pour la référence :</b> language-model pretraining</p><details><summary>Extraction du modèle à comparer après relecture</summary><pre>[
+  {
+    &quot;name&quot;: &quot;language-model pretraining&quot;,
+    &quot;quote&quot;: &quot;Language model pretraining has led to significant performance gains&quot;,
+    &quot;start&quot;: 0,
+    &quot;end&quot;: 67,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  },
+  {
+    &quot;name&quot;: &quot;question answering&quot;,
+    &quot;quote&quot;: &quot;Our best model achieves state-of-the-art results on GLUE, RACE and SQuAD.&quot;,
+    &quot;start&quot;: 602,
+    &quot;end&quot;: 675,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  }
+]</pre></details><label><input type="checkbox" class="approved"> Ensemble proposé vérifié</label><p>Corrections ou réserves :</p><textarea></textarea></article>
+<article data-id="paper-1910.10683"><h2>Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer</h2><a href="https://arxiv.org/abs/1910.10683">Source arXiv</a><p>Transfer learning, where a model is first pre-trained on a data-rich task before being fine-tuned on a downstream task, has emerged as a powerful technique in natural language processing (NLP). The effectiveness of transfer learning has given rise to a diversity of approaches, methodology, and practice. In this paper, we explore the landscape of transfer learning techniques for NLP by introducing a unified framework that converts all text-based language problems into a text-to-text format. Our systematic study compares pre-training objectives, architectures, unlabeled data sets, transfer approaches, and other factors on dozens of language understanding tasks. By combining the insights from our exploration with scale and our new ``Colossal Clean Crawled Corpus&#x27;&#x27;, we achieve state-of-the-art results on many benchmarks covering summarization, question answering, text classification, and more. To facilitate future work on transfer learning for NLP, we release our data set, pre-trained models, and code.</p><p><b>Sujets proposés pour la référence :</b> language-model pretraining, question answering, summarization</p><details><summary>Extraction du modèle à comparer après relecture</summary><pre>[
+  {
+    &quot;name&quot;: &quot;language-model pretraining&quot;,
+    &quot;quote&quot;: &quot;Our systematic study compares pre-training objectives, architectures, unlabeled data sets&quot;,
+    &quot;start&quot;: 495,
+    &quot;end&quot;: 584,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  },
+  {
+    &quot;name&quot;: &quot;summarization&quot;,
+    &quot;quote&quot;: &quot;benchmarks covering summarization, question answering, text classification, and more.&quot;,
+    &quot;start&quot;: 817,
+    &quot;end&quot;: 902,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  },
+  {
+    &quot;name&quot;: &quot;question answering&quot;,
+    &quot;quote&quot;: &quot;benchmarks covering summarization, question answering, text classification, and more.&quot;,
+    &quot;start&quot;: 817,
+    &quot;end&quot;: 902,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  }
+]</pre></details><label><input type="checkbox" class="approved"> Ensemble proposé vérifié</label><p>Corrections ou réserves :</p><textarea></textarea></article>
+<article data-id="paper-2004.04906"><h2>Dense Passage Retrieval for Open-Domain Question Answering</h2><a href="https://arxiv.org/abs/2004.04906">Source arXiv</a><p>Open-domain question answering relies on efficient passage retrieval to select candidate contexts, where traditional sparse vector space models, such as TF-IDF or BM25, are the de facto method. In this work, we show that retrieval can be practically implemented using dense representations alone, where embeddings are learned from a small number of questions and passages by a simple dual-encoder framework. When evaluated on a wide range of open-domain QA datasets, our dense retriever outperforms a strong Lucene-BM25 system largely by 9%-19% absolute in terms of top-20 passage retrieval accuracy, and helps our end-to-end QA system establish new state-of-the-art on multiple open-domain QA benchmarks.</p><p><b>Sujets proposés pour la référence :</b> dense retrieval, question answering</p><details><summary>Extraction du modèle à comparer après relecture</summary><pre>[
+  {
+    &quot;name&quot;: &quot;dense retrieval&quot;,
+    &quot;quote&quot;: &quot;we show that retrieval can be practically implemented using dense representations alone&quot;,
+    &quot;start&quot;: 208,
+    &quot;end&quot;: 295,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  }
+]</pre></details><label><input type="checkbox" class="approved"> Ensemble proposé vérifié</label><p>Corrections ou réserves :</p><textarea></textarea></article>
+<article data-id="paper-2007.14062"><h2>Big Bird: Transformers for Longer Sequences</h2><a href="https://arxiv.org/abs/2007.14062">Source arXiv</a><p>Transformers-based models, such as BERT, have been one of the most successful deep learning models for NLP. Unfortunately, one of their core limitations is the quadratic dependency (mainly in terms of memory) on the sequence length due to their full attention mechanism. To remedy this, we propose, BigBird, a sparse attention mechanism that reduces this quadratic dependency to linear. We show that BigBird is a universal approximator of sequence functions and is Turing complete, thereby preserving these properties of the quadratic, full attention model. Along the way, our theoretical analysis reveals some of the benefits of having $O(1)$ global tokens (such as CLS), that attend to the entire sequence as part of the sparse attention mechanism. The proposed sparse attention can handle sequences of length up to 8x of what was previously possible using similar hardware. As a consequence of the capability to handle longer context, BigBird drastically improves performance on various NLP tasks such as question answering and summarization. We also propose novel applications to genomics data.</p><p><b>Sujets proposés pour la référence :</b> attention mechanisms, long-context modeling, question answering, summarization</p><details><summary>Extraction du modèle à comparer après relecture</summary><pre>[
+  {
+    &quot;name&quot;: &quot;attention mechanisms&quot;,
+    &quot;quote&quot;: &quot;we propose, BigBird, a sparse attention mechanism that reduces this quadratic dependency to linear.&quot;,
+    &quot;start&quot;: 287,
+    &quot;end&quot;: 386,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  },
+  {
+    &quot;name&quot;: &quot;long-context modeling&quot;,
+    &quot;quote&quot;: &quot;The proposed sparse attention can handle sequences of length up to 8x of what was previously possible&quot;,
+    &quot;start&quot;: 751,
+    &quot;end&quot;: 852,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  },
+  {
+    &quot;name&quot;: &quot;question answering&quot;,
+    &quot;quote&quot;: &quot;BigBird drastically improves performance on various NLP tasks such as question answering and summarization.&quot;,
+    &quot;start&quot;: 938,
+    &quot;end&quot;: 1045,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  },
+  {
+    &quot;name&quot;: &quot;summarization&quot;,
+    &quot;quote&quot;: &quot;BigBird drastically improves performance on various NLP tasks such as question answering and summarization.&quot;,
+    &quot;start&quot;: 938,
+    &quot;end&quot;: 1045,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  }
+]</pre></details><label><input type="checkbox" class="approved"> Ensemble proposé vérifié</label><p>Corrections ou réserves :</p><textarea></textarea></article>
+<article data-id="paper-2004.05150"><h2>Longformer: The Long-Document Transformer</h2><a href="https://arxiv.org/abs/2004.05150">Source arXiv</a><p>Transformer-based models are unable to process long sequences due to their self-attention operation, which scales quadratically with the sequence length. To address this limitation, we introduce the Longformer with an attention mechanism that scales linearly with sequence length, making it easy to process documents of thousands of tokens or longer. Longformer&#x27;s attention mechanism is a drop-in replacement for the standard self-attention and combines a local windowed attention with a task motivated global attention. Following prior work on long-sequence transformers, we evaluate Longformer on character-level language modeling and achieve state-of-the-art results on text8 and enwik8. In contrast to most prior work, we also pretrain Longformer and finetune it on a variety of downstream tasks. Our pretrained Longformer consistently outperforms RoBERTa on long document tasks and sets new state-of-the-art results on WikiHop and TriviaQA. We finally introduce the Longformer-Encoder-Decoder (LED), a Longformer variant for supporting long document generative sequence-to-sequence tasks, and demonstrate its effectiveness on the arXiv summarization dataset.</p><p><b>Sujets proposés pour la référence :</b> attention mechanisms, long-context modeling, language-model pretraining, question answering, summarization</p><details><summary>Extraction du modèle à comparer après relecture</summary><pre>[
+  {
+    &quot;name&quot;: &quot;long-context modeling&quot;,
+    &quot;quote&quot;: &quot;we introduce the Longformer with an attention mechanism that scales linearly with sequence length, making it easy to process documents of thousands of tokens or longer.&quot;,
+    &quot;start&quot;: 182,
+    &quot;end&quot;: 350,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  },
+  {
+    &quot;name&quot;: &quot;attention mechanisms&quot;,
+    &quot;quote&quot;: &quot;Longformer&#x27;s attention mechanism is a drop-in replacement for the standard self-attention and combines a local windowed attention with a task motivated global attention.&quot;,
+    &quot;start&quot;: 351,
+    &quot;end&quot;: 520,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  },
+  {
+    &quot;name&quot;: &quot;language-model pretraining&quot;,
+    &quot;quote&quot;: &quot;we also pretrain Longformer and finetune it on a variety of downstream tasks.&quot;,
+    &quot;start&quot;: 723,
+    &quot;end&quot;: 800,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  },
+  {
+    &quot;name&quot;: &quot;question answering&quot;,
+    &quot;quote&quot;: &quot;sets new state-of-the-art results on WikiHop and TriviaQA.&quot;,
+    &quot;start&quot;: 887,
+    &quot;end&quot;: 945,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  },
+  {
+    &quot;name&quot;: &quot;summarization&quot;,
+    &quot;quote&quot;: &quot;demonstrate its effectiveness on the arXiv summarization dataset.&quot;,
+    &quot;start&quot;: 1098,
+    &quot;end&quot;: 1163,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  }
+]</pre></details><label><input type="checkbox" class="approved"> Ensemble proposé vérifié</label><p>Corrections ou réserves :</p><textarea></textarea></article>
+<article data-id="paper-2002.08909"><h2>REALM: Retrieval-Augmented Language Model Pre-Training</h2><a href="https://arxiv.org/abs/2002.08909">Source arXiv</a><p>Language model pre-training has been shown to capture a surprising amount of world knowledge, crucial for NLP tasks such as question answering. However, this knowledge is stored implicitly in the parameters of a neural network, requiring ever-larger networks to cover more facts. To capture knowledge in a more modular and interpretable way, we augment language model pre-training with a latent knowledge retriever, which allows the model to retrieve and attend over documents from a large corpus such as Wikipedia, used during pre-training, fine-tuning and inference. For the first time, we show how to pre-train such a knowledge retriever in an unsupervised manner, using masked language modeling as the learning signal and backpropagating through a retrieval step that considers millions of documents. We demonstrate the effectiveness of Retrieval-Augmented Language Model pre-training (REALM) by fine-tuning on the challenging task of Open-domain Question Answering (Open-QA). We compare against state-of-the-art models for both explicit and implicit knowledge storage on three popular Open-QA benchmarks, and find that we outperform all previous methods by a significant margin (4-16% absolute accuracy), while also providing qualitative benefits such as interpretability and modularity.</p><p><b>Sujets proposés pour la référence :</b> retrieval-augmented generation, dense retrieval, language-model pretraining, question answering, external memory</p><details><summary>Extraction du modèle à comparer après relecture</summary><pre>[
+  {
+    &quot;name&quot;: &quot;language-model pretraining&quot;,
+    &quot;quote&quot;: &quot;we augment language model pre-training with a latent knowledge retriever&quot;,
+    &quot;start&quot;: 342,
+    &quot;end&quot;: 414,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  },
+  {
+    &quot;name&quot;: &quot;retrieval-augmented generation&quot;,
+    &quot;quote&quot;: &quot;we augment language model pre-training with a latent knowledge retriever, which allows the model to retrieve and attend over documents&quot;,
+    &quot;start&quot;: 342,
+    &quot;end&quot;: 476,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  },
+  {
+    &quot;name&quot;: &quot;dense retrieval&quot;,
+    &quot;quote&quot;: &quot;backpropagating through a retrieval step that considers millions of documents&quot;,
+    &quot;start&quot;: 726,
+    &quot;end&quot;: 803,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  },
+  {
+    &quot;name&quot;: &quot;question answering&quot;,
+    &quot;quote&quot;: &quot;fine-tuning on the challenging task of Open-domain Question Answering&quot;,
+    &quot;start&quot;: 900,
+    &quot;end&quot;: 969,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  }
+]</pre></details><label><input type="checkbox" class="approved"> Ensemble proposé vérifié</label><p>Corrections ou réserves :</p><textarea></textarea></article>
+<article data-id="paper-1906.00300"><h2>Latent Retrieval for Weakly Supervised Open Domain Question Answering</h2><a href="https://arxiv.org/abs/1906.00300">Source arXiv</a><p>Recent work on open domain question answering (QA) assumes strong supervision of the supporting evidence and/or assumes a blackbox information retrieval (IR) system to retrieve evidence candidates. We argue that both are suboptimal, since gold evidence is not always available, and QA is fundamentally different from IR. We show for the first time that it is possible to jointly learn the retriever and reader from question-answer string pairs and without any IR system. In this setting, evidence retrieval from all of Wikipedia is treated as a latent variable. Since this is impractical to learn from scratch, we pre-train the retriever with an Inverse Cloze Task. We evaluate on open versions of five QA datasets. On datasets where the questioner already knows the answer, a traditional IR system such as BM25 is sufficient. On datasets where a user is genuinely seeking an answer, we show that learned retrieval is crucial, outperforming BM25 by up to 19 points in exact match.</p><p><b>Sujets proposés pour la référence :</b> dense retrieval, language-model pretraining, question answering</p><details><summary>Extraction du modèle à comparer après relecture</summary><pre>[
+  {
+    &quot;name&quot;: &quot;question answering&quot;,
+    &quot;quote&quot;: &quot;Recent work on open domain question answering (QA) assumes strong supervision&quot;,
+    &quot;start&quot;: 0,
+    &quot;end&quot;: 77,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  }
+]</pre></details><label><input type="checkbox" class="approved"> Ensemble proposé vérifié</label><p>Corrections ou réserves :</p><textarea></textarea></article>
+<article data-id="paper-1911.00172"><h2>Generalization through Memorization: Nearest Neighbor Language Models</h2><a href="https://arxiv.org/abs/1911.00172">Source arXiv</a><p>We introduce $k$NN-LMs, which extend a pre-trained neural language model (LM) by linearly interpolating it with a $k$-nearest neighbors ($k$NN) model. The nearest neighbors are computed according to distance in the pre-trained LM embedding space, and can be drawn from any text collection, including the original LM training data. Applying this augmentation to a strong Wikitext-103 LM, with neighbors drawn from the original training set, our $k$NN-LM achieves a new state-of-the-art perplexity of 15.79 - a 2.9 point improvement with no additional training. We also show that this approach has implications for efficiently scaling up to larger training sets and allows for effective domain adaptation, by simply varying the nearest neighbor datastore, again without further training. Qualitatively, the model is particularly helpful in predicting rare patterns, such as factual knowledge. Together, these results strongly suggest that learning similarity between sequences of text is easier than predicting the next word, and that nearest neighbor search is an effective approach for language modeling in the long tail.</p><p><b>Sujets proposés pour la référence :</b> dense retrieval, external memory</p><details><summary>Extraction du modèle à comparer après relecture</summary><pre>[
+  {
+    &quot;name&quot;: &quot;external memory&quot;,
+    &quot;quote&quot;: &quot;The nearest neighbors are computed according to distance in the pre-trained LM embedding space, and can be drawn from any text collection&quot;,
+    &quot;start&quot;: 151,
+    &quot;end&quot;: 288,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  }
+]</pre></details><label><input type="checkbox" class="approved"> Ensemble proposé vérifié</label><p>Corrections ou réserves :</p><textarea></textarea></article>
+<article data-id="paper-2001.08361"><h2>Scaling Laws for Neural Language Models</h2><a href="https://arxiv.org/abs/2001.08361">Source arXiv</a><p>We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size, and the amount of compute used for training, with some trends spanning more than seven orders of magnitude. Other architectural details such as network width or depth have minimal effects within a wide range. Simple equations govern the dependence of overfitting on model/dataset size and the dependence of training speed on model size. These relationships allow us to determine the optimal allocation of a fixed compute budget. Larger models are significantly more sample-efficient, such that optimally compute-efficient training involves training very large models on a relatively modest amount of data and stopping significantly before convergence.</p><p><b>Sujets proposés pour la référence :</b> scaling laws</p><details><summary>Extraction du modèle à comparer après relecture</summary><pre>[
+  {
+    &quot;name&quot;: &quot;scaling laws&quot;,
+    &quot;quote&quot;: &quot;We study empirical scaling laws for language model performance on the cross-entropy loss.&quot;,
+    &quot;start&quot;: 0,
+    &quot;end&quot;: 89,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  },
+  {
+    &quot;name&quot;: &quot;language-model pretraining&quot;,
+    &quot;quote&quot;: &quot;The loss scales as a power-law with model size, dataset size, and the amount of compute used for training&quot;,
+    &quot;start&quot;: 90,
+    &quot;end&quot;: 195,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  }
+]</pre></details><label><input type="checkbox" class="approved"> Ensemble proposé vérifié</label><p>Corrections ou réserves :</p><textarea></textarea></article>
+<article data-id="paper-2005.14165"><h2>Language Models are Few-Shot Learners</h2><a href="https://arxiv.org/abs/2005.14165">Source arXiv</a><p>Recent work has demonstrated substantial gains on many NLP tasks and benchmarks by pre-training on a large corpus of text followed by fine-tuning on a specific task. While typically task-agnostic in architecture, this method still requires task-specific fine-tuning datasets of thousands or tens of thousands of examples. By contrast, humans can generally perform a new language task from only a few examples or from simple instructions - something which current NLP systems still largely struggle to do. Here we show that scaling up language models greatly improves task-agnostic, few-shot performance, sometimes even reaching competitiveness with prior state-of-the-art fine-tuning approaches. Specifically, we train GPT-3, an autoregressive language model with 175 billion parameters, 10x more than any previous non-sparse language model, and test its performance in the few-shot setting. For all tasks, GPT-3 is applied without any gradient updates or fine-tuning, with tasks and few-shot demonstrations specified purely via text interaction with the model. GPT-3 achieves strong performance on many NLP datasets, including translation, question-answering, and cloze tasks, as well as several tasks that require on-the-fly reasoning or domain adaptation, such as unscrambling words, using a novel word in a sentence, or performing 3-digit arithmetic. At the same time, we also identify some datasets where GPT-3&#x27;s few-shot learning still struggles, as well as some datasets where GPT-3 faces methodological issues related to training on large web corpora. Finally, we find that GPT-3 can generate samples of news articles which human evaluators have difficulty distinguishing from articles written by humans. We discuss broader societal impacts of this finding and of GPT-3 in general.</p><p><b>Sujets proposés pour la référence :</b> language-model pretraining, few-shot learning, question answering</p><details><summary>Extraction du modèle à comparer après relecture</summary><pre>[
+  {
+    &quot;name&quot;: &quot;language-model pretraining&quot;,
+    &quot;quote&quot;: &quot;pre-training on a large corpus of text followed by fine-tuning on a specific task&quot;,
+    &quot;start&quot;: 83,
+    &quot;end&quot;: 164,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  },
+  {
+    &quot;name&quot;: &quot;few-shot learning&quot;,
+    &quot;quote&quot;: &quot;scaling up language models greatly improves task-agnostic, few-shot performance&quot;,
+    &quot;start&quot;: 523,
+    &quot;end&quot;: 602,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  },
+  {
+    &quot;name&quot;: &quot;question answering&quot;,
+    &quot;quote&quot;: &quot;GPT-3 achieves strong performance on many NLP datasets, including translation, question-answering&quot;,
+    &quot;start&quot;: 1062,
+    &quot;end&quot;: 1159,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  }
+]</pre></details><label><input type="checkbox" class="approved"> Ensemble proposé vérifié</label><p>Corrections ou réserves :</p><textarea></textarea></article>
+<article data-id="paper-2302.13971"><h2>LLaMA: Open and Efficient Foundation Language Models</h2><a href="https://arxiv.org/abs/2302.13971">Source arXiv</a><p>We introduce LLaMA, a collection of foundation language models ranging from 7B to 65B parameters. We train our models on trillions of tokens, and show that it is possible to train state-of-the-art models using publicly available datasets exclusively, without resorting to proprietary and inaccessible datasets. In particular, LLaMA-13B outperforms GPT-3 (175B) on most benchmarks, and LLaMA-65B is competitive with the best models, Chinchilla-70B and PaLM-540B. We release all our models to the research community.</p><p><b>Sujets proposés pour la référence :</b> language-model pretraining</p><details><summary>Extraction du modèle à comparer après relecture</summary><pre>[
+  {
+    &quot;name&quot;: &quot;language-model pretraining&quot;,
+    &quot;quote&quot;: &quot;We train our models on trillions of tokens&quot;,
+    &quot;start&quot;: 98,
+    &quot;end&quot;: 140,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  }
+]</pre></details><label><input type="checkbox" class="approved"> Ensemble proposé vérifié</label><p>Corrections ou réserves :</p><textarea></textarea></article>
+<article data-id="paper-2307.09288"><h2>Llama 2: Open Foundation and Fine-Tuned Chat Models</h2><a href="https://arxiv.org/abs/2307.09288">Source arXiv</a><p>In this work, we develop and release Llama 2, a collection of pretrained and fine-tuned large language models (LLMs) ranging in scale from 7 billion to 70 billion parameters. Our fine-tuned LLMs, called Llama 2-Chat, are optimized for dialogue use cases. Our models outperform open-source chat models on most benchmarks we tested, and based on our human evaluations for helpfulness and safety, may be a suitable substitute for closed-source models. We provide a detailed description of our approach to fine-tuning and safety improvements of Llama 2-Chat in order to enable the community to build on our work and contribute to the responsible development of LLMs.</p><p><b>Sujets proposés pour la référence :</b> language-model pretraining, instruction tuning, conversational generation</p><details><summary>Extraction du modèle à comparer après relecture</summary><pre>[
+  {
+    &quot;name&quot;: &quot;language-model pretraining&quot;,
+    &quot;quote&quot;: &quot;collection of pretrained and fine-tuned large language models&quot;,
+    &quot;start&quot;: 48,
+    &quot;end&quot;: 109,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  },
+  {
+    &quot;name&quot;: &quot;instruction tuning&quot;,
+    &quot;quote&quot;: &quot;Our fine-tuned LLMs, called Llama 2-Chat, are optimized for dialogue use cases.&quot;,
+    &quot;start&quot;: 175,
+    &quot;end&quot;: 254,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  },
+  {
+    &quot;name&quot;: &quot;conversational generation&quot;,
+    &quot;quote&quot;: &quot;Our fine-tuned LLMs, called Llama 2-Chat, are optimized for dialogue use cases.&quot;,
+    &quot;start&quot;: 175,
+    &quot;end&quot;: 254,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  }
+]</pre></details><label><input type="checkbox" class="approved"> Ensemble proposé vérifié</label><p>Corrections ou réserves :</p><textarea></textarea></article>
+<article data-id="paper-2310.06825"><h2>Mistral 7B</h2><a href="https://arxiv.org/abs/2310.06825">Source arXiv</a><p>We introduce Mistral 7B v0.1, a 7-billion-parameter language model engineered for superior performance and efficiency. Mistral 7B outperforms Llama 2 13B across all evaluated benchmarks, and Llama 1 34B in reasoning, mathematics, and code generation. Our model leverages grouped-query attention (GQA) for faster inference, coupled with sliding window attention (SWA) to effectively handle sequences of arbitrary length with a reduced inference cost. We also provide a model fine-tuned to follow instructions, Mistral 7B -- Instruct, that surpasses the Llama 2 13B -- Chat model both on human and automated benchmarks. Our models are released under the Apache 2.0 license.</p><p><b>Sujets proposés pour la référence :</b> attention mechanisms, long-context modeling, instruction tuning</p><details><summary>Extraction du modèle à comparer après relecture</summary><pre>[
+  {
+    &quot;name&quot;: &quot;attention mechanisms&quot;,
+    &quot;quote&quot;: &quot;Our model leverages grouped-query attention (GQA) for faster inference, coupled with sliding window attention (SWA)&quot;,
+    &quot;start&quot;: 251,
+    &quot;end&quot;: 366,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  },
+  {
+    &quot;name&quot;: &quot;long-context modeling&quot;,
+    &quot;quote&quot;: &quot;sliding window attention (SWA) to effectively handle sequences of arbitrary length&quot;,
+    &quot;start&quot;: 336,
+    &quot;end&quot;: 418,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  },
+  {
+    &quot;name&quot;: &quot;instruction tuning&quot;,
+    &quot;quote&quot;: &quot;We also provide a model fine-tuned to follow instructions&quot;,
+    &quot;start&quot;: 450,
+    &quot;end&quot;: 507,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  }
+]</pre></details><label><input type="checkbox" class="approved"> Ensemble proposé vérifié</label><p>Corrections ou réserves :</p><textarea></textarea></article>
+<article data-id="paper-2203.02155"><h2>Training language models to follow instructions with human feedback</h2><a href="https://arxiv.org/abs/2203.02155">Source arXiv</a><p>Making language models bigger does not inherently make them better at following a user&#x27;s intent. For example, large language models can generate outputs that are untruthful, toxic, or simply not helpful to the user. In other words, these models are not aligned with their users. In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback. Starting with a set of labeler-written prompts and prompts submitted through the OpenAI API, we collect a dataset of labeler demonstrations of the desired model behavior, which we use to fine-tune GPT-3 using supervised learning. We then collect a dataset of rankings of model outputs, which we use to further fine-tune this supervised model using reinforcement learning from human feedback. We call the resulting models InstructGPT. In human evaluations on our prompt distribution, outputs from the 1.3B parameter InstructGPT model are preferred to outputs from the 175B GPT-3, despite having 100x fewer parameters. Moreover, InstructGPT models show improvements in truthfulness and reductions in toxic output generation while having minimal performance regressions on public NLP datasets. Even though InstructGPT still makes simple mistakes, our results show that fine-tuning with human feedback is a promising direction for aligning language models with human intent.</p><p><b>Sujets proposés pour la référence :</b> instruction tuning</p><details><summary>Extraction du modèle à comparer après relecture</summary><pre>[
+  {
+    &quot;name&quot;: &quot;instruction tuning&quot;,
+    &quot;quote&quot;: &quot;fine-tuning with human feedback is a promising direction for aligning language models with human intent.&quot;,
+    &quot;start&quot;: 1285,
+    &quot;end&quot;: 1389,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  }
+]</pre></details><label><input type="checkbox" class="approved"> Ensemble proposé vérifié</label><p>Corrections ou réserves :</p><textarea></textarea></article>
+<article data-id="paper-2201.11903"><h2>Chain-of-Thought Prompting Elicits Reasoning in Large Language Models</h2><a href="https://arxiv.org/abs/2201.11903">Source arXiv</a><p>We explore how generating a chain of thought -- a series of intermediate reasoning steps -- significantly improves the ability of large language models to perform complex reasoning. In particular, we show how such reasoning abilities emerge naturally in sufficiently large language models via a simple method called chain of thought prompting, where a few chain of thought demonstrations are provided as exemplars in prompting. Experiments on three large language models show that chain of thought prompting improves performance on a range of arithmetic, commonsense, and symbolic reasoning tasks. The empirical gains can be striking. For instance, prompting a 540B-parameter language model with just eight chain of thought exemplars achieves state of the art accuracy on the GSM8K benchmark of math word problems, surpassing even finetuned GPT-3 with a verifier.</p><p><b>Sujets proposés pour la référence :</b> reasoning methods, few-shot learning</p><details><summary>Extraction du modèle à comparer après relecture</summary><pre>[
+  {
+    &quot;name&quot;: &quot;reasoning methods&quot;,
+    &quot;quote&quot;: &quot;a simple method called chain of thought prompting&quot;,
+    &quot;start&quot;: 293,
+    &quot;end&quot;: 342,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  },
+  {
+    &quot;name&quot;: &quot;few-shot learning&quot;,
+    &quot;quote&quot;: &quot;where a few chain of thought demonstrations are provided as exemplars in prompting.&quot;,
+    &quot;start&quot;: 344,
+    &quot;end&quot;: 427,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  }
+]</pre></details><label><input type="checkbox" class="approved"> Ensemble proposé vérifié</label><p>Corrections ou réserves :</p><textarea></textarea></article>
+<article data-id="paper-2205.11916"><h2>Large Language Models are Zero-Shot Reasoners</h2><a href="https://arxiv.org/abs/2205.11916">Source arXiv</a><p>Pretrained large language models (LLMs) are widely used in many sub-fields of natural language processing (NLP) and generally known as excellent few-shot learners with task-specific exemplars. Notably, chain of thought (CoT) prompting, a recent technique for eliciting complex multi-step reasoning through step-by-step answer examples, achieved the state-of-the-art performances in arithmetics and symbolic reasoning, difficult system-2 tasks that do not follow the standard scaling laws for LLMs. While these successes are often attributed to LLMs&#x27; ability for few-shot learning, we show that LLMs are decent zero-shot reasoners by simply adding &quot;Let&#x27;s think step by step&quot; before each answer. Experimental results demonstrate that our Zero-shot-CoT, using the same single prompt template, significantly outperforms zero-shot LLM performances on diverse benchmark reasoning tasks including arithmetics (MultiArith, GSM8K, AQUA-RAT, SVAMP), symbolic reasoning (Last Letter, Coin Flip), and other logical reasoning tasks (Date Understanding, Tracking Shuffled Objects), without any hand-crafted few-shot examples, e.g. increasing the accuracy on MultiArith from 17.7% to 78.7% and GSM8K from 10.4% to 40.7% with large InstructGPT model (text-davinci-002), as well as similar magnitudes of improvements with another off-the-shelf large model, 540B parameter PaLM. The versatility of this single prompt across very diverse reasoning tasks hints at untapped and understudied fundamental zero-shot capabilities of LLMs, suggesting high-level, multi-task broad cognitive capabilities may be extracted by simple prompting. We hope our work not only serves as the minimal strongest zero-shot baseline for the challenging reasoning benchmarks, but also highlights the importance of carefully exploring and analyzing the enormous zero-shot knowledge hidden inside LLMs before crafting finetuning datasets or few-shot exemplars.</p><p><b>Sujets proposés pour la référence :</b> reasoning methods</p><details><summary>Extraction du modèle à comparer après relecture</summary><pre>[
+  {
+    &quot;name&quot;: &quot;few-shot learning&quot;,
+    &quot;quote&quot;: &quot;generally known as excellent few-shot learners with task-specific exemplars&quot;,
+    &quot;start&quot;: 116,
+    &quot;end&quot;: 191,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  },
+  {
+    &quot;name&quot;: &quot;reasoning methods&quot;,
+    &quot;quote&quot;: &quot;chain of thought (CoT) prompting, a recent technique for eliciting complex multi-step reasoning&quot;,
+    &quot;start&quot;: 202,
+    &quot;end&quot;: 297,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  }
+]</pre></details><label><input type="checkbox" class="approved"> Ensemble proposé vérifié</label><p>Corrections ou réserves :</p><textarea></textarea></article>
+<article data-id="paper-2210.03629"><h2>ReAct: Synergizing Reasoning and Acting in Language Models</h2><a href="https://arxiv.org/abs/2210.03629">Source arXiv</a><p>While large language models (LLMs) have demonstrated impressive capabilities across tasks in language understanding and interactive decision making, their abilities for reasoning (e.g. chain-of-thought prompting) and acting (e.g. action plan generation) have primarily been studied as separate topics. In this paper, we explore the use of LLMs to generate both reasoning traces and task-specific actions in an interleaved manner, allowing for greater synergy between the two: reasoning traces help the model induce, track, and update action plans as well as handle exceptions, while actions allow it to interface with external sources, such as knowledge bases or environments, to gather additional information. We apply our approach, named ReAct, to a diverse set of language and decision making tasks and demonstrate its effectiveness over state-of-the-art baselines, as well as improved human interpretability and trustworthiness over methods without reasoning or acting components. Concretely, on question answering (HotpotQA) and fact verification (Fever), ReAct overcomes issues of hallucination and error propagation prevalent in chain-of-thought reasoning by interacting with a simple Wikipedia API, and generates human-like task-solving trajectories that are more interpretable than baselines without reasoning traces. On two interactive decision making benchmarks (ALFWorld and WebShop), ReAct outperforms imitation and reinforcement learning methods by an absolute success rate of 34% and 10% respectively, while being prompted with only one or two in-context examples. Project site with code: https://react-lm.github.io</p><p><b>Sujets proposés pour la référence :</b> reasoning methods, question answering, few-shot learning</p><details><summary>Extraction du modèle à comparer après relecture</summary><pre>[
+  {
+    &quot;name&quot;: &quot;reasoning methods&quot;,
+    &quot;quote&quot;: &quot;we explore the use of LLMs to generate both reasoning traces and task-specific actions in an interleaved manner&quot;,
+    &quot;start&quot;: 317,
+    &quot;end&quot;: 428,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  },
+  {
+    &quot;name&quot;: &quot;question answering&quot;,
+    &quot;quote&quot;: &quot;Concretely, on question answering (HotpotQA) and fact verification (Fever)&quot;,
+    &quot;start&quot;: 985,
+    &quot;end&quot;: 1059,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  },
+  {
+    &quot;name&quot;: &quot;external memory&quot;,
+    &quot;quote&quot;: &quot;actions allow it to interface with external sources, such as knowledge bases or environments&quot;,
+    &quot;start&quot;: 583,
+    &quot;end&quot;: 675,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  }
+]</pre></details><label><input type="checkbox" class="approved"> Ensemble proposé vérifié</label><p>Corrections ou réserves :</p><textarea></textarea></article>
+<article data-id="paper-2305.10601"><h2>Tree of Thoughts: Deliberate Problem Solving with Large Language Models</h2><a href="https://arxiv.org/abs/2305.10601">Source arXiv</a><p>Language models are increasingly being deployed for general problem solving across a wide range of tasks, but are still confined to token-level, left-to-right decision-making processes during inference. This means they can fall short in tasks that require exploration, strategic lookahead, or where initial decisions play a pivotal role. To surmount these challenges, we introduce a new framework for language model inference, Tree of Thoughts (ToT), which generalizes over the popular Chain of Thought approach to prompting language models, and enables exploration over coherent units of text (thoughts) that serve as intermediate steps toward problem solving. ToT allows LMs to perform deliberate decision making by considering multiple different reasoning paths and self-evaluating choices to decide the next course of action, as well as looking ahead or backtracking when necessary to make global choices. Our experiments show that ToT significantly enhances language models&#x27; problem-solving abilities on three novel tasks requiring non-trivial planning or search: Game of 24, Creative Writing, and Mini Crosswords. For instance, in Game of 24, while GPT-4 with chain-of-thought prompting only solved 4% of tasks, our method achieved a success rate of 74%. Code repo with all prompts: https://github.com/princeton-nlp/tree-of-thought-llm.</p><p><b>Sujets proposés pour la référence :</b> reasoning methods</p><details><summary>Extraction du modèle à comparer après relecture</summary><pre>[
+  {
+    &quot;name&quot;: &quot;reasoning methods&quot;,
+    &quot;quote&quot;: &quot;we introduce a new framework for language model inference, Tree of Thoughts (ToT), which generalizes over the popular Chain of Thought approach&quot;,
+    &quot;start&quot;: 368,
+    &quot;end&quot;: 511,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  }
+]</pre></details><label><input type="checkbox" class="approved"> Ensemble proposé vérifié</label><p>Corrections ou réserves :</p><textarea></textarea></article>
+<article data-id="paper-2212.10496"><h2>Precise Zero-Shot Dense Retrieval without Relevance Labels</h2><a href="https://arxiv.org/abs/2212.10496">Source arXiv</a><p>While dense retrieval has been shown effective and efficient across tasks and languages, it remains difficult to create effective fully zero-shot dense retrieval systems when no relevance label is available. In this paper, we recognize the difficulty of zero-shot learning and encoding relevance. Instead, we propose to pivot through Hypothetical Document Embeddings~(HyDE). Given a query, HyDE first zero-shot instructs an instruction-following language model (e.g. InstructGPT) to generate a hypothetical document. The document captures relevance patterns but is unreal and may contain false details. Then, an unsupervised contrastively learned encoder~(e.g. Contriever) encodes the document into an embedding vector. This vector identifies a neighborhood in the corpus embedding space, where similar real documents are retrieved based on vector similarity. This second step ground the generated document to the actual corpus, with the encoder&#x27;s dense bottleneck filtering out the incorrect details. Our experiments show that HyDE significantly outperforms the state-of-the-art unsupervised dense retriever Contriever and shows strong performance comparable to fine-tuned retrievers, across various tasks (e.g. web search, QA, fact verification) and languages~(e.g. sw, ko, ja).</p><p><b>Sujets proposés pour la référence :</b> dense retrieval</p><details><summary>Extraction du modèle à comparer après relecture</summary><pre>[
+  {
+    &quot;name&quot;: &quot;dense retrieval&quot;,
+    &quot;quote&quot;: &quot;dense retrieval has been shown effective and efficient across tasks and languages&quot;,
+    &quot;start&quot;: 6,
+    &quot;end&quot;: 87,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  },
+  {
+    &quot;name&quot;: &quot;instruction tuning&quot;,
+    &quot;quote&quot;: &quot;HyDE first zero-shot instructs an instruction-following language model (e.g. InstructGPT) to generate a hypothetical document&quot;,
+    &quot;start&quot;: 390,
+    &quot;end&quot;: 515,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  },
+  {
+    &quot;name&quot;: &quot;question answering&quot;,
+    &quot;quote&quot;: &quot;across various tasks (e.g. web search, QA, fact verification)&quot;,
+    &quot;start&quot;: 1186,
+    &quot;end&quot;: 1247,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  }
+]</pre></details><label><input type="checkbox" class="approved"> Ensemble proposé vérifié</label><p>Corrections ou réserves :</p><textarea></textarea></article>
+<article data-id="paper-2104.07567"><h2>Retrieval Augmentation Reduces Hallucination in Conversation</h2><a href="https://arxiv.org/abs/2104.07567">Source arXiv</a><p>Despite showing increasingly human-like conversational abilities, state-of-the-art dialogue models often suffer from factual incorrectness and hallucination of knowledge (Roller et al., 2020). In this work we explore the use of neural-retrieval-in-the-loop architectures - recently shown to be effective in open-domain QA (Lewis et al., 2020b; Izacard and Grave, 2020) - for knowledge-grounded dialogue, a task that is arguably more challenging as it requires querying based on complex multi-turn dialogue context and generating conversationally coherent responses. We study various types of architectures with multiple components - retrievers, rankers, and encoder-decoders - with the goal of maximizing knowledgeability while retaining conversational ability. We demonstrate that our best models obtain state-of-the-art performance on two knowledge-grounded conversational tasks. The models exhibit open-domain conversational capabilities, generalize effectively to scenarios not within the training data, and, as verified by human evaluations, substantially reduce the well-known problem of knowledge hallucination in state-of-the-art chatbots.</p><p><b>Sujets proposés pour la référence :</b> retrieval-augmented generation, dense retrieval, question answering, external memory, conversational generation</p><details><summary>Extraction du modèle à comparer après relecture</summary><pre>[
+  {
+    &quot;name&quot;: &quot;retrieval-augmented generation&quot;,
+    &quot;quote&quot;: &quot;we explore the use of neural-retrieval-in-the-loop architectures - recently shown to be effective in open-domain QA&quot;,
+    &quot;start&quot;: 206,
+    &quot;end&quot;: 321,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  },
+  {
+    &quot;name&quot;: &quot;conversational generation&quot;,
+    &quot;quote&quot;: &quot;knowledge-grounded dialogue, a task that is arguably more challenging as it requires querying based on complex multi-turn dialogue context and generating conversationally coherent responses&quot;,
+    &quot;start&quot;: 375,
+    &quot;end&quot;: 564,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  },
+  {
+    &quot;name&quot;: &quot;question answering&quot;,
+    &quot;quote&quot;: &quot;recently shown to be effective in open-domain QA&quot;,
+    &quot;start&quot;: 273,
+    &quot;end&quot;: 321,
+    &quot;source_kind&quot;: &quot;decoded_citation_abstract&quot;
+  }
+]</pre></details><label><input type="checkbox" class="approved"> Ensemble proposé vérifié</label><p>Corrections ou réserves :</p><textarea></textarea></article>
+<h2>Questions et réponses attendues proposées</h2>
+<article data-id="question-mh1"><h3>Quelles institutions sont associées aux auteurs de Attention Is All You Need ?</h3><pre>[
+  &quot;Google Brain&quot;,
+  &quot;Google Research&quot;,
+  &quot;University of Toronto&quot;
+]</pre><label><input type="checkbox" class="approved"> Question et ensemble attendu vérifiés contre les sources et l’ontologie</label><p>Corrections ou réserves :</p><textarea></textarea></article>
+<article data-id="question-mh2"><h3>Quels articles portent sur la génération augmentée par récupération ?</h3><pre>[
+  &quot;From Local to Global: A Graph RAG Approach to Query-Focused Summarization&quot;,
+  &quot;REALM: Retrieval-Augmented Language Model Pre-Training&quot;,
+  &quot;Retrieval Augmentation Reduces Hallucination in Conversation&quot;,
+  &quot;Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks&quot;
+]</pre><label><input type="checkbox" class="approved"> Question et ensemble attendu vérifiés contre les sources et l’ontologie</label><p>Corrections ou réserves :</p><textarea></textarea></article>
+<article data-id="question-mh3"><h3>Quels sujets sont reliés aux publications de Darren Edge ?</h3><pre>[
+  &quot;external memory&quot;,
+  &quot;knowledge graphs&quot;,
+  &quot;question answering&quot;,
+  &quot;retrieval-augmented generation&quot;,
+  &quot;summarization&quot;
+]</pre><label><input type="checkbox" class="approved"> Question et ensemble attendu vérifiés contre les sources et l’ontologie</label><p>Corrections ou réserves :</p><textarea></textarea></article>
+<article data-id="question-mh4"><h3>Quelles institutions sont reliées aux travaux sur les graphes de connaissances ?</h3><pre>[
+  &quot;Microsoft Office of the CTO&quot;,
+  &quot;Microsoft Research&quot;,
+  &quot;Microsoft Strategic Missions and Technologies&quot;
+]</pre><label><input type="checkbox" class="approved"> Question et ensemble attendu vérifiés contre les sources et l’ontologie</label><p>Corrections ou réserves :</p><textarea></textarea></article>
+<article data-id="question-mh5"><h3>Quels autres articles partagent au moins un sujet avec Attention Is All You Need ?</h3><pre>[
+  &quot;Big Bird: Transformers for Longer Sequences&quot;,
+  &quot;Longformer: The Long-Document Transformer&quot;,
+  &quot;Mistral 7B&quot;
+]</pre><label><input type="checkbox" class="approved"> Question et ensemble attendu vérifiés contre les sources et l’ontologie</label><p>Corrections ou réserves :</p><textarea></textarea></article>
+<article data-id="question-mh6"><h3>Quels sujets Big Bird et Longformer ont-ils en commun ?</h3><pre>[
+  &quot;attention mechanisms&quot;,
+  &quot;long-context modeling&quot;,
+  &quot;question answering&quot;,
+  &quot;summarization&quot;
+]</pre><label><input type="checkbox" class="approved"> Question et ensemble attendu vérifiés contre les sources et l’ontologie</label><p>Corrections ou réserves :</p><textarea></textarea></article>
+<article data-id="question-mh7"><h3>Quels auteurs ont signé à la fois Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks et Retrieval Augmentation Reduces Hallucination in Conversation ?</h3><pre>[
+  &quot;Douwe Kiela&quot;
+]</pre><label><input type="checkbox" class="approved"> Question et ensemble attendu vérifiés contre les sources et l’ontologie</label><p>Corrections ou réserves :</p><textarea></textarea></article>
+<article data-id="question-mh8"><h3>Quels articles sur la récupération dense ont été écrits par au moins un auteur de Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks ?</h3><pre>[
+  &quot;Dense Passage Retrieval for Open-Domain Question Answering&quot;,
+  &quot;Generalization through Memorization: Nearest Neighbor Language Models&quot;,
+  &quot;Retrieval Augmentation Reduces Hallucination in Conversation&quot;,
+  &quot;Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks&quot;
+]</pre><label><input type="checkbox" class="approved"> Question et ensemble attendu vérifiés contre les sources et l’ontologie</label><p>Corrections ou réserves :</p><textarea></textarea></article>
+<article data-id="question-sem1"><h3>Quels articles proposent des méthodes pour guider le raisonnement des modèles ?</h3><pre>[
+  &quot;Chain-of-Thought Prompting Elicits Reasoning in Large Language Models&quot;,
+  &quot;Large Language Models are Zero-Shot Reasoners&quot;,
+  &quot;ReAct: Synergizing Reasoning and Acting in Language Models&quot;,
+  &quot;Tree of Thoughts: Deliberate Problem Solving with Large Language Models&quot;
+]</pre><label><input type="checkbox" class="approved"> Question et ensemble attendu vérifiés contre les sources et l’ontologie</label><p>Corrections ou réserves :</p><textarea></textarea></article>
+<article data-id="question-sem2"><h3>Quels articles traitent de la prise en charge de longs contextes ?</h3><pre>[
+  &quot;Big Bird: Transformers for Longer Sequences&quot;,
+  &quot;Longformer: The Long-Document Transformer&quot;,
+  &quot;Mistral 7B&quot;
+]</pre><label><input type="checkbox" class="approved"> Question et ensemble attendu vérifiés contre les sources et l’ontologie</label><p>Corrections ou réserves :</p><textarea></textarea></article>
+<script>document.getElementById('export').onclick=()=>{let reviewer=document.getElementById('reviewer').value.trim();if(!reviewer){alert('Indiquer le nom du relecteur.');return}let result={reviewer,reviewer_identity_independently_verified:false,date:new Date().toISOString(),status:'review_feedback_only',entries:[...document.querySelectorAll('article')].map(a=>({id:a.dataset.id,approved:a.querySelector('.approved').checked,notes:a.querySelector('textarea').value}))};let url=URL.createObjectURL(new Blob([JSON.stringify(result,null,2)],{type:'application/json'}));let a=document.createElement('a');a.href=url;a.download='avis-relecture-v3.json';a.click();URL.revokeObjectURL(url)};</script>

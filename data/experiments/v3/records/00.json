@@ -1,0 +1,268 @@
+{
+  "document": {
+    "id": "v3:html:1706.03762",
+    "title": "Attention Is All You Need",
+    "source": "https://arxiv.org/abs/1706.03762"
+  },
+  "graph": {
+    "entities": [
+      {
+        "id": "v3:paper:1706.03762",
+        "name": "Attention Is All You Need",
+        "type": "Paper"
+      },
+      {
+        "id": "v3:author:4f713739fc6f7bbcedd7",
+        "name": "Ashish Vaswani",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:d64e5827d8620bd0a7b8",
+        "name": "Noam Shazeer",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:74a7d836b9ab02f5575e",
+        "name": "Niki Parmar",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:6e3dfc85e101b44bd119",
+        "name": "Jakob Uszkoreit",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:bc53ce989b7f2730483f",
+        "name": "Llion Jones",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:014cb0e18b31b1fb2f41",
+        "name": "Aidan N. Gomez",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:d4a1c6f56e4ae6793ed2",
+        "name": "Lukasz Kaiser",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:d5df69e433971012f63e",
+        "name": "Illia Polosukhin",
+        "type": "Author"
+      },
+      {
+        "id": "v3:topic:b083988cc669ffb845aa",
+        "name": "attention mechanisms",
+        "type": "Topic"
+      }
+    ],
+    "relations": [
+      {
+        "source": "v3:author:4f713739fc6f7bbcedd7",
+        "target": "v3:paper:1706.03762",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Attention Is All You Need\" /><meta name=\"citation_author\" content=\"Vaswani, Ashish\" />",
+        "evidence_start": 4830,
+        "evidence_end": 4953,
+        "evidence_parts": [
+          {
+            "value": "Attention Is All You Need",
+            "quote": "<meta name=\"citation_title\" content=\"Attention Is All You Need\" />",
+            "start": 4830,
+            "end": 4896
+          },
+          {
+            "value": "Vaswani, Ashish",
+            "quote": "<meta name=\"citation_author\" content=\"Vaswani, Ashish\" />",
+            "start": 4896,
+            "end": 4953
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:d64e5827d8620bd0a7b8",
+        "target": "v3:paper:1706.03762",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Attention Is All You Need\" /><meta name=\"citation_author\" content=\"Vaswani, Ashish\" /><meta name=\"citation_author\" content=\"Shazeer, Noam\" />",
+        "evidence_start": 4830,
+        "evidence_end": 5008,
+        "evidence_parts": [
+          {
+            "value": "Attention Is All You Need",
+            "quote": "<meta name=\"citation_title\" content=\"Attention Is All You Need\" />",
+            "start": 4830,
+            "end": 4896
+          },
+          {
+            "value": "Shazeer, Noam",
+            "quote": "<meta name=\"citation_author\" content=\"Shazeer, Noam\" />",
+            "start": 4953,
+            "end": 5008
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:74a7d836b9ab02f5575e",
+        "target": "v3:paper:1706.03762",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Attention Is All You Need\" /><meta name=\"citation_author\" content=\"Vaswani, Ashish\" /><meta name=\"citation_author\" content=\"Shazeer, Noam\" /><meta name=\"citation_author\" content=\"Parmar, Niki\" />",
+        "evidence_start": 4830,
+        "evidence_end": 5062,
+        "evidence_parts": [
+          {
+            "value": "Attention Is All You Need",
+            "quote": "<meta name=\"citation_title\" content=\"Attention Is All You Need\" />",
+            "start": 4830,
+            "end": 4896
+          },
+          {
+            "value": "Parmar, Niki",
+            "quote": "<meta name=\"citation_author\" content=\"Parmar, Niki\" />",
+            "start": 5008,
+            "end": 5062
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:6e3dfc85e101b44bd119",
+        "target": "v3:paper:1706.03762",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Attention Is All You Need\" /><meta name=\"citation_author\" content=\"Vaswani, Ashish\" /><meta name=\"citation_author\" content=\"Shazeer, Noam\" /><meta name=\"citation_author\" content=\"Parmar, Niki\" /><meta name=\"citation_author\" content=\"Uszkoreit, Jakob\" />",
+        "evidence_start": 4830,
+        "evidence_end": 5120,
+        "evidence_parts": [
+          {
+            "value": "Attention Is All You Need",
+            "quote": "<meta name=\"citation_title\" content=\"Attention Is All You Need\" />",
+            "start": 4830,
+            "end": 4896
+          },
+          {
+            "value": "Uszkoreit, Jakob",
+            "quote": "<meta name=\"citation_author\" content=\"Uszkoreit, Jakob\" />",
+            "start": 5062,
+            "end": 5120
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:bc53ce989b7f2730483f",
+        "target": "v3:paper:1706.03762",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Attention Is All You Need\" /><meta name=\"citation_author\" content=\"Vaswani, Ashish\" /><meta name=\"citation_author\" content=\"Shazeer, Noam\" /><meta name=\"citation_author\" content=\"Parmar, Niki\" /><meta name=\"citation_author\" content=\"Uszkoreit, Jakob\" /><meta name=\"citation_author\" content=\"Jones, Llion\" />",
+        "evidence_start": 4830,
+        "evidence_end": 5174,
+        "evidence_parts": [
+          {
+            "value": "Attention Is All You Need",
+            "quote": "<meta name=\"citation_title\" content=\"Attention Is All You Need\" />",
+            "start": 4830,
+            "end": 4896
+          },
+          {
+            "value": "Jones, Llion",
+            "quote": "<meta name=\"citation_author\" content=\"Jones, Llion\" />",
+            "start": 5120,
+            "end": 5174
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:014cb0e18b31b1fb2f41",
+        "target": "v3:paper:1706.03762",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Attention Is All You Need\" /><meta name=\"citation_author\" content=\"Vaswani, Ashish\" /><meta name=\"citation_author\" content=\"Shazeer, Noam\" /><meta name=\"citation_author\" content=\"Parmar, Niki\" /><meta name=\"citation_author\" content=\"Uszkoreit, Jakob\" /><meta name=\"citation_author\" content=\"Jones, Llion\" /><meta name=\"citation_author\" content=\"Gomez, Aidan N.\" />",
+        "evidence_start": 4830,
+        "evidence_end": 5231,
+        "evidence_parts": [
+          {
+            "value": "Attention Is All You Need",
+            "quote": "<meta name=\"citation_title\" content=\"Attention Is All You Need\" />",
+            "start": 4830,
+            "end": 4896
+          },
+          {
+            "value": "Gomez, Aidan N.",
+            "quote": "<meta name=\"citation_author\" content=\"Gomez, Aidan N.\" />",
+            "start": 5174,
+            "end": 5231
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:d4a1c6f56e4ae6793ed2",
+        "target": "v3:paper:1706.03762",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Attention Is All You Need\" /><meta name=\"citation_author\" content=\"Vaswani, Ashish\" /><meta name=\"citation_author\" content=\"Shazeer, Noam\" /><meta name=\"citation_author\" content=\"Parmar, Niki\" /><meta name=\"citation_author\" content=\"Uszkoreit, Jakob\" /><meta name=\"citation_author\" content=\"Jones, Llion\" /><meta name=\"citation_author\" content=\"Gomez, Aidan N.\" /><meta name=\"citation_author\" content=\"Kaiser, Lukasz\" />",
+        "evidence_start": 4830,
+        "evidence_end": 5287,
+        "evidence_parts": [
+          {
+            "value": "Attention Is All You Need",
+            "quote": "<meta name=\"citation_title\" content=\"Attention Is All You Need\" />",
+            "start": 4830,
+            "end": 4896
+          },
+          {
+            "value": "Kaiser, Lukasz",
+            "quote": "<meta name=\"citation_author\" content=\"Kaiser, Lukasz\" />",
+            "start": 5231,
+            "end": 5287
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:d5df69e433971012f63e",
+        "target": "v3:paper:1706.03762",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Attention Is All You Need\" /><meta name=\"citation_author\" content=\"Vaswani, Ashish\" /><meta name=\"citation_author\" content=\"Shazeer, Noam\" /><meta name=\"citation_author\" content=\"Parmar, Niki\" /><meta name=\"citation_author\" content=\"Uszkoreit, Jakob\" /><meta name=\"citation_author\" content=\"Jones, Llion\" /><meta name=\"citation_author\" content=\"Gomez, Aidan N.\" /><meta name=\"citation_author\" content=\"Kaiser, Lukasz\" /><meta name=\"citation_author\" content=\"Polosukhin, Illia\" />",
+        "evidence_start": 4830,
+        "evidence_end": 5346,
+        "evidence_parts": [
+          {
+            "value": "Attention Is All You Need",
+            "quote": "<meta name=\"citation_title\" content=\"Attention Is All You Need\" />",
+            "start": 4830,
+            "end": 4896
+          },
+          {
+            "value": "Polosukhin, Illia",
+            "quote": "<meta name=\"citation_author\" content=\"Polosukhin, Illia\" />",
+            "start": 5287,
+            "end": 5346
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:paper:1706.03762",
+        "target": "v3:topic:b083988cc669ffb845aa",
+        "type": "ABOUT",
+        "quote": "We propose a new simple network architecture, the Transformer, based solely on attention mechanisms",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      }
+    ]
+  },
+  "mode": "deterministic_html_metadata",
+  "arxiv_id": "1706.03762",
+  "abstract": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.",
+  "llm_calls": 0,
+  "source_sha256": "4dc896b86d954997eb7b2572b29a761da642de00f4229bf648da3580b2ca7785"
+}

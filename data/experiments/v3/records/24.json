@@ -1,0 +1,207 @@
+{
+  "document": {
+    "id": "v3:html:2104.07567",
+    "title": "Retrieval Augmentation Reduces Hallucination in Conversation",
+    "source": "https://arxiv.org/abs/2104.07567"
+  },
+  "graph": {
+    "entities": [
+      {
+        "id": "v3:paper:2104.07567",
+        "name": "Retrieval Augmentation Reduces Hallucination in Conversation",
+        "type": "Paper"
+      },
+      {
+        "id": "v3:author:61f474ccbc901cbce2ae",
+        "name": "Kurt Shuster",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:d1eb9dc23fb9cdb1fe56",
+        "name": "Spencer Poff",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:052acc0fd5cbf229362f",
+        "name": "Moya Chen",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:0ef80719966b7d98cad4",
+        "name": "Douwe Kiela",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:c195a88224597e3fa3ca",
+        "name": "Jason Weston",
+        "type": "Author"
+      },
+      {
+        "id": "v3:topic:031abfa15d712ae66a3c",
+        "name": "retrieval-augmented generation",
+        "type": "Topic"
+      },
+      {
+        "id": "v3:topic:9b2ab2ef3863901c36b8",
+        "name": "conversational generation",
+        "type": "Topic"
+      },
+      {
+        "id": "v3:topic:70647950c4f788b4c151",
+        "name": "question answering",
+        "type": "Topic"
+      }
+    ],
+    "relations": [
+      {
+        "source": "v3:author:61f474ccbc901cbce2ae",
+        "target": "v3:paper:2104.07567",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Retrieval Augmentation Reduces Hallucination in Conversation\" /><meta name=\"citation_author\" content=\"Shuster, Kurt\" />",
+        "evidence_start": 4982,
+        "evidence_end": 5138,
+        "evidence_parts": [
+          {
+            "value": "Retrieval Augmentation Reduces Hallucination in Conversation",
+            "quote": "<meta name=\"citation_title\" content=\"Retrieval Augmentation Reduces Hallucination in Conversation\" />",
+            "start": 4982,
+            "end": 5083
+          },
+          {
+            "value": "Shuster, Kurt",
+            "quote": "<meta name=\"citation_author\" content=\"Shuster, Kurt\" />",
+            "start": 5083,
+            "end": 5138
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:d1eb9dc23fb9cdb1fe56",
+        "target": "v3:paper:2104.07567",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Retrieval Augmentation Reduces Hallucination in Conversation\" /><meta name=\"citation_author\" content=\"Shuster, Kurt\" /><meta name=\"citation_author\" content=\"Poff, Spencer\" />",
+        "evidence_start": 4982,
+        "evidence_end": 5193,
+        "evidence_parts": [
+          {
+            "value": "Retrieval Augmentation Reduces Hallucination in Conversation",
+            "quote": "<meta name=\"citation_title\" content=\"Retrieval Augmentation Reduces Hallucination in Conversation\" />",
+            "start": 4982,
+            "end": 5083
+          },
+          {
+            "value": "Poff, Spencer",
+            "quote": "<meta name=\"citation_author\" content=\"Poff, Spencer\" />",
+            "start": 5138,
+            "end": 5193
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:052acc0fd5cbf229362f",
+        "target": "v3:paper:2104.07567",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Retrieval Augmentation Reduces Hallucination in Conversation\" /><meta name=\"citation_author\" content=\"Shuster, Kurt\" /><meta name=\"citation_author\" content=\"Poff, Spencer\" /><meta name=\"citation_author\" content=\"Chen, Moya\" />",
+        "evidence_start": 4982,
+        "evidence_end": 5245,
+        "evidence_parts": [
+          {
+            "value": "Retrieval Augmentation Reduces Hallucination in Conversation",
+            "quote": "<meta name=\"citation_title\" content=\"Retrieval Augmentation Reduces Hallucination in Conversation\" />",
+            "start": 4982,
+            "end": 5083
+          },
+          {
+            "value": "Chen, Moya",
+            "quote": "<meta name=\"citation_author\" content=\"Chen, Moya\" />",
+            "start": 5193,
+            "end": 5245
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:0ef80719966b7d98cad4",
+        "target": "v3:paper:2104.07567",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Retrieval Augmentation Reduces Hallucination in Conversation\" /><meta name=\"citation_author\" content=\"Shuster, Kurt\" /><meta name=\"citation_author\" content=\"Poff, Spencer\" /><meta name=\"citation_author\" content=\"Chen, Moya\" /><meta name=\"citation_author\" content=\"Kiela, Douwe\" />",
+        "evidence_start": 4982,
+        "evidence_end": 5299,
+        "evidence_parts": [
+          {
+            "value": "Retrieval Augmentation Reduces Hallucination in Conversation",
+            "quote": "<meta name=\"citation_title\" content=\"Retrieval Augmentation Reduces Hallucination in Conversation\" />",
+            "start": 4982,
+            "end": 5083
+          },
+          {
+            "value": "Kiela, Douwe",
+            "quote": "<meta name=\"citation_author\" content=\"Kiela, Douwe\" />",
+            "start": 5245,
+            "end": 5299
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:c195a88224597e3fa3ca",
+        "target": "v3:paper:2104.07567",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Retrieval Augmentation Reduces Hallucination in Conversation\" /><meta name=\"citation_author\" content=\"Shuster, Kurt\" /><meta name=\"citation_author\" content=\"Poff, Spencer\" /><meta name=\"citation_author\" content=\"Chen, Moya\" /><meta name=\"citation_author\" content=\"Kiela, Douwe\" /><meta name=\"citation_author\" content=\"Weston, Jason\" />",
+        "evidence_start": 4982,
+        "evidence_end": 5354,
+        "evidence_parts": [
+          {
+            "value": "Retrieval Augmentation Reduces Hallucination in Conversation",
+            "quote": "<meta name=\"citation_title\" content=\"Retrieval Augmentation Reduces Hallucination in Conversation\" />",
+            "start": 4982,
+            "end": 5083
+          },
+          {
+            "value": "Weston, Jason",
+            "quote": "<meta name=\"citation_author\" content=\"Weston, Jason\" />",
+            "start": 5299,
+            "end": 5354
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:paper:2104.07567",
+        "target": "v3:topic:031abfa15d712ae66a3c",
+        "type": "ABOUT",
+        "quote": "we explore the use of neural-retrieval-in-the-loop architectures - recently shown to be effective in open-domain QA",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      },
+      {
+        "source": "v3:paper:2104.07567",
+        "target": "v3:topic:9b2ab2ef3863901c36b8",
+        "type": "ABOUT",
+        "quote": "knowledge-grounded dialogue, a task that is arguably more challenging as it requires querying based on complex multi-turn dialogue context and generating conversationally coherent responses",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      },
+      {
+        "source": "v3:paper:2104.07567",
+        "target": "v3:topic:70647950c4f788b4c151",
+        "type": "ABOUT",
+        "quote": "recently shown to be effective in open-domain QA",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      }
+    ]
+  },
+  "mode": "deterministic_html_metadata",
+  "arxiv_id": "2104.07567",
+  "abstract": "Despite showing increasingly human-like conversational abilities, state-of-the-art dialogue models often suffer from factual incorrectness and hallucination of knowledge (Roller et al., 2020). In this work we explore the use of neural-retrieval-in-the-loop architectures - recently shown to be effective in open-domain QA (Lewis et al., 2020b; Izacard and Grave, 2020) - for knowledge-grounded dialogue, a task that is arguably more challenging as it requires querying based on complex multi-turn dialogue context and generating conversationally coherent responses. We study various types of architectures with multiple components - retrievers, rankers, and encoder-decoders - with the goal of maximizing knowledgeability while retaining conversational ability. We demonstrate that our best models obtain state-of-the-art performance on two knowledge-grounded conversational tasks. The models exhibit open-domain conversational capabilities, generalize effectively to scenarios not within the training data, and, as verified by human evaluations, substantially reduce the well-known problem of knowledge hallucination in state-of-the-art chatbots.",
+  "llm_calls": 0,
+  "source_sha256": "ecc8ac35231e3a5350d98322b5399aee5d8f8fcb9264bd34ce1d1f3e5c9d037b"
+}

@@ -1,0 +1,310 @@
+{
+  "document": {
+    "id": "v3:html:2201.11903",
+    "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+    "source": "https://arxiv.org/abs/2201.11903"
+  },
+  "graph": {
+    "entities": [
+      {
+        "id": "v3:paper:2201.11903",
+        "name": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+        "type": "Paper"
+      },
+      {
+        "id": "v3:author:e8ac077d416c86d56b78",
+        "name": "Jason Wei",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:7e06d24ae64b110e81a8",
+        "name": "Xuezhi Wang",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:160de50229447249e44d",
+        "name": "Dale Schuurmans",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:0d11cd12603adc55c019",
+        "name": "Maarten Bosma",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:813ea546a2f2a687036d",
+        "name": "Brian Ichter",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:3c37efe20cc629a06ff2",
+        "name": "Fei Xia",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:ddf0771a0b4466af40c8",
+        "name": "Ed Chi",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:06c71cef65e763b1607e",
+        "name": "Quoc Le",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:0df2f98c66bfa1c84038",
+        "name": "Denny Zhou",
+        "type": "Author"
+      },
+      {
+        "id": "v3:topic:1fb3a740773aa66efa9b",
+        "name": "reasoning methods",
+        "type": "Topic"
+      },
+      {
+        "id": "v3:topic:4c306bcd8be69976b898",
+        "name": "few-shot learning",
+        "type": "Topic"
+      }
+    ],
+    "relations": [
+      {
+        "source": "v3:author:e8ac077d416c86d56b78",
+        "target": "v3:paper:2201.11903",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Chain-of-Thought Prompting Elicits Reasoning in Large Language Models\" /><meta name=\"citation_author\" content=\"Wei, Jason\" />",
+        "evidence_start": 4735,
+        "evidence_end": 4897,
+        "evidence_parts": [
+          {
+            "value": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"Chain-of-Thought Prompting Elicits Reasoning in Large Language Models\" />",
+            "start": 4735,
+            "end": 4845
+          },
+          {
+            "value": "Wei, Jason",
+            "quote": "<meta name=\"citation_author\" content=\"Wei, Jason\" />",
+            "start": 4845,
+            "end": 4897
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:7e06d24ae64b110e81a8",
+        "target": "v3:paper:2201.11903",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Chain-of-Thought Prompting Elicits Reasoning in Large Language Models\" /><meta name=\"citation_author\" content=\"Wei, Jason\" /><meta name=\"citation_author\" content=\"Wang, Xuezhi\" />",
+        "evidence_start": 4735,
+        "evidence_end": 4951,
+        "evidence_parts": [
+          {
+            "value": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"Chain-of-Thought Prompting Elicits Reasoning in Large Language Models\" />",
+            "start": 4735,
+            "end": 4845
+          },
+          {
+            "value": "Wang, Xuezhi",
+            "quote": "<meta name=\"citation_author\" content=\"Wang, Xuezhi\" />",
+            "start": 4897,
+            "end": 4951
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:160de50229447249e44d",
+        "target": "v3:paper:2201.11903",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Chain-of-Thought Prompting Elicits Reasoning in Large Language Models\" /><meta name=\"citation_author\" content=\"Wei, Jason\" /><meta name=\"citation_author\" content=\"Wang, Xuezhi\" /><meta name=\"citation_author\" content=\"Schuurmans, Dale\" />",
+        "evidence_start": 4735,
+        "evidence_end": 5009,
+        "evidence_parts": [
+          {
+            "value": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"Chain-of-Thought Prompting Elicits Reasoning in Large Language Models\" />",
+            "start": 4735,
+            "end": 4845
+          },
+          {
+            "value": "Schuurmans, Dale",
+            "quote": "<meta name=\"citation_author\" content=\"Schuurmans, Dale\" />",
+            "start": 4951,
+            "end": 5009
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:0d11cd12603adc55c019",
+        "target": "v3:paper:2201.11903",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Chain-of-Thought Prompting Elicits Reasoning in Large Language Models\" /><meta name=\"citation_author\" content=\"Wei, Jason\" /><meta name=\"citation_author\" content=\"Wang, Xuezhi\" /><meta name=\"citation_author\" content=\"Schuurmans, Dale\" /><meta name=\"citation_author\" content=\"Bosma, Maarten\" />",
+        "evidence_start": 4735,
+        "evidence_end": 5065,
+        "evidence_parts": [
+          {
+            "value": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"Chain-of-Thought Prompting Elicits Reasoning in Large Language Models\" />",
+            "start": 4735,
+            "end": 4845
+          },
+          {
+            "value": "Bosma, Maarten",
+            "quote": "<meta name=\"citation_author\" content=\"Bosma, Maarten\" />",
+            "start": 5009,
+            "end": 5065
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:813ea546a2f2a687036d",
+        "target": "v3:paper:2201.11903",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Chain-of-Thought Prompting Elicits Reasoning in Large Language Models\" /><meta name=\"citation_author\" content=\"Wei, Jason\" /><meta name=\"citation_author\" content=\"Wang, Xuezhi\" /><meta name=\"citation_author\" content=\"Schuurmans, Dale\" /><meta name=\"citation_author\" content=\"Bosma, Maarten\" /><meta name=\"citation_author\" content=\"Ichter, Brian\" />",
+        "evidence_start": 4735,
+        "evidence_end": 5120,
+        "evidence_parts": [
+          {
+            "value": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"Chain-of-Thought Prompting Elicits Reasoning in Large Language Models\" />",
+            "start": 4735,
+            "end": 4845
+          },
+          {
+            "value": "Ichter, Brian",
+            "quote": "<meta name=\"citation_author\" content=\"Ichter, Brian\" />",
+            "start": 5065,
+            "end": 5120
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:3c37efe20cc629a06ff2",
+        "target": "v3:paper:2201.11903",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Chain-of-Thought Prompting Elicits Reasoning in Large Language Models\" /><meta name=\"citation_author\" content=\"Wei, Jason\" /><meta name=\"citation_author\" content=\"Wang, Xuezhi\" /><meta name=\"citation_author\" content=\"Schuurmans, Dale\" /><meta name=\"citation_author\" content=\"Bosma, Maarten\" /><meta name=\"citation_author\" content=\"Ichter, Brian\" /><meta name=\"citation_author\" content=\"Xia, Fei\" />",
+        "evidence_start": 4735,
+        "evidence_end": 5170,
+        "evidence_parts": [
+          {
+            "value": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"Chain-of-Thought Prompting Elicits Reasoning in Large Language Models\" />",
+            "start": 4735,
+            "end": 4845
+          },
+          {
+            "value": "Xia, Fei",
+            "quote": "<meta name=\"citation_author\" content=\"Xia, Fei\" />",
+            "start": 5120,
+            "end": 5170
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:ddf0771a0b4466af40c8",
+        "target": "v3:paper:2201.11903",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Chain-of-Thought Prompting Elicits Reasoning in Large Language Models\" /><meta name=\"citation_author\" content=\"Wei, Jason\" /><meta name=\"citation_author\" content=\"Wang, Xuezhi\" /><meta name=\"citation_author\" content=\"Schuurmans, Dale\" /><meta name=\"citation_author\" content=\"Bosma, Maarten\" /><meta name=\"citation_author\" content=\"Ichter, Brian\" /><meta name=\"citation_author\" content=\"Xia, Fei\" /><meta name=\"citation_author\" content=\"Chi, Ed\" />",
+        "evidence_start": 4735,
+        "evidence_end": 5219,
+        "evidence_parts": [
+          {
+            "value": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"Chain-of-Thought Prompting Elicits Reasoning in Large Language Models\" />",
+            "start": 4735,
+            "end": 4845
+          },
+          {
+            "value": "Chi, Ed",
+            "quote": "<meta name=\"citation_author\" content=\"Chi, Ed\" />",
+            "start": 5170,
+            "end": 5219
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:06c71cef65e763b1607e",
+        "target": "v3:paper:2201.11903",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Chain-of-Thought Prompting Elicits Reasoning in Large Language Models\" /><meta name=\"citation_author\" content=\"Wei, Jason\" /><meta name=\"citation_author\" content=\"Wang, Xuezhi\" /><meta name=\"citation_author\" content=\"Schuurmans, Dale\" /><meta name=\"citation_author\" content=\"Bosma, Maarten\" /><meta name=\"citation_author\" content=\"Ichter, Brian\" /><meta name=\"citation_author\" content=\"Xia, Fei\" /><meta name=\"citation_author\" content=\"Chi, Ed\" /><meta name=\"citation_author\" content=\"Le, Quoc\" />",
+        "evidence_start": 4735,
+        "evidence_end": 5269,
+        "evidence_parts": [
+          {
+            "value": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"Chain-of-Thought Prompting Elicits Reasoning in Large Language Models\" />",
+            "start": 4735,
+            "end": 4845
+          },
+          {
+            "value": "Le, Quoc",
+            "quote": "<meta name=\"citation_author\" content=\"Le, Quoc\" />",
+            "start": 5219,
+            "end": 5269
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:0df2f98c66bfa1c84038",
+        "target": "v3:paper:2201.11903",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Chain-of-Thought Prompting Elicits Reasoning in Large Language Models\" /><meta name=\"citation_author\" content=\"Wei, Jason\" /><meta name=\"citation_author\" content=\"Wang, Xuezhi\" /><meta name=\"citation_author\" content=\"Schuurmans, Dale\" /><meta name=\"citation_author\" content=\"Bosma, Maarten\" /><meta name=\"citation_author\" content=\"Ichter, Brian\" /><meta name=\"citation_author\" content=\"Xia, Fei\" /><meta name=\"citation_author\" content=\"Chi, Ed\" /><meta name=\"citation_author\" content=\"Le, Quoc\" /><meta name=\"citation_author\" content=\"Zhou, Denny\" />",
+        "evidence_start": 4735,
+        "evidence_end": 5322,
+        "evidence_parts": [
+          {
+            "value": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"Chain-of-Thought Prompting Elicits Reasoning in Large Language Models\" />",
+            "start": 4735,
+            "end": 4845
+          },
+          {
+            "value": "Zhou, Denny",
+            "quote": "<meta name=\"citation_author\" content=\"Zhou, Denny\" />",
+            "start": 5269,
+            "end": 5322
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:paper:2201.11903",
+        "target": "v3:topic:1fb3a740773aa66efa9b",
+        "type": "ABOUT",
+        "quote": "a simple method called chain of thought prompting",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      },
+      {
+        "source": "v3:paper:2201.11903",
+        "target": "v3:topic:4c306bcd8be69976b898",
+        "type": "ABOUT",
+        "quote": "where a few chain of thought demonstrations are provided as exemplars in prompting.",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      }
+    ]
+  },
+  "mode": "deterministic_html_metadata",
+  "arxiv_id": "2201.11903",
+  "abstract": "We explore how generating a chain of thought -- a series of intermediate reasoning steps -- significantly improves the ability of large language models to perform complex reasoning. In particular, we show how such reasoning abilities emerge naturally in sufficiently large language models via a simple method called chain of thought prompting, where a few chain of thought demonstrations are provided as exemplars in prompting. Experiments on three large language models show that chain of thought prompting improves performance on a range of arithmetic, commonsense, and symbolic reasoning tasks. The empirical gains can be striking. For instance, prompting a 540B-parameter language model with just eight chain of thought exemplars achieves state of the art accuracy on the GSM8K benchmark of math word problems, surpassing even finetuned GPT-3 with a verifier.",
+  "llm_calls": 0,
+  "source_sha256": "80d9091ef794ee5b348d82ea20866ff9b06e328b21fd5baf26bb4dc11bfa7c5e"
+}

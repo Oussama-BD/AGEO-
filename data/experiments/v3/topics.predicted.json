@@ -1,0 +1,472 @@
+{
+  "1706.03762": [
+    {
+      "name": "attention mechanisms",
+      "quote": "We propose a new simple network architecture, the Transformer, based solely on attention mechanisms",
+      "start": 239,
+      "end": 338,
+      "source_kind": "decoded_citation_abstract"
+    }
+  ],
+  "2005.11401": [
+    {
+      "name": "retrieval-augmented generation",
+      "quote": "We explore a general-purpose fine-tuning recipe for retrieval-augmented generation (RAG)",
+      "start": 671,
+      "end": 759,
+      "source_kind": "decoded_citation_abstract"
+    },
+    {
+      "name": "dense retrieval",
+      "quote": "the non-parametric memory is a dense vector index of Wikipedia, accessed with a pre-trained neural retriever",
+      "start": 945,
+      "end": 1053,
+      "source_kind": "decoded_citation_abstract"
+    },
+    {
+      "name": "question answering",
+      "quote": "set the state-of-the-art on three open domain QA tasks",
+      "start": 1315,
+      "end": 1369,
+      "source_kind": "decoded_citation_abstract"
+    }
+  ],
+  "2404.16130": [
+    {
+      "name": "retrieval-augmented generation",
+      "quote": "The use of retrieval-augmented generation (RAG) to retrieve relevant information from an external knowledge source",
+      "start": 0,
+      "end": 114,
+      "source_kind": "decoded_citation_abstract"
+    },
+    {
+      "name": "question answering",
+      "quote": "we propose GraphRAG, a graph-based approach to question answering over private text corpora",
+      "start": 621,
+      "end": 712,
+      "source_kind": "decoded_citation_abstract"
+    },
+    {
+      "name": "knowledge graphs",
+      "quote": "to derive an entity knowledge graph from the source documents",
+      "start": 871,
+      "end": 932,
+      "source_kind": "decoded_citation_abstract"
+    },
+    {
+      "name": "summarization",
+      "quote": "this is inherently a query-focused summarization (QFS) task",
+      "start": 364,
+      "end": 423,
+      "source_kind": "decoded_citation_abstract"
+    }
+  ],
+  "1810.04805": [
+    {
+      "name": "language-model pretraining",
+      "quote": "BERT is designed to pre-train deep bidirectional representations from unlabeled text",
+      "start": 182,
+      "end": 266,
+      "source_kind": "decoded_citation_abstract"
+    },
+    {
+      "name": "question answering",
+      "quote": "SQuAD v1.1 question answering Test F1 to 93.2",
+      "start": 879,
+      "end": 924,
+      "source_kind": "decoded_citation_abstract"
+    }
+  ],
+  "1802.05365": [
+    {
+      "name": "language-model pretraining",
+      "quote": "which is pre-trained on a large text corpus",
+      "start": 345,
+      "end": 388,
+      "source_kind": "decoded_citation_abstract"
+    },
+    {
+      "name": "question answering",
+      "quote": "significantly improve the state of the art across six challenging NLP problems, including question answering",
+      "start": 468,
+      "end": 576,
+      "source_kind": "decoded_citation_abstract"
+    }
+  ],
+  "1907.11692": [
+    {
+      "name": "language-model pretraining",
+      "quote": "Language model pretraining has led to significant performance gains",
+      "start": 0,
+      "end": 67,
+      "source_kind": "decoded_citation_abstract"
+    },
+    {
+      "name": "question answering",
+      "quote": "Our best model achieves state-of-the-art results on GLUE, RACE and SQuAD.",
+      "start": 602,
+      "end": 675,
+      "source_kind": "decoded_citation_abstract"
+    }
+  ],
+  "1910.10683": [
+    {
+      "name": "language-model pretraining",
+      "quote": "Our systematic study compares pre-training objectives, architectures, unlabeled data sets",
+      "start": 495,
+      "end": 584,
+      "source_kind": "decoded_citation_abstract"
+    },
+    {
+      "name": "summarization",
+      "quote": "benchmarks covering summarization, question answering, text classification, and more.",
+      "start": 817,
+      "end": 902,
+      "source_kind": "decoded_citation_abstract"
+    },
+    {
+      "name": "question answering",
+      "quote": "benchmarks covering summarization, question answering, text classification, and more.",
+      "start": 817,
+      "end": 902,
+      "source_kind": "decoded_citation_abstract"
+    }
+  ],
+  "2004.04906": [
+    {
+      "name": "dense retrieval",
+      "quote": "we show that retrieval can be practically implemented using dense representations alone",
+      "start": 208,
+      "end": 295,
+      "source_kind": "decoded_citation_abstract"
+    }
+  ],
+  "2007.14062": [
+    {
+      "name": "attention mechanisms",
+      "quote": "we propose, BigBird, a sparse attention mechanism that reduces this quadratic dependency to linear.",
+      "start": 287,
+      "end": 386,
+      "source_kind": "decoded_citation_abstract"
+    },
+    {
+      "name": "long-context modeling",
+      "quote": "The proposed sparse attention can handle sequences of length up to 8x of what was previously possible",
+      "start": 751,
+      "end": 852,
+      "source_kind": "decoded_citation_abstract"
+    },
+    {
+      "name": "question answering",
+      "quote": "BigBird drastically improves performance on various NLP tasks such as question answering and summarization.",
+      "start": 938,
+      "end": 1045,
+      "source_kind": "decoded_citation_abstract"
+    },
+    {
+      "name": "summarization",
+      "quote": "BigBird drastically improves performance on various NLP tasks such as question answering and summarization.",
+      "start": 938,
+      "end": 1045,
+      "source_kind": "decoded_citation_abstract"
+    }
+  ],
+  "2004.05150": [
+    {
+      "name": "long-context modeling",
+      "quote": "we introduce the Longformer with an attention mechanism that scales linearly with sequence length, making it easy to process documents of thousands of tokens or longer.",
+      "start": 182,
+      "end": 350,
+      "source_kind": "decoded_citation_abstract"
+    },
+    {
+      "name": "attention mechanisms",
+      "quote": "Longformer's attention mechanism is a drop-in replacement for the standard self-attention and combines a local windowed attention with a task motivated global attention.",
+      "start": 351,
+      "end": 520,
+      "source_kind": "decoded_citation_abstract"
+    },
+    {
+      "name": "language-model pretraining",
+      "quote": "we also pretrain Longformer and finetune it on a variety of downstream tasks.",
+      "start": 723,
+      "end": 800,
+      "source_kind": "decoded_citation_abstract"
+    },
+    {
+      "name": "question answering",
+      "quote": "sets new state-of-the-art results on WikiHop and TriviaQA.",
+      "start": 887,
+      "end": 945,
+      "source_kind": "decoded_citation_abstract"
+    },
+    {
+      "name": "summarization",
+      "quote": "demonstrate its effectiveness on the arXiv summarization dataset.",
+      "start": 1098,
+      "end": 1163,
+      "source_kind": "decoded_citation_abstract"
+    }
+  ],
+  "2002.08909": [
+    {
+      "name": "language-model pretraining",
+      "quote": "we augment language model pre-training with a latent knowledge retriever",
+      "start": 342,
+      "end": 414,
+      "source_kind": "decoded_citation_abstract"
+    },
+    {
+      "name": "retrieval-augmented generation",
+      "quote": "we augment language model pre-training with a latent knowledge retriever, which allows the model to retrieve and attend over documents",
+      "start": 342,
+      "end": 476,
+      "source_kind": "decoded_citation_abstract"
+    },
+    {
+      "name": "dense retrieval",
+      "quote": "backpropagating through a retrieval step that considers millions of documents",
+      "start": 726,
+      "end": 803,
+      "source_kind": "decoded_citation_abstract"
+    },
+    {
+      "name": "question answering",
+      "quote": "fine-tuning on the challenging task of Open-domain Question Answering",
+      "start": 900,
+      "end": 969,
+      "source_kind": "decoded_citation_abstract"
+    }
+  ],
+  "1906.00300": [
+    {
+      "name": "question answering",
+      "quote": "Recent work on open domain question answering (QA) assumes strong supervision",
+      "start": 0,
+      "end": 77,
+      "source_kind": "decoded_citation_abstract"
+    }
+  ],
+  "1911.00172": [
+    {
+      "name": "external memory",
+      "quote": "The nearest neighbors are computed according to distance in the pre-trained LM embedding space, and can be drawn from any text collection",
+      "start": 151,
+      "end": 288,
+      "source_kind": "decoded_citation_abstract"
+    }
+  ],
+  "2001.08361": [
+    {
+      "name": "scaling laws",
+      "quote": "We study empirical scaling laws for language model performance on the cross-entropy loss.",
+      "start": 0,
+      "end": 89,
+      "source_kind": "decoded_citation_abstract"
+    },
+    {
+      "name": "language-model pretraining",
+      "quote": "The loss scales as a power-law with model size, dataset size, and the amount of compute used for training",
+      "start": 90,
+      "end": 195,
+      "source_kind": "decoded_citation_abstract"
+    }
+  ],
+  "2005.14165": [
+    {
+      "name": "language-model pretraining",
+      "quote": "pre-training on a large corpus of text followed by fine-tuning on a specific task",
+      "start": 83,
+      "end": 164,
+      "source_kind": "decoded_citation_abstract"
+    },
+    {
+      "name": "few-shot learning",
+      "quote": "scaling up language models greatly improves task-agnostic, few-shot performance",
+      "start": 523,
+      "end": 602,
+      "source_kind": "decoded_citation_abstract"
+    },
+    {
+      "name": "question answering",
+      "quote": "GPT-3 achieves strong performance on many NLP datasets, including translation, question-answering",
+      "start": 1062,
+      "end": 1159,
+      "source_kind": "decoded_citation_abstract"
+    }
+  ],
+  "2302.13971": [
+    {
+      "name": "language-model pretraining",
+      "quote": "We train our models on trillions of tokens",
+      "start": 98,
+      "end": 140,
+      "source_kind": "decoded_citation_abstract"
+    }
+  ],
+  "2307.09288": [
+    {
+      "name": "language-model pretraining",
+      "quote": "collection of pretrained and fine-tuned large language models",
+      "start": 48,
+      "end": 109,
+      "source_kind": "decoded_citation_abstract"
+    },
+    {
+      "name": "instruction tuning",
+      "quote": "Our fine-tuned LLMs, called Llama 2-Chat, are optimized for dialogue use cases.",
+      "start": 175,
+      "end": 254,
+      "source_kind": "decoded_citation_abstract"
+    },
+    {
+      "name": "conversational generation",
+      "quote": "Our fine-tuned LLMs, called Llama 2-Chat, are optimized for dialogue use cases.",
+      "start": 175,
+      "end": 254,
+      "source_kind": "decoded_citation_abstract"
+    }
+  ],
+  "2310.06825": [
+    {
+      "name": "attention mechanisms",
+      "quote": "Our model leverages grouped-query attention (GQA) for faster inference, coupled with sliding window attention (SWA)",
+      "start": 251,
+      "end": 366,
+      "source_kind": "decoded_citation_abstract"
+    },
+    {
+      "name": "long-context modeling",
+      "quote": "sliding window attention (SWA) to effectively handle sequences of arbitrary length",
+      "start": 336,
+      "end": 418,
+      "source_kind": "decoded_citation_abstract"
+    },
+    {
+      "name": "instruction tuning",
+      "quote": "We also provide a model fine-tuned to follow instructions",
+      "start": 450,
+      "end": 507,
+      "source_kind": "decoded_citation_abstract"
+    }
+  ],
+  "2203.02155": [
+    {
+      "name": "instruction tuning",
+      "quote": "fine-tuning with human feedback is a promising direction for aligning language models with human intent.",
+      "start": 1285,
+      "end": 1389,
+      "source_kind": "decoded_citation_abstract"
+    }
+  ],
+  "2201.11903": [
+    {
+      "name": "reasoning methods",
+      "quote": "a simple method called chain of thought prompting",
+      "start": 293,
+      "end": 342,
+      "source_kind": "decoded_citation_abstract"
+    },
+    {
+      "name": "few-shot learning",
+      "quote": "where a few chain of thought demonstrations are provided as exemplars in prompting.",
+      "start": 344,
+      "end": 427,
+      "source_kind": "decoded_citation_abstract"
+    }
+  ],
+  "2205.11916": [
+    {
+      "name": "few-shot learning",
+      "quote": "generally known as excellent few-shot learners with task-specific exemplars",
+      "start": 116,
+      "end": 191,
+      "source_kind": "decoded_citation_abstract"
+    },
+    {
+      "name": "reasoning methods",
+      "quote": "chain of thought (CoT) prompting, a recent technique for eliciting complex multi-step reasoning",
+      "start": 202,
+      "end": 297,
+      "source_kind": "decoded_citation_abstract"
+    }
+  ],
+  "2210.03629": [
+    {
+      "name": "reasoning methods",
+      "quote": "we explore the use of LLMs to generate both reasoning traces and task-specific actions in an interleaved manner",
+      "start": 317,
+      "end": 428,
+      "source_kind": "decoded_citation_abstract"
+    },
+    {
+      "name": "question answering",
+      "quote": "Concretely, on question answering (HotpotQA) and fact verification (Fever)",
+      "start": 985,
+      "end": 1059,
+      "source_kind": "decoded_citation_abstract"
+    },
+    {
+      "name": "external memory",
+      "quote": "actions allow it to interface with external sources, such as knowledge bases or environments",
+      "start": 583,
+      "end": 675,
+      "source_kind": "decoded_citation_abstract"
+    }
+  ],
+  "2305.10601": [
+    {
+      "name": "reasoning methods",
+      "quote": "we introduce a new framework for language model inference, Tree of Thoughts (ToT), which generalizes over the popular Chain of Thought approach",
+      "start": 368,
+      "end": 511,
+      "source_kind": "decoded_citation_abstract"
+    }
+  ],
+  "2212.10496": [
+    {
+      "name": "dense retrieval",
+      "quote": "dense retrieval has been shown effective and efficient across tasks and languages",
+      "start": 6,
+      "end": 87,
+      "source_kind": "decoded_citation_abstract"
+    },
+    {
+      "name": "instruction tuning",
+      "quote": "HyDE first zero-shot instructs an instruction-following language model (e.g. InstructGPT) to generate a hypothetical document",
+      "start": 390,
+      "end": 515,
+      "source_kind": "decoded_citation_abstract"
+    },
+    {
+      "name": "question answering",
+      "quote": "across various tasks (e.g. web search, QA, fact verification)",
+      "start": 1186,
+      "end": 1247,
+      "source_kind": "decoded_citation_abstract"
+    }
+  ],
+  "2104.07567": [
+    {
+      "name": "retrieval-augmented generation",
+      "quote": "we explore the use of neural-retrieval-in-the-loop architectures - recently shown to be effective in open-domain QA",
+      "start": 206,
+      "end": 321,
+      "source_kind": "decoded_citation_abstract"
+    },
+    {
+      "name": "conversational generation",
+      "quote": "knowledge-grounded dialogue, a task that is arguably more challenging as it requires querying based on complex multi-turn dialogue context and generating conversationally coherent responses",
+      "start": 375,
+      "end": 564,
+      "source_kind": "decoded_citation_abstract"
+    },
+    {
+      "name": "question answering",
+      "quote": "recently shown to be effective in open-domain QA",
+      "start": 273,
+      "end": 321,
+      "source_kind": "decoded_citation_abstract"
+    }
+  ]
+}

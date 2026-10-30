@@ -1,0 +1,32 @@
+let currentGraph=null;
+const titles={overview:"Des documents aux connaissances",ingestion:"Collecter et structurer les documents",graph:"Explorer un graphe commun",analytics:"Comparer deux approches d’analyse",evaluation:"Évaluer les réponses et leurs coûts"};
+function showPage(id){document.querySelectorAll(".page").forEach(e=>e.classList.toggle("active",e.id===id));document.querySelectorAll("nav button").forEach(e=>e.classList.toggle("active",e.dataset.page===id));document.getElementById("title").textContent=titles[id];}
+document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>showPage(b.dataset.page));
+function out(id,data){document.getElementById(id).textContent=typeof data==="string"?data:JSON.stringify(data,null,2)}
+async function api(path,body){const options={headers:{"x-api-token":document.getElementById("token").value}};if(body!==undefined){options.method="POST";options.headers["content-type"]="application/json";options.body=JSON.stringify(body)}const r=await fetch(path,options);const data=await r.json();if(!r.ok)throw Error(data.detail||r.statusText);return data}
+async function action(id,fn){out(id,"Traitement en cours…");try{out(id,await fn())}catch(e){out(id,e.message)}}
+async function listFiles(){try{const files=await api("/files");const select=document.getElementById("files");select.replaceChildren(...files.map(n=>{const o=document.createElement("option");o.value=n;o.textContent=n;return o}));out("ingest-output",files.length+" document(s) disponible(s).")}catch(e){out("ingest-output",e.message)}}
+function ingest(){action("ingest-output",()=>api("/ingest",{filename:document.getElementById("files").value,hdfs:document.getElementById("hdfs").checked}))}
+function importSpark(){action("ingest-output",()=>api("/import-spark",{}))}
+async function loadDemo(){const r=await fetch("/demo");const record=await r.json();currentGraph=record.graph;draw(currentGraph);out("document",record.graph.relations.map(r=>r.quote).join("\n"));renderSources(currentGraph)}
+async function loadLiveGraph(){try{currentGraph=await api("/graph");draw(currentGraph);renderSources(currentGraph)}catch(e){alert(e.message)}}
+function renderSources(graph){const root=document.getElementById("sources");root.replaceChildren();graph.relations.forEach(r=>{const row=document.createElement("div");row.className="source-row";row.textContent=r.type+" — "+r.quote;root.append(row)})}
+function draw(graph){const svg=document.getElementById("network");svg.replaceChildren();const ns="http://www.w3.org/2000/svg";function el(tag,attrs,text){const e=document.createElementNS(ns,tag);Object.entries(attrs).forEach(([k,v])=>e.setAttribute(k,v));if(text)e.textContent=text;svg.append(e);return e}
+const colors={Author:"#497e96",Paper:"#b28a47",Institution:"#8873a5",Topic:"#4e9475"};
+const nodes=graph.entities.slice(0,60), positions={};
+nodes.forEach((n,i)=>{const a=2*Math.PI*i/nodes.length-Math.PI/2;positions[n.id]={x:525+365*Math.cos(a),y:260+195*Math.sin(a)}});
+graph.relations.forEach(r=>{const a=positions[r.source],b=positions[r.target];if(!a||!b)return;const line=el("line",{x1:a.x,y1:a.y,x2:b.x,y2:b.y,stroke:"#bfcbc7","stroke-width":1.4});const title=document.createElementNS(ns,"title");title.textContent=r.type+": "+r.quote;line.append(title);el("text",{x:(a.x+b.x)/2,y:(a.y+b.y)/2-5,"text-anchor":"middle",fill:"#71817a","font-size":8},r.type)});
+nodes.forEach(n=>{const p=positions[n.id];el("circle",{cx:p.x,cy:p.y,r:17,fill:colors[n.type]||"#678",stroke:"white","stroke-width":4});const label=n.name.length>32?n.name.slice(0,29)+"…":n.name;el("text",{x:p.x,y:p.y+33,"text-anchor":"middle",fill:"#233e35","font-size":12},label)});
+}
+function localQuery(){if(!currentGraph)return;const term=document.getElementById("query-term").value.toLowerCase(),mode=document.getElementById("query-mode").value,nodes=Object.fromEntries(currentGraph.entities.map(n=>[n.id,n])),rels=currentGraph.relations,answers=new Set();rels.forEach(r=>{const a=nodes[r.source],b=nodes[r.target];if(!a||!b)return;if(mode==="authors"&&r.type==="AUTHORED"&&b.name.toLowerCase().includes(term))answers.add(a.name);if(mode==="papers"&&r.type==="AUTHORED"&&a.name.toLowerCase().includes(term))answers.add(b.name);if(mode==="institutions"&&r.type==="AFFILIATED_WITH"&&a.name.toLowerCase().includes(term))answers.add(b.name);if(mode==="topic_authors"&&r.type==="ABOUT"&&b.name.toLowerCase().includes(term))rels.filter(s=>s.type==="AUTHORED"&&s.target===a.id).forEach(s=>answers.add(nodes[s.source].name))});out("query-output","Parcours local du graphe affiché — sans Cypher ni LLM\n\n"+([...answers].join("\n")||"Aucun résultat"))}
+function liveQuery(){action("query-output",()=>api("/analytics",{mode:document.getElementById("query-mode").value,term:document.getElementById("query-term").value}))}
+async function ask(){out("rag-output","Recherche en cours…");try{const r=await api("/ask",{question:document.getElementById("question").value,term:document.getElementById("auto-plan").checked?null:document.getElementById("rag-term").value});const sources=[...new Set(r.sources.map(s=>s.source))];out("rag-output",r.answer+"\n\nRéponses : "+r.items.join(", ")+"\n\nSources : "+sources.join("\n")+"\n\nMode : "+r.retrieval_mode)}catch(e){out("rag-output",e.message)}}
+function rank(){action("query-output",()=>api("/pagerank"))}
+function loadBenchmark(){action("benchmark-output",()=>api("/benchmark"))}
+fetch("/health").then(r=>r.json()).then(s=>document.getElementById("status").textContent="API active · Neo4j "+(s.neo4j==="ok"?"connecté":"indisponible")).catch(()=>document.getElementById("status").textContent="API indisponible");
+loadDemo();
+
+
+function filterGraph(value){if(!currentGraph)return;if(!value.trim()){draw(currentGraph);renderSources(currentGraph);return}const ids=new Set(currentGraph.entities.filter(e=>e.name.toLowerCase().includes(value.toLowerCase())).map(e=>e.id));const relations=currentGraph.relations.filter(r=>ids.has(r.source)||ids.has(r.target));relations.forEach(r=>{ids.add(r.source);ids.add(r.target)});const graph={entities:currentGraph.entities.filter(e=>ids.has(e.id)),relations};draw(graph);renderSources(graph)}
+
+async function recordedAnswer(){try{const r=await api("/example");const a=r.result;out("rag-output","RÉPONSE RÉELLE ENREGISTRÉE — "+r.model+"\n\n"+r.question+"\n\n"+a.answer+"\n\nRéponses : "+a.items.join(", ")+"\n\nSources : "+[...new Set(a.sources.map(s=>s.source))].join("\n"))}catch(e){out("rag-output",e.message)}}

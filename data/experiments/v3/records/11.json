@@ -1,0 +1,123 @@
+{
+  "document": {
+    "id": "v3:html:1906.00300",
+    "title": "Latent Retrieval for Weakly Supervised Open Domain Question Answering",
+    "source": "https://arxiv.org/abs/1906.00300"
+  },
+  "graph": {
+    "entities": [
+      {
+        "id": "v3:paper:1906.00300",
+        "name": "Latent Retrieval for Weakly Supervised Open Domain Question Answering",
+        "type": "Paper"
+      },
+      {
+        "id": "v3:author:49d2d01ca7353e495630",
+        "name": "Kenton Lee",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:8ab039c45c9edb3daf94",
+        "name": "Ming-Wei Chang",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:6bf54f909dbfef689cd3",
+        "name": "Kristina Toutanova",
+        "type": "Author"
+      },
+      {
+        "id": "v3:topic:70647950c4f788b4c151",
+        "name": "question answering",
+        "type": "Topic"
+      }
+    ],
+    "relations": [
+      {
+        "source": "v3:author:49d2d01ca7353e495630",
+        "target": "v3:paper:1906.00300",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Latent Retrieval for Weakly Supervised Open Domain Question Answering\" /><meta name=\"citation_author\" content=\"Lee, Kenton\" />",
+        "evidence_start": 4841,
+        "evidence_end": 5004,
+        "evidence_parts": [
+          {
+            "value": "Latent Retrieval for Weakly Supervised Open Domain Question Answering",
+            "quote": "<meta name=\"citation_title\" content=\"Latent Retrieval for Weakly Supervised Open Domain Question Answering\" />",
+            "start": 4841,
+            "end": 4951
+          },
+          {
+            "value": "Lee, Kenton",
+            "quote": "<meta name=\"citation_author\" content=\"Lee, Kenton\" />",
+            "start": 4951,
+            "end": 5004
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:8ab039c45c9edb3daf94",
+        "target": "v3:paper:1906.00300",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Latent Retrieval for Weakly Supervised Open Domain Question Answering\" /><meta name=\"citation_author\" content=\"Lee, Kenton\" /><meta name=\"citation_author\" content=\"Chang, Ming-Wei\" />",
+        "evidence_start": 4841,
+        "evidence_end": 5061,
+        "evidence_parts": [
+          {
+            "value": "Latent Retrieval for Weakly Supervised Open Domain Question Answering",
+            "quote": "<meta name=\"citation_title\" content=\"Latent Retrieval for Weakly Supervised Open Domain Question Answering\" />",
+            "start": 4841,
+            "end": 4951
+          },
+          {
+            "value": "Chang, Ming-Wei",
+            "quote": "<meta name=\"citation_author\" content=\"Chang, Ming-Wei\" />",
+            "start": 5004,
+            "end": 5061
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:6bf54f909dbfef689cd3",
+        "target": "v3:paper:1906.00300",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Latent Retrieval for Weakly Supervised Open Domain Question Answering\" /><meta name=\"citation_author\" content=\"Lee, Kenton\" /><meta name=\"citation_author\" content=\"Chang, Ming-Wei\" /><meta name=\"citation_author\" content=\"Toutanova, Kristina\" />",
+        "evidence_start": 4841,
+        "evidence_end": 5122,
+        "evidence_parts": [
+          {
+            "value": "Latent Retrieval for Weakly Supervised Open Domain Question Answering",
+            "quote": "<meta name=\"citation_title\" content=\"Latent Retrieval for Weakly Supervised Open Domain Question Answering\" />",
+            "start": 4841,
+            "end": 4951
+          },
+          {
+            "value": "Toutanova, Kristina",
+            "quote": "<meta name=\"citation_author\" content=\"Toutanova, Kristina\" />",
+            "start": 5061,
+            "end": 5122
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:paper:1906.00300",
+        "target": "v3:topic:70647950c4f788b4c151",
+        "type": "ABOUT",
+        "quote": "Recent work on open domain question answering (QA) assumes strong supervision",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      }
+    ]
+  },
+  "mode": "deterministic_html_metadata",
+  "arxiv_id": "1906.00300",
+  "abstract": "Recent work on open domain question answering (QA) assumes strong supervision of the supporting evidence and/or assumes a blackbox information retrieval (IR) system to retrieve evidence candidates. We argue that both are suboptimal, since gold evidence is not always available, and QA is fundamentally different from IR. We show for the first time that it is possible to jointly learn the retriever and reader from question-answer string pairs and without any IR system. In this setting, evidence retrieval from all of Wikipedia is treated as a latent variable. Since this is impractical to learn from scratch, we pre-train the retriever with an Inverse Cloze Task. We evaluate on open versions of five QA datasets. On datasets where the questioner already knows the answer, a traditional IR system such as BM25 is sufficient. On datasets where a user is genuinely seeking an answer, we show that learned retrieval is crucial, outperforming BM25 by up to 19 points in exact match.",
+  "llm_calls": 0,
+  "source_sha256": "7152a77c7ddfb75b2ab140b21c03ab359ba277ca0ca633dfa3be7b4ca8e12936"
+}

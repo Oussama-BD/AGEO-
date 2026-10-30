@@ -1,0 +1,268 @@
+{
+  "document": {
+    "id": "v3:html:2004.04906",
+    "title": "Dense Passage Retrieval for Open-Domain Question Answering",
+    "source": "https://arxiv.org/abs/2004.04906"
+  },
+  "graph": {
+    "entities": [
+      {
+        "id": "v3:paper:2004.04906",
+        "name": "Dense Passage Retrieval for Open-Domain Question Answering",
+        "type": "Paper"
+      },
+      {
+        "id": "v3:author:65098aa7b00155206800",
+        "name": "Vladimir Karpukhin",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:0a18491f5d7704e56c87",
+        "name": "Barlas Oğuz",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:a03c1535279c8bebc3a5",
+        "name": "Sewon Min",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:d16f740572c61fd2bddf",
+        "name": "Patrick Lewis",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:0d2e20e6e172344f0a2b",
+        "name": "Ledell Wu",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:c656d6012b925182c08d",
+        "name": "Sergey Edunov",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:b6cb9af7092f02e317e7",
+        "name": "Danqi Chen",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:1ce67ad8ee2de9f27f02",
+        "name": "Wen-tau Yih",
+        "type": "Author"
+      },
+      {
+        "id": "v3:topic:f479b1004f72cc3862e1",
+        "name": "dense retrieval",
+        "type": "Topic"
+      }
+    ],
+    "relations": [
+      {
+        "source": "v3:author:65098aa7b00155206800",
+        "target": "v3:paper:2004.04906",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Dense Passage Retrieval for Open-Domain Question Answering\" /><meta name=\"citation_author\" content=\"Karpukhin, Vladimir\" />",
+        "evidence_start": 4533,
+        "evidence_end": 4693,
+        "evidence_parts": [
+          {
+            "value": "Dense Passage Retrieval for Open-Domain Question Answering",
+            "quote": "<meta name=\"citation_title\" content=\"Dense Passage Retrieval for Open-Domain Question Answering\" />",
+            "start": 4533,
+            "end": 4632
+          },
+          {
+            "value": "Karpukhin, Vladimir",
+            "quote": "<meta name=\"citation_author\" content=\"Karpukhin, Vladimir\" />",
+            "start": 4632,
+            "end": 4693
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:0a18491f5d7704e56c87",
+        "target": "v3:paper:2004.04906",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Dense Passage Retrieval for Open-Domain Question Answering\" /><meta name=\"citation_author\" content=\"Karpukhin, Vladimir\" /><meta name=\"citation_author\" content=\"Oğuz, Barlas\" />",
+        "evidence_start": 4533,
+        "evidence_end": 4747,
+        "evidence_parts": [
+          {
+            "value": "Dense Passage Retrieval for Open-Domain Question Answering",
+            "quote": "<meta name=\"citation_title\" content=\"Dense Passage Retrieval for Open-Domain Question Answering\" />",
+            "start": 4533,
+            "end": 4632
+          },
+          {
+            "value": "Oğuz, Barlas",
+            "quote": "<meta name=\"citation_author\" content=\"Oğuz, Barlas\" />",
+            "start": 4693,
+            "end": 4747
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:a03c1535279c8bebc3a5",
+        "target": "v3:paper:2004.04906",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Dense Passage Retrieval for Open-Domain Question Answering\" /><meta name=\"citation_author\" content=\"Karpukhin, Vladimir\" /><meta name=\"citation_author\" content=\"Oğuz, Barlas\" /><meta name=\"citation_author\" content=\"Min, Sewon\" />",
+        "evidence_start": 4533,
+        "evidence_end": 4799,
+        "evidence_parts": [
+          {
+            "value": "Dense Passage Retrieval for Open-Domain Question Answering",
+            "quote": "<meta name=\"citation_title\" content=\"Dense Passage Retrieval for Open-Domain Question Answering\" />",
+            "start": 4533,
+            "end": 4632
+          },
+          {
+            "value": "Min, Sewon",
+            "quote": "<meta name=\"citation_author\" content=\"Min, Sewon\" />",
+            "start": 4747,
+            "end": 4799
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:d16f740572c61fd2bddf",
+        "target": "v3:paper:2004.04906",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Dense Passage Retrieval for Open-Domain Question Answering\" /><meta name=\"citation_author\" content=\"Karpukhin, Vladimir\" /><meta name=\"citation_author\" content=\"Oğuz, Barlas\" /><meta name=\"citation_author\" content=\"Min, Sewon\" /><meta name=\"citation_author\" content=\"Lewis, Patrick\" />",
+        "evidence_start": 4533,
+        "evidence_end": 4855,
+        "evidence_parts": [
+          {
+            "value": "Dense Passage Retrieval for Open-Domain Question Answering",
+            "quote": "<meta name=\"citation_title\" content=\"Dense Passage Retrieval for Open-Domain Question Answering\" />",
+            "start": 4533,
+            "end": 4632
+          },
+          {
+            "value": "Lewis, Patrick",
+            "quote": "<meta name=\"citation_author\" content=\"Lewis, Patrick\" />",
+            "start": 4799,
+            "end": 4855
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:0d2e20e6e172344f0a2b",
+        "target": "v3:paper:2004.04906",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Dense Passage Retrieval for Open-Domain Question Answering\" /><meta name=\"citation_author\" content=\"Karpukhin, Vladimir\" /><meta name=\"citation_author\" content=\"Oğuz, Barlas\" /><meta name=\"citation_author\" content=\"Min, Sewon\" /><meta name=\"citation_author\" content=\"Lewis, Patrick\" /><meta name=\"citation_author\" content=\"Wu, Ledell\" />",
+        "evidence_start": 4533,
+        "evidence_end": 4907,
+        "evidence_parts": [
+          {
+            "value": "Dense Passage Retrieval for Open-Domain Question Answering",
+            "quote": "<meta name=\"citation_title\" content=\"Dense Passage Retrieval for Open-Domain Question Answering\" />",
+            "start": 4533,
+            "end": 4632
+          },
+          {
+            "value": "Wu, Ledell",
+            "quote": "<meta name=\"citation_author\" content=\"Wu, Ledell\" />",
+            "start": 4855,
+            "end": 4907
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:c656d6012b925182c08d",
+        "target": "v3:paper:2004.04906",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Dense Passage Retrieval for Open-Domain Question Answering\" /><meta name=\"citation_author\" content=\"Karpukhin, Vladimir\" /><meta name=\"citation_author\" content=\"Oğuz, Barlas\" /><meta name=\"citation_author\" content=\"Min, Sewon\" /><meta name=\"citation_author\" content=\"Lewis, Patrick\" /><meta name=\"citation_author\" content=\"Wu, Ledell\" /><meta name=\"citation_author\" content=\"Edunov, Sergey\" />",
+        "evidence_start": 4533,
+        "evidence_end": 4963,
+        "evidence_parts": [
+          {
+            "value": "Dense Passage Retrieval for Open-Domain Question Answering",
+            "quote": "<meta name=\"citation_title\" content=\"Dense Passage Retrieval for Open-Domain Question Answering\" />",
+            "start": 4533,
+            "end": 4632
+          },
+          {
+            "value": "Edunov, Sergey",
+            "quote": "<meta name=\"citation_author\" content=\"Edunov, Sergey\" />",
+            "start": 4907,
+            "end": 4963
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:b6cb9af7092f02e317e7",
+        "target": "v3:paper:2004.04906",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Dense Passage Retrieval for Open-Domain Question Answering\" /><meta name=\"citation_author\" content=\"Karpukhin, Vladimir\" /><meta name=\"citation_author\" content=\"Oğuz, Barlas\" /><meta name=\"citation_author\" content=\"Min, Sewon\" /><meta name=\"citation_author\" content=\"Lewis, Patrick\" /><meta name=\"citation_author\" content=\"Wu, Ledell\" /><meta name=\"citation_author\" content=\"Edunov, Sergey\" /><meta name=\"citation_author\" content=\"Chen, Danqi\" />",
+        "evidence_start": 4533,
+        "evidence_end": 5016,
+        "evidence_parts": [
+          {
+            "value": "Dense Passage Retrieval for Open-Domain Question Answering",
+            "quote": "<meta name=\"citation_title\" content=\"Dense Passage Retrieval for Open-Domain Question Answering\" />",
+            "start": 4533,
+            "end": 4632
+          },
+          {
+            "value": "Chen, Danqi",
+            "quote": "<meta name=\"citation_author\" content=\"Chen, Danqi\" />",
+            "start": 4963,
+            "end": 5016
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:1ce67ad8ee2de9f27f02",
+        "target": "v3:paper:2004.04906",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Dense Passage Retrieval for Open-Domain Question Answering\" /><meta name=\"citation_author\" content=\"Karpukhin, Vladimir\" /><meta name=\"citation_author\" content=\"Oğuz, Barlas\" /><meta name=\"citation_author\" content=\"Min, Sewon\" /><meta name=\"citation_author\" content=\"Lewis, Patrick\" /><meta name=\"citation_author\" content=\"Wu, Ledell\" /><meta name=\"citation_author\" content=\"Edunov, Sergey\" /><meta name=\"citation_author\" content=\"Chen, Danqi\" /><meta name=\"citation_author\" content=\"Yih, Wen-tau\" />",
+        "evidence_start": 4533,
+        "evidence_end": 5070,
+        "evidence_parts": [
+          {
+            "value": "Dense Passage Retrieval for Open-Domain Question Answering",
+            "quote": "<meta name=\"citation_title\" content=\"Dense Passage Retrieval for Open-Domain Question Answering\" />",
+            "start": 4533,
+            "end": 4632
+          },
+          {
+            "value": "Yih, Wen-tau",
+            "quote": "<meta name=\"citation_author\" content=\"Yih, Wen-tau\" />",
+            "start": 5016,
+            "end": 5070
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:paper:2004.04906",
+        "target": "v3:topic:f479b1004f72cc3862e1",
+        "type": "ABOUT",
+        "quote": "we show that retrieval can be practically implemented using dense representations alone",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      }
+    ]
+  },
+  "mode": "deterministic_html_metadata",
+  "arxiv_id": "2004.04906",
+  "abstract": "Open-domain question answering relies on efficient passage retrieval to select candidate contexts, where traditional sparse vector space models, such as TF-IDF or BM25, are the de facto method. In this work, we show that retrieval can be practically implemented using dense representations alone, where embeddings are learned from a small number of questions and passages by a simple dual-encoder framework. When evaluated on a wide range of open-domain QA datasets, our dense retriever outperforms a strong Lucene-BM25 system largely by 9%-19% absolute in terms of top-20 passage retrieval accuracy, and helps our end-to-end QA system establish new state-of-the-art on multiple open-domain QA benchmarks.",
+  "llm_calls": 0,
+  "source_sha256": "c2562a87ef8f3486b265a9666c7b72ad9c9d5850dffe5397b150a0e992a16c16"
+}

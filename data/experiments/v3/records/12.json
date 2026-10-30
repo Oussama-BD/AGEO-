@@ -1,0 +1,181 @@
+{
+  "document": {
+    "id": "v3:html:1911.00172",
+    "title": "Generalization through Memorization: Nearest Neighbor Language Models",
+    "source": "https://arxiv.org/abs/1911.00172"
+  },
+  "graph": {
+    "entities": [
+      {
+        "id": "v3:paper:1911.00172",
+        "name": "Generalization through Memorization: Nearest Neighbor Language Models",
+        "type": "Paper"
+      },
+      {
+        "id": "v3:author:82778c37f660dbc14494",
+        "name": "Urvashi Khandelwal",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:605bd9e91f2410d2f081",
+        "name": "Omer Levy",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:317b57076c6a0a1ddd48",
+        "name": "Dan Jurafsky",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:e5edbe4298536b956453",
+        "name": "Luke Zettlemoyer",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:fcd336ece37a47966adc",
+        "name": "Mike Lewis",
+        "type": "Author"
+      },
+      {
+        "id": "v3:topic:31501efa2520aee6d256",
+        "name": "external memory",
+        "type": "Topic"
+      }
+    ],
+    "relations": [
+      {
+        "source": "v3:author:82778c37f660dbc14494",
+        "target": "v3:paper:1911.00172",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Generalization through Memorization: Nearest Neighbor Language Models\" /><meta name=\"citation_author\" content=\"Khandelwal, Urvashi\" />",
+        "evidence_start": 4992,
+        "evidence_end": 5163,
+        "evidence_parts": [
+          {
+            "value": "Generalization through Memorization: Nearest Neighbor Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"Generalization through Memorization: Nearest Neighbor Language Models\" />",
+            "start": 4992,
+            "end": 5102
+          },
+          {
+            "value": "Khandelwal, Urvashi",
+            "quote": "<meta name=\"citation_author\" content=\"Khandelwal, Urvashi\" />",
+            "start": 5102,
+            "end": 5163
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:605bd9e91f2410d2f081",
+        "target": "v3:paper:1911.00172",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Generalization through Memorization: Nearest Neighbor Language Models\" /><meta name=\"citation_author\" content=\"Khandelwal, Urvashi\" /><meta name=\"citation_author\" content=\"Levy, Omer\" />",
+        "evidence_start": 4992,
+        "evidence_end": 5215,
+        "evidence_parts": [
+          {
+            "value": "Generalization through Memorization: Nearest Neighbor Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"Generalization through Memorization: Nearest Neighbor Language Models\" />",
+            "start": 4992,
+            "end": 5102
+          },
+          {
+            "value": "Levy, Omer",
+            "quote": "<meta name=\"citation_author\" content=\"Levy, Omer\" />",
+            "start": 5163,
+            "end": 5215
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:317b57076c6a0a1ddd48",
+        "target": "v3:paper:1911.00172",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Generalization through Memorization: Nearest Neighbor Language Models\" /><meta name=\"citation_author\" content=\"Khandelwal, Urvashi\" /><meta name=\"citation_author\" content=\"Levy, Omer\" /><meta name=\"citation_author\" content=\"Jurafsky, Dan\" />",
+        "evidence_start": 4992,
+        "evidence_end": 5270,
+        "evidence_parts": [
+          {
+            "value": "Generalization through Memorization: Nearest Neighbor Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"Generalization through Memorization: Nearest Neighbor Language Models\" />",
+            "start": 4992,
+            "end": 5102
+          },
+          {
+            "value": "Jurafsky, Dan",
+            "quote": "<meta name=\"citation_author\" content=\"Jurafsky, Dan\" />",
+            "start": 5215,
+            "end": 5270
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:e5edbe4298536b956453",
+        "target": "v3:paper:1911.00172",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Generalization through Memorization: Nearest Neighbor Language Models\" /><meta name=\"citation_author\" content=\"Khandelwal, Urvashi\" /><meta name=\"citation_author\" content=\"Levy, Omer\" /><meta name=\"citation_author\" content=\"Jurafsky, Dan\" /><meta name=\"citation_author\" content=\"Zettlemoyer, Luke\" />",
+        "evidence_start": 4992,
+        "evidence_end": 5329,
+        "evidence_parts": [
+          {
+            "value": "Generalization through Memorization: Nearest Neighbor Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"Generalization through Memorization: Nearest Neighbor Language Models\" />",
+            "start": 4992,
+            "end": 5102
+          },
+          {
+            "value": "Zettlemoyer, Luke",
+            "quote": "<meta name=\"citation_author\" content=\"Zettlemoyer, Luke\" />",
+            "start": 5270,
+            "end": 5329
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:fcd336ece37a47966adc",
+        "target": "v3:paper:1911.00172",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Generalization through Memorization: Nearest Neighbor Language Models\" /><meta name=\"citation_author\" content=\"Khandelwal, Urvashi\" /><meta name=\"citation_author\" content=\"Levy, Omer\" /><meta name=\"citation_author\" content=\"Jurafsky, Dan\" /><meta name=\"citation_author\" content=\"Zettlemoyer, Luke\" /><meta name=\"citation_author\" content=\"Lewis, Mike\" />",
+        "evidence_start": 4992,
+        "evidence_end": 5382,
+        "evidence_parts": [
+          {
+            "value": "Generalization through Memorization: Nearest Neighbor Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"Generalization through Memorization: Nearest Neighbor Language Models\" />",
+            "start": 4992,
+            "end": 5102
+          },
+          {
+            "value": "Lewis, Mike",
+            "quote": "<meta name=\"citation_author\" content=\"Lewis, Mike\" />",
+            "start": 5329,
+            "end": 5382
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:paper:1911.00172",
+        "target": "v3:topic:31501efa2520aee6d256",
+        "type": "ABOUT",
+        "quote": "The nearest neighbors are computed according to distance in the pre-trained LM embedding space, and can be drawn from any text collection",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      }
+    ]
+  },
+  "mode": "deterministic_html_metadata",
+  "arxiv_id": "1911.00172",
+  "abstract": "We introduce $k$NN-LMs, which extend a pre-trained neural language model (LM) by linearly interpolating it with a $k$-nearest neighbors ($k$NN) model. The nearest neighbors are computed according to distance in the pre-trained LM embedding space, and can be drawn from any text collection, including the original LM training data. Applying this augmentation to a strong Wikitext-103 LM, with neighbors drawn from the original training set, our $k$NN-LM achieves a new state-of-the-art perplexity of 15.79 - a 2.9 point improvement with no additional training. We also show that this approach has implications for efficiently scaling up to larger training sets and allows for effective domain adaptation, by simply varying the nearest neighbor datastore, again without further training. Qualitatively, the model is particularly helpful in predicting rare patterns, such as factual knowledge. Together, these results strongly suggest that learning similarity between sequences of text is easier than predicting the next word, and that nearest neighbor search is an effective approach for language modeling in the long tail.",
+  "llm_calls": 0,
+  "source_sha256": "a48229286ba80eb39d0f7980de80f7e4cbad72ffd09c45242162c120747ba65b"
+}

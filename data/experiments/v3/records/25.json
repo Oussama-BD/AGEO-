@@ -1,0 +1,133 @@
+{
+  "document": {
+    "id": "v3:pdf:attention",
+    "title": "Attention Is All You Need",
+    "source": "https://arxiv.org/abs/1706.03762#page=1"
+  },
+  "graph": {
+    "entities": [
+      {
+        "id": "v3:author:4f713739fc6f7bbcedd7",
+        "name": "Ashish Vaswani",
+        "type": "Author"
+      },
+      {
+        "id": "v3:institution:c6b205e3c66249825506",
+        "name": "Google Brain",
+        "type": "Institution"
+      },
+      {
+        "id": "v3:author:d64e5827d8620bd0a7b8",
+        "name": "Noam Shazeer",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:74a7d836b9ab02f5575e",
+        "name": "Niki Parmar",
+        "type": "Author"
+      },
+      {
+        "id": "v3:institution:35e36dc1a5213fa37380",
+        "name": "Google Research",
+        "type": "Institution"
+      },
+      {
+        "id": "v3:author:6e3dfc85e101b44bd119",
+        "name": "Jakob Uszkoreit",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:bc53ce989b7f2730483f",
+        "name": "Llion Jones",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:014cb0e18b31b1fb2f41",
+        "name": "Aidan N. Gomez",
+        "type": "Author"
+      },
+      {
+        "id": "v3:institution:6a892bbe4ee5712254e8",
+        "name": "University of Toronto",
+        "type": "Institution"
+      },
+      {
+        "id": "v3:author:d4a1c6f56e4ae6793ed2",
+        "name": "Łukasz Kaiser",
+        "type": "Author"
+      }
+    ],
+    "relations": [
+      {
+        "source": "v3:author:4f713739fc6f7bbcedd7",
+        "target": "v3:institution:c6b205e3c66249825506",
+        "type": "AFFILIATED_WITH",
+        "quote": "Ashish Vaswani∗\nGoogle Brain",
+        "evidence_start": 200,
+        "evidence_end": 228,
+        "source_kind": "pdf_extracted_text",
+        "method": "previous_gemini_2.5_flash_prediction"
+      },
+      {
+        "source": "v3:author:d64e5827d8620bd0a7b8",
+        "target": "v3:institution:c6b205e3c66249825506",
+        "type": "AFFILIATED_WITH",
+        "quote": "Noam Shazeer∗\nGoogle Brain",
+        "evidence_start": 249,
+        "evidence_end": 275,
+        "source_kind": "pdf_extracted_text",
+        "method": "previous_gemini_2.5_flash_prediction"
+      },
+      {
+        "source": "v3:author:74a7d836b9ab02f5575e",
+        "target": "v3:institution:35e36dc1a5213fa37380",
+        "type": "AFFILIATED_WITH",
+        "quote": "Niki Parmar∗\nGoogle Research",
+        "evidence_start": 292,
+        "evidence_end": 320,
+        "source_kind": "pdf_extracted_text",
+        "method": "previous_gemini_2.5_flash_prediction"
+      },
+      {
+        "source": "v3:author:6e3dfc85e101b44bd119",
+        "target": "v3:institution:35e36dc1a5213fa37380",
+        "type": "AFFILIATED_WITH",
+        "quote": "Jakob Uszkoreit∗\nGoogle Research",
+        "evidence_start": 338,
+        "evidence_end": 370,
+        "source_kind": "pdf_extracted_text",
+        "method": "previous_gemini_2.5_flash_prediction"
+      },
+      {
+        "source": "v3:author:bc53ce989b7f2730483f",
+        "target": "v3:institution:35e36dc1a5213fa37380",
+        "type": "AFFILIATED_WITH",
+        "quote": "Llion Jones∗\nGoogle Research",
+        "evidence_start": 386,
+        "evidence_end": 414,
+        "source_kind": "pdf_extracted_text",
+        "method": "previous_gemini_2.5_flash_prediction"
+      },
+      {
+        "source": "v3:author:014cb0e18b31b1fb2f41",
+        "target": "v3:institution:6a892bbe4ee5712254e8",
+        "type": "AFFILIATED_WITH",
+        "quote": "Aidan N. Gomez∗ †\nUniversity of Toronto",
+        "evidence_start": 432,
+        "evidence_end": 471,
+        "source_kind": "pdf_extracted_text",
+        "method": "previous_gemini_2.5_flash_prediction"
+      },
+      {
+        "source": "v3:author:d4a1c6f56e4ae6793ed2",
+        "target": "v3:institution:c6b205e3c66249825506",
+        "type": "AFFILIATED_WITH",
+        "quote": "Łukasz Kaiser∗\nGoogle Brain",
+        "evidence_start": 493,
+        "evidence_end": 520,
+        "source_kind": "pdf_extracted_text",
+        "method": "previous_gemini_2.5_flash_prediction"
+      }
+    ]
+  }
+}

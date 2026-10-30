@@ -1,0 +1,365 @@
+{
+  "document": {
+    "id": "v3:html:2404.16130",
+    "title": "From Local to Global: A Graph RAG Approach to Query-Focused Summarization",
+    "source": "https://arxiv.org/abs/2404.16130"
+  },
+  "graph": {
+    "entities": [
+      {
+        "id": "v3:paper:2404.16130",
+        "name": "From Local to Global: A Graph RAG Approach to Query-Focused Summarization",
+        "type": "Paper"
+      },
+      {
+        "id": "v3:author:85ea19a08e485a4a211e",
+        "name": "Darren Edge",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:b7260008aa1f7dedb60d",
+        "name": "Ha Trinh",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:5a11eea71d5f5b3683fe",
+        "name": "Newman Cheng",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:e31011e3e5eeb5632885",
+        "name": "Joshua Bradley",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:9e42950952f72de302e9",
+        "name": "Alex Chao",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:c37cad359dc579f92569",
+        "name": "Apurva Mody",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:798957a304de3e455640",
+        "name": "Steven Truitt",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:d5c9bb1e35f51445d2b0",
+        "name": "Dasha Metropolitansky",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:5502d88c31d6d853f152",
+        "name": "Robert Osazuwa Ness",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:13f4e1ad9c11b369b4c5",
+        "name": "Jonathan Larson",
+        "type": "Author"
+      },
+      {
+        "id": "v3:topic:031abfa15d712ae66a3c",
+        "name": "retrieval-augmented generation",
+        "type": "Topic"
+      },
+      {
+        "id": "v3:topic:70647950c4f788b4c151",
+        "name": "question answering",
+        "type": "Topic"
+      },
+      {
+        "id": "v3:topic:d049237643c0c86ebb91",
+        "name": "knowledge graphs",
+        "type": "Topic"
+      },
+      {
+        "id": "v3:topic:7846ce4ebb5b98bf8b80",
+        "name": "summarization",
+        "type": "Topic"
+      }
+    ],
+    "relations": [
+      {
+        "source": "v3:author:85ea19a08e485a4a211e",
+        "target": "v3:paper:2404.16130",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"From Local to Global: A Graph RAG Approach to Query-Focused Summarization\" /><meta name=\"citation_author\" content=\"Edge, Darren\" />",
+        "evidence_start": 5316,
+        "evidence_end": 5484,
+        "evidence_parts": [
+          {
+            "value": "From Local to Global: A Graph RAG Approach to Query-Focused Summarization",
+            "quote": "<meta name=\"citation_title\" content=\"From Local to Global: A Graph RAG Approach to Query-Focused Summarization\" />",
+            "start": 5316,
+            "end": 5430
+          },
+          {
+            "value": "Edge, Darren",
+            "quote": "<meta name=\"citation_author\" content=\"Edge, Darren\" />",
+            "start": 5430,
+            "end": 5484
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:b7260008aa1f7dedb60d",
+        "target": "v3:paper:2404.16130",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"From Local to Global: A Graph RAG Approach to Query-Focused Summarization\" /><meta name=\"citation_author\" content=\"Edge, Darren\" /><meta name=\"citation_author\" content=\"Trinh, Ha\" />",
+        "evidence_start": 5316,
+        "evidence_end": 5535,
+        "evidence_parts": [
+          {
+            "value": "From Local to Global: A Graph RAG Approach to Query-Focused Summarization",
+            "quote": "<meta name=\"citation_title\" content=\"From Local to Global: A Graph RAG Approach to Query-Focused Summarization\" />",
+            "start": 5316,
+            "end": 5430
+          },
+          {
+            "value": "Trinh, Ha",
+            "quote": "<meta name=\"citation_author\" content=\"Trinh, Ha\" />",
+            "start": 5484,
+            "end": 5535
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:5a11eea71d5f5b3683fe",
+        "target": "v3:paper:2404.16130",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"From Local to Global: A Graph RAG Approach to Query-Focused Summarization\" /><meta name=\"citation_author\" content=\"Edge, Darren\" /><meta name=\"citation_author\" content=\"Trinh, Ha\" /><meta name=\"citation_author\" content=\"Cheng, Newman\" />",
+        "evidence_start": 5316,
+        "evidence_end": 5590,
+        "evidence_parts": [
+          {
+            "value": "From Local to Global: A Graph RAG Approach to Query-Focused Summarization",
+            "quote": "<meta name=\"citation_title\" content=\"From Local to Global: A Graph RAG Approach to Query-Focused Summarization\" />",
+            "start": 5316,
+            "end": 5430
+          },
+          {
+            "value": "Cheng, Newman",
+            "quote": "<meta name=\"citation_author\" content=\"Cheng, Newman\" />",
+            "start": 5535,
+            "end": 5590
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:e31011e3e5eeb5632885",
+        "target": "v3:paper:2404.16130",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"From Local to Global: A Graph RAG Approach to Query-Focused Summarization\" /><meta name=\"citation_author\" content=\"Edge, Darren\" /><meta name=\"citation_author\" content=\"Trinh, Ha\" /><meta name=\"citation_author\" content=\"Cheng, Newman\" /><meta name=\"citation_author\" content=\"Bradley, Joshua\" />",
+        "evidence_start": 5316,
+        "evidence_end": 5647,
+        "evidence_parts": [
+          {
+            "value": "From Local to Global: A Graph RAG Approach to Query-Focused Summarization",
+            "quote": "<meta name=\"citation_title\" content=\"From Local to Global: A Graph RAG Approach to Query-Focused Summarization\" />",
+            "start": 5316,
+            "end": 5430
+          },
+          {
+            "value": "Bradley, Joshua",
+            "quote": "<meta name=\"citation_author\" content=\"Bradley, Joshua\" />",
+            "start": 5590,
+            "end": 5647
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:9e42950952f72de302e9",
+        "target": "v3:paper:2404.16130",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"From Local to Global: A Graph RAG Approach to Query-Focused Summarization\" /><meta name=\"citation_author\" content=\"Edge, Darren\" /><meta name=\"citation_author\" content=\"Trinh, Ha\" /><meta name=\"citation_author\" content=\"Cheng, Newman\" /><meta name=\"citation_author\" content=\"Bradley, Joshua\" /><meta name=\"citation_author\" content=\"Chao, Alex\" />",
+        "evidence_start": 5316,
+        "evidence_end": 5699,
+        "evidence_parts": [
+          {
+            "value": "From Local to Global: A Graph RAG Approach to Query-Focused Summarization",
+            "quote": "<meta name=\"citation_title\" content=\"From Local to Global: A Graph RAG Approach to Query-Focused Summarization\" />",
+            "start": 5316,
+            "end": 5430
+          },
+          {
+            "value": "Chao, Alex",
+            "quote": "<meta name=\"citation_author\" content=\"Chao, Alex\" />",
+            "start": 5647,
+            "end": 5699
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:c37cad359dc579f92569",
+        "target": "v3:paper:2404.16130",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"From Local to Global: A Graph RAG Approach to Query-Focused Summarization\" /><meta name=\"citation_author\" content=\"Edge, Darren\" /><meta name=\"citation_author\" content=\"Trinh, Ha\" /><meta name=\"citation_author\" content=\"Cheng, Newman\" /><meta name=\"citation_author\" content=\"Bradley, Joshua\" /><meta name=\"citation_author\" content=\"Chao, Alex\" /><meta name=\"citation_author\" content=\"Mody, Apurva\" />",
+        "evidence_start": 5316,
+        "evidence_end": 5753,
+        "evidence_parts": [
+          {
+            "value": "From Local to Global: A Graph RAG Approach to Query-Focused Summarization",
+            "quote": "<meta name=\"citation_title\" content=\"From Local to Global: A Graph RAG Approach to Query-Focused Summarization\" />",
+            "start": 5316,
+            "end": 5430
+          },
+          {
+            "value": "Mody, Apurva",
+            "quote": "<meta name=\"citation_author\" content=\"Mody, Apurva\" />",
+            "start": 5699,
+            "end": 5753
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:798957a304de3e455640",
+        "target": "v3:paper:2404.16130",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"From Local to Global: A Graph RAG Approach to Query-Focused Summarization\" /><meta name=\"citation_author\" content=\"Edge, Darren\" /><meta name=\"citation_author\" content=\"Trinh, Ha\" /><meta name=\"citation_author\" content=\"Cheng, Newman\" /><meta name=\"citation_author\" content=\"Bradley, Joshua\" /><meta name=\"citation_author\" content=\"Chao, Alex\" /><meta name=\"citation_author\" content=\"Mody, Apurva\" /><meta name=\"citation_author\" content=\"Truitt, Steven\" />",
+        "evidence_start": 5316,
+        "evidence_end": 5809,
+        "evidence_parts": [
+          {
+            "value": "From Local to Global: A Graph RAG Approach to Query-Focused Summarization",
+            "quote": "<meta name=\"citation_title\" content=\"From Local to Global: A Graph RAG Approach to Query-Focused Summarization\" />",
+            "start": 5316,
+            "end": 5430
+          },
+          {
+            "value": "Truitt, Steven",
+            "quote": "<meta name=\"citation_author\" content=\"Truitt, Steven\" />",
+            "start": 5753,
+            "end": 5809
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:d5c9bb1e35f51445d2b0",
+        "target": "v3:paper:2404.16130",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"From Local to Global: A Graph RAG Approach to Query-Focused Summarization\" /><meta name=\"citation_author\" content=\"Edge, Darren\" /><meta name=\"citation_author\" content=\"Trinh, Ha\" /><meta name=\"citation_author\" content=\"Cheng, Newman\" /><meta name=\"citation_author\" content=\"Bradley, Joshua\" /><meta name=\"citation_author\" content=\"Chao, Alex\" /><meta name=\"citation_author\" content=\"Mody, Apurva\" /><meta name=\"citation_author\" content=\"Truitt, Steven\" /><meta name=\"citation_author\" content=\"Metropolitansky, Dasha\" />",
+        "evidence_start": 5316,
+        "evidence_end": 5873,
+        "evidence_parts": [
+          {
+            "value": "From Local to Global: A Graph RAG Approach to Query-Focused Summarization",
+            "quote": "<meta name=\"citation_title\" content=\"From Local to Global: A Graph RAG Approach to Query-Focused Summarization\" />",
+            "start": 5316,
+            "end": 5430
+          },
+          {
+            "value": "Metropolitansky, Dasha",
+            "quote": "<meta name=\"citation_author\" content=\"Metropolitansky, Dasha\" />",
+            "start": 5809,
+            "end": 5873
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:5502d88c31d6d853f152",
+        "target": "v3:paper:2404.16130",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"From Local to Global: A Graph RAG Approach to Query-Focused Summarization\" /><meta name=\"citation_author\" content=\"Edge, Darren\" /><meta name=\"citation_author\" content=\"Trinh, Ha\" /><meta name=\"citation_author\" content=\"Cheng, Newman\" /><meta name=\"citation_author\" content=\"Bradley, Joshua\" /><meta name=\"citation_author\" content=\"Chao, Alex\" /><meta name=\"citation_author\" content=\"Mody, Apurva\" /><meta name=\"citation_author\" content=\"Truitt, Steven\" /><meta name=\"citation_author\" content=\"Metropolitansky, Dasha\" /><meta name=\"citation_author\" content=\"Ness, Robert Osazuwa\" />",
+        "evidence_start": 5316,
+        "evidence_end": 5935,
+        "evidence_parts": [
+          {
+            "value": "From Local to Global: A Graph RAG Approach to Query-Focused Summarization",
+            "quote": "<meta name=\"citation_title\" content=\"From Local to Global: A Graph RAG Approach to Query-Focused Summarization\" />",
+            "start": 5316,
+            "end": 5430
+          },
+          {
+            "value": "Ness, Robert Osazuwa",
+            "quote": "<meta name=\"citation_author\" content=\"Ness, Robert Osazuwa\" />",
+            "start": 5873,
+            "end": 5935
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:13f4e1ad9c11b369b4c5",
+        "target": "v3:paper:2404.16130",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"From Local to Global: A Graph RAG Approach to Query-Focused Summarization\" /><meta name=\"citation_author\" content=\"Edge, Darren\" /><meta name=\"citation_author\" content=\"Trinh, Ha\" /><meta name=\"citation_author\" content=\"Cheng, Newman\" /><meta name=\"citation_author\" content=\"Bradley, Joshua\" /><meta name=\"citation_author\" content=\"Chao, Alex\" /><meta name=\"citation_author\" content=\"Mody, Apurva\" /><meta name=\"citation_author\" content=\"Truitt, Steven\" /><meta name=\"citation_author\" content=\"Metropolitansky, Dasha\" /><meta name=\"citation_author\" content=\"Ness, Robert Osazuwa\" /><meta name=\"citation_author\" content=\"Larson, Jonathan\" />",
+        "evidence_start": 5316,
+        "evidence_end": 5993,
+        "evidence_parts": [
+          {
+            "value": "From Local to Global: A Graph RAG Approach to Query-Focused Summarization",
+            "quote": "<meta name=\"citation_title\" content=\"From Local to Global: A Graph RAG Approach to Query-Focused Summarization\" />",
+            "start": 5316,
+            "end": 5430
+          },
+          {
+            "value": "Larson, Jonathan",
+            "quote": "<meta name=\"citation_author\" content=\"Larson, Jonathan\" />",
+            "start": 5935,
+            "end": 5993
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:paper:2404.16130",
+        "target": "v3:topic:031abfa15d712ae66a3c",
+        "type": "ABOUT",
+        "quote": "The use of retrieval-augmented generation (RAG) to retrieve relevant information from an external knowledge source",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      },
+      {
+        "source": "v3:paper:2404.16130",
+        "target": "v3:topic:70647950c4f788b4c151",
+        "type": "ABOUT",
+        "quote": "we propose GraphRAG, a graph-based approach to question answering over private text corpora",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      },
+      {
+        "source": "v3:paper:2404.16130",
+        "target": "v3:topic:d049237643c0c86ebb91",
+        "type": "ABOUT",
+        "quote": "to derive an entity knowledge graph from the source documents",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      },
+      {
+        "source": "v3:paper:2404.16130",
+        "target": "v3:topic:7846ce4ebb5b98bf8b80",
+        "type": "ABOUT",
+        "quote": "this is inherently a query-focused summarization (QFS) task",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      }
+    ]
+  },
+  "mode": "deterministic_html_metadata",
+  "arxiv_id": "2404.16130",
+  "abstract": "The use of retrieval-augmented generation (RAG) to retrieve relevant information from an external knowledge source enables large language models (LLMs) to answer questions over private and/or previously unseen document collections. However, RAG fails on global questions directed at an entire text corpus, such as \"What are the main themes in the dataset?\", since this is inherently a query-focused summarization (QFS) task, rather than an explicit retrieval task. Prior QFS methods, meanwhile, do not scale to the quantities of text indexed by typical RAG systems. To combine the strengths of these contrasting methods, we propose GraphRAG, a graph-based approach to question answering over private text corpora that scales with both the generality of user questions and the quantity of source text. Our approach uses an LLM to build a graph index in two stages: first, to derive an entity knowledge graph from the source documents, then to pregenerate community summaries for all groups of closely related entities. Given a question, each community summary is used to generate a partial response, before all partial responses are again summarized in a final response to the user. For a class of global sensemaking questions over datasets in the 1 million token range, we show that GraphRAG leads to substantial improvements over a conventional RAG baseline for both the comprehensiveness and diversity of generated answers.",
+  "llm_calls": 0,
+  "source_sha256": "ca7c30847d41afdfcb885b1dd877717bfc30b7413f2450941ba58d2cc882b32c"
+}

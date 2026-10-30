@@ -1,0 +1,265 @@
+{
+  "document": {
+    "id": "v3:html:2210.03629",
+    "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "source": "https://arxiv.org/abs/2210.03629"
+  },
+  "graph": {
+    "entities": [
+      {
+        "id": "v3:paper:2210.03629",
+        "name": "ReAct: Synergizing Reasoning and Acting in Language Models",
+        "type": "Paper"
+      },
+      {
+        "id": "v3:author:59fddcc1270084d11bd9",
+        "name": "Shunyu Yao",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:4d4af3100504becd5718",
+        "name": "Jeffrey Zhao",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:7db9797acbcb178c6bc2",
+        "name": "Dian Yu",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:65cdc175f9f7a474e480",
+        "name": "Nan Du",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:aad0b2803c411f811773",
+        "name": "Izhak Shafran",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:1268d8bb013dfe013a4c",
+        "name": "Karthik Narasimhan",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:f79208acb1f8eee93dae",
+        "name": "Yuan Cao",
+        "type": "Author"
+      },
+      {
+        "id": "v3:topic:1fb3a740773aa66efa9b",
+        "name": "reasoning methods",
+        "type": "Topic"
+      },
+      {
+        "id": "v3:topic:70647950c4f788b4c151",
+        "name": "question answering",
+        "type": "Topic"
+      },
+      {
+        "id": "v3:topic:31501efa2520aee6d256",
+        "name": "external memory",
+        "type": "Topic"
+      }
+    ],
+    "relations": [
+      {
+        "source": "v3:author:59fddcc1270084d11bd9",
+        "target": "v3:paper:2210.03629",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"ReAct: Synergizing Reasoning and Acting in Language Models\" /><meta name=\"citation_author\" content=\"Yao, Shunyu\" />",
+        "evidence_start": 5446,
+        "evidence_end": 5598,
+        "evidence_parts": [
+          {
+            "value": "ReAct: Synergizing Reasoning and Acting in Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"ReAct: Synergizing Reasoning and Acting in Language Models\" />",
+            "start": 5446,
+            "end": 5545
+          },
+          {
+            "value": "Yao, Shunyu",
+            "quote": "<meta name=\"citation_author\" content=\"Yao, Shunyu\" />",
+            "start": 5545,
+            "end": 5598
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:4d4af3100504becd5718",
+        "target": "v3:paper:2210.03629",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"ReAct: Synergizing Reasoning and Acting in Language Models\" /><meta name=\"citation_author\" content=\"Yao, Shunyu\" /><meta name=\"citation_author\" content=\"Zhao, Jeffrey\" />",
+        "evidence_start": 5446,
+        "evidence_end": 5653,
+        "evidence_parts": [
+          {
+            "value": "ReAct: Synergizing Reasoning and Acting in Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"ReAct: Synergizing Reasoning and Acting in Language Models\" />",
+            "start": 5446,
+            "end": 5545
+          },
+          {
+            "value": "Zhao, Jeffrey",
+            "quote": "<meta name=\"citation_author\" content=\"Zhao, Jeffrey\" />",
+            "start": 5598,
+            "end": 5653
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:7db9797acbcb178c6bc2",
+        "target": "v3:paper:2210.03629",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"ReAct: Synergizing Reasoning and Acting in Language Models\" /><meta name=\"citation_author\" content=\"Yao, Shunyu\" /><meta name=\"citation_author\" content=\"Zhao, Jeffrey\" /><meta name=\"citation_author\" content=\"Yu, Dian\" />",
+        "evidence_start": 5446,
+        "evidence_end": 5703,
+        "evidence_parts": [
+          {
+            "value": "ReAct: Synergizing Reasoning and Acting in Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"ReAct: Synergizing Reasoning and Acting in Language Models\" />",
+            "start": 5446,
+            "end": 5545
+          },
+          {
+            "value": "Yu, Dian",
+            "quote": "<meta name=\"citation_author\" content=\"Yu, Dian\" />",
+            "start": 5653,
+            "end": 5703
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:65cdc175f9f7a474e480",
+        "target": "v3:paper:2210.03629",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"ReAct: Synergizing Reasoning and Acting in Language Models\" /><meta name=\"citation_author\" content=\"Yao, Shunyu\" /><meta name=\"citation_author\" content=\"Zhao, Jeffrey\" /><meta name=\"citation_author\" content=\"Yu, Dian\" /><meta name=\"citation_author\" content=\"Du, Nan\" />",
+        "evidence_start": 5446,
+        "evidence_end": 5752,
+        "evidence_parts": [
+          {
+            "value": "ReAct: Synergizing Reasoning and Acting in Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"ReAct: Synergizing Reasoning and Acting in Language Models\" />",
+            "start": 5446,
+            "end": 5545
+          },
+          {
+            "value": "Du, Nan",
+            "quote": "<meta name=\"citation_author\" content=\"Du, Nan\" />",
+            "start": 5703,
+            "end": 5752
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:aad0b2803c411f811773",
+        "target": "v3:paper:2210.03629",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"ReAct: Synergizing Reasoning and Acting in Language Models\" /><meta name=\"citation_author\" content=\"Yao, Shunyu\" /><meta name=\"citation_author\" content=\"Zhao, Jeffrey\" /><meta name=\"citation_author\" content=\"Yu, Dian\" /><meta name=\"citation_author\" content=\"Du, Nan\" /><meta name=\"citation_author\" content=\"Shafran, Izhak\" />",
+        "evidence_start": 5446,
+        "evidence_end": 5808,
+        "evidence_parts": [
+          {
+            "value": "ReAct: Synergizing Reasoning and Acting in Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"ReAct: Synergizing Reasoning and Acting in Language Models\" />",
+            "start": 5446,
+            "end": 5545
+          },
+          {
+            "value": "Shafran, Izhak",
+            "quote": "<meta name=\"citation_author\" content=\"Shafran, Izhak\" />",
+            "start": 5752,
+            "end": 5808
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:1268d8bb013dfe013a4c",
+        "target": "v3:paper:2210.03629",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"ReAct: Synergizing Reasoning and Acting in Language Models\" /><meta name=\"citation_author\" content=\"Yao, Shunyu\" /><meta name=\"citation_author\" content=\"Zhao, Jeffrey\" /><meta name=\"citation_author\" content=\"Yu, Dian\" /><meta name=\"citation_author\" content=\"Du, Nan\" /><meta name=\"citation_author\" content=\"Shafran, Izhak\" /><meta name=\"citation_author\" content=\"Narasimhan, Karthik\" />",
+        "evidence_start": 5446,
+        "evidence_end": 5869,
+        "evidence_parts": [
+          {
+            "value": "ReAct: Synergizing Reasoning and Acting in Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"ReAct: Synergizing Reasoning and Acting in Language Models\" />",
+            "start": 5446,
+            "end": 5545
+          },
+          {
+            "value": "Narasimhan, Karthik",
+            "quote": "<meta name=\"citation_author\" content=\"Narasimhan, Karthik\" />",
+            "start": 5808,
+            "end": 5869
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:f79208acb1f8eee93dae",
+        "target": "v3:paper:2210.03629",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"ReAct: Synergizing Reasoning and Acting in Language Models\" /><meta name=\"citation_author\" content=\"Yao, Shunyu\" /><meta name=\"citation_author\" content=\"Zhao, Jeffrey\" /><meta name=\"citation_author\" content=\"Yu, Dian\" /><meta name=\"citation_author\" content=\"Du, Nan\" /><meta name=\"citation_author\" content=\"Shafran, Izhak\" /><meta name=\"citation_author\" content=\"Narasimhan, Karthik\" /><meta name=\"citation_author\" content=\"Cao, Yuan\" />",
+        "evidence_start": 5446,
+        "evidence_end": 5920,
+        "evidence_parts": [
+          {
+            "value": "ReAct: Synergizing Reasoning and Acting in Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"ReAct: Synergizing Reasoning and Acting in Language Models\" />",
+            "start": 5446,
+            "end": 5545
+          },
+          {
+            "value": "Cao, Yuan",
+            "quote": "<meta name=\"citation_author\" content=\"Cao, Yuan\" />",
+            "start": 5869,
+            "end": 5920
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:paper:2210.03629",
+        "target": "v3:topic:1fb3a740773aa66efa9b",
+        "type": "ABOUT",
+        "quote": "we explore the use of LLMs to generate both reasoning traces and task-specific actions in an interleaved manner",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      },
+      {
+        "source": "v3:paper:2210.03629",
+        "target": "v3:topic:70647950c4f788b4c151",
+        "type": "ABOUT",
+        "quote": "Concretely, on question answering (HotpotQA) and fact verification (Fever)",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      },
+      {
+        "source": "v3:paper:2210.03629",
+        "target": "v3:topic:31501efa2520aee6d256",
+        "type": "ABOUT",
+        "quote": "actions allow it to interface with external sources, such as knowledge bases or environments",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      }
+    ]
+  },
+  "mode": "deterministic_html_metadata",
+  "arxiv_id": "2210.03629",
+  "abstract": "While large language models (LLMs) have demonstrated impressive capabilities across tasks in language understanding and interactive decision making, their abilities for reasoning (e.g. chain-of-thought prompting) and acting (e.g. action plan generation) have primarily been studied as separate topics. In this paper, we explore the use of LLMs to generate both reasoning traces and task-specific actions in an interleaved manner, allowing for greater synergy between the two: reasoning traces help the model induce, track, and update action plans as well as handle exceptions, while actions allow it to interface with external sources, such as knowledge bases or environments, to gather additional information. We apply our approach, named ReAct, to a diverse set of language and decision making tasks and demonstrate its effectiveness over state-of-the-art baselines, as well as improved human interpretability and trustworthiness over methods without reasoning or acting components. Concretely, on question answering (HotpotQA) and fact verification (Fever), ReAct overcomes issues of hallucination and error propagation prevalent in chain-of-thought reasoning by interacting with a simple Wikipedia API, and generates human-like task-solving trajectories that are more interpretable than baselines without reasoning traces. On two interactive decision making benchmarks (ALFWorld and WebShop), ReAct outperforms imitation and reinforcement learning methods by an absolute success rate of 34% and 10% respectively, while being prompted with only one or two in-context examples. Project site with code: https://react-lm.github.io",
+  "llm_calls": 0,
+  "source_sha256": "3ff741a07ecb128c0258ee656a47da1be5e37d35c89011c1d4b35a50aaddb6bc"
+}

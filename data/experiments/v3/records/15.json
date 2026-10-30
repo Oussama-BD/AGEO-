@@ -1,0 +1,442 @@
+{
+  "document": {
+    "id": "v3:html:2302.13971",
+    "title": "LLaMA: Open and Efficient Foundation Language Models",
+    "source": "https://arxiv.org/abs/2302.13971"
+  },
+  "graph": {
+    "entities": [
+      {
+        "id": "v3:paper:2302.13971",
+        "name": "LLaMA: Open and Efficient Foundation Language Models",
+        "type": "Paper"
+      },
+      {
+        "id": "v3:author:6f9c0045c704c9413228",
+        "name": "Hugo Touvron",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:d8b345c6b8559a9b21ea",
+        "name": "Thibaut Lavril",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:7aade5bfe4713ceff35c",
+        "name": "Gautier Izacard",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:53b37595cc256b030a30",
+        "name": "Xavier Martinet",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:18403faf48de582dcd5d",
+        "name": "Marie-Anne Lachaux",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:5b0d75079dfc33a66e52",
+        "name": "Timothée Lacroix",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:7a5d386c7bd36531afad",
+        "name": "Baptiste Rozière",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:b473ae6f6e5b071c55dd",
+        "name": "Naman Goyal",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:41054ef449f1dfc90f9f",
+        "name": "Eric Hambro",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:6107e3d03b4a5eab3e91",
+        "name": "Faisal Azhar",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:4d692db056377b4bcbf6",
+        "name": "Aurelien Rodriguez",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:fca925409c8db0936288",
+        "name": "Armand Joulin",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:8c8d9cf413fbf001898c",
+        "name": "Edouard Grave",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:69c8a9d44c4fb63b7572",
+        "name": "Guillaume Lample",
+        "type": "Author"
+      },
+      {
+        "id": "v3:topic:05ad72bca39f3f544731",
+        "name": "language-model pretraining",
+        "type": "Topic"
+      }
+    ],
+    "relations": [
+      {
+        "source": "v3:author:6f9c0045c704c9413228",
+        "target": "v3:paper:2302.13971",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"LLaMA: Open and Efficient Foundation Language Models\" /><meta name=\"citation_author\" content=\"Touvron, Hugo\" />",
+        "evidence_start": 4318,
+        "evidence_end": 4466,
+        "evidence_parts": [
+          {
+            "value": "LLaMA: Open and Efficient Foundation Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"LLaMA: Open and Efficient Foundation Language Models\" />",
+            "start": 4318,
+            "end": 4411
+          },
+          {
+            "value": "Touvron, Hugo",
+            "quote": "<meta name=\"citation_author\" content=\"Touvron, Hugo\" />",
+            "start": 4411,
+            "end": 4466
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:d8b345c6b8559a9b21ea",
+        "target": "v3:paper:2302.13971",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"LLaMA: Open and Efficient Foundation Language Models\" /><meta name=\"citation_author\" content=\"Touvron, Hugo\" /><meta name=\"citation_author\" content=\"Lavril, Thibaut\" />",
+        "evidence_start": 4318,
+        "evidence_end": 4523,
+        "evidence_parts": [
+          {
+            "value": "LLaMA: Open and Efficient Foundation Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"LLaMA: Open and Efficient Foundation Language Models\" />",
+            "start": 4318,
+            "end": 4411
+          },
+          {
+            "value": "Lavril, Thibaut",
+            "quote": "<meta name=\"citation_author\" content=\"Lavril, Thibaut\" />",
+            "start": 4466,
+            "end": 4523
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:7aade5bfe4713ceff35c",
+        "target": "v3:paper:2302.13971",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"LLaMA: Open and Efficient Foundation Language Models\" /><meta name=\"citation_author\" content=\"Touvron, Hugo\" /><meta name=\"citation_author\" content=\"Lavril, Thibaut\" /><meta name=\"citation_author\" content=\"Izacard, Gautier\" />",
+        "evidence_start": 4318,
+        "evidence_end": 4581,
+        "evidence_parts": [
+          {
+            "value": "LLaMA: Open and Efficient Foundation Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"LLaMA: Open and Efficient Foundation Language Models\" />",
+            "start": 4318,
+            "end": 4411
+          },
+          {
+            "value": "Izacard, Gautier",
+            "quote": "<meta name=\"citation_author\" content=\"Izacard, Gautier\" />",
+            "start": 4523,
+            "end": 4581
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:53b37595cc256b030a30",
+        "target": "v3:paper:2302.13971",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"LLaMA: Open and Efficient Foundation Language Models\" /><meta name=\"citation_author\" content=\"Touvron, Hugo\" /><meta name=\"citation_author\" content=\"Lavril, Thibaut\" /><meta name=\"citation_author\" content=\"Izacard, Gautier\" /><meta name=\"citation_author\" content=\"Martinet, Xavier\" />",
+        "evidence_start": 4318,
+        "evidence_end": 4639,
+        "evidence_parts": [
+          {
+            "value": "LLaMA: Open and Efficient Foundation Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"LLaMA: Open and Efficient Foundation Language Models\" />",
+            "start": 4318,
+            "end": 4411
+          },
+          {
+            "value": "Martinet, Xavier",
+            "quote": "<meta name=\"citation_author\" content=\"Martinet, Xavier\" />",
+            "start": 4581,
+            "end": 4639
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:18403faf48de582dcd5d",
+        "target": "v3:paper:2302.13971",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"LLaMA: Open and Efficient Foundation Language Models\" /><meta name=\"citation_author\" content=\"Touvron, Hugo\" /><meta name=\"citation_author\" content=\"Lavril, Thibaut\" /><meta name=\"citation_author\" content=\"Izacard, Gautier\" /><meta name=\"citation_author\" content=\"Martinet, Xavier\" /><meta name=\"citation_author\" content=\"Lachaux, Marie-Anne\" />",
+        "evidence_start": 4318,
+        "evidence_end": 4700,
+        "evidence_parts": [
+          {
+            "value": "LLaMA: Open and Efficient Foundation Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"LLaMA: Open and Efficient Foundation Language Models\" />",
+            "start": 4318,
+            "end": 4411
+          },
+          {
+            "value": "Lachaux, Marie-Anne",
+            "quote": "<meta name=\"citation_author\" content=\"Lachaux, Marie-Anne\" />",
+            "start": 4639,
+            "end": 4700
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:5b0d75079dfc33a66e52",
+        "target": "v3:paper:2302.13971",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"LLaMA: Open and Efficient Foundation Language Models\" /><meta name=\"citation_author\" content=\"Touvron, Hugo\" /><meta name=\"citation_author\" content=\"Lavril, Thibaut\" /><meta name=\"citation_author\" content=\"Izacard, Gautier\" /><meta name=\"citation_author\" content=\"Martinet, Xavier\" /><meta name=\"citation_author\" content=\"Lachaux, Marie-Anne\" /><meta name=\"citation_author\" content=\"Lacroix, Timothée\" />",
+        "evidence_start": 4318,
+        "evidence_end": 4759,
+        "evidence_parts": [
+          {
+            "value": "LLaMA: Open and Efficient Foundation Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"LLaMA: Open and Efficient Foundation Language Models\" />",
+            "start": 4318,
+            "end": 4411
+          },
+          {
+            "value": "Lacroix, Timothée",
+            "quote": "<meta name=\"citation_author\" content=\"Lacroix, Timothée\" />",
+            "start": 4700,
+            "end": 4759
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:7a5d386c7bd36531afad",
+        "target": "v3:paper:2302.13971",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"LLaMA: Open and Efficient Foundation Language Models\" /><meta name=\"citation_author\" content=\"Touvron, Hugo\" /><meta name=\"citation_author\" content=\"Lavril, Thibaut\" /><meta name=\"citation_author\" content=\"Izacard, Gautier\" /><meta name=\"citation_author\" content=\"Martinet, Xavier\" /><meta name=\"citation_author\" content=\"Lachaux, Marie-Anne\" /><meta name=\"citation_author\" content=\"Lacroix, Timothée\" /><meta name=\"citation_author\" content=\"Rozière, Baptiste\" />",
+        "evidence_start": 4318,
+        "evidence_end": 4818,
+        "evidence_parts": [
+          {
+            "value": "LLaMA: Open and Efficient Foundation Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"LLaMA: Open and Efficient Foundation Language Models\" />",
+            "start": 4318,
+            "end": 4411
+          },
+          {
+            "value": "Rozière, Baptiste",
+            "quote": "<meta name=\"citation_author\" content=\"Rozière, Baptiste\" />",
+            "start": 4759,
+            "end": 4818
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:b473ae6f6e5b071c55dd",
+        "target": "v3:paper:2302.13971",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"LLaMA: Open and Efficient Foundation Language Models\" /><meta name=\"citation_author\" content=\"Touvron, Hugo\" /><meta name=\"citation_author\" content=\"Lavril, Thibaut\" /><meta name=\"citation_author\" content=\"Izacard, Gautier\" /><meta name=\"citation_author\" content=\"Martinet, Xavier\" /><meta name=\"citation_author\" content=\"Lachaux, Marie-Anne\" /><meta name=\"citation_author\" content=\"Lacroix, Timothée\" /><meta name=\"citation_author\" content=\"Rozière, Baptiste\" /><meta name=\"citation_author\" content=\"Goyal, Naman\" />",
+        "evidence_start": 4318,
+        "evidence_end": 4872,
+        "evidence_parts": [
+          {
+            "value": "LLaMA: Open and Efficient Foundation Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"LLaMA: Open and Efficient Foundation Language Models\" />",
+            "start": 4318,
+            "end": 4411
+          },
+          {
+            "value": "Goyal, Naman",
+            "quote": "<meta name=\"citation_author\" content=\"Goyal, Naman\" />",
+            "start": 4818,
+            "end": 4872
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:41054ef449f1dfc90f9f",
+        "target": "v3:paper:2302.13971",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"LLaMA: Open and Efficient Foundation Language Models\" /><meta name=\"citation_author\" content=\"Touvron, Hugo\" /><meta name=\"citation_author\" content=\"Lavril, Thibaut\" /><meta name=\"citation_author\" content=\"Izacard, Gautier\" /><meta name=\"citation_author\" content=\"Martinet, Xavier\" /><meta name=\"citation_author\" content=\"Lachaux, Marie-Anne\" /><meta name=\"citation_author\" content=\"Lacroix, Timothée\" /><meta name=\"citation_author\" content=\"Rozière, Baptiste\" /><meta name=\"citation_author\" content=\"Goyal, Naman\" /><meta name=\"citation_author\" content=\"Hambro, Eric\" />",
+        "evidence_start": 4318,
+        "evidence_end": 4926,
+        "evidence_parts": [
+          {
+            "value": "LLaMA: Open and Efficient Foundation Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"LLaMA: Open and Efficient Foundation Language Models\" />",
+            "start": 4318,
+            "end": 4411
+          },
+          {
+            "value": "Hambro, Eric",
+            "quote": "<meta name=\"citation_author\" content=\"Hambro, Eric\" />",
+            "start": 4872,
+            "end": 4926
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:6107e3d03b4a5eab3e91",
+        "target": "v3:paper:2302.13971",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"LLaMA: Open and Efficient Foundation Language Models\" /><meta name=\"citation_author\" content=\"Touvron, Hugo\" /><meta name=\"citation_author\" content=\"Lavril, Thibaut\" /><meta name=\"citation_author\" content=\"Izacard, Gautier\" /><meta name=\"citation_author\" content=\"Martinet, Xavier\" /><meta name=\"citation_author\" content=\"Lachaux, Marie-Anne\" /><meta name=\"citation_author\" content=\"Lacroix, Timothée\" /><meta name=\"citation_author\" content=\"Rozière, Baptiste\" /><meta name=\"citation_author\" content=\"Goyal, Naman\" /><meta name=\"citation_author\" content=\"Hambro, Eric\" /><meta name=\"citation_author\" content=\"Azhar, Faisal\" />",
+        "evidence_start": 4318,
+        "evidence_end": 4981,
+        "evidence_parts": [
+          {
+            "value": "LLaMA: Open and Efficient Foundation Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"LLaMA: Open and Efficient Foundation Language Models\" />",
+            "start": 4318,
+            "end": 4411
+          },
+          {
+            "value": "Azhar, Faisal",
+            "quote": "<meta name=\"citation_author\" content=\"Azhar, Faisal\" />",
+            "start": 4926,
+            "end": 4981
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:4d692db056377b4bcbf6",
+        "target": "v3:paper:2302.13971",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"LLaMA: Open and Efficient Foundation Language Models\" /><meta name=\"citation_author\" content=\"Touvron, Hugo\" /><meta name=\"citation_author\" content=\"Lavril, Thibaut\" /><meta name=\"citation_author\" content=\"Izacard, Gautier\" /><meta name=\"citation_author\" content=\"Martinet, Xavier\" /><meta name=\"citation_author\" content=\"Lachaux, Marie-Anne\" /><meta name=\"citation_author\" content=\"Lacroix, Timothée\" /><meta name=\"citation_author\" content=\"Rozière, Baptiste\" /><meta name=\"citation_author\" content=\"Goyal, Naman\" /><meta name=\"citation_author\" content=\"Hambro, Eric\" /><meta name=\"citation_author\" content=\"Azhar, Faisal\" /><meta name=\"citation_author\" content=\"Rodriguez, Aurelien\" />",
+        "evidence_start": 4318,
+        "evidence_end": 5042,
+        "evidence_parts": [
+          {
+            "value": "LLaMA: Open and Efficient Foundation Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"LLaMA: Open and Efficient Foundation Language Models\" />",
+            "start": 4318,
+            "end": 4411
+          },
+          {
+            "value": "Rodriguez, Aurelien",
+            "quote": "<meta name=\"citation_author\" content=\"Rodriguez, Aurelien\" />",
+            "start": 4981,
+            "end": 5042
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:fca925409c8db0936288",
+        "target": "v3:paper:2302.13971",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"LLaMA: Open and Efficient Foundation Language Models\" /><meta name=\"citation_author\" content=\"Touvron, Hugo\" /><meta name=\"citation_author\" content=\"Lavril, Thibaut\" /><meta name=\"citation_author\" content=\"Izacard, Gautier\" /><meta name=\"citation_author\" content=\"Martinet, Xavier\" /><meta name=\"citation_author\" content=\"Lachaux, Marie-Anne\" /><meta name=\"citation_author\" content=\"Lacroix, Timothée\" /><meta name=\"citation_author\" content=\"Rozière, Baptiste\" /><meta name=\"citation_author\" content=\"Goyal, Naman\" /><meta name=\"citation_author\" content=\"Hambro, Eric\" /><meta name=\"citation_author\" content=\"Azhar, Faisal\" /><meta name=\"citation_author\" content=\"Rodriguez, Aurelien\" /><meta name=\"citation_author\" content=\"Joulin, Armand\" />",
+        "evidence_start": 4318,
+        "evidence_end": 5098,
+        "evidence_parts": [
+          {
+            "value": "LLaMA: Open and Efficient Foundation Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"LLaMA: Open and Efficient Foundation Language Models\" />",
+            "start": 4318,
+            "end": 4411
+          },
+          {
+            "value": "Joulin, Armand",
+            "quote": "<meta name=\"citation_author\" content=\"Joulin, Armand\" />",
+            "start": 5042,
+            "end": 5098
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:8c8d9cf413fbf001898c",
+        "target": "v3:paper:2302.13971",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"LLaMA: Open and Efficient Foundation Language Models\" /><meta name=\"citation_author\" content=\"Touvron, Hugo\" /><meta name=\"citation_author\" content=\"Lavril, Thibaut\" /><meta name=\"citation_author\" content=\"Izacard, Gautier\" /><meta name=\"citation_author\" content=\"Martinet, Xavier\" /><meta name=\"citation_author\" content=\"Lachaux, Marie-Anne\" /><meta name=\"citation_author\" content=\"Lacroix, Timothée\" /><meta name=\"citation_author\" content=\"Rozière, Baptiste\" /><meta name=\"citation_author\" content=\"Goyal, Naman\" /><meta name=\"citation_author\" content=\"Hambro, Eric\" /><meta name=\"citation_author\" content=\"Azhar, Faisal\" /><meta name=\"citation_author\" content=\"Rodriguez, Aurelien\" /><meta name=\"citation_author\" content=\"Joulin, Armand\" /><meta name=\"citation_author\" content=\"Grave, Edouard\" />",
+        "evidence_start": 4318,
+        "evidence_end": 5154,
+        "evidence_parts": [
+          {
+            "value": "LLaMA: Open and Efficient Foundation Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"LLaMA: Open and Efficient Foundation Language Models\" />",
+            "start": 4318,
+            "end": 4411
+          },
+          {
+            "value": "Grave, Edouard",
+            "quote": "<meta name=\"citation_author\" content=\"Grave, Edouard\" />",
+            "start": 5098,
+            "end": 5154
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:69c8a9d44c4fb63b7572",
+        "target": "v3:paper:2302.13971",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"LLaMA: Open and Efficient Foundation Language Models\" /><meta name=\"citation_author\" content=\"Touvron, Hugo\" /><meta name=\"citation_author\" content=\"Lavril, Thibaut\" /><meta name=\"citation_author\" content=\"Izacard, Gautier\" /><meta name=\"citation_author\" content=\"Martinet, Xavier\" /><meta name=\"citation_author\" content=\"Lachaux, Marie-Anne\" /><meta name=\"citation_author\" content=\"Lacroix, Timothée\" /><meta name=\"citation_author\" content=\"Rozière, Baptiste\" /><meta name=\"citation_author\" content=\"Goyal, Naman\" /><meta name=\"citation_author\" content=\"Hambro, Eric\" /><meta name=\"citation_author\" content=\"Azhar, Faisal\" /><meta name=\"citation_author\" content=\"Rodriguez, Aurelien\" /><meta name=\"citation_author\" content=\"Joulin, Armand\" /><meta name=\"citation_author\" content=\"Grave, Edouard\" /><meta name=\"citation_author\" content=\"Lample, Guillaume\" />",
+        "evidence_start": 4318,
+        "evidence_end": 5213,
+        "evidence_parts": [
+          {
+            "value": "LLaMA: Open and Efficient Foundation Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"LLaMA: Open and Efficient Foundation Language Models\" />",
+            "start": 4318,
+            "end": 4411
+          },
+          {
+            "value": "Lample, Guillaume",
+            "quote": "<meta name=\"citation_author\" content=\"Lample, Guillaume\" />",
+            "start": 5154,
+            "end": 5213
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:paper:2302.13971",
+        "target": "v3:topic:05ad72bca39f3f544731",
+        "type": "ABOUT",
+        "quote": "We train our models on trillions of tokens",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      }
+    ]
+  },
+  "mode": "deterministic_html_metadata",
+  "arxiv_id": "2302.13971",
+  "abstract": "We introduce LLaMA, a collection of foundation language models ranging from 7B to 65B parameters. We train our models on trillions of tokens, and show that it is possible to train state-of-the-art models using publicly available datasets exclusively, without resorting to proprietary and inaccessible datasets. In particular, LLaMA-13B outperforms GPT-3 (175B) on most benchmarks, and LLaMA-65B is competitive with the best models, Chinchilla-70B and PaLM-540B. We release all our models to the research community.",
+  "llm_calls": 0,
+  "source_sha256": "404d4c1b5ae2b6353512f534e63cb8e860b683657a634101bdde94063dedbd4e"
+}

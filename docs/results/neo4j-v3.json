@@ -1,0 +1,99 @@
+{
+  "import_input": "spark",
+  "v3_entities": 289,
+  "v3_relations": 382,
+  "legacy_before": [
+    {
+      "entities": 42
+    }
+  ],
+  "legacy_after": [
+    {
+      "entities": 42
+    }
+  ],
+  "pagerank": [
+    {
+      "name": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+      "score": 8.165500000000009
+    },
+    {
+      "name": "language-model pretraining",
+      "score": 6.367776562500002
+    },
+    {
+      "name": "instruction tuning",
+      "score": 5.445641666666668
+    },
+    {
+      "name": "question answering",
+      "score": 4.0893515625
+    },
+    {
+      "name": "Language Models are Few-Shot Learners",
+      "score": 3.3374999999999986
+    },
+    {
+      "name": "conversational generation",
+      "score": 2.644537500000002
+    },
+    {
+      "name": "Training language models to follow instructions with human feedback",
+      "score": 2.5724999999999993
+    },
+    {
+      "name": "Mistral 7B",
+      "score": 2.147499999999999
+    },
+    {
+      "name": "few-shot learning",
+      "score": 1.9817499999999997
+    },
+    {
+      "name": "reasoning methods",
+      "score": 1.784125
+    },
+    {
+      "name": "attention mechanisms",
+      "score": 1.7651770833333331
+    },
+    {
+      "name": "Big Bird: Transformers for Longer Sequences",
+      "score": 1.5524999999999998
+    },
+    {
+      "name": "dense retrieval",
+      "score": 1.3506338541666665
+    },
+    {
+      "name": "LLaMA: Open and Efficient Foundation Language Models",
+      "score": 1.3442500000000002
+    },
+    {
+      "name": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+      "score": 1.2974999999999999
+    },
+    {
+      "name": "long-context modeling",
+      "score": 1.168052083333333
+    },
+    {
+      "name": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+      "score": 1.1487500000000002
+    },
+    {
+      "name": "summarization",
+      "score": 1.0524166666666668
+    },
+    {
+      "name": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+      "score": 1.014875
+    },
+    {
+      "name": "retrieval-augmented generation",
+      "score": 0.8425817708333334
+    }
+  ],
+  "v3_source_documents": 28,
+  "v3_total_nodes": 317
+}

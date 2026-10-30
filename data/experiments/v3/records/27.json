@@ -1,0 +1,178 @@
+{
+  "document": {
+    "id": "v3:pdf:graphrag",
+    "title": "From Local to Global: A GraphRAG Approach to Query-Focused Summarization",
+    "source": "https://arxiv.org/abs/2404.16130#page=1"
+  },
+  "graph": {
+    "entities": [
+      {
+        "id": "v3:author:85ea19a08e485a4a211e",
+        "name": "Darren Edge",
+        "type": "Author"
+      },
+      {
+        "id": "v3:institution:a360549ab82d6b079c7d",
+        "name": "Microsoft Research",
+        "type": "Institution"
+      },
+      {
+        "id": "v3:author:b7260008aa1f7dedb60d",
+        "name": "Ha Trinh",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:5a11eea71d5f5b3683fe",
+        "name": "Newman Cheng",
+        "type": "Author"
+      },
+      {
+        "id": "v3:institution:42115b14e8f2e3339638",
+        "name": "Microsoft Strategic Missions and Technologies",
+        "type": "Institution"
+      },
+      {
+        "id": "v3:author:e31011e3e5eeb5632885",
+        "name": "Joshua Bradley",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:9e42950952f72de302e9",
+        "name": "Alex Chao",
+        "type": "Author"
+      },
+      {
+        "id": "v3:institution:c55d59de145fdb5b6c9c",
+        "name": "Microsoft Office of the CTO",
+        "type": "Institution"
+      },
+      {
+        "id": "v3:author:c37cad359dc579f92569",
+        "name": "Apurva Mody",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:798957a304de3e455640",
+        "name": "Steven Truitt",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:d5c9bb1e35f51445d2b0",
+        "name": "Dasha Metropolitansky",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:5502d88c31d6d853f152",
+        "name": "Robert Osazuwa Ness",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:13f4e1ad9c11b369b4c5",
+        "name": "Jonathan Larson",
+        "type": "Author"
+      }
+    ],
+    "relations": [
+      {
+        "source": "v3:author:85ea19a08e485a4a211e",
+        "target": "v3:institution:a360549ab82d6b079c7d",
+        "type": "AFFILIATED_WITH",
+        "quote": "Darren Edge1†",
+        "evidence_start": 73,
+        "evidence_end": 86,
+        "source_kind": "pdf_extracted_text",
+        "method": "previous_gemini_2.5_flash_prediction"
+      },
+      {
+        "source": "v3:author:b7260008aa1f7dedb60d",
+        "target": "v3:institution:a360549ab82d6b079c7d",
+        "type": "AFFILIATED_WITH",
+        "quote": "Ha Trinh1†",
+        "evidence_start": 87,
+        "evidence_end": 97,
+        "source_kind": "pdf_extracted_text",
+        "method": "previous_gemini_2.5_flash_prediction"
+      },
+      {
+        "source": "v3:author:5a11eea71d5f5b3683fe",
+        "target": "v3:institution:42115b14e8f2e3339638",
+        "type": "AFFILIATED_WITH",
+        "quote": "Newman Cheng2",
+        "evidence_start": 98,
+        "evidence_end": 111,
+        "source_kind": "pdf_extracted_text",
+        "method": "previous_gemini_2.5_flash_prediction"
+      },
+      {
+        "source": "v3:author:e31011e3e5eeb5632885",
+        "target": "v3:institution:42115b14e8f2e3339638",
+        "type": "AFFILIATED_WITH",
+        "quote": "Joshua Bradley2",
+        "evidence_start": 112,
+        "evidence_end": 127,
+        "source_kind": "pdf_extracted_text",
+        "method": "previous_gemini_2.5_flash_prediction"
+      },
+      {
+        "source": "v3:author:9e42950952f72de302e9",
+        "target": "v3:institution:c55d59de145fdb5b6c9c",
+        "type": "AFFILIATED_WITH",
+        "quote": "Alex Chao3",
+        "evidence_start": 128,
+        "evidence_end": 138,
+        "source_kind": "pdf_extracted_text",
+        "method": "previous_gemini_2.5_flash_prediction"
+      },
+      {
+        "source": "v3:author:c37cad359dc579f92569",
+        "target": "v3:institution:c55d59de145fdb5b6c9c",
+        "type": "AFFILIATED_WITH",
+        "quote": "Apurva Mody3",
+        "evidence_start": 139,
+        "evidence_end": 151,
+        "source_kind": "pdf_extracted_text",
+        "method": "previous_gemini_2.5_flash_prediction"
+      },
+      {
+        "source": "v3:author:798957a304de3e455640",
+        "target": "v3:institution:42115b14e8f2e3339638",
+        "type": "AFFILIATED_WITH",
+        "quote": "Steven Truitt2",
+        "evidence_start": 152,
+        "evidence_end": 166,
+        "source_kind": "pdf_extracted_text",
+        "method": "previous_gemini_2.5_flash_prediction"
+      },
+      {
+        "source": "v3:author:d5c9bb1e35f51445d2b0",
+        "target": "v3:institution:a360549ab82d6b079c7d",
+        "type": "AFFILIATED_WITH",
+        "quote": "Dasha Metropolitansky1",
+        "evidence_start": 167,
+        "evidence_end": 189,
+        "source_kind": "pdf_extracted_text",
+        "method": "previous_gemini_2.5_flash_prediction"
+      },
+      {
+        "source": "v3:author:5502d88c31d6d853f152",
+        "target": "v3:institution:a360549ab82d6b079c7d",
+        "type": "AFFILIATED_WITH",
+        "quote": "Robert Osazuwa Ness1",
+        "evidence_start": 190,
+        "evidence_end": 210,
+        "source_kind": "pdf_extracted_text",
+        "method": "previous_gemini_2.5_flash_prediction"
+      },
+      {
+        "source": "v3:author:13f4e1ad9c11b369b4c5",
+        "target": "v3:institution:a360549ab82d6b079c7d",
+        "type": "AFFILIATED_WITH",
+        "quote": "Jonathan Larson1",
+        "evidence_start": 211,
+        "evidence_end": 227,
+        "source_kind": "pdf_extracted_text",
+        "method": "previous_gemini_2.5_flash_prediction"
+      }
+    ]
+  }
+}

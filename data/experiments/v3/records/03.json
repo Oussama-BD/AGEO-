@@ -1,0 +1,165 @@
+{
+  "document": {
+    "id": "v3:html:1810.04805",
+    "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "source": "https://arxiv.org/abs/1810.04805"
+  },
+  "graph": {
+    "entities": [
+      {
+        "id": "v3:paper:1810.04805",
+        "name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "type": "Paper"
+      },
+      {
+        "id": "v3:author:10f1fd901033f867b7ae",
+        "name": "Jacob Devlin",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:8ab039c45c9edb3daf94",
+        "name": "Ming-Wei Chang",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:49d2d01ca7353e495630",
+        "name": "Kenton Lee",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:6bf54f909dbfef689cd3",
+        "name": "Kristina Toutanova",
+        "type": "Author"
+      },
+      {
+        "id": "v3:topic:05ad72bca39f3f544731",
+        "name": "language-model pretraining",
+        "type": "Topic"
+      },
+      {
+        "id": "v3:topic:70647950c4f788b4c151",
+        "name": "question answering",
+        "type": "Topic"
+      }
+    ],
+    "relations": [
+      {
+        "source": "v3:author:10f1fd901033f867b7ae",
+        "target": "v3:paper:1810.04805",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding\" /><meta name=\"citation_author\" content=\"Devlin, Jacob\" />",
+        "evidence_start": 4922,
+        "evidence_end": 5098,
+        "evidence_parts": [
+          {
+            "value": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "quote": "<meta name=\"citation_title\" content=\"BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding\" />",
+            "start": 4922,
+            "end": 5043
+          },
+          {
+            "value": "Devlin, Jacob",
+            "quote": "<meta name=\"citation_author\" content=\"Devlin, Jacob\" />",
+            "start": 5043,
+            "end": 5098
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:8ab039c45c9edb3daf94",
+        "target": "v3:paper:1810.04805",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding\" /><meta name=\"citation_author\" content=\"Devlin, Jacob\" /><meta name=\"citation_author\" content=\"Chang, Ming-Wei\" />",
+        "evidence_start": 4922,
+        "evidence_end": 5155,
+        "evidence_parts": [
+          {
+            "value": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "quote": "<meta name=\"citation_title\" content=\"BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding\" />",
+            "start": 4922,
+            "end": 5043
+          },
+          {
+            "value": "Chang, Ming-Wei",
+            "quote": "<meta name=\"citation_author\" content=\"Chang, Ming-Wei\" />",
+            "start": 5098,
+            "end": 5155
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:49d2d01ca7353e495630",
+        "target": "v3:paper:1810.04805",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding\" /><meta name=\"citation_author\" content=\"Devlin, Jacob\" /><meta name=\"citation_author\" content=\"Chang, Ming-Wei\" /><meta name=\"citation_author\" content=\"Lee, Kenton\" />",
+        "evidence_start": 4922,
+        "evidence_end": 5208,
+        "evidence_parts": [
+          {
+            "value": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "quote": "<meta name=\"citation_title\" content=\"BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding\" />",
+            "start": 4922,
+            "end": 5043
+          },
+          {
+            "value": "Lee, Kenton",
+            "quote": "<meta name=\"citation_author\" content=\"Lee, Kenton\" />",
+            "start": 5155,
+            "end": 5208
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:6bf54f909dbfef689cd3",
+        "target": "v3:paper:1810.04805",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding\" /><meta name=\"citation_author\" content=\"Devlin, Jacob\" /><meta name=\"citation_author\" content=\"Chang, Ming-Wei\" /><meta name=\"citation_author\" content=\"Lee, Kenton\" /><meta name=\"citation_author\" content=\"Toutanova, Kristina\" />",
+        "evidence_start": 4922,
+        "evidence_end": 5269,
+        "evidence_parts": [
+          {
+            "value": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "quote": "<meta name=\"citation_title\" content=\"BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding\" />",
+            "start": 4922,
+            "end": 5043
+          },
+          {
+            "value": "Toutanova, Kristina",
+            "quote": "<meta name=\"citation_author\" content=\"Toutanova, Kristina\" />",
+            "start": 5208,
+            "end": 5269
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:paper:1810.04805",
+        "target": "v3:topic:05ad72bca39f3f544731",
+        "type": "ABOUT",
+        "quote": "BERT is designed to pre-train deep bidirectional representations from unlabeled text",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      },
+      {
+        "source": "v3:paper:1810.04805",
+        "target": "v3:topic:70647950c4f788b4c151",
+        "type": "ABOUT",
+        "quote": "SQuAD v1.1 question answering Test F1 to 93.2",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      }
+    ]
+  },
+  "mode": "deterministic_html_metadata",
+  "arxiv_id": "1810.04805",
+  "abstract": "We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).",
+  "llm_calls": 0,
+  "source_sha256": "dab568b0a86ade336c02d873fa9156dc8da5d7326b1ba04cedf21f96f0f46aac"
+}

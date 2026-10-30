@@ -1,0 +1,252 @@
+{
+  "document": {
+    "id": "v3:html:1802.05365",
+    "title": "Deep contextualized word representations",
+    "source": "https://arxiv.org/abs/1802.05365"
+  },
+  "graph": {
+    "entities": [
+      {
+        "id": "v3:paper:1802.05365",
+        "name": "Deep contextualized word representations",
+        "type": "Paper"
+      },
+      {
+        "id": "v3:author:b09902a4a2e07ba229a3",
+        "name": "Matthew E. Peters",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:98000c09c02f665d31c1",
+        "name": "Mark Neumann",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:332080c424481e01cb8e",
+        "name": "Mohit Iyyer",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:17190762bf4aa9b5dffa",
+        "name": "Matt Gardner",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:483b7676155f3631fa1f",
+        "name": "Christopher Clark",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:49d2d01ca7353e495630",
+        "name": "Kenton Lee",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:e5edbe4298536b956453",
+        "name": "Luke Zettlemoyer",
+        "type": "Author"
+      },
+      {
+        "id": "v3:topic:05ad72bca39f3f544731",
+        "name": "language-model pretraining",
+        "type": "Topic"
+      },
+      {
+        "id": "v3:topic:70647950c4f788b4c151",
+        "name": "question answering",
+        "type": "Topic"
+      }
+    ],
+    "relations": [
+      {
+        "source": "v3:author:b09902a4a2e07ba229a3",
+        "target": "v3:paper:1802.05365",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Deep contextualized word representations\" /><meta name=\"citation_author\" content=\"Peters, Matthew E.\" />",
+        "evidence_start": 4555,
+        "evidence_end": 4696,
+        "evidence_parts": [
+          {
+            "value": "Deep contextualized word representations",
+            "quote": "<meta name=\"citation_title\" content=\"Deep contextualized word representations\" />",
+            "start": 4555,
+            "end": 4636
+          },
+          {
+            "value": "Peters, Matthew E.",
+            "quote": "<meta name=\"citation_author\" content=\"Peters, Matthew E.\" />",
+            "start": 4636,
+            "end": 4696
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:98000c09c02f665d31c1",
+        "target": "v3:paper:1802.05365",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Deep contextualized word representations\" /><meta name=\"citation_author\" content=\"Peters, Matthew E.\" /><meta name=\"citation_author\" content=\"Neumann, Mark\" />",
+        "evidence_start": 4555,
+        "evidence_end": 4751,
+        "evidence_parts": [
+          {
+            "value": "Deep contextualized word representations",
+            "quote": "<meta name=\"citation_title\" content=\"Deep contextualized word representations\" />",
+            "start": 4555,
+            "end": 4636
+          },
+          {
+            "value": "Neumann, Mark",
+            "quote": "<meta name=\"citation_author\" content=\"Neumann, Mark\" />",
+            "start": 4696,
+            "end": 4751
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:332080c424481e01cb8e",
+        "target": "v3:paper:1802.05365",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Deep contextualized word representations\" /><meta name=\"citation_author\" content=\"Peters, Matthew E.\" /><meta name=\"citation_author\" content=\"Neumann, Mark\" /><meta name=\"citation_author\" content=\"Iyyer, Mohit\" />",
+        "evidence_start": 4555,
+        "evidence_end": 4805,
+        "evidence_parts": [
+          {
+            "value": "Deep contextualized word representations",
+            "quote": "<meta name=\"citation_title\" content=\"Deep contextualized word representations\" />",
+            "start": 4555,
+            "end": 4636
+          },
+          {
+            "value": "Iyyer, Mohit",
+            "quote": "<meta name=\"citation_author\" content=\"Iyyer, Mohit\" />",
+            "start": 4751,
+            "end": 4805
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:17190762bf4aa9b5dffa",
+        "target": "v3:paper:1802.05365",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Deep contextualized word representations\" /><meta name=\"citation_author\" content=\"Peters, Matthew E.\" /><meta name=\"citation_author\" content=\"Neumann, Mark\" /><meta name=\"citation_author\" content=\"Iyyer, Mohit\" /><meta name=\"citation_author\" content=\"Gardner, Matt\" />",
+        "evidence_start": 4555,
+        "evidence_end": 4860,
+        "evidence_parts": [
+          {
+            "value": "Deep contextualized word representations",
+            "quote": "<meta name=\"citation_title\" content=\"Deep contextualized word representations\" />",
+            "start": 4555,
+            "end": 4636
+          },
+          {
+            "value": "Gardner, Matt",
+            "quote": "<meta name=\"citation_author\" content=\"Gardner, Matt\" />",
+            "start": 4805,
+            "end": 4860
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:483b7676155f3631fa1f",
+        "target": "v3:paper:1802.05365",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Deep contextualized word representations\" /><meta name=\"citation_author\" content=\"Peters, Matthew E.\" /><meta name=\"citation_author\" content=\"Neumann, Mark\" /><meta name=\"citation_author\" content=\"Iyyer, Mohit\" /><meta name=\"citation_author\" content=\"Gardner, Matt\" /><meta name=\"citation_author\" content=\"Clark, Christopher\" />",
+        "evidence_start": 4555,
+        "evidence_end": 4920,
+        "evidence_parts": [
+          {
+            "value": "Deep contextualized word representations",
+            "quote": "<meta name=\"citation_title\" content=\"Deep contextualized word representations\" />",
+            "start": 4555,
+            "end": 4636
+          },
+          {
+            "value": "Clark, Christopher",
+            "quote": "<meta name=\"citation_author\" content=\"Clark, Christopher\" />",
+            "start": 4860,
+            "end": 4920
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:49d2d01ca7353e495630",
+        "target": "v3:paper:1802.05365",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Deep contextualized word representations\" /><meta name=\"citation_author\" content=\"Peters, Matthew E.\" /><meta name=\"citation_author\" content=\"Neumann, Mark\" /><meta name=\"citation_author\" content=\"Iyyer, Mohit\" /><meta name=\"citation_author\" content=\"Gardner, Matt\" /><meta name=\"citation_author\" content=\"Clark, Christopher\" /><meta name=\"citation_author\" content=\"Lee, Kenton\" />",
+        "evidence_start": 4555,
+        "evidence_end": 4973,
+        "evidence_parts": [
+          {
+            "value": "Deep contextualized word representations",
+            "quote": "<meta name=\"citation_title\" content=\"Deep contextualized word representations\" />",
+            "start": 4555,
+            "end": 4636
+          },
+          {
+            "value": "Lee, Kenton",
+            "quote": "<meta name=\"citation_author\" content=\"Lee, Kenton\" />",
+            "start": 4920,
+            "end": 4973
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:e5edbe4298536b956453",
+        "target": "v3:paper:1802.05365",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Deep contextualized word representations\" /><meta name=\"citation_author\" content=\"Peters, Matthew E.\" /><meta name=\"citation_author\" content=\"Neumann, Mark\" /><meta name=\"citation_author\" content=\"Iyyer, Mohit\" /><meta name=\"citation_author\" content=\"Gardner, Matt\" /><meta name=\"citation_author\" content=\"Clark, Christopher\" /><meta name=\"citation_author\" content=\"Lee, Kenton\" /><meta name=\"citation_author\" content=\"Zettlemoyer, Luke\" />",
+        "evidence_start": 4555,
+        "evidence_end": 5032,
+        "evidence_parts": [
+          {
+            "value": "Deep contextualized word representations",
+            "quote": "<meta name=\"citation_title\" content=\"Deep contextualized word representations\" />",
+            "start": 4555,
+            "end": 4636
+          },
+          {
+            "value": "Zettlemoyer, Luke",
+            "quote": "<meta name=\"citation_author\" content=\"Zettlemoyer, Luke\" />",
+            "start": 4973,
+            "end": 5032
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:paper:1802.05365",
+        "target": "v3:topic:05ad72bca39f3f544731",
+        "type": "ABOUT",
+        "quote": "which is pre-trained on a large text corpus",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      },
+      {
+        "source": "v3:paper:1802.05365",
+        "target": "v3:topic:70647950c4f788b4c151",
+        "type": "ABOUT",
+        "quote": "significantly improve the state of the art across six challenging NLP problems, including question answering",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      }
+    ]
+  },
+  "mode": "deterministic_html_metadata",
+  "arxiv_id": "1802.05365",
+  "abstract": "We introduce a new type of deep contextualized word representation that models both (1) complex characteristics of word use (e.g., syntax and semantics), and (2) how these uses vary across linguistic contexts (i.e., to model polysemy). Our word vectors are learned functions of the internal states of a deep bidirectional language model (biLM), which is pre-trained on a large text corpus. We show that these representations can be easily added to existing models and significantly improve the state of the art across six challenging NLP problems, including question answering, textual entailment and sentiment analysis. We also present an analysis showing that exposing the deep internals of the pre-trained network is crucial, allowing downstream models to mix different types of semi-supervision signals.",
+  "llm_calls": 0,
+  "source_sha256": "fd999bd962042632c1212c6dd80ff7bbb30db3077d4bed4742844e8b2a92654c"
+}

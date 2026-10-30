@@ -1,0 +1,247 @@
+{
+  "version": "proposed-v3-1",
+  "annotated_by": "assistant_direct_abstract_review",
+  "review_status": "pending_independent_human_review",
+  "scope": "titles authors and abstracts; affiliations only for the three original PDF headers",
+  "papers": [
+    {
+      "arxiv_id": "1706.03762",
+      "topics": [
+        "attention mechanisms"
+      ],
+      "source": "https://arxiv.org/abs/1706.03762",
+      "abstract_sha256": "062c384a940b00416e76c513973d595aeb1fbc6e0e09a433c18fddc5bdf529eb"
+    },
+    {
+      "arxiv_id": "2005.11401",
+      "topics": [
+        "retrieval-augmented generation",
+        "dense retrieval",
+        "question answering",
+        "external memory"
+      ],
+      "source": "https://arxiv.org/abs/2005.11401",
+      "abstract_sha256": "766b22c091b5e3c8cdd736cd8c8d1529a5abe2f4895f6bd8f01df31f93851d55"
+    },
+    {
+      "arxiv_id": "2404.16130",
+      "topics": [
+        "retrieval-augmented generation",
+        "question answering",
+        "external memory",
+        "knowledge graphs",
+        "summarization"
+      ],
+      "source": "https://arxiv.org/abs/2404.16130",
+      "abstract_sha256": "0e4006c4d18b0a0cd58e34aaf9163268c810bdad5215d56060bf5f705e479b29"
+    },
+    {
+      "arxiv_id": "1810.04805",
+      "topics": [
+        "language-model pretraining",
+        "question answering"
+      ],
+      "source": "https://arxiv.org/abs/1810.04805",
+      "abstract_sha256": "fea4dc857ec30fd8b2745acffd87789b1e45a94f868b559d025883eea462fcb1"
+    },
+    {
+      "arxiv_id": "1802.05365",
+      "topics": [
+        "language-model pretraining",
+        "question answering"
+      ],
+      "source": "https://arxiv.org/abs/1802.05365",
+      "abstract_sha256": "c78f55f61ab882f610278838b2158fdd1fb7c5d8a9fff0d491760ceed141535b"
+    },
+    {
+      "arxiv_id": "1907.11692",
+      "topics": [
+        "language-model pretraining"
+      ],
+      "source": "https://arxiv.org/abs/1907.11692",
+      "abstract_sha256": "450f1ca91e1121f8cb78cee9fcab6729692c9b289e1929659b2c201dce8a08c5"
+    },
+    {
+      "arxiv_id": "1910.10683",
+      "topics": [
+        "language-model pretraining",
+        "question answering",
+        "summarization"
+      ],
+      "source": "https://arxiv.org/abs/1910.10683",
+      "abstract_sha256": "21e3cc6cee4ea8d280be18eb3708378f7ddea24609df0362fb86a94143b6438c"
+    },
+    {
+      "arxiv_id": "2004.04906",
+      "topics": [
+        "dense retrieval",
+        "question answering"
+      ],
+      "source": "https://arxiv.org/abs/2004.04906",
+      "abstract_sha256": "1d92ab3f358bc517ca0fd9d5169dfe04832dadfdb47fd8baf2488f9d9f76fbc2"
+    },
+    {
+      "arxiv_id": "2007.14062",
+      "topics": [
+        "attention mechanisms",
+        "long-context modeling",
+        "question answering",
+        "summarization"
+      ],
+      "source": "https://arxiv.org/abs/2007.14062",
+      "abstract_sha256": "64f4e2385bba2ea13a1eed4fbae057ec12e05e050a05ead34acd685eca2f33e6"
+    },
+    {
+      "arxiv_id": "2004.05150",
+      "topics": [
+        "attention mechanisms",
+        "long-context modeling",
+        "language-model pretraining",
+        "question answering",
+        "summarization"
+      ],
+      "source": "https://arxiv.org/abs/2004.05150",
+      "abstract_sha256": "996545195bdd2abf8885d50749cdc0b003bf996953d8c68901fd8d79caaa58b2"
+    },
+    {
+      "arxiv_id": "2002.08909",
+      "topics": [
+        "retrieval-augmented generation",
+        "dense retrieval",
+        "language-model pretraining",
+        "question answering",
+        "external memory"
+      ],
+      "source": "https://arxiv.org/abs/2002.08909",
+      "abstract_sha256": "5f8d5a3e009b05ab6987183a9be87c33f0e7afb9c40f8cbbf5585991ef39ed70"
+    },
+    {
+      "arxiv_id": "1906.00300",
+      "topics": [
+        "dense retrieval",
+        "language-model pretraining",
+        "question answering"
+      ],
+      "source": "https://arxiv.org/abs/1906.00300",
+      "abstract_sha256": "1123b6ac25d071d98697e6db85e74966a3891514b172599aaf73c5f9bff8d62c"
+    },
+    {
+      "arxiv_id": "1911.00172",
+      "topics": [
+        "dense retrieval",
+        "external memory"
+      ],
+      "source": "https://arxiv.org/abs/1911.00172",
+      "abstract_sha256": "404389459153c3f1de7955aa7538905a4c3bbac51b1db086e93bd5faf4e476cf"
+    },
+    {
+      "arxiv_id": "2001.08361",
+      "topics": [
+        "scaling laws"
+      ],
+      "source": "https://arxiv.org/abs/2001.08361",
+      "abstract_sha256": "a10c5cdebc266f7c85a1b2a06f97aa3495c26137b049842656678dc3d6087770"
+    },
+    {
+      "arxiv_id": "2005.14165",
+      "topics": [
+        "language-model pretraining",
+        "few-shot learning",
+        "question answering"
+      ],
+      "source": "https://arxiv.org/abs/2005.14165",
+      "abstract_sha256": "f58a1d0d7ec0f2dee132faa85c3f041ac29b01fa439f46a6f80a5724f06367ef"
+    },
+    {
+      "arxiv_id": "2302.13971",
+      "topics": [
+        "language-model pretraining"
+      ],
+      "source": "https://arxiv.org/abs/2302.13971",
+      "abstract_sha256": "1bdaa04d6d7eb1c2b3702d4bf3ef7bcef8a1f1d6177164a59cb683b445cfaab6"
+    },
+    {
+      "arxiv_id": "2307.09288",
+      "topics": [
+        "language-model pretraining",
+        "instruction tuning",
+        "conversational generation"
+      ],
+      "source": "https://arxiv.org/abs/2307.09288",
+      "abstract_sha256": "65939421678834a4fc6c819884bcae45a9b62f0b5fe9e243d130d3f8293812a6"
+    },
+    {
+      "arxiv_id": "2310.06825",
+      "topics": [
+        "attention mechanisms",
+        "long-context modeling",
+        "instruction tuning"
+      ],
+      "source": "https://arxiv.org/abs/2310.06825",
+      "abstract_sha256": "08aafea152362ed0c43863b1c96f558f4fd7095d806dedb265d5383fd942cced"
+    },
+    {
+      "arxiv_id": "2203.02155",
+      "topics": [
+        "instruction tuning"
+      ],
+      "source": "https://arxiv.org/abs/2203.02155",
+      "abstract_sha256": "dbcc67d80c15bda582d165a0999157c0a975cc1fd173669e756ed8b3c381aa35"
+    },
+    {
+      "arxiv_id": "2201.11903",
+      "topics": [
+        "reasoning methods",
+        "few-shot learning"
+      ],
+      "source": "https://arxiv.org/abs/2201.11903",
+      "abstract_sha256": "c2356d45a7feeb60cb94d409fdf4bd215c45dbdefa97f1c75d58748b4202bb3e"
+    },
+    {
+      "arxiv_id": "2205.11916",
+      "topics": [
+        "reasoning methods"
+      ],
+      "source": "https://arxiv.org/abs/2205.11916",
+      "abstract_sha256": "cde56446513dc1d3990b59eed321771c5aab9c9fe8361d7901bff744261d0b76"
+    },
+    {
+      "arxiv_id": "2210.03629",
+      "topics": [
+        "reasoning methods",
+        "question answering",
+        "few-shot learning"
+      ],
+      "source": "https://arxiv.org/abs/2210.03629",
+      "abstract_sha256": "d54d4d76519ed21b2bfeedd94901a9bb559802e0c0bde7e09fb1e0a8bcdb3679"
+    },
+    {
+      "arxiv_id": "2305.10601",
+      "topics": [
+        "reasoning methods"
+      ],
+      "source": "https://arxiv.org/abs/2305.10601",
+      "abstract_sha256": "a0ab6699333caf8dc49aee0ea63a40a87e4d857489191f8d88d7dd38a8939ed9"
+    },
+    {
+      "arxiv_id": "2212.10496",
+      "topics": [
+        "dense retrieval"
+      ],
+      "source": "https://arxiv.org/abs/2212.10496",
+      "abstract_sha256": "8e63a0b4e12a085d6ab549264f7c09ca28b834e7c53029f33f9abcad43045af8"
+    },
+    {
+      "arxiv_id": "2104.07567",
+      "topics": [
+        "retrieval-augmented generation",
+        "dense retrieval",
+        "question answering",
+        "external memory",
+        "conversational generation"
+      ],
+      "source": "https://arxiv.org/abs/2104.07567",
+      "abstract_sha256": "b0fd4ec6bbae399a5e2236601f418204dd3347a5382895aefb4e5473f6d6672e"
+    }
+  ]
+}

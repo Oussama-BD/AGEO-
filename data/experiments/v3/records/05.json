@@ -1,0 +1,339 @@
+{
+  "document": {
+    "id": "v3:html:1907.11692",
+    "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+    "source": "https://arxiv.org/abs/1907.11692"
+  },
+  "graph": {
+    "entities": [
+      {
+        "id": "v3:paper:1907.11692",
+        "name": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+        "type": "Paper"
+      },
+      {
+        "id": "v3:author:da5833e1016f661f8579",
+        "name": "Yinhan Liu",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:62243657f27f4d0e5a46",
+        "name": "Myle Ott",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:b473ae6f6e5b071c55dd",
+        "name": "Naman Goyal",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:7a3b933f7bb7d3e40e58",
+        "name": "Jingfei Du",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:749a5e73dbbaa74e9453",
+        "name": "Mandar Joshi",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:b6cb9af7092f02e317e7",
+        "name": "Danqi Chen",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:605bd9e91f2410d2f081",
+        "name": "Omer Levy",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:fcd336ece37a47966adc",
+        "name": "Mike Lewis",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:e5edbe4298536b956453",
+        "name": "Luke Zettlemoyer",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:9cef262c92e6a98932b7",
+        "name": "Veselin Stoyanov",
+        "type": "Author"
+      },
+      {
+        "id": "v3:topic:05ad72bca39f3f544731",
+        "name": "language-model pretraining",
+        "type": "Topic"
+      },
+      {
+        "id": "v3:topic:70647950c4f788b4c151",
+        "name": "question answering",
+        "type": "Topic"
+      }
+    ],
+    "relations": [
+      {
+        "source": "v3:author:da5833e1016f661f8579",
+        "target": "v3:paper:1907.11692",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"RoBERTa: A Robustly Optimized BERT Pretraining Approach\" /><meta name=\"citation_author\" content=\"Liu, Yinhan\" />",
+        "evidence_start": 4675,
+        "evidence_end": 4824,
+        "evidence_parts": [
+          {
+            "value": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "quote": "<meta name=\"citation_title\" content=\"RoBERTa: A Robustly Optimized BERT Pretraining Approach\" />",
+            "start": 4675,
+            "end": 4771
+          },
+          {
+            "value": "Liu, Yinhan",
+            "quote": "<meta name=\"citation_author\" content=\"Liu, Yinhan\" />",
+            "start": 4771,
+            "end": 4824
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:62243657f27f4d0e5a46",
+        "target": "v3:paper:1907.11692",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"RoBERTa: A Robustly Optimized BERT Pretraining Approach\" /><meta name=\"citation_author\" content=\"Liu, Yinhan\" /><meta name=\"citation_author\" content=\"Ott, Myle\" />",
+        "evidence_start": 4675,
+        "evidence_end": 4875,
+        "evidence_parts": [
+          {
+            "value": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "quote": "<meta name=\"citation_title\" content=\"RoBERTa: A Robustly Optimized BERT Pretraining Approach\" />",
+            "start": 4675,
+            "end": 4771
+          },
+          {
+            "value": "Ott, Myle",
+            "quote": "<meta name=\"citation_author\" content=\"Ott, Myle\" />",
+            "start": 4824,
+            "end": 4875
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:b473ae6f6e5b071c55dd",
+        "target": "v3:paper:1907.11692",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"RoBERTa: A Robustly Optimized BERT Pretraining Approach\" /><meta name=\"citation_author\" content=\"Liu, Yinhan\" /><meta name=\"citation_author\" content=\"Ott, Myle\" /><meta name=\"citation_author\" content=\"Goyal, Naman\" />",
+        "evidence_start": 4675,
+        "evidence_end": 4929,
+        "evidence_parts": [
+          {
+            "value": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "quote": "<meta name=\"citation_title\" content=\"RoBERTa: A Robustly Optimized BERT Pretraining Approach\" />",
+            "start": 4675,
+            "end": 4771
+          },
+          {
+            "value": "Goyal, Naman",
+            "quote": "<meta name=\"citation_author\" content=\"Goyal, Naman\" />",
+            "start": 4875,
+            "end": 4929
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:7a3b933f7bb7d3e40e58",
+        "target": "v3:paper:1907.11692",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"RoBERTa: A Robustly Optimized BERT Pretraining Approach\" /><meta name=\"citation_author\" content=\"Liu, Yinhan\" /><meta name=\"citation_author\" content=\"Ott, Myle\" /><meta name=\"citation_author\" content=\"Goyal, Naman\" /><meta name=\"citation_author\" content=\"Du, Jingfei\" />",
+        "evidence_start": 4675,
+        "evidence_end": 4982,
+        "evidence_parts": [
+          {
+            "value": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "quote": "<meta name=\"citation_title\" content=\"RoBERTa: A Robustly Optimized BERT Pretraining Approach\" />",
+            "start": 4675,
+            "end": 4771
+          },
+          {
+            "value": "Du, Jingfei",
+            "quote": "<meta name=\"citation_author\" content=\"Du, Jingfei\" />",
+            "start": 4929,
+            "end": 4982
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:749a5e73dbbaa74e9453",
+        "target": "v3:paper:1907.11692",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"RoBERTa: A Robustly Optimized BERT Pretraining Approach\" /><meta name=\"citation_author\" content=\"Liu, Yinhan\" /><meta name=\"citation_author\" content=\"Ott, Myle\" /><meta name=\"citation_author\" content=\"Goyal, Naman\" /><meta name=\"citation_author\" content=\"Du, Jingfei\" /><meta name=\"citation_author\" content=\"Joshi, Mandar\" />",
+        "evidence_start": 4675,
+        "evidence_end": 5037,
+        "evidence_parts": [
+          {
+            "value": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "quote": "<meta name=\"citation_title\" content=\"RoBERTa: A Robustly Optimized BERT Pretraining Approach\" />",
+            "start": 4675,
+            "end": 4771
+          },
+          {
+            "value": "Joshi, Mandar",
+            "quote": "<meta name=\"citation_author\" content=\"Joshi, Mandar\" />",
+            "start": 4982,
+            "end": 5037
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:b6cb9af7092f02e317e7",
+        "target": "v3:paper:1907.11692",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"RoBERTa: A Robustly Optimized BERT Pretraining Approach\" /><meta name=\"citation_author\" content=\"Liu, Yinhan\" /><meta name=\"citation_author\" content=\"Ott, Myle\" /><meta name=\"citation_author\" content=\"Goyal, Naman\" /><meta name=\"citation_author\" content=\"Du, Jingfei\" /><meta name=\"citation_author\" content=\"Joshi, Mandar\" /><meta name=\"citation_author\" content=\"Chen, Danqi\" />",
+        "evidence_start": 4675,
+        "evidence_end": 5090,
+        "evidence_parts": [
+          {
+            "value": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "quote": "<meta name=\"citation_title\" content=\"RoBERTa: A Robustly Optimized BERT Pretraining Approach\" />",
+            "start": 4675,
+            "end": 4771
+          },
+          {
+            "value": "Chen, Danqi",
+            "quote": "<meta name=\"citation_author\" content=\"Chen, Danqi\" />",
+            "start": 5037,
+            "end": 5090
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:605bd9e91f2410d2f081",
+        "target": "v3:paper:1907.11692",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"RoBERTa: A Robustly Optimized BERT Pretraining Approach\" /><meta name=\"citation_author\" content=\"Liu, Yinhan\" /><meta name=\"citation_author\" content=\"Ott, Myle\" /><meta name=\"citation_author\" content=\"Goyal, Naman\" /><meta name=\"citation_author\" content=\"Du, Jingfei\" /><meta name=\"citation_author\" content=\"Joshi, Mandar\" /><meta name=\"citation_author\" content=\"Chen, Danqi\" /><meta name=\"citation_author\" content=\"Levy, Omer\" />",
+        "evidence_start": 4675,
+        "evidence_end": 5142,
+        "evidence_parts": [
+          {
+            "value": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "quote": "<meta name=\"citation_title\" content=\"RoBERTa: A Robustly Optimized BERT Pretraining Approach\" />",
+            "start": 4675,
+            "end": 4771
+          },
+          {
+            "value": "Levy, Omer",
+            "quote": "<meta name=\"citation_author\" content=\"Levy, Omer\" />",
+            "start": 5090,
+            "end": 5142
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:fcd336ece37a47966adc",
+        "target": "v3:paper:1907.11692",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"RoBERTa: A Robustly Optimized BERT Pretraining Approach\" /><meta name=\"citation_author\" content=\"Liu, Yinhan\" /><meta name=\"citation_author\" content=\"Ott, Myle\" /><meta name=\"citation_author\" content=\"Goyal, Naman\" /><meta name=\"citation_author\" content=\"Du, Jingfei\" /><meta name=\"citation_author\" content=\"Joshi, Mandar\" /><meta name=\"citation_author\" content=\"Chen, Danqi\" /><meta name=\"citation_author\" content=\"Levy, Omer\" /><meta name=\"citation_author\" content=\"Lewis, Mike\" />",
+        "evidence_start": 4675,
+        "evidence_end": 5195,
+        "evidence_parts": [
+          {
+            "value": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "quote": "<meta name=\"citation_title\" content=\"RoBERTa: A Robustly Optimized BERT Pretraining Approach\" />",
+            "start": 4675,
+            "end": 4771
+          },
+          {
+            "value": "Lewis, Mike",
+            "quote": "<meta name=\"citation_author\" content=\"Lewis, Mike\" />",
+            "start": 5142,
+            "end": 5195
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:e5edbe4298536b956453",
+        "target": "v3:paper:1907.11692",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"RoBERTa: A Robustly Optimized BERT Pretraining Approach\" /><meta name=\"citation_author\" content=\"Liu, Yinhan\" /><meta name=\"citation_author\" content=\"Ott, Myle\" /><meta name=\"citation_author\" content=\"Goyal, Naman\" /><meta name=\"citation_author\" content=\"Du, Jingfei\" /><meta name=\"citation_author\" content=\"Joshi, Mandar\" /><meta name=\"citation_author\" content=\"Chen, Danqi\" /><meta name=\"citation_author\" content=\"Levy, Omer\" /><meta name=\"citation_author\" content=\"Lewis, Mike\" /><meta name=\"citation_author\" content=\"Zettlemoyer, Luke\" />",
+        "evidence_start": 4675,
+        "evidence_end": 5254,
+        "evidence_parts": [
+          {
+            "value": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "quote": "<meta name=\"citation_title\" content=\"RoBERTa: A Robustly Optimized BERT Pretraining Approach\" />",
+            "start": 4675,
+            "end": 4771
+          },
+          {
+            "value": "Zettlemoyer, Luke",
+            "quote": "<meta name=\"citation_author\" content=\"Zettlemoyer, Luke\" />",
+            "start": 5195,
+            "end": 5254
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:9cef262c92e6a98932b7",
+        "target": "v3:paper:1907.11692",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"RoBERTa: A Robustly Optimized BERT Pretraining Approach\" /><meta name=\"citation_author\" content=\"Liu, Yinhan\" /><meta name=\"citation_author\" content=\"Ott, Myle\" /><meta name=\"citation_author\" content=\"Goyal, Naman\" /><meta name=\"citation_author\" content=\"Du, Jingfei\" /><meta name=\"citation_author\" content=\"Joshi, Mandar\" /><meta name=\"citation_author\" content=\"Chen, Danqi\" /><meta name=\"citation_author\" content=\"Levy, Omer\" /><meta name=\"citation_author\" content=\"Lewis, Mike\" /><meta name=\"citation_author\" content=\"Zettlemoyer, Luke\" /><meta name=\"citation_author\" content=\"Stoyanov, Veselin\" />",
+        "evidence_start": 4675,
+        "evidence_end": 5313,
+        "evidence_parts": [
+          {
+            "value": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "quote": "<meta name=\"citation_title\" content=\"RoBERTa: A Robustly Optimized BERT Pretraining Approach\" />",
+            "start": 4675,
+            "end": 4771
+          },
+          {
+            "value": "Stoyanov, Veselin",
+            "quote": "<meta name=\"citation_author\" content=\"Stoyanov, Veselin\" />",
+            "start": 5254,
+            "end": 5313
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:paper:1907.11692",
+        "target": "v3:topic:05ad72bca39f3f544731",
+        "type": "ABOUT",
+        "quote": "Language model pretraining has led to significant performance gains",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      },
+      {
+        "source": "v3:paper:1907.11692",
+        "target": "v3:topic:70647950c4f788b4c151",
+        "type": "ABOUT",
+        "quote": "Our best model achieves state-of-the-art results on GLUE, RACE and SQuAD.",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      }
+    ]
+  },
+  "mode": "deterministic_html_metadata",
+  "arxiv_id": "1907.11692",
+  "abstract": "Language model pretraining has led to significant performance gains but careful comparison between different approaches is challenging. Training is computationally expensive, often done on private datasets of different sizes, and, as we will show, hyperparameter choices have significant impact on the final results. We present a replication study of BERT pretraining (Devlin et al., 2019) that carefully measures the impact of many key hyperparameters and training data size. We find that BERT was significantly undertrained, and can match or exceed the performance of every model published after it. Our best model achieves state-of-the-art results on GLUE, RACE and SQuAD. These results highlight the importance of previously overlooked design choices, and raise questions about the source of recently reported improvements. We release our models and code.",
+  "llm_calls": 0,
+  "source_sha256": "a3dfb0c2a8a3a7b2edd1237857ce0fb27b9211ff93d07e61e5951ddfaec7c270"
+}

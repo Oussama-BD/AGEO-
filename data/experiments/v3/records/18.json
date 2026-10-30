@@ -1,0 +1,616 @@
+{
+  "document": {
+    "id": "v3:html:2203.02155",
+    "title": "Training language models to follow instructions with human feedback",
+    "source": "https://arxiv.org/abs/2203.02155"
+  },
+  "graph": {
+    "entities": [
+      {
+        "id": "v3:paper:2203.02155",
+        "name": "Training language models to follow instructions with human feedback",
+        "type": "Paper"
+      },
+      {
+        "id": "v3:author:2d95f9d3b636cb5da351",
+        "name": "Long Ouyang",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:0ff43bd48c569198689c",
+        "name": "Jeff Wu",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:1d1156611dfd827cdb03",
+        "name": "Xu Jiang",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:337d876a79b938bf5847",
+        "name": "Diogo Almeida",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:d9eaf67ded0dfbc463f5",
+        "name": "Carroll L. Wainwright",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:1737dece79987c7c54ce",
+        "name": "Pamela Mishkin",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:b476821d7b975061a9fb",
+        "name": "Chong Zhang",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:4f70210c946c65275ead",
+        "name": "Sandhini Agarwal",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:d8822debaa2736f16eb8",
+        "name": "Katarina Slama",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:1e5a85d169ab73252975",
+        "name": "Alex Ray",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:8b1f707ab91052bee534",
+        "name": "John Schulman",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:4cd98dc82f38e90650b1",
+        "name": "Jacob Hilton",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:66ce3da807cf9456f25a",
+        "name": "Fraser Kelton",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:707a30ce01eae5625438",
+        "name": "Luke Miller",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:2b0088d5cab7dbf51b0b",
+        "name": "Maddie Simens",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:643b1f43f652cb4fb2b5",
+        "name": "Amanda Askell",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:0a28c32e8323fae06bcb",
+        "name": "Peter Welinder",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:d631301c5851b36e1b9e",
+        "name": "Paul Christiano",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:2022074f4d93000c1ecf",
+        "name": "Jan Leike",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:686c7de55642626ee20a",
+        "name": "Ryan Lowe",
+        "type": "Author"
+      },
+      {
+        "id": "v3:topic:ac5a22ba5334bd466586",
+        "name": "instruction tuning",
+        "type": "Topic"
+      }
+    ],
+    "relations": [
+      {
+        "source": "v3:author:2d95f9d3b636cb5da351",
+        "target": "v3:paper:2203.02155",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" /><meta name=\"citation_author\" content=\"Ouyang, Long\" />",
+        "evidence_start": 5259,
+        "evidence_end": 5421,
+        "evidence_parts": [
+          {
+            "value": "Training language models to follow instructions with human feedback",
+            "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" />",
+            "start": 5259,
+            "end": 5367
+          },
+          {
+            "value": "Ouyang, Long",
+            "quote": "<meta name=\"citation_author\" content=\"Ouyang, Long\" />",
+            "start": 5367,
+            "end": 5421
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:0ff43bd48c569198689c",
+        "target": "v3:paper:2203.02155",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" /><meta name=\"citation_author\" content=\"Ouyang, Long\" /><meta name=\"citation_author\" content=\"Wu, Jeff\" />",
+        "evidence_start": 5259,
+        "evidence_end": 5471,
+        "evidence_parts": [
+          {
+            "value": "Training language models to follow instructions with human feedback",
+            "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" />",
+            "start": 5259,
+            "end": 5367
+          },
+          {
+            "value": "Wu, Jeff",
+            "quote": "<meta name=\"citation_author\" content=\"Wu, Jeff\" />",
+            "start": 5421,
+            "end": 5471
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:1d1156611dfd827cdb03",
+        "target": "v3:paper:2203.02155",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" /><meta name=\"citation_author\" content=\"Ouyang, Long\" /><meta name=\"citation_author\" content=\"Wu, Jeff\" /><meta name=\"citation_author\" content=\"Jiang, Xu\" />",
+        "evidence_start": 5259,
+        "evidence_end": 5522,
+        "evidence_parts": [
+          {
+            "value": "Training language models to follow instructions with human feedback",
+            "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" />",
+            "start": 5259,
+            "end": 5367
+          },
+          {
+            "value": "Jiang, Xu",
+            "quote": "<meta name=\"citation_author\" content=\"Jiang, Xu\" />",
+            "start": 5471,
+            "end": 5522
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:337d876a79b938bf5847",
+        "target": "v3:paper:2203.02155",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" /><meta name=\"citation_author\" content=\"Ouyang, Long\" /><meta name=\"citation_author\" content=\"Wu, Jeff\" /><meta name=\"citation_author\" content=\"Jiang, Xu\" /><meta name=\"citation_author\" content=\"Almeida, Diogo\" />",
+        "evidence_start": 5259,
+        "evidence_end": 5578,
+        "evidence_parts": [
+          {
+            "value": "Training language models to follow instructions with human feedback",
+            "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" />",
+            "start": 5259,
+            "end": 5367
+          },
+          {
+            "value": "Almeida, Diogo",
+            "quote": "<meta name=\"citation_author\" content=\"Almeida, Diogo\" />",
+            "start": 5522,
+            "end": 5578
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:d9eaf67ded0dfbc463f5",
+        "target": "v3:paper:2203.02155",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" /><meta name=\"citation_author\" content=\"Ouyang, Long\" /><meta name=\"citation_author\" content=\"Wu, Jeff\" /><meta name=\"citation_author\" content=\"Jiang, Xu\" /><meta name=\"citation_author\" content=\"Almeida, Diogo\" /><meta name=\"citation_author\" content=\"Wainwright, Carroll L.\" />",
+        "evidence_start": 5259,
+        "evidence_end": 5642,
+        "evidence_parts": [
+          {
+            "value": "Training language models to follow instructions with human feedback",
+            "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" />",
+            "start": 5259,
+            "end": 5367
+          },
+          {
+            "value": "Wainwright, Carroll L.",
+            "quote": "<meta name=\"citation_author\" content=\"Wainwright, Carroll L.\" />",
+            "start": 5578,
+            "end": 5642
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:1737dece79987c7c54ce",
+        "target": "v3:paper:2203.02155",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" /><meta name=\"citation_author\" content=\"Ouyang, Long\" /><meta name=\"citation_author\" content=\"Wu, Jeff\" /><meta name=\"citation_author\" content=\"Jiang, Xu\" /><meta name=\"citation_author\" content=\"Almeida, Diogo\" /><meta name=\"citation_author\" content=\"Wainwright, Carroll L.\" /><meta name=\"citation_author\" content=\"Mishkin, Pamela\" />",
+        "evidence_start": 5259,
+        "evidence_end": 5699,
+        "evidence_parts": [
+          {
+            "value": "Training language models to follow instructions with human feedback",
+            "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" />",
+            "start": 5259,
+            "end": 5367
+          },
+          {
+            "value": "Mishkin, Pamela",
+            "quote": "<meta name=\"citation_author\" content=\"Mishkin, Pamela\" />",
+            "start": 5642,
+            "end": 5699
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:b476821d7b975061a9fb",
+        "target": "v3:paper:2203.02155",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" /><meta name=\"citation_author\" content=\"Ouyang, Long\" /><meta name=\"citation_author\" content=\"Wu, Jeff\" /><meta name=\"citation_author\" content=\"Jiang, Xu\" /><meta name=\"citation_author\" content=\"Almeida, Diogo\" /><meta name=\"citation_author\" content=\"Wainwright, Carroll L.\" /><meta name=\"citation_author\" content=\"Mishkin, Pamela\" /><meta name=\"citation_author\" content=\"Zhang, Chong\" />",
+        "evidence_start": 5259,
+        "evidence_end": 5753,
+        "evidence_parts": [
+          {
+            "value": "Training language models to follow instructions with human feedback",
+            "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" />",
+            "start": 5259,
+            "end": 5367
+          },
+          {
+            "value": "Zhang, Chong",
+            "quote": "<meta name=\"citation_author\" content=\"Zhang, Chong\" />",
+            "start": 5699,
+            "end": 5753
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:4f70210c946c65275ead",
+        "target": "v3:paper:2203.02155",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" /><meta name=\"citation_author\" content=\"Ouyang, Long\" /><meta name=\"citation_author\" content=\"Wu, Jeff\" /><meta name=\"citation_author\" content=\"Jiang, Xu\" /><meta name=\"citation_author\" content=\"Almeida, Diogo\" /><meta name=\"citation_author\" content=\"Wainwright, Carroll L.\" /><meta name=\"citation_author\" content=\"Mishkin, Pamela\" /><meta name=\"citation_author\" content=\"Zhang, Chong\" /><meta name=\"citation_author\" content=\"Agarwal, Sandhini\" />",
+        "evidence_start": 5259,
+        "evidence_end": 5812,
+        "evidence_parts": [
+          {
+            "value": "Training language models to follow instructions with human feedback",
+            "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" />",
+            "start": 5259,
+            "end": 5367
+          },
+          {
+            "value": "Agarwal, Sandhini",
+            "quote": "<meta name=\"citation_author\" content=\"Agarwal, Sandhini\" />",
+            "start": 5753,
+            "end": 5812
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:d8822debaa2736f16eb8",
+        "target": "v3:paper:2203.02155",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" /><meta name=\"citation_author\" content=\"Ouyang, Long\" /><meta name=\"citation_author\" content=\"Wu, Jeff\" /><meta name=\"citation_author\" content=\"Jiang, Xu\" /><meta name=\"citation_author\" content=\"Almeida, Diogo\" /><meta name=\"citation_author\" content=\"Wainwright, Carroll L.\" /><meta name=\"citation_author\" content=\"Mishkin, Pamela\" /><meta name=\"citation_author\" content=\"Zhang, Chong\" /><meta name=\"citation_author\" content=\"Agarwal, Sandhini\" /><meta name=\"citation_author\" content=\"Slama, Katarina\" />",
+        "evidence_start": 5259,
+        "evidence_end": 5869,
+        "evidence_parts": [
+          {
+            "value": "Training language models to follow instructions with human feedback",
+            "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" />",
+            "start": 5259,
+            "end": 5367
+          },
+          {
+            "value": "Slama, Katarina",
+            "quote": "<meta name=\"citation_author\" content=\"Slama, Katarina\" />",
+            "start": 5812,
+            "end": 5869
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:1e5a85d169ab73252975",
+        "target": "v3:paper:2203.02155",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" /><meta name=\"citation_author\" content=\"Ouyang, Long\" /><meta name=\"citation_author\" content=\"Wu, Jeff\" /><meta name=\"citation_author\" content=\"Jiang, Xu\" /><meta name=\"citation_author\" content=\"Almeida, Diogo\" /><meta name=\"citation_author\" content=\"Wainwright, Carroll L.\" /><meta name=\"citation_author\" content=\"Mishkin, Pamela\" /><meta name=\"citation_author\" content=\"Zhang, Chong\" /><meta name=\"citation_author\" content=\"Agarwal, Sandhini\" /><meta name=\"citation_author\" content=\"Slama, Katarina\" /><meta name=\"citation_author\" content=\"Ray, Alex\" />",
+        "evidence_start": 5259,
+        "evidence_end": 5920,
+        "evidence_parts": [
+          {
+            "value": "Training language models to follow instructions with human feedback",
+            "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" />",
+            "start": 5259,
+            "end": 5367
+          },
+          {
+            "value": "Ray, Alex",
+            "quote": "<meta name=\"citation_author\" content=\"Ray, Alex\" />",
+            "start": 5869,
+            "end": 5920
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:8b1f707ab91052bee534",
+        "target": "v3:paper:2203.02155",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" /><meta name=\"citation_author\" content=\"Ouyang, Long\" /><meta name=\"citation_author\" content=\"Wu, Jeff\" /><meta name=\"citation_author\" content=\"Jiang, Xu\" /><meta name=\"citation_author\" content=\"Almeida, Diogo\" /><meta name=\"citation_author\" content=\"Wainwright, Carroll L.\" /><meta name=\"citation_author\" content=\"Mishkin, Pamela\" /><meta name=\"citation_author\" content=\"Zhang, Chong\" /><meta name=\"citation_author\" content=\"Agarwal, Sandhini\" /><meta name=\"citation_author\" content=\"Slama, Katarina\" /><meta name=\"citation_author\" content=\"Ray, Alex\" /><meta name=\"citation_author\" content=\"Schulman, John\" />",
+        "evidence_start": 5259,
+        "evidence_end": 5976,
+        "evidence_parts": [
+          {
+            "value": "Training language models to follow instructions with human feedback",
+            "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" />",
+            "start": 5259,
+            "end": 5367
+          },
+          {
+            "value": "Schulman, John",
+            "quote": "<meta name=\"citation_author\" content=\"Schulman, John\" />",
+            "start": 5920,
+            "end": 5976
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:4cd98dc82f38e90650b1",
+        "target": "v3:paper:2203.02155",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" /><meta name=\"citation_author\" content=\"Ouyang, Long\" /><meta name=\"citation_author\" content=\"Wu, Jeff\" /><meta name=\"citation_author\" content=\"Jiang, Xu\" /><meta name=\"citation_author\" content=\"Almeida, Diogo\" /><meta name=\"citation_author\" content=\"Wainwright, Carroll L.\" /><meta name=\"citation_author\" content=\"Mishkin, Pamela\" /><meta name=\"citation_author\" content=\"Zhang, Chong\" /><meta name=\"citation_author\" content=\"Agarwal, Sandhini\" /><meta name=\"citation_author\" content=\"Slama, Katarina\" /><meta name=\"citation_author\" content=\"Ray, Alex\" /><meta name=\"citation_author\" content=\"Schulman, John\" /><meta name=\"citation_author\" content=\"Hilton, Jacob\" />",
+        "evidence_start": 5259,
+        "evidence_end": 6031,
+        "evidence_parts": [
+          {
+            "value": "Training language models to follow instructions with human feedback",
+            "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" />",
+            "start": 5259,
+            "end": 5367
+          },
+          {
+            "value": "Hilton, Jacob",
+            "quote": "<meta name=\"citation_author\" content=\"Hilton, Jacob\" />",
+            "start": 5976,
+            "end": 6031
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:66ce3da807cf9456f25a",
+        "target": "v3:paper:2203.02155",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" /><meta name=\"citation_author\" content=\"Ouyang, Long\" /><meta name=\"citation_author\" content=\"Wu, Jeff\" /><meta name=\"citation_author\" content=\"Jiang, Xu\" /><meta name=\"citation_author\" content=\"Almeida, Diogo\" /><meta name=\"citation_author\" content=\"Wainwright, Carroll L.\" /><meta name=\"citation_author\" content=\"Mishkin, Pamela\" /><meta name=\"citation_author\" content=\"Zhang, Chong\" /><meta name=\"citation_author\" content=\"Agarwal, Sandhini\" /><meta name=\"citation_author\" content=\"Slama, Katarina\" /><meta name=\"citation_author\" content=\"Ray, Alex\" /><meta name=\"citation_author\" content=\"Schulman, John\" /><meta name=\"citation_author\" content=\"Hilton, Jacob\" /><meta name=\"citation_author\" content=\"Kelton, Fraser\" />",
+        "evidence_start": 5259,
+        "evidence_end": 6087,
+        "evidence_parts": [
+          {
+            "value": "Training language models to follow instructions with human feedback",
+            "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" />",
+            "start": 5259,
+            "end": 5367
+          },
+          {
+            "value": "Kelton, Fraser",
+            "quote": "<meta name=\"citation_author\" content=\"Kelton, Fraser\" />",
+            "start": 6031,
+            "end": 6087
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:707a30ce01eae5625438",
+        "target": "v3:paper:2203.02155",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" /><meta name=\"citation_author\" content=\"Ouyang, Long\" /><meta name=\"citation_author\" content=\"Wu, Jeff\" /><meta name=\"citation_author\" content=\"Jiang, Xu\" /><meta name=\"citation_author\" content=\"Almeida, Diogo\" /><meta name=\"citation_author\" content=\"Wainwright, Carroll L.\" /><meta name=\"citation_author\" content=\"Mishkin, Pamela\" /><meta name=\"citation_author\" content=\"Zhang, Chong\" /><meta name=\"citation_author\" content=\"Agarwal, Sandhini\" /><meta name=\"citation_author\" content=\"Slama, Katarina\" /><meta name=\"citation_author\" content=\"Ray, Alex\" /><meta name=\"citation_author\" content=\"Schulman, John\" /><meta name=\"citation_author\" content=\"Hilton, Jacob\" /><meta name=\"citation_author\" content=\"Kelton, Fraser\" /><meta name=\"citation_author\" content=\"Miller, Luke\" />",
+        "evidence_start": 5259,
+        "evidence_end": 6141,
+        "evidence_parts": [
+          {
+            "value": "Training language models to follow instructions with human feedback",
+            "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" />",
+            "start": 5259,
+            "end": 5367
+          },
+          {
+            "value": "Miller, Luke",
+            "quote": "<meta name=\"citation_author\" content=\"Miller, Luke\" />",
+            "start": 6087,
+            "end": 6141
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:2b0088d5cab7dbf51b0b",
+        "target": "v3:paper:2203.02155",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" /><meta name=\"citation_author\" content=\"Ouyang, Long\" /><meta name=\"citation_author\" content=\"Wu, Jeff\" /><meta name=\"citation_author\" content=\"Jiang, Xu\" /><meta name=\"citation_author\" content=\"Almeida, Diogo\" /><meta name=\"citation_author\" content=\"Wainwright, Carroll L.\" /><meta name=\"citation_author\" content=\"Mishkin, Pamela\" /><meta name=\"citation_author\" content=\"Zhang, Chong\" /><meta name=\"citation_author\" content=\"Agarwal, Sandhini\" /><meta name=\"citation_author\" content=\"Slama, Katarina\" /><meta name=\"citation_author\" content=\"Ray, Alex\" /><meta name=\"citation_author\" content=\"Schulman, John\" /><meta name=\"citation_author\" content=\"Hilton, Jacob\" /><meta name=\"citation_author\" content=\"Kelton, Fraser\" /><meta name=\"citation_author\" content=\"Miller, Luke\" /><meta name=\"citation_author\" content=\"Simens, Maddie\" />",
+        "evidence_start": 5259,
+        "evidence_end": 6197,
+        "evidence_parts": [
+          {
+            "value": "Training language models to follow instructions with human feedback",
+            "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" />",
+            "start": 5259,
+            "end": 5367
+          },
+          {
+            "value": "Simens, Maddie",
+            "quote": "<meta name=\"citation_author\" content=\"Simens, Maddie\" />",
+            "start": 6141,
+            "end": 6197
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:643b1f43f652cb4fb2b5",
+        "target": "v3:paper:2203.02155",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" /><meta name=\"citation_author\" content=\"Ouyang, Long\" /><meta name=\"citation_author\" content=\"Wu, Jeff\" /><meta name=\"citation_author\" content=\"Jiang, Xu\" /><meta name=\"citation_author\" content=\"Almeida, Diogo\" /><meta name=\"citation_author\" content=\"Wainwright, Carroll L.\" /><meta name=\"citation_author\" content=\"Mishkin, Pamela\" /><meta name=\"citation_author\" content=\"Zhang, Chong\" /><meta name=\"citation_author\" content=\"Agarwal, Sandhini\" /><meta name=\"citation_author\" content=\"Slama, Katarina\" /><meta name=\"citation_author\" content=\"Ray, Alex\" /><meta name=\"citation_author\" content=\"Schulman, John\" /><meta name=\"citation_author\" content=\"Hilton, Jacob\" /><meta name=\"citation_author\" content=\"Kelton, Fraser\" /><meta name=\"citation_author\" content=\"Miller, Luke\" /><meta name=\"citation_author\" content=\"Simens, Maddie\" /><meta name=\"citation_author\" content=\"Askell, Amanda\" />",
+        "evidence_start": 5259,
+        "evidence_end": 6253,
+        "evidence_parts": [
+          {
+            "value": "Training language models to follow instructions with human feedback",
+            "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" />",
+            "start": 5259,
+            "end": 5367
+          },
+          {
+            "value": "Askell, Amanda",
+            "quote": "<meta name=\"citation_author\" content=\"Askell, Amanda\" />",
+            "start": 6197,
+            "end": 6253
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:0a28c32e8323fae06bcb",
+        "target": "v3:paper:2203.02155",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" /><meta name=\"citation_author\" content=\"Ouyang, Long\" /><meta name=\"citation_author\" content=\"Wu, Jeff\" /><meta name=\"citation_author\" content=\"Jiang, Xu\" /><meta name=\"citation_author\" content=\"Almeida, Diogo\" /><meta name=\"citation_author\" content=\"Wainwright, Carroll L.\" /><meta name=\"citation_author\" content=\"Mishkin, Pamela\" /><meta name=\"citation_author\" content=\"Zhang, Chong\" /><meta name=\"citation_author\" content=\"Agarwal, Sandhini\" /><meta name=\"citation_author\" content=\"Slama, Katarina\" /><meta name=\"citation_author\" content=\"Ray, Alex\" /><meta name=\"citation_author\" content=\"Schulman, John\" /><meta name=\"citation_author\" content=\"Hilton, Jacob\" /><meta name=\"citation_author\" content=\"Kelton, Fraser\" /><meta name=\"citation_author\" content=\"Miller, Luke\" /><meta name=\"citation_author\" content=\"Simens, Maddie\" /><meta name=\"citation_author\" content=\"Askell, Amanda\" /><meta name=\"citation_author\" content=\"Welinder, Peter\" />",
+        "evidence_start": 5259,
+        "evidence_end": 6310,
+        "evidence_parts": [
+          {
+            "value": "Training language models to follow instructions with human feedback",
+            "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" />",
+            "start": 5259,
+            "end": 5367
+          },
+          {
+            "value": "Welinder, Peter",
+            "quote": "<meta name=\"citation_author\" content=\"Welinder, Peter\" />",
+            "start": 6253,
+            "end": 6310
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:d631301c5851b36e1b9e",
+        "target": "v3:paper:2203.02155",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" /><meta name=\"citation_author\" content=\"Ouyang, Long\" /><meta name=\"citation_author\" content=\"Wu, Jeff\" /><meta name=\"citation_author\" content=\"Jiang, Xu\" /><meta name=\"citation_author\" content=\"Almeida, Diogo\" /><meta name=\"citation_author\" content=\"Wainwright, Carroll L.\" /><meta name=\"citation_author\" content=\"Mishkin, Pamela\" /><meta name=\"citation_author\" content=\"Zhang, Chong\" /><meta name=\"citation_author\" content=\"Agarwal, Sandhini\" /><meta name=\"citation_author\" content=\"Slama, Katarina\" /><meta name=\"citation_author\" content=\"Ray, Alex\" /><meta name=\"citation_author\" content=\"Schulman, John\" /><meta name=\"citation_author\" content=\"Hilton, Jacob\" /><meta name=\"citation_author\" content=\"Kelton, Fraser\" /><meta name=\"citation_author\" content=\"Miller, Luke\" /><meta name=\"citation_author\" content=\"Simens, Maddie\" /><meta name=\"citation_author\" content=\"Askell, Amanda\" /><meta name=\"citation_author\" content=\"Welinder, Peter\" /><meta name=\"citation_author\" content=\"Christiano, Paul\" />",
+        "evidence_start": 5259,
+        "evidence_end": 6368,
+        "evidence_parts": [
+          {
+            "value": "Training language models to follow instructions with human feedback",
+            "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" />",
+            "start": 5259,
+            "end": 5367
+          },
+          {
+            "value": "Christiano, Paul",
+            "quote": "<meta name=\"citation_author\" content=\"Christiano, Paul\" />",
+            "start": 6310,
+            "end": 6368
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:2022074f4d93000c1ecf",
+        "target": "v3:paper:2203.02155",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" /><meta name=\"citation_author\" content=\"Ouyang, Long\" /><meta name=\"citation_author\" content=\"Wu, Jeff\" /><meta name=\"citation_author\" content=\"Jiang, Xu\" /><meta name=\"citation_author\" content=\"Almeida, Diogo\" /><meta name=\"citation_author\" content=\"Wainwright, Carroll L.\" /><meta name=\"citation_author\" content=\"Mishkin, Pamela\" /><meta name=\"citation_author\" content=\"Zhang, Chong\" /><meta name=\"citation_author\" content=\"Agarwal, Sandhini\" /><meta name=\"citation_author\" content=\"Slama, Katarina\" /><meta name=\"citation_author\" content=\"Ray, Alex\" /><meta name=\"citation_author\" content=\"Schulman, John\" /><meta name=\"citation_author\" content=\"Hilton, Jacob\" /><meta name=\"citation_author\" content=\"Kelton, Fraser\" /><meta name=\"citation_author\" content=\"Miller, Luke\" /><meta name=\"citation_author\" content=\"Simens, Maddie\" /><meta name=\"citation_author\" content=\"Askell, Amanda\" /><meta name=\"citation_author\" content=\"Welinder, Peter\" /><meta name=\"citation_author\" content=\"Christiano, Paul\" /><meta name=\"citation_author\" content=\"Leike, Jan\" />",
+        "evidence_start": 5259,
+        "evidence_end": 6420,
+        "evidence_parts": [
+          {
+            "value": "Training language models to follow instructions with human feedback",
+            "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" />",
+            "start": 5259,
+            "end": 5367
+          },
+          {
+            "value": "Leike, Jan",
+            "quote": "<meta name=\"citation_author\" content=\"Leike, Jan\" />",
+            "start": 6368,
+            "end": 6420
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:686c7de55642626ee20a",
+        "target": "v3:paper:2203.02155",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" /><meta name=\"citation_author\" content=\"Ouyang, Long\" /><meta name=\"citation_author\" content=\"Wu, Jeff\" /><meta name=\"citation_author\" content=\"Jiang, Xu\" /><meta name=\"citation_author\" content=\"Almeida, Diogo\" /><meta name=\"citation_author\" content=\"Wainwright, Carroll L.\" /><meta name=\"citation_author\" content=\"Mishkin, Pamela\" /><meta name=\"citation_author\" content=\"Zhang, Chong\" /><meta name=\"citation_author\" content=\"Agarwal, Sandhini\" /><meta name=\"citation_author\" content=\"Slama, Katarina\" /><meta name=\"citation_author\" content=\"Ray, Alex\" /><meta name=\"citation_author\" content=\"Schulman, John\" /><meta name=\"citation_author\" content=\"Hilton, Jacob\" /><meta name=\"citation_author\" content=\"Kelton, Fraser\" /><meta name=\"citation_author\" content=\"Miller, Luke\" /><meta name=\"citation_author\" content=\"Simens, Maddie\" /><meta name=\"citation_author\" content=\"Askell, Amanda\" /><meta name=\"citation_author\" content=\"Welinder, Peter\" /><meta name=\"citation_author\" content=\"Christiano, Paul\" /><meta name=\"citation_author\" content=\"Leike, Jan\" /><meta name=\"citation_author\" content=\"Lowe, Ryan\" />",
+        "evidence_start": 5259,
+        "evidence_end": 6472,
+        "evidence_parts": [
+          {
+            "value": "Training language models to follow instructions with human feedback",
+            "quote": "<meta name=\"citation_title\" content=\"Training language models to follow instructions with human feedback\" />",
+            "start": 5259,
+            "end": 5367
+          },
+          {
+            "value": "Lowe, Ryan",
+            "quote": "<meta name=\"citation_author\" content=\"Lowe, Ryan\" />",
+            "start": 6420,
+            "end": 6472
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:paper:2203.02155",
+        "target": "v3:topic:ac5a22ba5334bd466586",
+        "type": "ABOUT",
+        "quote": "fine-tuning with human feedback is a promising direction for aligning language models with human intent.",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      }
+    ]
+  },
+  "mode": "deterministic_html_metadata",
+  "arxiv_id": "2203.02155",
+  "abstract": "Making language models bigger does not inherently make them better at following a user's intent. For example, large language models can generate outputs that are untruthful, toxic, or simply not helpful to the user. In other words, these models are not aligned with their users. In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback. Starting with a set of labeler-written prompts and prompts submitted through the OpenAI API, we collect a dataset of labeler demonstrations of the desired model behavior, which we use to fine-tune GPT-3 using supervised learning. We then collect a dataset of rankings of model outputs, which we use to further fine-tune this supervised model using reinforcement learning from human feedback. We call the resulting models InstructGPT. In human evaluations on our prompt distribution, outputs from the 1.3B parameter InstructGPT model are preferred to outputs from the 175B GPT-3, despite having 100x fewer parameters. Moreover, InstructGPT models show improvements in truthfulness and reductions in toxic output generation while having minimal performance regressions on public NLP datasets. Even though InstructGPT still makes simple mistakes, our results show that fine-tuning with human feedback is a promising direction for aligning language models with human intent.",
+  "llm_calls": 0,
+  "source_sha256": "99d50e2457718f5da23285039862192ca48a44b6fd00f46006e2ba4fecd79fd8"
+}

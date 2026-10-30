@@ -1,0 +1,46 @@
+{
+  "stage": "v3_topics",
+  "model": "gemini-3.1-flash-lite",
+  "attempted_calls": 4,
+  "batches": [
+    {
+      "file": "ddaf7ecd9fd1df5b753758f3cfb07816334497bb6fa055d7b0bce26905fe2527.json",
+      "cached": true,
+      "articles": 5
+    },
+    {
+      "file": "72da4a6f7180f33edaa8cbddb89888b551019f381f1b05073969e0c8af2b3dca.json",
+      "cached": false,
+      "articles": 5,
+      "rejected": 1
+    },
+    {
+      "file": "df09195ea0b54761a7c04b733dfc907a2029811e0662bfe34b4261001eaaa954.json",
+      "cached": false,
+      "articles": 5,
+      "rejected": 1
+    },
+    {
+      "file": "44540dad190e290bfa1da0e650f228c6fd67a540c12121606120d95682ac4c38.json",
+      "cached": false,
+      "articles": 5,
+      "rejected": 0
+    },
+    {
+      "file": "df2b49228da191ac0867f951ce34280204f0c4a3fbee6f356024166105f63a6e.json",
+      "cached": false,
+      "articles": 5,
+      "rejected": 0
+    }
+  ],
+  "corpus_size": 25,
+  "status": "complete",
+  "articles_with_completed_topic_extraction": 25,
+  "successful_calls_total": 5,
+  "accepted_topic_assertions": 60,
+  "rejected_unsupported_quotes": 2,
+  "pricing_source": "https://ai.google.dev/gemini-api/docs/pricing",
+  "billing_configuration_changed": false,
+  "reference_review_status": "pending_independent_human_review",
+  "benchmark_status": "not_run_for_this_model"
+}

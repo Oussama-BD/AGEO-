@@ -1,0 +1,92 @@
+[
+  {
+    "id": "mh1",
+    "question": "Quelles institutions sont représentées dans au moins deux articles du corpus ?",
+    "required_reasoning": "Institution <- Author -> Paper; aggregation across distinct papers",
+    "hops": 3,
+    "expected": null,
+    "status": "pending_topic_and_answer_annotation",
+    "must_not_score_until_annotated": true
+  },
+  {
+    "id": "mh2",
+    "question": "Quels auteurs ont publié sur plusieurs sujets du corpus ?",
+    "required_reasoning": "Author -> Paper -> Topic; count distinct topics",
+    "hops": 2,
+    "expected": null,
+    "status": "pending_topic_and_answer_annotation",
+    "must_not_score_until_annotated": true
+  },
+  {
+    "id": "mh3",
+    "question": "Quels auteurs sont reliés au sujet retrieval-augmented generation ?",
+    "required_reasoning": "Author -> Paper -> Topic",
+    "hops": 2,
+    "expected": null,
+    "status": "pending_topic_and_answer_annotation",
+    "must_not_score_until_annotated": true
+  },
+  {
+    "id": "mh4",
+    "question": "Quelles institutions sont reliées à des travaux sur la recherche augmentée par récupération ?",
+    "required_reasoning": "Institution <- Author -> Paper -> Topic; semantic topic mapping",
+    "hops": 3,
+    "expected": null,
+    "status": "pending_topic_and_answer_annotation",
+    "must_not_score_until_annotated": true
+  },
+  {
+    "id": "mh5",
+    "question": "Quels articles partagent un sujet avec Attention Is All You Need ?",
+    "required_reasoning": "Paper -> Topic <- Paper",
+    "hops": 2,
+    "expected": null,
+    "status": "pending_topic_and_answer_annotation",
+    "must_not_score_until_annotated": true
+  },
+  {
+    "id": "mh6",
+    "question": "Quels auteurs de deux articles différents sont reliés à un même sujet ?",
+    "required_reasoning": "Author -> Paper -> Topic <- Paper <- Author; not a collaboration claim",
+    "hops": 4,
+    "expected": null,
+    "status": "pending_topic_and_answer_annotation",
+    "must_not_score_until_annotated": true
+  },
+  {
+    "id": "sem1",
+    "question": "Quels articles cherchent à améliorer l'accès des modèles à une mémoire externe ?",
+    "required_reasoning": "Semantic interpretation of abstracts and retrieval topics",
+    "hops": null,
+    "expected": null,
+    "status": "pending_topic_and_answer_annotation",
+    "must_not_score_until_annotated": true
+  },
+  {
+    "id": "sem2",
+    "question": "Quels travaux abordent le raisonnement en plusieurs étapes ?",
+    "required_reasoning": "Semantic mapping to reasoning topics",
+    "hops": null,
+    "expected": null,
+    "status": "pending_topic_and_answer_annotation",
+    "must_not_score_until_annotated": true
+  },
+  {
+    "id": "sem3",
+    "question": "Quels articles combinent récupération d'information et génération de texte ?",
+    "required_reasoning": "Semantic interpretation and comparison across abstracts",
+    "hops": null,
+    "expected": null,
+    "status": "pending_topic_and_answer_annotation",
+    "must_not_score_until_annotated": true
+  },
+  {
+    "id": "sem4",
+    "question": "Quels travaux cherchent à traiter des séquences plus longues et quels auteurs y contribuent ?",
+    "required_reasoning": "Semantic paper selection, then Paper <- Author",
+    "hops": 2,
+    "expected": null,
+    "status": "pending_topic_and_answer_annotation",
+    "must_not_score_until_annotated": true
+  }
+]

@@ -1,0 +1,175 @@
+{
+  "document": {
+    "id": "v3:html:2004.05150",
+    "title": "Longformer: The Long-Document Transformer",
+    "source": "https://arxiv.org/abs/2004.05150"
+  },
+  "graph": {
+    "entities": [
+      {
+        "id": "v3:paper:2004.05150",
+        "name": "Longformer: The Long-Document Transformer",
+        "type": "Paper"
+      },
+      {
+        "id": "v3:author:defd0919e773ee587b42",
+        "name": "Iz Beltagy",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:b09902a4a2e07ba229a3",
+        "name": "Matthew E. Peters",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:38c0cc4b48243a0605d1",
+        "name": "Arman Cohan",
+        "type": "Author"
+      },
+      {
+        "id": "v3:topic:8718578cf714ac81a4be",
+        "name": "long-context modeling",
+        "type": "Topic"
+      },
+      {
+        "id": "v3:topic:b083988cc669ffb845aa",
+        "name": "attention mechanisms",
+        "type": "Topic"
+      },
+      {
+        "id": "v3:topic:05ad72bca39f3f544731",
+        "name": "language-model pretraining",
+        "type": "Topic"
+      },
+      {
+        "id": "v3:topic:70647950c4f788b4c151",
+        "name": "question answering",
+        "type": "Topic"
+      },
+      {
+        "id": "v3:topic:7846ce4ebb5b98bf8b80",
+        "name": "summarization",
+        "type": "Topic"
+      }
+    ],
+    "relations": [
+      {
+        "source": "v3:author:defd0919e773ee587b42",
+        "target": "v3:paper:2004.05150",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Longformer: The Long-Document Transformer\" /><meta name=\"citation_author\" content=\"Beltagy, Iz\" />",
+        "evidence_start": 4925,
+        "evidence_end": 5060,
+        "evidence_parts": [
+          {
+            "value": "Longformer: The Long-Document Transformer",
+            "quote": "<meta name=\"citation_title\" content=\"Longformer: The Long-Document Transformer\" />",
+            "start": 4925,
+            "end": 5007
+          },
+          {
+            "value": "Beltagy, Iz",
+            "quote": "<meta name=\"citation_author\" content=\"Beltagy, Iz\" />",
+            "start": 5007,
+            "end": 5060
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:b09902a4a2e07ba229a3",
+        "target": "v3:paper:2004.05150",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Longformer: The Long-Document Transformer\" /><meta name=\"citation_author\" content=\"Beltagy, Iz\" /><meta name=\"citation_author\" content=\"Peters, Matthew E.\" />",
+        "evidence_start": 4925,
+        "evidence_end": 5120,
+        "evidence_parts": [
+          {
+            "value": "Longformer: The Long-Document Transformer",
+            "quote": "<meta name=\"citation_title\" content=\"Longformer: The Long-Document Transformer\" />",
+            "start": 4925,
+            "end": 5007
+          },
+          {
+            "value": "Peters, Matthew E.",
+            "quote": "<meta name=\"citation_author\" content=\"Peters, Matthew E.\" />",
+            "start": 5060,
+            "end": 5120
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:38c0cc4b48243a0605d1",
+        "target": "v3:paper:2004.05150",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Longformer: The Long-Document Transformer\" /><meta name=\"citation_author\" content=\"Beltagy, Iz\" /><meta name=\"citation_author\" content=\"Peters, Matthew E.\" /><meta name=\"citation_author\" content=\"Cohan, Arman\" />",
+        "evidence_start": 4925,
+        "evidence_end": 5174,
+        "evidence_parts": [
+          {
+            "value": "Longformer: The Long-Document Transformer",
+            "quote": "<meta name=\"citation_title\" content=\"Longformer: The Long-Document Transformer\" />",
+            "start": 4925,
+            "end": 5007
+          },
+          {
+            "value": "Cohan, Arman",
+            "quote": "<meta name=\"citation_author\" content=\"Cohan, Arman\" />",
+            "start": 5120,
+            "end": 5174
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:paper:2004.05150",
+        "target": "v3:topic:8718578cf714ac81a4be",
+        "type": "ABOUT",
+        "quote": "we introduce the Longformer with an attention mechanism that scales linearly with sequence length, making it easy to process documents of thousands of tokens or longer.",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      },
+      {
+        "source": "v3:paper:2004.05150",
+        "target": "v3:topic:b083988cc669ffb845aa",
+        "type": "ABOUT",
+        "quote": "Longformer's attention mechanism is a drop-in replacement for the standard self-attention and combines a local windowed attention with a task motivated global attention.",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      },
+      {
+        "source": "v3:paper:2004.05150",
+        "target": "v3:topic:05ad72bca39f3f544731",
+        "type": "ABOUT",
+        "quote": "we also pretrain Longformer and finetune it on a variety of downstream tasks.",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      },
+      {
+        "source": "v3:paper:2004.05150",
+        "target": "v3:topic:70647950c4f788b4c151",
+        "type": "ABOUT",
+        "quote": "sets new state-of-the-art results on WikiHop and TriviaQA.",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      },
+      {
+        "source": "v3:paper:2004.05150",
+        "target": "v3:topic:7846ce4ebb5b98bf8b80",
+        "type": "ABOUT",
+        "quote": "demonstrate its effectiveness on the arXiv summarization dataset.",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      }
+    ]
+  },
+  "mode": "deterministic_html_metadata",
+  "arxiv_id": "2004.05150",
+  "abstract": "Transformer-based models are unable to process long sequences due to their self-attention operation, which scales quadratically with the sequence length. To address this limitation, we introduce the Longformer with an attention mechanism that scales linearly with sequence length, making it easy to process documents of thousands of tokens or longer. Longformer's attention mechanism is a drop-in replacement for the standard self-attention and combines a local windowed attention with a task motivated global attention. Following prior work on long-sequence transformers, we evaluate Longformer on character-level language modeling and achieve state-of-the-art results on text8 and enwik8. In contrast to most prior work, we also pretrain Longformer and finetune it on a variety of downstream tasks. Our pretrained Longformer consistently outperforms RoBERTa on long document tasks and sets new state-of-the-art results on WikiHop and TriviaQA. We finally introduce the Longformer-Encoder-Decoder (LED), a Longformer variant for supporting long document generative sequence-to-sequence tasks, and demonstrate its effectiveness on the arXiv summarization dataset.",
+  "llm_calls": 0,
+  "source_sha256": "63de0a5496e0bc9cde0a891168b6dd8fed787a9371636aa1283d1b44790eb04e"
+}

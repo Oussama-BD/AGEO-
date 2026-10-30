@@ -1,0 +1,324 @@
+{
+  "document": {
+    "id": "real-193eee4e31aaf15abcf9bbff630167d5e6181a518ee2caba085f16f70451286b",
+    "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "source": "https://arxiv.org/abs/2005.11401#page=1"
+  },
+  "text": "Retrieval-Augmented Generation for\nKnowledge-Intensive NLP Tasks\nPatrick Lewis†‡, Ethan Perez⋆,\nAleksandra Piktus†, Fabio Petroni†, Vladimir Karpukhin†, Naman Goyal†, Heinrich Küttler†,\nMike Lewis†, Wen-tau Yih†, Tim Rocktäschel†‡, Sebastian Riedel†‡, Douwe Kiela†\n†Facebook AI Research;‡University College London;⋆New York University;\nplewis@fb.com\n",
+  "graph": {
+    "entities": [
+      {
+        "id": "8926fc8d8572545210be4495",
+        "name": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+        "type": "Paper"
+      },
+      {
+        "id": "25fe7622443394b07bfefe2f",
+        "name": "Patrick Lewis",
+        "type": "Author"
+      },
+      {
+        "id": "8f7c04825fc9e2f34b90b2bb",
+        "name": "Facebook AI Research",
+        "type": "Institution"
+      },
+      {
+        "id": "7222a30805a2dbc2784e435d",
+        "name": "University College London",
+        "type": "Institution"
+      },
+      {
+        "id": "8d30a8d6a113d12098aa5c16",
+        "name": "Ethan Perez",
+        "type": "Author"
+      },
+      {
+        "id": "3043db59d0d3a27efb8c124a",
+        "name": "New York University",
+        "type": "Institution"
+      },
+      {
+        "id": "4921c35b5bfd45e451e401b2",
+        "name": "Aleksandra Piktus",
+        "type": "Author"
+      },
+      {
+        "id": "17b7e9c245f4f99c9cad4f01",
+        "name": "Fabio Petroni",
+        "type": "Author"
+      },
+      {
+        "id": "4b844f985e6a7f40b3780b64",
+        "name": "Vladimir Karpukhin",
+        "type": "Author"
+      },
+      {
+        "id": "c7e7fb4e944c16b0ac42bde6",
+        "name": "Naman Goyal",
+        "type": "Author"
+      },
+      {
+        "id": "663c5fc9ca3c4c7bcf310e6a",
+        "name": "Heinrich Küttler",
+        "type": "Author"
+      },
+      {
+        "id": "ed76f8fcbddfcb4581d39bff",
+        "name": "Mike Lewis",
+        "type": "Author"
+      },
+      {
+        "id": "fb3dd7155dd42e2c965ae768",
+        "name": "Wen-tau Yih",
+        "type": "Author"
+      },
+      {
+        "id": "552ff36044284ffa5752847f",
+        "name": "Tim Rocktäschel",
+        "type": "Author"
+      },
+      {
+        "id": "aa943da0503340b580ada2d0",
+        "name": "Sebastian Riedel",
+        "type": "Author"
+      },
+      {
+        "id": "76950ba1420ba39294bf3f1e",
+        "name": "Douwe Kiela",
+        "type": "Author"
+      }
+    ],
+    "relations": [
+      {
+        "source": "25fe7622443394b07bfefe2f",
+        "target": "8926fc8d8572545210be4495",
+        "type": "AUTHORED",
+        "quote": "Retrieval-Augmented Generation for\nKnowledge-Intensive NLP Tasks\nPatrick Lewis†‡, Ethan Perez⋆,\nAleksandra Piktus†, Fabio Petroni†, Vladimir Karpukhin†, Naman Goyal†, Heinrich Küttler†,\nMike Lewis†, Wen-tau Yih†, Tim Rocktäschel†‡, Sebastian Riedel†‡, Douwe Kiela†\n†Facebook AI Research;‡University College London;⋆New York University;\nplewis@fb.com",
+        "evidence_start": 0,
+        "evidence_end": 349
+      },
+      {
+        "source": "25fe7622443394b07bfefe2f",
+        "target": "8f7c04825fc9e2f34b90b2bb",
+        "type": "AFFILIATED_WITH",
+        "quote": "Retrieval-Augmented Generation for\nKnowledge-Intensive NLP Tasks\nPatrick Lewis†‡, Ethan Perez⋆,\nAleksandra Piktus†, Fabio Petroni†, Vladimir Karpukhin†, Naman Goyal†, Heinrich Küttler†,\nMike Lewis†, Wen-tau Yih†, Tim Rocktäschel†‡, Sebastian Riedel†‡, Douwe Kiela†\n†Facebook AI Research;‡University College London;⋆New York University;\nplewis@fb.com",
+        "evidence_start": 0,
+        "evidence_end": 349
+      },
+      {
+        "source": "25fe7622443394b07bfefe2f",
+        "target": "7222a30805a2dbc2784e435d",
+        "type": "AFFILIATED_WITH",
+        "quote": "Retrieval-Augmented Generation for\nKnowledge-Intensive NLP Tasks\nPatrick Lewis†‡, Ethan Perez⋆,\nAleksandra Piktus†, Fabio Petroni†, Vladimir Karpukhin†, Naman Goyal†, Heinrich Küttler†,\nMike Lewis†, Wen-tau Yih†, Tim Rocktäschel†‡, Sebastian Riedel†‡, Douwe Kiela†\n†Facebook AI Research;‡University College London;⋆New York University;\nplewis@fb.com",
+        "evidence_start": 0,
+        "evidence_end": 349
+      },
+      {
+        "source": "8d30a8d6a113d12098aa5c16",
+        "target": "8926fc8d8572545210be4495",
+        "type": "AUTHORED",
+        "quote": "Retrieval-Augmented Generation for\nKnowledge-Intensive NLP Tasks\nPatrick Lewis†‡, Ethan Perez⋆,\nAleksandra Piktus†, Fabio Petroni†, Vladimir Karpukhin†, Naman Goyal†, Heinrich Küttler†,\nMike Lewis†, Wen-tau Yih†, Tim Rocktäschel†‡, Sebastian Riedel†‡, Douwe Kiela†\n†Facebook AI Research;‡University College London;⋆New York University;\nplewis@fb.com",
+        "evidence_start": 0,
+        "evidence_end": 349
+      },
+      {
+        "source": "8d30a8d6a113d12098aa5c16",
+        "target": "3043db59d0d3a27efb8c124a",
+        "type": "AFFILIATED_WITH",
+        "quote": "Retrieval-Augmented Generation for\nKnowledge-Intensive NLP Tasks\nPatrick Lewis†‡, Ethan Perez⋆,\nAleksandra Piktus†, Fabio Petroni†, Vladimir Karpukhin†, Naman Goyal†, Heinrich Küttler†,\nMike Lewis†, Wen-tau Yih†, Tim Rocktäschel†‡, Sebastian Riedel†‡, Douwe Kiela†\n†Facebook AI Research;‡University College London;⋆New York University;\nplewis@fb.com",
+        "evidence_start": 0,
+        "evidence_end": 349
+      },
+      {
+        "source": "4921c35b5bfd45e451e401b2",
+        "target": "8926fc8d8572545210be4495",
+        "type": "AUTHORED",
+        "quote": "Retrieval-Augmented Generation for\nKnowledge-Intensive NLP Tasks\nPatrick Lewis†‡, Ethan Perez⋆,\nAleksandra Piktus†, Fabio Petroni†, Vladimir Karpukhin†, Naman Goyal†, Heinrich Küttler†,\nMike Lewis†, Wen-tau Yih†, Tim Rocktäschel†‡, Sebastian Riedel†‡, Douwe Kiela†\n†Facebook AI Research;‡University College London;⋆New York University;\nplewis@fb.com",
+        "evidence_start": 0,
+        "evidence_end": 349
+      },
+      {
+        "source": "4921c35b5bfd45e451e401b2",
+        "target": "8f7c04825fc9e2f34b90b2bb",
+        "type": "AFFILIATED_WITH",
+        "quote": "Retrieval-Augmented Generation for\nKnowledge-Intensive NLP Tasks\nPatrick Lewis†‡, Ethan Perez⋆,\nAleksandra Piktus†, Fabio Petroni†, Vladimir Karpukhin†, Naman Goyal†, Heinrich Küttler†,\nMike Lewis†, Wen-tau Yih†, Tim Rocktäschel†‡, Sebastian Riedel†‡, Douwe Kiela†\n†Facebook AI Research;‡University College London;⋆New York University;\nplewis@fb.com",
+        "evidence_start": 0,
+        "evidence_end": 349
+      },
+      {
+        "source": "17b7e9c245f4f99c9cad4f01",
+        "target": "8926fc8d8572545210be4495",
+        "type": "AUTHORED",
+        "quote": "Retrieval-Augmented Generation for\nKnowledge-Intensive NLP Tasks\nPatrick Lewis†‡, Ethan Perez⋆,\nAleksandra Piktus†, Fabio Petroni†, Vladimir Karpukhin†, Naman Goyal†, Heinrich Küttler†,\nMike Lewis†, Wen-tau Yih†, Tim Rocktäschel†‡, Sebastian Riedel†‡, Douwe Kiela†\n†Facebook AI Research;‡University College London;⋆New York University;\nplewis@fb.com",
+        "evidence_start": 0,
+        "evidence_end": 349
+      },
+      {
+        "source": "17b7e9c245f4f99c9cad4f01",
+        "target": "8f7c04825fc9e2f34b90b2bb",
+        "type": "AFFILIATED_WITH",
+        "quote": "Retrieval-Augmented Generation for\nKnowledge-Intensive NLP Tasks\nPatrick Lewis†‡, Ethan Perez⋆,\nAleksandra Piktus†, Fabio Petroni†, Vladimir Karpukhin†, Naman Goyal†, Heinrich Küttler†,\nMike Lewis†, Wen-tau Yih†, Tim Rocktäschel†‡, Sebastian Riedel†‡, Douwe Kiela†\n†Facebook AI Research;‡University College London;⋆New York University;\nplewis@fb.com",
+        "evidence_start": 0,
+        "evidence_end": 349
+      },
+      {
+        "source": "4b844f985e6a7f40b3780b64",
+        "target": "8926fc8d8572545210be4495",
+        "type": "AUTHORED",
+        "quote": "Retrieval-Augmented Generation for\nKnowledge-Intensive NLP Tasks\nPatrick Lewis†‡, Ethan Perez⋆,\nAleksandra Piktus†, Fabio Petroni†, Vladimir Karpukhin†, Naman Goyal†, Heinrich Küttler†,\nMike Lewis†, Wen-tau Yih†, Tim Rocktäschel†‡, Sebastian Riedel†‡, Douwe Kiela†\n†Facebook AI Research;‡University College London;⋆New York University;\nplewis@fb.com",
+        "evidence_start": 0,
+        "evidence_end": 349
+      },
+      {
+        "source": "4b844f985e6a7f40b3780b64",
+        "target": "8f7c04825fc9e2f34b90b2bb",
+        "type": "AFFILIATED_WITH",
+        "quote": "Retrieval-Augmented Generation for\nKnowledge-Intensive NLP Tasks\nPatrick Lewis†‡, Ethan Perez⋆,\nAleksandra Piktus†, Fabio Petroni†, Vladimir Karpukhin†, Naman Goyal†, Heinrich Küttler†,\nMike Lewis†, Wen-tau Yih†, Tim Rocktäschel†‡, Sebastian Riedel†‡, Douwe Kiela†\n†Facebook AI Research;‡University College London;⋆New York University;\nplewis@fb.com",
+        "evidence_start": 0,
+        "evidence_end": 349
+      },
+      {
+        "source": "c7e7fb4e944c16b0ac42bde6",
+        "target": "8926fc8d8572545210be4495",
+        "type": "AUTHORED",
+        "quote": "Retrieval-Augmented Generation for\nKnowledge-Intensive NLP Tasks\nPatrick Lewis†‡, Ethan Perez⋆,\nAleksandra Piktus†, Fabio Petroni†, Vladimir Karpukhin†, Naman Goyal†, Heinrich Küttler†,\nMike Lewis†, Wen-tau Yih†, Tim Rocktäschel†‡, Sebastian Riedel†‡, Douwe Kiela†\n†Facebook AI Research;‡University College London;⋆New York University;\nplewis@fb.com",
+        "evidence_start": 0,
+        "evidence_end": 349
+      },
+      {
+        "source": "c7e7fb4e944c16b0ac42bde6",
+        "target": "8f7c04825fc9e2f34b90b2bb",
+        "type": "AFFILIATED_WITH",
+        "quote": "Retrieval-Augmented Generation for\nKnowledge-Intensive NLP Tasks\nPatrick Lewis†‡, Ethan Perez⋆,\nAleksandra Piktus†, Fabio Petroni†, Vladimir Karpukhin†, Naman Goyal†, Heinrich Küttler†,\nMike Lewis†, Wen-tau Yih†, Tim Rocktäschel†‡, Sebastian Riedel†‡, Douwe Kiela†\n†Facebook AI Research;‡University College London;⋆New York University;\nplewis@fb.com",
+        "evidence_start": 0,
+        "evidence_end": 349
+      },
+      {
+        "source": "663c5fc9ca3c4c7bcf310e6a",
+        "target": "8926fc8d8572545210be4495",
+        "type": "AUTHORED",
+        "quote": "Retrieval-Augmented Generation for\nKnowledge-Intensive NLP Tasks\nPatrick Lewis†‡, Ethan Perez⋆,\nAleksandra Piktus†, Fabio Petroni†, Vladimir Karpukhin†, Naman Goyal†, Heinrich Küttler†,\nMike Lewis†, Wen-tau Yih†, Tim Rocktäschel†‡, Sebastian Riedel†‡, Douwe Kiela†\n†Facebook AI Research;‡University College London;⋆New York University;\nplewis@fb.com",
+        "evidence_start": 0,
+        "evidence_end": 349
+      },
+      {
+        "source": "663c5fc9ca3c4c7bcf310e6a",
+        "target": "8f7c04825fc9e2f34b90b2bb",
+        "type": "AFFILIATED_WITH",
+        "quote": "Retrieval-Augmented Generation for\nKnowledge-Intensive NLP Tasks\nPatrick Lewis†‡, Ethan Perez⋆,\nAleksandra Piktus†, Fabio Petroni†, Vladimir Karpukhin†, Naman Goyal†, Heinrich Küttler†,\nMike Lewis†, Wen-tau Yih†, Tim Rocktäschel†‡, Sebastian Riedel†‡, Douwe Kiela†\n†Facebook AI Research;‡University College London;⋆New York University;\nplewis@fb.com",
+        "evidence_start": 0,
+        "evidence_end": 349
+      },
+      {
+        "source": "ed76f8fcbddfcb4581d39bff",
+        "target": "8926fc8d8572545210be4495",
+        "type": "AUTHORED",
+        "quote": "Retrieval-Augmented Generation for\nKnowledge-Intensive NLP Tasks\nPatrick Lewis†‡, Ethan Perez⋆,\nAleksandra Piktus†, Fabio Petroni†, Vladimir Karpukhin†, Naman Goyal†, Heinrich Küttler†,\nMike Lewis†, Wen-tau Yih†, Tim Rocktäschel†‡, Sebastian Riedel†‡, Douwe Kiela†\n†Facebook AI Research;‡University College London;⋆New York University;\nplewis@fb.com",
+        "evidence_start": 0,
+        "evidence_end": 349
+      },
+      {
+        "source": "ed76f8fcbddfcb4581d39bff",
+        "target": "8f7c04825fc9e2f34b90b2bb",
+        "type": "AFFILIATED_WITH",
+        "quote": "Retrieval-Augmented Generation for\nKnowledge-Intensive NLP Tasks\nPatrick Lewis†‡, Ethan Perez⋆,\nAleksandra Piktus†, Fabio Petroni†, Vladimir Karpukhin†, Naman Goyal†, Heinrich Küttler†,\nMike Lewis†, Wen-tau Yih†, Tim Rocktäschel†‡, Sebastian Riedel†‡, Douwe Kiela†\n†Facebook AI Research;‡University College London;⋆New York University;\nplewis@fb.com",
+        "evidence_start": 0,
+        "evidence_end": 349
+      },
+      {
+        "source": "fb3dd7155dd42e2c965ae768",
+        "target": "8926fc8d8572545210be4495",
+        "type": "AUTHORED",
+        "quote": "Retrieval-Augmented Generation for\nKnowledge-Intensive NLP Tasks\nPatrick Lewis†‡, Ethan Perez⋆,\nAleksandra Piktus†, Fabio Petroni†, Vladimir Karpukhin†, Naman Goyal†, Heinrich Küttler†,\nMike Lewis†, Wen-tau Yih†, Tim Rocktäschel†‡, Sebastian Riedel†‡, Douwe Kiela†\n†Facebook AI Research;‡University College London;⋆New York University;\nplewis@fb.com",
+        "evidence_start": 0,
+        "evidence_end": 349
+      },
+      {
+        "source": "fb3dd7155dd42e2c965ae768",
+        "target": "8f7c04825fc9e2f34b90b2bb",
+        "type": "AFFILIATED_WITH",
+        "quote": "Retrieval-Augmented Generation for\nKnowledge-Intensive NLP Tasks\nPatrick Lewis†‡, Ethan Perez⋆,\nAleksandra Piktus†, Fabio Petroni†, Vladimir Karpukhin†, Naman Goyal†, Heinrich Küttler†,\nMike Lewis†, Wen-tau Yih†, Tim Rocktäschel†‡, Sebastian Riedel†‡, Douwe Kiela†\n†Facebook AI Research;‡University College London;⋆New York University;\nplewis@fb.com",
+        "evidence_start": 0,
+        "evidence_end": 349
+      },
+      {
+        "source": "552ff36044284ffa5752847f",
+        "target": "8926fc8d8572545210be4495",
+        "type": "AUTHORED",
+        "quote": "Retrieval-Augmented Generation for\nKnowledge-Intensive NLP Tasks\nPatrick Lewis†‡, Ethan Perez⋆,\nAleksandra Piktus†, Fabio Petroni†, Vladimir Karpukhin†, Naman Goyal†, Heinrich Küttler†,\nMike Lewis†, Wen-tau Yih†, Tim Rocktäschel†‡, Sebastian Riedel†‡, Douwe Kiela†\n†Facebook AI Research;‡University College London;⋆New York University;\nplewis@fb.com",
+        "evidence_start": 0,
+        "evidence_end": 349
+      },
+      {
+        "source": "552ff36044284ffa5752847f",
+        "target": "8f7c04825fc9e2f34b90b2bb",
+        "type": "AFFILIATED_WITH",
+        "quote": "Retrieval-Augmented Generation for\nKnowledge-Intensive NLP Tasks\nPatrick Lewis†‡, Ethan Perez⋆,\nAleksandra Piktus†, Fabio Petroni†, Vladimir Karpukhin†, Naman Goyal†, Heinrich Küttler†,\nMike Lewis†, Wen-tau Yih†, Tim Rocktäschel†‡, Sebastian Riedel†‡, Douwe Kiela†\n†Facebook AI Research;‡University College London;⋆New York University;\nplewis@fb.com",
+        "evidence_start": 0,
+        "evidence_end": 349
+      },
+      {
+        "source": "552ff36044284ffa5752847f",
+        "target": "7222a30805a2dbc2784e435d",
+        "type": "AFFILIATED_WITH",
+        "quote": "Retrieval-Augmented Generation for\nKnowledge-Intensive NLP Tasks\nPatrick Lewis†‡, Ethan Perez⋆,\nAleksandra Piktus†, Fabio Petroni†, Vladimir Karpukhin†, Naman Goyal†, Heinrich Küttler†,\nMike Lewis†, Wen-tau Yih†, Tim Rocktäschel†‡, Sebastian Riedel†‡, Douwe Kiela†\n†Facebook AI Research;‡University College London;⋆New York University;\nplewis@fb.com",
+        "evidence_start": 0,
+        "evidence_end": 349
+      },
+      {
+        "source": "aa943da0503340b580ada2d0",
+        "target": "8926fc8d8572545210be4495",
+        "type": "AUTHORED",
+        "quote": "Retrieval-Augmented Generation for\nKnowledge-Intensive NLP Tasks\nPatrick Lewis†‡, Ethan Perez⋆,\nAleksandra Piktus†, Fabio Petroni†, Vladimir Karpukhin†, Naman Goyal†, Heinrich Küttler†,\nMike Lewis†, Wen-tau Yih†, Tim Rocktäschel†‡, Sebastian Riedel†‡, Douwe Kiela†\n†Facebook AI Research;‡University College London;⋆New York University;\nplewis@fb.com",
+        "evidence_start": 0,
+        "evidence_end": 349
+      },
+      {
+        "source": "aa943da0503340b580ada2d0",
+        "target": "8f7c04825fc9e2f34b90b2bb",
+        "type": "AFFILIATED_WITH",
+        "quote": "Retrieval-Augmented Generation for\nKnowledge-Intensive NLP Tasks\nPatrick Lewis†‡, Ethan Perez⋆,\nAleksandra Piktus†, Fabio Petroni†, Vladimir Karpukhin†, Naman Goyal†, Heinrich Küttler†,\nMike Lewis†, Wen-tau Yih†, Tim Rocktäschel†‡, Sebastian Riedel†‡, Douwe Kiela†\n†Facebook AI Research;‡University College London;⋆New York University;\nplewis@fb.com",
+        "evidence_start": 0,
+        "evidence_end": 349
+      },
+      {
+        "source": "aa943da0503340b580ada2d0",
+        "target": "7222a30805a2dbc2784e435d",
+        "type": "AFFILIATED_WITH",
+        "quote": "Retrieval-Augmented Generation for\nKnowledge-Intensive NLP Tasks\nPatrick Lewis†‡, Ethan Perez⋆,\nAleksandra Piktus†, Fabio Petroni†, Vladimir Karpukhin†, Naman Goyal†, Heinrich Küttler†,\nMike Lewis†, Wen-tau Yih†, Tim Rocktäschel†‡, Sebastian Riedel†‡, Douwe Kiela†\n†Facebook AI Research;‡University College London;⋆New York University;\nplewis@fb.com",
+        "evidence_start": 0,
+        "evidence_end": 349
+      },
+      {
+        "source": "76950ba1420ba39294bf3f1e",
+        "target": "8926fc8d8572545210be4495",
+        "type": "AUTHORED",
+        "quote": "Retrieval-Augmented Generation for\nKnowledge-Intensive NLP Tasks\nPatrick Lewis†‡, Ethan Perez⋆,\nAleksandra Piktus†, Fabio Petroni†, Vladimir Karpukhin†, Naman Goyal†, Heinrich Küttler†,\nMike Lewis†, Wen-tau Yih†, Tim Rocktäschel†‡, Sebastian Riedel†‡, Douwe Kiela†\n†Facebook AI Research;‡University College London;⋆New York University;\nplewis@fb.com",
+        "evidence_start": 0,
+        "evidence_end": 349
+      },
+      {
+        "source": "76950ba1420ba39294bf3f1e",
+        "target": "8f7c04825fc9e2f34b90b2bb",
+        "type": "AFFILIATED_WITH",
+        "quote": "Retrieval-Augmented Generation for\nKnowledge-Intensive NLP Tasks\nPatrick Lewis†‡, Ethan Perez⋆,\nAleksandra Piktus†, Fabio Petroni†, Vladimir Karpukhin†, Naman Goyal†, Heinrich Küttler†,\nMike Lewis†, Wen-tau Yih†, Tim Rocktäschel†‡, Sebastian Riedel†‡, Douwe Kiela†\n†Facebook AI Research;‡University College London;⋆New York University;\nplewis@fb.com",
+        "evidence_start": 0,
+        "evidence_end": 349
+      }
+    ]
+  },
+  "source_file": "rag.pdf",
+  "page": 1,
+  "annotation_scope": "Title, full author listing and current affiliations in front matter; no footnote historical affiliations",
+  "annotated_by": "assistant_source_review",
+  "review_status": "pending_independent_human_review",
+  "evaluation_types": [
+    "Author",
+    "Institution",
+    "Paper"
+  ],
+  "evaluation_relations": [
+    "AUTHORED",
+    "AFFILIATED_WITH"
+  ]
+}

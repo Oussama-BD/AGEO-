@@ -1,0 +1,203 @@
+{
+  "document": {
+    "id": "v3:pdf:rag",
+    "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "source": "https://arxiv.org/abs/2005.11401#page=1"
+  },
+  "graph": {
+    "entities": [
+      {
+        "id": "v3:author:d16f740572c61fd2bddf",
+        "name": "Patrick Lewis",
+        "type": "Author"
+      },
+      {
+        "id": "v3:institution:0c9f320ae89032223da1",
+        "name": "Facebook AI Research",
+        "type": "Institution"
+      },
+      {
+        "id": "v3:author:d6cc5094f341f6279a23",
+        "name": "Ethan Perez",
+        "type": "Author"
+      },
+      {
+        "id": "v3:institution:c83aeae887827902336d",
+        "name": "New York University",
+        "type": "Institution"
+      },
+      {
+        "id": "v3:author:904e808349f4f1f022a8",
+        "name": "Aleksandra Piktus",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:b348b40c4684de44f3a7",
+        "name": "Fabio Petroni",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:65098aa7b00155206800",
+        "name": "Vladimir Karpukhin",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:b473ae6f6e5b071c55dd",
+        "name": "Naman Goyal",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:6298ab9f7b4a02ad7c80",
+        "name": "Heinrich Küttler",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:fcd336ece37a47966adc",
+        "name": "Mike Lewis",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:1ce67ad8ee2de9f27f02",
+        "name": "Wen-tau Yih",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:9751683091d411d4e60f",
+        "name": "Tim Rocktäschel",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:b8fa2336a7c823b62abd",
+        "name": "Sebastian Riedel",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:0ef80719966b7d98cad4",
+        "name": "Douwe Kiela",
+        "type": "Author"
+      }
+    ],
+    "relations": [
+      {
+        "source": "v3:author:d16f740572c61fd2bddf",
+        "target": "v3:institution:0c9f320ae89032223da1",
+        "type": "AFFILIATED_WITH",
+        "quote": "Patrick Lewis†",
+        "evidence_start": 65,
+        "evidence_end": 79,
+        "source_kind": "pdf_extracted_text",
+        "method": "previous_gemini_2.5_flash_prediction"
+      },
+      {
+        "source": "v3:author:d6cc5094f341f6279a23",
+        "target": "v3:institution:c83aeae887827902336d",
+        "type": "AFFILIATED_WITH",
+        "quote": "Ethan Perez⋆",
+        "evidence_start": 82,
+        "evidence_end": 94,
+        "source_kind": "pdf_extracted_text",
+        "method": "previous_gemini_2.5_flash_prediction"
+      },
+      {
+        "source": "v3:author:904e808349f4f1f022a8",
+        "target": "v3:institution:0c9f320ae89032223da1",
+        "type": "AFFILIATED_WITH",
+        "quote": "Aleksandra Piktus†",
+        "evidence_start": 96,
+        "evidence_end": 114,
+        "source_kind": "pdf_extracted_text",
+        "method": "previous_gemini_2.5_flash_prediction"
+      },
+      {
+        "source": "v3:author:b348b40c4684de44f3a7",
+        "target": "v3:institution:0c9f320ae89032223da1",
+        "type": "AFFILIATED_WITH",
+        "quote": "Fabio Petroni†",
+        "evidence_start": 116,
+        "evidence_end": 130,
+        "source_kind": "pdf_extracted_text",
+        "method": "previous_gemini_2.5_flash_prediction"
+      },
+      {
+        "source": "v3:author:65098aa7b00155206800",
+        "target": "v3:institution:0c9f320ae89032223da1",
+        "type": "AFFILIATED_WITH",
+        "quote": "Vladimir Karpukhin†",
+        "evidence_start": 132,
+        "evidence_end": 151,
+        "source_kind": "pdf_extracted_text",
+        "method": "previous_gemini_2.5_flash_prediction"
+      },
+      {
+        "source": "v3:author:b473ae6f6e5b071c55dd",
+        "target": "v3:institution:0c9f320ae89032223da1",
+        "type": "AFFILIATED_WITH",
+        "quote": "Naman Goyal†",
+        "evidence_start": 153,
+        "evidence_end": 165,
+        "source_kind": "pdf_extracted_text",
+        "method": "previous_gemini_2.5_flash_prediction"
+      },
+      {
+        "source": "v3:author:6298ab9f7b4a02ad7c80",
+        "target": "v3:institution:0c9f320ae89032223da1",
+        "type": "AFFILIATED_WITH",
+        "quote": "Heinrich Küttler†",
+        "evidence_start": 167,
+        "evidence_end": 184,
+        "source_kind": "pdf_extracted_text",
+        "method": "previous_gemini_2.5_flash_prediction"
+      },
+      {
+        "source": "v3:author:fcd336ece37a47966adc",
+        "target": "v3:institution:0c9f320ae89032223da1",
+        "type": "AFFILIATED_WITH",
+        "quote": "Mike Lewis†",
+        "evidence_start": 186,
+        "evidence_end": 197,
+        "source_kind": "pdf_extracted_text",
+        "method": "previous_gemini_2.5_flash_prediction"
+      },
+      {
+        "source": "v3:author:1ce67ad8ee2de9f27f02",
+        "target": "v3:institution:0c9f320ae89032223da1",
+        "type": "AFFILIATED_WITH",
+        "quote": "Wen-tau Yih†",
+        "evidence_start": 199,
+        "evidence_end": 211,
+        "source_kind": "pdf_extracted_text",
+        "method": "previous_gemini_2.5_flash_prediction"
+      },
+      {
+        "source": "v3:author:9751683091d411d4e60f",
+        "target": "v3:institution:0c9f320ae89032223da1",
+        "type": "AFFILIATED_WITH",
+        "quote": "Tim Rocktäschel†",
+        "evidence_start": 213,
+        "evidence_end": 229,
+        "source_kind": "pdf_extracted_text",
+        "method": "previous_gemini_2.5_flash_prediction"
+      },
+      {
+        "source": "v3:author:b8fa2336a7c823b62abd",
+        "target": "v3:institution:0c9f320ae89032223da1",
+        "type": "AFFILIATED_WITH",
+        "quote": "Sebastian Riedel†",
+        "evidence_start": 232,
+        "evidence_end": 249,
+        "source_kind": "pdf_extracted_text",
+        "method": "previous_gemini_2.5_flash_prediction"
+      },
+      {
+        "source": "v3:author:0ef80719966b7d98cad4",
+        "target": "v3:institution:0c9f320ae89032223da1",
+        "type": "AFFILIATED_WITH",
+        "quote": "Douwe Kiela†",
+        "evidence_start": 252,
+        "evidence_end": 264,
+        "source_kind": "pdf_extracted_text",
+        "method": "previous_gemini_2.5_flash_prediction"
+      }
+    ]
+  }
+}

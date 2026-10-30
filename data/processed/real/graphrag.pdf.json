@@ -1,0 +1,275 @@
+{
+  "document": {
+    "id": "real-60a1c6d7810ba6f77342f40abe4ede442ff70f495e789c67f9f8644a65c98b41",
+    "title": "From Local to Global: A GraphRAG Approach to Query-Focused Summarization",
+    "source": "https://arxiv.org/abs/2404.16130#page=1"
+  },
+  "text": "From Local to Global: A GraphRAG Approach to\nQuery-Focused Summarization\nDarren Edge1† Ha Trinh1† Newman Cheng2 Joshua Bradley2 Alex Chao3\nApurva Mody3 Steven Truitt2 Dasha Metropolitansky1 Robert Osazuwa Ness1\nJonathan Larson1\n1Microsoft Research\n2Microsoft Strategic Missions and Technologies\n3Microsoft Office of the CTO\n{daedge,trinhha,newmancheng,joshbradley,achao,moapurva,\nsteventruitt,dasham,robertness,jolarso}@microsoft.com\n†These authors contributed equally to this work\n",
+  "graph": {
+    "entities": [
+      {
+        "id": "7d7a1c7e8cb14444c271d583",
+        "name": "From Local to Global: A GraphRAG Approach to Query-Focused Summarization",
+        "type": "Paper"
+      },
+      {
+        "id": "a4c526417ceb8797daac61a3",
+        "name": "Darren Edge",
+        "type": "Author"
+      },
+      {
+        "id": "b6e549591da02c48114d5c89",
+        "name": "Ha Trinh",
+        "type": "Author"
+      },
+      {
+        "id": "70e0270969f7d1af2902ee31",
+        "name": "Newman Cheng",
+        "type": "Author"
+      },
+      {
+        "id": "f792bcd16122fd84f7ffcebf",
+        "name": "Joshua Bradley",
+        "type": "Author"
+      },
+      {
+        "id": "7c1bb9a39ffb174b3fff33f2",
+        "name": "Alex Chao",
+        "type": "Author"
+      },
+      {
+        "id": "6b3536b5660251421035e313",
+        "name": "Apurva Mody",
+        "type": "Author"
+      },
+      {
+        "id": "2237102c19629f8c763f806e",
+        "name": "Steven Truitt",
+        "type": "Author"
+      },
+      {
+        "id": "06d3e4a5fab23f0244a4d2d0",
+        "name": "Dasha Metropolitansky",
+        "type": "Author"
+      },
+      {
+        "id": "57757c85fff740098c11e440",
+        "name": "Robert Osazuwa Ness",
+        "type": "Author"
+      },
+      {
+        "id": "c533f9cee038ed0585c97e25",
+        "name": "Jonathan Larson",
+        "type": "Author"
+      },
+      {
+        "id": "3325e19966146540261ee86a",
+        "name": "Microsoft Research",
+        "type": "Institution"
+      },
+      {
+        "id": "acb6ac2f37a38a4c7734289f",
+        "name": "Microsoft Strategic Missions and Technologies",
+        "type": "Institution"
+      },
+      {
+        "id": "f30a788b8a916303d634b8b2",
+        "name": "Microsoft Office of the CTO",
+        "type": "Institution"
+      }
+    ],
+    "relations": [
+      {
+        "source": "a4c526417ceb8797daac61a3",
+        "target": "7d7a1c7e8cb14444c271d583",
+        "type": "AUTHORED",
+        "quote": "Darren Edge1† Ha Trinh1† Newman Cheng2 Joshua Bradley2 Alex Chao3\nApurva Mody3 Steven Truitt2 Dasha Metropolitansky1 Robert Osazuwa Ness1\nJonathan Larson1",
+        "evidence_start": 73,
+        "evidence_end": 227
+      },
+      {
+        "source": "b6e549591da02c48114d5c89",
+        "target": "7d7a1c7e8cb14444c271d583",
+        "type": "AUTHORED",
+        "quote": "Darren Edge1† Ha Trinh1† Newman Cheng2 Joshua Bradley2 Alex Chao3\nApurva Mody3 Steven Truitt2 Dasha Metropolitansky1 Robert Osazuwa Ness1\nJonathan Larson1",
+        "evidence_start": 73,
+        "evidence_end": 227
+      },
+      {
+        "source": "70e0270969f7d1af2902ee31",
+        "target": "7d7a1c7e8cb14444c271d583",
+        "type": "AUTHORED",
+        "quote": "Darren Edge1† Ha Trinh1† Newman Cheng2 Joshua Bradley2 Alex Chao3\nApurva Mody3 Steven Truitt2 Dasha Metropolitansky1 Robert Osazuwa Ness1\nJonathan Larson1",
+        "evidence_start": 73,
+        "evidence_end": 227
+      },
+      {
+        "source": "f792bcd16122fd84f7ffcebf",
+        "target": "7d7a1c7e8cb14444c271d583",
+        "type": "AUTHORED",
+        "quote": "Darren Edge1† Ha Trinh1† Newman Cheng2 Joshua Bradley2 Alex Chao3\nApurva Mody3 Steven Truitt2 Dasha Metropolitansky1 Robert Osazuwa Ness1\nJonathan Larson1",
+        "evidence_start": 73,
+        "evidence_end": 227
+      },
+      {
+        "source": "7c1bb9a39ffb174b3fff33f2",
+        "target": "7d7a1c7e8cb14444c271d583",
+        "type": "AUTHORED",
+        "quote": "Darren Edge1† Ha Trinh1† Newman Cheng2 Joshua Bradley2 Alex Chao3\nApurva Mody3 Steven Truitt2 Dasha Metropolitansky1 Robert Osazuwa Ness1\nJonathan Larson1",
+        "evidence_start": 73,
+        "evidence_end": 227
+      },
+      {
+        "source": "6b3536b5660251421035e313",
+        "target": "7d7a1c7e8cb14444c271d583",
+        "type": "AUTHORED",
+        "quote": "Darren Edge1† Ha Trinh1† Newman Cheng2 Joshua Bradley2 Alex Chao3\nApurva Mody3 Steven Truitt2 Dasha Metropolitansky1 Robert Osazuwa Ness1\nJonathan Larson1",
+        "evidence_start": 73,
+        "evidence_end": 227
+      },
+      {
+        "source": "2237102c19629f8c763f806e",
+        "target": "7d7a1c7e8cb14444c271d583",
+        "type": "AUTHORED",
+        "quote": "Darren Edge1† Ha Trinh1† Newman Cheng2 Joshua Bradley2 Alex Chao3\nApurva Mody3 Steven Truitt2 Dasha Metropolitansky1 Robert Osazuwa Ness1\nJonathan Larson1",
+        "evidence_start": 73,
+        "evidence_end": 227
+      },
+      {
+        "source": "06d3e4a5fab23f0244a4d2d0",
+        "target": "7d7a1c7e8cb14444c271d583",
+        "type": "AUTHORED",
+        "quote": "Darren Edge1† Ha Trinh1† Newman Cheng2 Joshua Bradley2 Alex Chao3\nApurva Mody3 Steven Truitt2 Dasha Metropolitansky1 Robert Osazuwa Ness1\nJonathan Larson1",
+        "evidence_start": 73,
+        "evidence_end": 227
+      },
+      {
+        "source": "57757c85fff740098c11e440",
+        "target": "7d7a1c7e8cb14444c271d583",
+        "type": "AUTHORED",
+        "quote": "Darren Edge1† Ha Trinh1† Newman Cheng2 Joshua Bradley2 Alex Chao3\nApurva Mody3 Steven Truitt2 Dasha Metropolitansky1 Robert Osazuwa Ness1\nJonathan Larson1",
+        "evidence_start": 73,
+        "evidence_end": 227
+      },
+      {
+        "source": "c533f9cee038ed0585c97e25",
+        "target": "7d7a1c7e8cb14444c271d583",
+        "type": "AUTHORED",
+        "quote": "Darren Edge1† Ha Trinh1† Newman Cheng2 Joshua Bradley2 Alex Chao3\nApurva Mody3 Steven Truitt2 Dasha Metropolitansky1 Robert Osazuwa Ness1\nJonathan Larson1",
+        "evidence_start": 73,
+        "evidence_end": 227
+      },
+      {
+        "source": "a4c526417ceb8797daac61a3",
+        "target": "3325e19966146540261ee86a",
+        "type": "AFFILIATED_WITH",
+        "quote": "Darren Edge1†",
+        "evidence_start": 73,
+        "evidence_end": 86
+      },
+      {
+        "source": "b6e549591da02c48114d5c89",
+        "target": "3325e19966146540261ee86a",
+        "type": "AFFILIATED_WITH",
+        "quote": "Ha Trinh1†",
+        "evidence_start": 87,
+        "evidence_end": 97
+      },
+      {
+        "source": "70e0270969f7d1af2902ee31",
+        "target": "acb6ac2f37a38a4c7734289f",
+        "type": "AFFILIATED_WITH",
+        "quote": "Newman Cheng2",
+        "evidence_start": 98,
+        "evidence_end": 111
+      },
+      {
+        "source": "f792bcd16122fd84f7ffcebf",
+        "target": "acb6ac2f37a38a4c7734289f",
+        "type": "AFFILIATED_WITH",
+        "quote": "Joshua Bradley2",
+        "evidence_start": 112,
+        "evidence_end": 127
+      },
+      {
+        "source": "7c1bb9a39ffb174b3fff33f2",
+        "target": "f30a788b8a916303d634b8b2",
+        "type": "AFFILIATED_WITH",
+        "quote": "Alex Chao3",
+        "evidence_start": 128,
+        "evidence_end": 138
+      },
+      {
+        "source": "6b3536b5660251421035e313",
+        "target": "f30a788b8a916303d634b8b2",
+        "type": "AFFILIATED_WITH",
+        "quote": "Apurva Mody3",
+        "evidence_start": 139,
+        "evidence_end": 151
+      },
+      {
+        "source": "2237102c19629f8c763f806e",
+        "target": "acb6ac2f37a38a4c7734289f",
+        "type": "AFFILIATED_WITH",
+        "quote": "Steven Truitt2",
+        "evidence_start": 152,
+        "evidence_end": 166
+      },
+      {
+        "source": "06d3e4a5fab23f0244a4d2d0",
+        "target": "3325e19966146540261ee86a",
+        "type": "AFFILIATED_WITH",
+        "quote": "Dasha Metropolitansky1",
+        "evidence_start": 167,
+        "evidence_end": 189
+      },
+      {
+        "source": "57757c85fff740098c11e440",
+        "target": "3325e19966146540261ee86a",
+        "type": "AFFILIATED_WITH",
+        "quote": "Robert Osazuwa Ness1",
+        "evidence_start": 190,
+        "evidence_end": 210
+      },
+      {
+        "source": "c533f9cee038ed0585c97e25",
+        "target": "3325e19966146540261ee86a",
+        "type": "AFFILIATED_WITH",
+        "quote": "Jonathan Larson1",
+        "evidence_start": 211,
+        "evidence_end": 227
+      },
+      {
+        "source": "a4c526417ceb8797daac61a3",
+        "target": "b6e549591da02c48114d5c89",
+        "type": "COLLABORATES_WITH",
+        "quote": "†These authors contributed equally to this work",
+        "evidence_start": 434,
+        "evidence_end": 481
+      },
+      {
+        "source": "b6e549591da02c48114d5c89",
+        "target": "a4c526417ceb8797daac61a3",
+        "type": "COLLABORATES_WITH",
+        "quote": "†These authors contributed equally to this work",
+        "evidence_start": 434,
+        "evidence_end": 481
+      }
+    ]
+  },
+  "usage": {
+    "latency_s": 9.972061100008432,
+    "model": "gemini-2.5-flash",
+    "input_tokens": 278,
+    "output_tokens": 2415,
+    "validation": {
+      "accepted_relations": 22,
+      "rejected_relations": [],
+      "normalization": "NFKC whitespace soft-hyphen and line-end hyphenation; no paraphrase matching"
+    }
+  },
+  "model": "gemini-2.5-flash",
+  "mode": "gemini_real_frontmatter",
+  "scope": "Title, full author listing and current affiliations in front matter; no footnote historical affiliations",
+  "annotation_review": "pending_independent_human_review"
+}

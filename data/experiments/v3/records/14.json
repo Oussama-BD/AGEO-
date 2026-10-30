@@ -1,0 +1,961 @@
+{
+  "document": {
+    "id": "v3:html:2005.14165",
+    "title": "Language Models are Few-Shot Learners",
+    "source": "https://arxiv.org/abs/2005.14165"
+  },
+  "graph": {
+    "entities": [
+      {
+        "id": "v3:paper:2005.14165",
+        "name": "Language Models are Few-Shot Learners",
+        "type": "Paper"
+      },
+      {
+        "id": "v3:author:6c3c935907ca85c1b851",
+        "name": "Tom B. Brown",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:a2aa3a32561ad814a33a",
+        "name": "Benjamin Mann",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:49639ed4ca4c0a054d59",
+        "name": "Nick Ryder",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:b77a0859292ef44d9d3d",
+        "name": "Melanie Subbiah",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:c2ef93e9dd4e98b6731c",
+        "name": "Jared Kaplan",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:68244737a73d16fdc0c2",
+        "name": "Prafulla Dhariwal",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:ff3eba9b4b7648a57ed8",
+        "name": "Arvind Neelakantan",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:7b9fb328c069c8147a3a",
+        "name": "Pranav Shyam",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:5c6b8f45bba435665059",
+        "name": "Girish Sastry",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:643b1f43f652cb4fb2b5",
+        "name": "Amanda Askell",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:4f70210c946c65275ead",
+        "name": "Sandhini Agarwal",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:5b6ae90ba404975e90a8",
+        "name": "Ariel Herbert-Voss",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:410eca80f34b00e4fc91",
+        "name": "Gretchen Krueger",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:3fd0da6ccc3e197e8626",
+        "name": "Tom Henighan",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:2a9ee5fd0aa7292f7f14",
+        "name": "Rewon Child",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:25263bbbb71c2a999df9",
+        "name": "Aditya Ramesh",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:233f63ab4a449ec99ef8",
+        "name": "Daniel M. Ziegler",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:628c9819b7e546e82ab1",
+        "name": "Jeffrey Wu",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:bc2304ffbd611bc26a98",
+        "name": "Clemens Winter",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:5609e344ab4066c855c3",
+        "name": "Christopher Hesse",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:782794581bc3bdce2c34",
+        "name": "Mark Chen",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:0ca4f1ec441600f680ce",
+        "name": "Eric Sigler",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:99c515c665b14a3ce900",
+        "name": "Mateusz Litwin",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:e497e85583c4eb639a27",
+        "name": "Scott Gray",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:98ca07c1111fbdd75aaf",
+        "name": "Benjamin Chess",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:9a5d7eaad70054b1282a",
+        "name": "Jack Clark",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:c7509b2c539ed5e52e32",
+        "name": "Christopher Berner",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:49e4f5502ce17eb5c52a",
+        "name": "Sam McCandlish",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:65b6f62f8ad5fd270263",
+        "name": "Alec Radford",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:49ae3dda3a8083842bdc",
+        "name": "Ilya Sutskever",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:c80dd7193e8558716e7e",
+        "name": "Dario Amodei",
+        "type": "Author"
+      },
+      {
+        "id": "v3:topic:05ad72bca39f3f544731",
+        "name": "language-model pretraining",
+        "type": "Topic"
+      },
+      {
+        "id": "v3:topic:4c306bcd8be69976b898",
+        "name": "few-shot learning",
+        "type": "Topic"
+      },
+      {
+        "id": "v3:topic:70647950c4f788b4c151",
+        "name": "question answering",
+        "type": "Topic"
+      }
+    ],
+    "relations": [
+      {
+        "source": "v3:author:6c3c935907ca85c1b851",
+        "target": "v3:paper:2005.14165",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" />",
+        "evidence_start": 5536,
+        "evidence_end": 5669,
+        "evidence_parts": [
+          {
+            "value": "Language Models are Few-Shot Learners",
+            "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" />",
+            "start": 5536,
+            "end": 5614
+          },
+          {
+            "value": "Brown, Tom B.",
+            "quote": "<meta name=\"citation_author\" content=\"Brown, Tom B.\" />",
+            "start": 5614,
+            "end": 5669
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:a2aa3a32561ad814a33a",
+        "target": "v3:paper:2005.14165",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" /><meta name=\"citation_author\" content=\"Mann, Benjamin\" />",
+        "evidence_start": 5536,
+        "evidence_end": 5725,
+        "evidence_parts": [
+          {
+            "value": "Language Models are Few-Shot Learners",
+            "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" />",
+            "start": 5536,
+            "end": 5614
+          },
+          {
+            "value": "Mann, Benjamin",
+            "quote": "<meta name=\"citation_author\" content=\"Mann, Benjamin\" />",
+            "start": 5669,
+            "end": 5725
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:49639ed4ca4c0a054d59",
+        "target": "v3:paper:2005.14165",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" /><meta name=\"citation_author\" content=\"Mann, Benjamin\" /><meta name=\"citation_author\" content=\"Ryder, Nick\" />",
+        "evidence_start": 5536,
+        "evidence_end": 5778,
+        "evidence_parts": [
+          {
+            "value": "Language Models are Few-Shot Learners",
+            "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" />",
+            "start": 5536,
+            "end": 5614
+          },
+          {
+            "value": "Ryder, Nick",
+            "quote": "<meta name=\"citation_author\" content=\"Ryder, Nick\" />",
+            "start": 5725,
+            "end": 5778
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:b77a0859292ef44d9d3d",
+        "target": "v3:paper:2005.14165",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" /><meta name=\"citation_author\" content=\"Mann, Benjamin\" /><meta name=\"citation_author\" content=\"Ryder, Nick\" /><meta name=\"citation_author\" content=\"Subbiah, Melanie\" />",
+        "evidence_start": 5536,
+        "evidence_end": 5836,
+        "evidence_parts": [
+          {
+            "value": "Language Models are Few-Shot Learners",
+            "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" />",
+            "start": 5536,
+            "end": 5614
+          },
+          {
+            "value": "Subbiah, Melanie",
+            "quote": "<meta name=\"citation_author\" content=\"Subbiah, Melanie\" />",
+            "start": 5778,
+            "end": 5836
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:c2ef93e9dd4e98b6731c",
+        "target": "v3:paper:2005.14165",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" /><meta name=\"citation_author\" content=\"Mann, Benjamin\" /><meta name=\"citation_author\" content=\"Ryder, Nick\" /><meta name=\"citation_author\" content=\"Subbiah, Melanie\" /><meta name=\"citation_author\" content=\"Kaplan, Jared\" />",
+        "evidence_start": 5536,
+        "evidence_end": 5891,
+        "evidence_parts": [
+          {
+            "value": "Language Models are Few-Shot Learners",
+            "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" />",
+            "start": 5536,
+            "end": 5614
+          },
+          {
+            "value": "Kaplan, Jared",
+            "quote": "<meta name=\"citation_author\" content=\"Kaplan, Jared\" />",
+            "start": 5836,
+            "end": 5891
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:68244737a73d16fdc0c2",
+        "target": "v3:paper:2005.14165",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" /><meta name=\"citation_author\" content=\"Mann, Benjamin\" /><meta name=\"citation_author\" content=\"Ryder, Nick\" /><meta name=\"citation_author\" content=\"Subbiah, Melanie\" /><meta name=\"citation_author\" content=\"Kaplan, Jared\" /><meta name=\"citation_author\" content=\"Dhariwal, Prafulla\" />",
+        "evidence_start": 5536,
+        "evidence_end": 5951,
+        "evidence_parts": [
+          {
+            "value": "Language Models are Few-Shot Learners",
+            "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" />",
+            "start": 5536,
+            "end": 5614
+          },
+          {
+            "value": "Dhariwal, Prafulla",
+            "quote": "<meta name=\"citation_author\" content=\"Dhariwal, Prafulla\" />",
+            "start": 5891,
+            "end": 5951
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:ff3eba9b4b7648a57ed8",
+        "target": "v3:paper:2005.14165",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" /><meta name=\"citation_author\" content=\"Mann, Benjamin\" /><meta name=\"citation_author\" content=\"Ryder, Nick\" /><meta name=\"citation_author\" content=\"Subbiah, Melanie\" /><meta name=\"citation_author\" content=\"Kaplan, Jared\" /><meta name=\"citation_author\" content=\"Dhariwal, Prafulla\" /><meta name=\"citation_author\" content=\"Neelakantan, Arvind\" />",
+        "evidence_start": 5536,
+        "evidence_end": 6012,
+        "evidence_parts": [
+          {
+            "value": "Language Models are Few-Shot Learners",
+            "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" />",
+            "start": 5536,
+            "end": 5614
+          },
+          {
+            "value": "Neelakantan, Arvind",
+            "quote": "<meta name=\"citation_author\" content=\"Neelakantan, Arvind\" />",
+            "start": 5951,
+            "end": 6012
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:7b9fb328c069c8147a3a",
+        "target": "v3:paper:2005.14165",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" /><meta name=\"citation_author\" content=\"Mann, Benjamin\" /><meta name=\"citation_author\" content=\"Ryder, Nick\" /><meta name=\"citation_author\" content=\"Subbiah, Melanie\" /><meta name=\"citation_author\" content=\"Kaplan, Jared\" /><meta name=\"citation_author\" content=\"Dhariwal, Prafulla\" /><meta name=\"citation_author\" content=\"Neelakantan, Arvind\" /><meta name=\"citation_author\" content=\"Shyam, Pranav\" />",
+        "evidence_start": 5536,
+        "evidence_end": 6067,
+        "evidence_parts": [
+          {
+            "value": "Language Models are Few-Shot Learners",
+            "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" />",
+            "start": 5536,
+            "end": 5614
+          },
+          {
+            "value": "Shyam, Pranav",
+            "quote": "<meta name=\"citation_author\" content=\"Shyam, Pranav\" />",
+            "start": 6012,
+            "end": 6067
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:5c6b8f45bba435665059",
+        "target": "v3:paper:2005.14165",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" /><meta name=\"citation_author\" content=\"Mann, Benjamin\" /><meta name=\"citation_author\" content=\"Ryder, Nick\" /><meta name=\"citation_author\" content=\"Subbiah, Melanie\" /><meta name=\"citation_author\" content=\"Kaplan, Jared\" /><meta name=\"citation_author\" content=\"Dhariwal, Prafulla\" /><meta name=\"citation_author\" content=\"Neelakantan, Arvind\" /><meta name=\"citation_author\" content=\"Shyam, Pranav\" /><meta name=\"citation_author\" content=\"Sastry, Girish\" />",
+        "evidence_start": 5536,
+        "evidence_end": 6123,
+        "evidence_parts": [
+          {
+            "value": "Language Models are Few-Shot Learners",
+            "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" />",
+            "start": 5536,
+            "end": 5614
+          },
+          {
+            "value": "Sastry, Girish",
+            "quote": "<meta name=\"citation_author\" content=\"Sastry, Girish\" />",
+            "start": 6067,
+            "end": 6123
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:643b1f43f652cb4fb2b5",
+        "target": "v3:paper:2005.14165",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" /><meta name=\"citation_author\" content=\"Mann, Benjamin\" /><meta name=\"citation_author\" content=\"Ryder, Nick\" /><meta name=\"citation_author\" content=\"Subbiah, Melanie\" /><meta name=\"citation_author\" content=\"Kaplan, Jared\" /><meta name=\"citation_author\" content=\"Dhariwal, Prafulla\" /><meta name=\"citation_author\" content=\"Neelakantan, Arvind\" /><meta name=\"citation_author\" content=\"Shyam, Pranav\" /><meta name=\"citation_author\" content=\"Sastry, Girish\" /><meta name=\"citation_author\" content=\"Askell, Amanda\" />",
+        "evidence_start": 5536,
+        "evidence_end": 6179,
+        "evidence_parts": [
+          {
+            "value": "Language Models are Few-Shot Learners",
+            "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" />",
+            "start": 5536,
+            "end": 5614
+          },
+          {
+            "value": "Askell, Amanda",
+            "quote": "<meta name=\"citation_author\" content=\"Askell, Amanda\" />",
+            "start": 6123,
+            "end": 6179
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:4f70210c946c65275ead",
+        "target": "v3:paper:2005.14165",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" /><meta name=\"citation_author\" content=\"Mann, Benjamin\" /><meta name=\"citation_author\" content=\"Ryder, Nick\" /><meta name=\"citation_author\" content=\"Subbiah, Melanie\" /><meta name=\"citation_author\" content=\"Kaplan, Jared\" /><meta name=\"citation_author\" content=\"Dhariwal, Prafulla\" /><meta name=\"citation_author\" content=\"Neelakantan, Arvind\" /><meta name=\"citation_author\" content=\"Shyam, Pranav\" /><meta name=\"citation_author\" content=\"Sastry, Girish\" /><meta name=\"citation_author\" content=\"Askell, Amanda\" /><meta name=\"citation_author\" content=\"Agarwal, Sandhini\" />",
+        "evidence_start": 5536,
+        "evidence_end": 6238,
+        "evidence_parts": [
+          {
+            "value": "Language Models are Few-Shot Learners",
+            "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" />",
+            "start": 5536,
+            "end": 5614
+          },
+          {
+            "value": "Agarwal, Sandhini",
+            "quote": "<meta name=\"citation_author\" content=\"Agarwal, Sandhini\" />",
+            "start": 6179,
+            "end": 6238
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:5b6ae90ba404975e90a8",
+        "target": "v3:paper:2005.14165",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" /><meta name=\"citation_author\" content=\"Mann, Benjamin\" /><meta name=\"citation_author\" content=\"Ryder, Nick\" /><meta name=\"citation_author\" content=\"Subbiah, Melanie\" /><meta name=\"citation_author\" content=\"Kaplan, Jared\" /><meta name=\"citation_author\" content=\"Dhariwal, Prafulla\" /><meta name=\"citation_author\" content=\"Neelakantan, Arvind\" /><meta name=\"citation_author\" content=\"Shyam, Pranav\" /><meta name=\"citation_author\" content=\"Sastry, Girish\" /><meta name=\"citation_author\" content=\"Askell, Amanda\" /><meta name=\"citation_author\" content=\"Agarwal, Sandhini\" /><meta name=\"citation_author\" content=\"Herbert-Voss, Ariel\" />",
+        "evidence_start": 5536,
+        "evidence_end": 6299,
+        "evidence_parts": [
+          {
+            "value": "Language Models are Few-Shot Learners",
+            "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" />",
+            "start": 5536,
+            "end": 5614
+          },
+          {
+            "value": "Herbert-Voss, Ariel",
+            "quote": "<meta name=\"citation_author\" content=\"Herbert-Voss, Ariel\" />",
+            "start": 6238,
+            "end": 6299
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:410eca80f34b00e4fc91",
+        "target": "v3:paper:2005.14165",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" /><meta name=\"citation_author\" content=\"Mann, Benjamin\" /><meta name=\"citation_author\" content=\"Ryder, Nick\" /><meta name=\"citation_author\" content=\"Subbiah, Melanie\" /><meta name=\"citation_author\" content=\"Kaplan, Jared\" /><meta name=\"citation_author\" content=\"Dhariwal, Prafulla\" /><meta name=\"citation_author\" content=\"Neelakantan, Arvind\" /><meta name=\"citation_author\" content=\"Shyam, Pranav\" /><meta name=\"citation_author\" content=\"Sastry, Girish\" /><meta name=\"citation_author\" content=\"Askell, Amanda\" /><meta name=\"citation_author\" content=\"Agarwal, Sandhini\" /><meta name=\"citation_author\" content=\"Herbert-Voss, Ariel\" /><meta name=\"citation_author\" content=\"Krueger, Gretchen\" />",
+        "evidence_start": 5536,
+        "evidence_end": 6358,
+        "evidence_parts": [
+          {
+            "value": "Language Models are Few-Shot Learners",
+            "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" />",
+            "start": 5536,
+            "end": 5614
+          },
+          {
+            "value": "Krueger, Gretchen",
+            "quote": "<meta name=\"citation_author\" content=\"Krueger, Gretchen\" />",
+            "start": 6299,
+            "end": 6358
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:3fd0da6ccc3e197e8626",
+        "target": "v3:paper:2005.14165",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" /><meta name=\"citation_author\" content=\"Mann, Benjamin\" /><meta name=\"citation_author\" content=\"Ryder, Nick\" /><meta name=\"citation_author\" content=\"Subbiah, Melanie\" /><meta name=\"citation_author\" content=\"Kaplan, Jared\" /><meta name=\"citation_author\" content=\"Dhariwal, Prafulla\" /><meta name=\"citation_author\" content=\"Neelakantan, Arvind\" /><meta name=\"citation_author\" content=\"Shyam, Pranav\" /><meta name=\"citation_author\" content=\"Sastry, Girish\" /><meta name=\"citation_author\" content=\"Askell, Amanda\" /><meta name=\"citation_author\" content=\"Agarwal, Sandhini\" /><meta name=\"citation_author\" content=\"Herbert-Voss, Ariel\" /><meta name=\"citation_author\" content=\"Krueger, Gretchen\" /><meta name=\"citation_author\" content=\"Henighan, Tom\" />",
+        "evidence_start": 5536,
+        "evidence_end": 6413,
+        "evidence_parts": [
+          {
+            "value": "Language Models are Few-Shot Learners",
+            "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" />",
+            "start": 5536,
+            "end": 5614
+          },
+          {
+            "value": "Henighan, Tom",
+            "quote": "<meta name=\"citation_author\" content=\"Henighan, Tom\" />",
+            "start": 6358,
+            "end": 6413
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:2a9ee5fd0aa7292f7f14",
+        "target": "v3:paper:2005.14165",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" /><meta name=\"citation_author\" content=\"Mann, Benjamin\" /><meta name=\"citation_author\" content=\"Ryder, Nick\" /><meta name=\"citation_author\" content=\"Subbiah, Melanie\" /><meta name=\"citation_author\" content=\"Kaplan, Jared\" /><meta name=\"citation_author\" content=\"Dhariwal, Prafulla\" /><meta name=\"citation_author\" content=\"Neelakantan, Arvind\" /><meta name=\"citation_author\" content=\"Shyam, Pranav\" /><meta name=\"citation_author\" content=\"Sastry, Girish\" /><meta name=\"citation_author\" content=\"Askell, Amanda\" /><meta name=\"citation_author\" content=\"Agarwal, Sandhini\" /><meta name=\"citation_author\" content=\"Herbert-Voss, Ariel\" /><meta name=\"citation_author\" content=\"Krueger, Gretchen\" /><meta name=\"citation_author\" content=\"Henighan, Tom\" /><meta name=\"citation_author\" content=\"Child, Rewon\" />",
+        "evidence_start": 5536,
+        "evidence_end": 6467,
+        "evidence_parts": [
+          {
+            "value": "Language Models are Few-Shot Learners",
+            "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" />",
+            "start": 5536,
+            "end": 5614
+          },
+          {
+            "value": "Child, Rewon",
+            "quote": "<meta name=\"citation_author\" content=\"Child, Rewon\" />",
+            "start": 6413,
+            "end": 6467
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:25263bbbb71c2a999df9",
+        "target": "v3:paper:2005.14165",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" /><meta name=\"citation_author\" content=\"Mann, Benjamin\" /><meta name=\"citation_author\" content=\"Ryder, Nick\" /><meta name=\"citation_author\" content=\"Subbiah, Melanie\" /><meta name=\"citation_author\" content=\"Kaplan, Jared\" /><meta name=\"citation_author\" content=\"Dhariwal, Prafulla\" /><meta name=\"citation_author\" content=\"Neelakantan, Arvind\" /><meta name=\"citation_author\" content=\"Shyam, Pranav\" /><meta name=\"citation_author\" content=\"Sastry, Girish\" /><meta name=\"citation_author\" content=\"Askell, Amanda\" /><meta name=\"citation_author\" content=\"Agarwal, Sandhini\" /><meta name=\"citation_author\" content=\"Herbert-Voss, Ariel\" /><meta name=\"citation_author\" content=\"Krueger, Gretchen\" /><meta name=\"citation_author\" content=\"Henighan, Tom\" /><meta name=\"citation_author\" content=\"Child, Rewon\" /><meta name=\"citation_author\" content=\"Ramesh, Aditya\" />",
+        "evidence_start": 5536,
+        "evidence_end": 6523,
+        "evidence_parts": [
+          {
+            "value": "Language Models are Few-Shot Learners",
+            "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" />",
+            "start": 5536,
+            "end": 5614
+          },
+          {
+            "value": "Ramesh, Aditya",
+            "quote": "<meta name=\"citation_author\" content=\"Ramesh, Aditya\" />",
+            "start": 6467,
+            "end": 6523
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:233f63ab4a449ec99ef8",
+        "target": "v3:paper:2005.14165",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" /><meta name=\"citation_author\" content=\"Mann, Benjamin\" /><meta name=\"citation_author\" content=\"Ryder, Nick\" /><meta name=\"citation_author\" content=\"Subbiah, Melanie\" /><meta name=\"citation_author\" content=\"Kaplan, Jared\" /><meta name=\"citation_author\" content=\"Dhariwal, Prafulla\" /><meta name=\"citation_author\" content=\"Neelakantan, Arvind\" /><meta name=\"citation_author\" content=\"Shyam, Pranav\" /><meta name=\"citation_author\" content=\"Sastry, Girish\" /><meta name=\"citation_author\" content=\"Askell, Amanda\" /><meta name=\"citation_author\" content=\"Agarwal, Sandhini\" /><meta name=\"citation_author\" content=\"Herbert-Voss, Ariel\" /><meta name=\"citation_author\" content=\"Krueger, Gretchen\" /><meta name=\"citation_author\" content=\"Henighan, Tom\" /><meta name=\"citation_author\" content=\"Child, Rewon\" /><meta name=\"citation_author\" content=\"Ramesh, Aditya\" /><meta name=\"citation_author\" content=\"Ziegler, Daniel M.\" />",
+        "evidence_start": 5536,
+        "evidence_end": 6583,
+        "evidence_parts": [
+          {
+            "value": "Language Models are Few-Shot Learners",
+            "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" />",
+            "start": 5536,
+            "end": 5614
+          },
+          {
+            "value": "Ziegler, Daniel M.",
+            "quote": "<meta name=\"citation_author\" content=\"Ziegler, Daniel M.\" />",
+            "start": 6523,
+            "end": 6583
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:628c9819b7e546e82ab1",
+        "target": "v3:paper:2005.14165",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" /><meta name=\"citation_author\" content=\"Mann, Benjamin\" /><meta name=\"citation_author\" content=\"Ryder, Nick\" /><meta name=\"citation_author\" content=\"Subbiah, Melanie\" /><meta name=\"citation_author\" content=\"Kaplan, Jared\" /><meta name=\"citation_author\" content=\"Dhariwal, Prafulla\" /><meta name=\"citation_author\" content=\"Neelakantan, Arvind\" /><meta name=\"citation_author\" content=\"Shyam, Pranav\" /><meta name=\"citation_author\" content=\"Sastry, Girish\" /><meta name=\"citation_author\" content=\"Askell, Amanda\" /><meta name=\"citation_author\" content=\"Agarwal, Sandhini\" /><meta name=\"citation_author\" content=\"Herbert-Voss, Ariel\" /><meta name=\"citation_author\" content=\"Krueger, Gretchen\" /><meta name=\"citation_author\" content=\"Henighan, Tom\" /><meta name=\"citation_author\" content=\"Child, Rewon\" /><meta name=\"citation_author\" content=\"Ramesh, Aditya\" /><meta name=\"citation_author\" content=\"Ziegler, Daniel M.\" /><meta name=\"citation_author\" content=\"Wu, Jeffrey\" />",
+        "evidence_start": 5536,
+        "evidence_end": 6636,
+        "evidence_parts": [
+          {
+            "value": "Language Models are Few-Shot Learners",
+            "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" />",
+            "start": 5536,
+            "end": 5614
+          },
+          {
+            "value": "Wu, Jeffrey",
+            "quote": "<meta name=\"citation_author\" content=\"Wu, Jeffrey\" />",
+            "start": 6583,
+            "end": 6636
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:bc2304ffbd611bc26a98",
+        "target": "v3:paper:2005.14165",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" /><meta name=\"citation_author\" content=\"Mann, Benjamin\" /><meta name=\"citation_author\" content=\"Ryder, Nick\" /><meta name=\"citation_author\" content=\"Subbiah, Melanie\" /><meta name=\"citation_author\" content=\"Kaplan, Jared\" /><meta name=\"citation_author\" content=\"Dhariwal, Prafulla\" /><meta name=\"citation_author\" content=\"Neelakantan, Arvind\" /><meta name=\"citation_author\" content=\"Shyam, Pranav\" /><meta name=\"citation_author\" content=\"Sastry, Girish\" /><meta name=\"citation_author\" content=\"Askell, Amanda\" /><meta name=\"citation_author\" content=\"Agarwal, Sandhini\" /><meta name=\"citation_author\" content=\"Herbert-Voss, Ariel\" /><meta name=\"citation_author\" content=\"Krueger, Gretchen\" /><meta name=\"citation_author\" content=\"Henighan, Tom\" /><meta name=\"citation_author\" content=\"Child, Rewon\" /><meta name=\"citation_author\" content=\"Ramesh, Aditya\" /><meta name=\"citation_author\" content=\"Ziegler, Daniel M.\" /><meta name=\"citation_author\" content=\"Wu, Jeffrey\" /><meta name=\"citation_author\" content=\"Winter, Clemens\" />",
+        "evidence_start": 5536,
+        "evidence_end": 6693,
+        "evidence_parts": [
+          {
+            "value": "Language Models are Few-Shot Learners",
+            "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" />",
+            "start": 5536,
+            "end": 5614
+          },
+          {
+            "value": "Winter, Clemens",
+            "quote": "<meta name=\"citation_author\" content=\"Winter, Clemens\" />",
+            "start": 6636,
+            "end": 6693
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:5609e344ab4066c855c3",
+        "target": "v3:paper:2005.14165",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" /><meta name=\"citation_author\" content=\"Mann, Benjamin\" /><meta name=\"citation_author\" content=\"Ryder, Nick\" /><meta name=\"citation_author\" content=\"Subbiah, Melanie\" /><meta name=\"citation_author\" content=\"Kaplan, Jared\" /><meta name=\"citation_author\" content=\"Dhariwal, Prafulla\" /><meta name=\"citation_author\" content=\"Neelakantan, Arvind\" /><meta name=\"citation_author\" content=\"Shyam, Pranav\" /><meta name=\"citation_author\" content=\"Sastry, Girish\" /><meta name=\"citation_author\" content=\"Askell, Amanda\" /><meta name=\"citation_author\" content=\"Agarwal, Sandhini\" /><meta name=\"citation_author\" content=\"Herbert-Voss, Ariel\" /><meta name=\"citation_author\" content=\"Krueger, Gretchen\" /><meta name=\"citation_author\" content=\"Henighan, Tom\" /><meta name=\"citation_author\" content=\"Child, Rewon\" /><meta name=\"citation_author\" content=\"Ramesh, Aditya\" /><meta name=\"citation_author\" content=\"Ziegler, Daniel M.\" /><meta name=\"citation_author\" content=\"Wu, Jeffrey\" /><meta name=\"citation_author\" content=\"Winter, Clemens\" /><meta name=\"citation_author\" content=\"Hesse, Christopher\" />",
+        "evidence_start": 5536,
+        "evidence_end": 6753,
+        "evidence_parts": [
+          {
+            "value": "Language Models are Few-Shot Learners",
+            "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" />",
+            "start": 5536,
+            "end": 5614
+          },
+          {
+            "value": "Hesse, Christopher",
+            "quote": "<meta name=\"citation_author\" content=\"Hesse, Christopher\" />",
+            "start": 6693,
+            "end": 6753
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:782794581bc3bdce2c34",
+        "target": "v3:paper:2005.14165",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" /><meta name=\"citation_author\" content=\"Mann, Benjamin\" /><meta name=\"citation_author\" content=\"Ryder, Nick\" /><meta name=\"citation_author\" content=\"Subbiah, Melanie\" /><meta name=\"citation_author\" content=\"Kaplan, Jared\" /><meta name=\"citation_author\" content=\"Dhariwal, Prafulla\" /><meta name=\"citation_author\" content=\"Neelakantan, Arvind\" /><meta name=\"citation_author\" content=\"Shyam, Pranav\" /><meta name=\"citation_author\" content=\"Sastry, Girish\" /><meta name=\"citation_author\" content=\"Askell, Amanda\" /><meta name=\"citation_author\" content=\"Agarwal, Sandhini\" /><meta name=\"citation_author\" content=\"Herbert-Voss, Ariel\" /><meta name=\"citation_author\" content=\"Krueger, Gretchen\" /><meta name=\"citation_author\" content=\"Henighan, Tom\" /><meta name=\"citation_author\" content=\"Child, Rewon\" /><meta name=\"citation_author\" content=\"Ramesh, Aditya\" /><meta name=\"citation_author\" content=\"Ziegler, Daniel M.\" /><meta name=\"citation_author\" content=\"Wu, Jeffrey\" /><meta name=\"citation_author\" content=\"Winter, Clemens\" /><meta name=\"citation_author\" content=\"Hesse, Christopher\" /><meta name=\"citation_author\" content=\"Chen, Mark\" />",
+        "evidence_start": 5536,
+        "evidence_end": 6805,
+        "evidence_parts": [
+          {
+            "value": "Language Models are Few-Shot Learners",
+            "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" />",
+            "start": 5536,
+            "end": 5614
+          },
+          {
+            "value": "Chen, Mark",
+            "quote": "<meta name=\"citation_author\" content=\"Chen, Mark\" />",
+            "start": 6753,
+            "end": 6805
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:0ca4f1ec441600f680ce",
+        "target": "v3:paper:2005.14165",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" /><meta name=\"citation_author\" content=\"Mann, Benjamin\" /><meta name=\"citation_author\" content=\"Ryder, Nick\" /><meta name=\"citation_author\" content=\"Subbiah, Melanie\" /><meta name=\"citation_author\" content=\"Kaplan, Jared\" /><meta name=\"citation_author\" content=\"Dhariwal, Prafulla\" /><meta name=\"citation_author\" content=\"Neelakantan, Arvind\" /><meta name=\"citation_author\" content=\"Shyam, Pranav\" /><meta name=\"citation_author\" content=\"Sastry, Girish\" /><meta name=\"citation_author\" content=\"Askell, Amanda\" /><meta name=\"citation_author\" content=\"Agarwal, Sandhini\" /><meta name=\"citation_author\" content=\"Herbert-Voss, Ariel\" /><meta name=\"citation_author\" content=\"Krueger, Gretchen\" /><meta name=\"citation_author\" content=\"Henighan, Tom\" /><meta name=\"citation_author\" content=\"Child, Rewon\" /><meta name=\"citation_author\" content=\"Ramesh, Aditya\" /><meta name=\"citation_author\" content=\"Ziegler, Daniel M.\" /><meta name=\"citation_author\" content=\"Wu, Jeffrey\" /><meta name=\"citation_author\" content=\"Winter, Clemens\" /><meta name=\"citation_author\" content=\"Hesse, Christopher\" /><meta name=\"citation_author\" content=\"Chen, Mark\" /><meta name=\"citation_author\" content=\"Sigler, Eric\" />",
+        "evidence_start": 5536,
+        "evidence_end": 6859,
+        "evidence_parts": [
+          {
+            "value": "Language Models are Few-Shot Learners",
+            "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" />",
+            "start": 5536,
+            "end": 5614
+          },
+          {
+            "value": "Sigler, Eric",
+            "quote": "<meta name=\"citation_author\" content=\"Sigler, Eric\" />",
+            "start": 6805,
+            "end": 6859
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:99c515c665b14a3ce900",
+        "target": "v3:paper:2005.14165",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" /><meta name=\"citation_author\" content=\"Mann, Benjamin\" /><meta name=\"citation_author\" content=\"Ryder, Nick\" /><meta name=\"citation_author\" content=\"Subbiah, Melanie\" /><meta name=\"citation_author\" content=\"Kaplan, Jared\" /><meta name=\"citation_author\" content=\"Dhariwal, Prafulla\" /><meta name=\"citation_author\" content=\"Neelakantan, Arvind\" /><meta name=\"citation_author\" content=\"Shyam, Pranav\" /><meta name=\"citation_author\" content=\"Sastry, Girish\" /><meta name=\"citation_author\" content=\"Askell, Amanda\" /><meta name=\"citation_author\" content=\"Agarwal, Sandhini\" /><meta name=\"citation_author\" content=\"Herbert-Voss, Ariel\" /><meta name=\"citation_author\" content=\"Krueger, Gretchen\" /><meta name=\"citation_author\" content=\"Henighan, Tom\" /><meta name=\"citation_author\" content=\"Child, Rewon\" /><meta name=\"citation_author\" content=\"Ramesh, Aditya\" /><meta name=\"citation_author\" content=\"Ziegler, Daniel M.\" /><meta name=\"citation_author\" content=\"Wu, Jeffrey\" /><meta name=\"citation_author\" content=\"Winter, Clemens\" /><meta name=\"citation_author\" content=\"Hesse, Christopher\" /><meta name=\"citation_author\" content=\"Chen, Mark\" /><meta name=\"citation_author\" content=\"Sigler, Eric\" /><meta name=\"citation_author\" content=\"Litwin, Mateusz\" />",
+        "evidence_start": 5536,
+        "evidence_end": 6916,
+        "evidence_parts": [
+          {
+            "value": "Language Models are Few-Shot Learners",
+            "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" />",
+            "start": 5536,
+            "end": 5614
+          },
+          {
+            "value": "Litwin, Mateusz",
+            "quote": "<meta name=\"citation_author\" content=\"Litwin, Mateusz\" />",
+            "start": 6859,
+            "end": 6916
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:e497e85583c4eb639a27",
+        "target": "v3:paper:2005.14165",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" /><meta name=\"citation_author\" content=\"Mann, Benjamin\" /><meta name=\"citation_author\" content=\"Ryder, Nick\" /><meta name=\"citation_author\" content=\"Subbiah, Melanie\" /><meta name=\"citation_author\" content=\"Kaplan, Jared\" /><meta name=\"citation_author\" content=\"Dhariwal, Prafulla\" /><meta name=\"citation_author\" content=\"Neelakantan, Arvind\" /><meta name=\"citation_author\" content=\"Shyam, Pranav\" /><meta name=\"citation_author\" content=\"Sastry, Girish\" /><meta name=\"citation_author\" content=\"Askell, Amanda\" /><meta name=\"citation_author\" content=\"Agarwal, Sandhini\" /><meta name=\"citation_author\" content=\"Herbert-Voss, Ariel\" /><meta name=\"citation_author\" content=\"Krueger, Gretchen\" /><meta name=\"citation_author\" content=\"Henighan, Tom\" /><meta name=\"citation_author\" content=\"Child, Rewon\" /><meta name=\"citation_author\" content=\"Ramesh, Aditya\" /><meta name=\"citation_author\" content=\"Ziegler, Daniel M.\" /><meta name=\"citation_author\" content=\"Wu, Jeffrey\" /><meta name=\"citation_author\" content=\"Winter, Clemens\" /><meta name=\"citation_author\" content=\"Hesse, Christopher\" /><meta name=\"citation_author\" content=\"Chen, Mark\" /><meta name=\"citation_author\" content=\"Sigler, Eric\" /><meta name=\"citation_author\" content=\"Litwin, Mateusz\" /><meta name=\"citation_author\" content=\"Gray, Scott\" />",
+        "evidence_start": 5536,
+        "evidence_end": 6969,
+        "evidence_parts": [
+          {
+            "value": "Language Models are Few-Shot Learners",
+            "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" />",
+            "start": 5536,
+            "end": 5614
+          },
+          {
+            "value": "Gray, Scott",
+            "quote": "<meta name=\"citation_author\" content=\"Gray, Scott\" />",
+            "start": 6916,
+            "end": 6969
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:98ca07c1111fbdd75aaf",
+        "target": "v3:paper:2005.14165",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" /><meta name=\"citation_author\" content=\"Mann, Benjamin\" /><meta name=\"citation_author\" content=\"Ryder, Nick\" /><meta name=\"citation_author\" content=\"Subbiah, Melanie\" /><meta name=\"citation_author\" content=\"Kaplan, Jared\" /><meta name=\"citation_author\" content=\"Dhariwal, Prafulla\" /><meta name=\"citation_author\" content=\"Neelakantan, Arvind\" /><meta name=\"citation_author\" content=\"Shyam, Pranav\" /><meta name=\"citation_author\" content=\"Sastry, Girish\" /><meta name=\"citation_author\" content=\"Askell, Amanda\" /><meta name=\"citation_author\" content=\"Agarwal, Sandhini\" /><meta name=\"citation_author\" content=\"Herbert-Voss, Ariel\" /><meta name=\"citation_author\" content=\"Krueger, Gretchen\" /><meta name=\"citation_author\" content=\"Henighan, Tom\" /><meta name=\"citation_author\" content=\"Child, Rewon\" /><meta name=\"citation_author\" content=\"Ramesh, Aditya\" /><meta name=\"citation_author\" content=\"Ziegler, Daniel M.\" /><meta name=\"citation_author\" content=\"Wu, Jeffrey\" /><meta name=\"citation_author\" content=\"Winter, Clemens\" /><meta name=\"citation_author\" content=\"Hesse, Christopher\" /><meta name=\"citation_author\" content=\"Chen, Mark\" /><meta name=\"citation_author\" content=\"Sigler, Eric\" /><meta name=\"citation_author\" content=\"Litwin, Mateusz\" /><meta name=\"citation_author\" content=\"Gray, Scott\" /><meta name=\"citation_author\" content=\"Chess, Benjamin\" />",
+        "evidence_start": 5536,
+        "evidence_end": 7026,
+        "evidence_parts": [
+          {
+            "value": "Language Models are Few-Shot Learners",
+            "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" />",
+            "start": 5536,
+            "end": 5614
+          },
+          {
+            "value": "Chess, Benjamin",
+            "quote": "<meta name=\"citation_author\" content=\"Chess, Benjamin\" />",
+            "start": 6969,
+            "end": 7026
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:9a5d7eaad70054b1282a",
+        "target": "v3:paper:2005.14165",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" /><meta name=\"citation_author\" content=\"Mann, Benjamin\" /><meta name=\"citation_author\" content=\"Ryder, Nick\" /><meta name=\"citation_author\" content=\"Subbiah, Melanie\" /><meta name=\"citation_author\" content=\"Kaplan, Jared\" /><meta name=\"citation_author\" content=\"Dhariwal, Prafulla\" /><meta name=\"citation_author\" content=\"Neelakantan, Arvind\" /><meta name=\"citation_author\" content=\"Shyam, Pranav\" /><meta name=\"citation_author\" content=\"Sastry, Girish\" /><meta name=\"citation_author\" content=\"Askell, Amanda\" /><meta name=\"citation_author\" content=\"Agarwal, Sandhini\" /><meta name=\"citation_author\" content=\"Herbert-Voss, Ariel\" /><meta name=\"citation_author\" content=\"Krueger, Gretchen\" /><meta name=\"citation_author\" content=\"Henighan, Tom\" /><meta name=\"citation_author\" content=\"Child, Rewon\" /><meta name=\"citation_author\" content=\"Ramesh, Aditya\" /><meta name=\"citation_author\" content=\"Ziegler, Daniel M.\" /><meta name=\"citation_author\" content=\"Wu, Jeffrey\" /><meta name=\"citation_author\" content=\"Winter, Clemens\" /><meta name=\"citation_author\" content=\"Hesse, Christopher\" /><meta name=\"citation_author\" content=\"Chen, Mark\" /><meta name=\"citation_author\" content=\"Sigler, Eric\" /><meta name=\"citation_author\" content=\"Litwin, Mateusz\" /><meta name=\"citation_author\" content=\"Gray, Scott\" /><meta name=\"citation_author\" content=\"Chess, Benjamin\" /><meta name=\"citation_author\" content=\"Clark, Jack\" />",
+        "evidence_start": 5536,
+        "evidence_end": 7079,
+        "evidence_parts": [
+          {
+            "value": "Language Models are Few-Shot Learners",
+            "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" />",
+            "start": 5536,
+            "end": 5614
+          },
+          {
+            "value": "Clark, Jack",
+            "quote": "<meta name=\"citation_author\" content=\"Clark, Jack\" />",
+            "start": 7026,
+            "end": 7079
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:c7509b2c539ed5e52e32",
+        "target": "v3:paper:2005.14165",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" /><meta name=\"citation_author\" content=\"Mann, Benjamin\" /><meta name=\"citation_author\" content=\"Ryder, Nick\" /><meta name=\"citation_author\" content=\"Subbiah, Melanie\" /><meta name=\"citation_author\" content=\"Kaplan, Jared\" /><meta name=\"citation_author\" content=\"Dhariwal, Prafulla\" /><meta name=\"citation_author\" content=\"Neelakantan, Arvind\" /><meta name=\"citation_author\" content=\"Shyam, Pranav\" /><meta name=\"citation_author\" content=\"Sastry, Girish\" /><meta name=\"citation_author\" content=\"Askell, Amanda\" /><meta name=\"citation_author\" content=\"Agarwal, Sandhini\" /><meta name=\"citation_author\" content=\"Herbert-Voss, Ariel\" /><meta name=\"citation_author\" content=\"Krueger, Gretchen\" /><meta name=\"citation_author\" content=\"Henighan, Tom\" /><meta name=\"citation_author\" content=\"Child, Rewon\" /><meta name=\"citation_author\" content=\"Ramesh, Aditya\" /><meta name=\"citation_author\" content=\"Ziegler, Daniel M.\" /><meta name=\"citation_author\" content=\"Wu, Jeffrey\" /><meta name=\"citation_author\" content=\"Winter, Clemens\" /><meta name=\"citation_author\" content=\"Hesse, Christopher\" /><meta name=\"citation_author\" content=\"Chen, Mark\" /><meta name=\"citation_author\" content=\"Sigler, Eric\" /><meta name=\"citation_author\" content=\"Litwin, Mateusz\" /><meta name=\"citation_author\" content=\"Gray, Scott\" /><meta name=\"citation_author\" content=\"Chess, Benjamin\" /><meta name=\"citation_author\" content=\"Clark, Jack\" /><meta name=\"citation_author\" content=\"Berner, Christopher\" />",
+        "evidence_start": 5536,
+        "evidence_end": 7140,
+        "evidence_parts": [
+          {
+            "value": "Language Models are Few-Shot Learners",
+            "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" />",
+            "start": 5536,
+            "end": 5614
+          },
+          {
+            "value": "Berner, Christopher",
+            "quote": "<meta name=\"citation_author\" content=\"Berner, Christopher\" />",
+            "start": 7079,
+            "end": 7140
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:49e4f5502ce17eb5c52a",
+        "target": "v3:paper:2005.14165",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" /><meta name=\"citation_author\" content=\"Mann, Benjamin\" /><meta name=\"citation_author\" content=\"Ryder, Nick\" /><meta name=\"citation_author\" content=\"Subbiah, Melanie\" /><meta name=\"citation_author\" content=\"Kaplan, Jared\" /><meta name=\"citation_author\" content=\"Dhariwal, Prafulla\" /><meta name=\"citation_author\" content=\"Neelakantan, Arvind\" /><meta name=\"citation_author\" content=\"Shyam, Pranav\" /><meta name=\"citation_author\" content=\"Sastry, Girish\" /><meta name=\"citation_author\" content=\"Askell, Amanda\" /><meta name=\"citation_author\" content=\"Agarwal, Sandhini\" /><meta name=\"citation_author\" content=\"Herbert-Voss, Ariel\" /><meta name=\"citation_author\" content=\"Krueger, Gretchen\" /><meta name=\"citation_author\" content=\"Henighan, Tom\" /><meta name=\"citation_author\" content=\"Child, Rewon\" /><meta name=\"citation_author\" content=\"Ramesh, Aditya\" /><meta name=\"citation_author\" content=\"Ziegler, Daniel M.\" /><meta name=\"citation_author\" content=\"Wu, Jeffrey\" /><meta name=\"citation_author\" content=\"Winter, Clemens\" /><meta name=\"citation_author\" content=\"Hesse, Christopher\" /><meta name=\"citation_author\" content=\"Chen, Mark\" /><meta name=\"citation_author\" content=\"Sigler, Eric\" /><meta name=\"citation_author\" content=\"Litwin, Mateusz\" /><meta name=\"citation_author\" content=\"Gray, Scott\" /><meta name=\"citation_author\" content=\"Chess, Benjamin\" /><meta name=\"citation_author\" content=\"Clark, Jack\" /><meta name=\"citation_author\" content=\"Berner, Christopher\" /><meta name=\"citation_author\" content=\"McCandlish, Sam\" />",
+        "evidence_start": 5536,
+        "evidence_end": 7197,
+        "evidence_parts": [
+          {
+            "value": "Language Models are Few-Shot Learners",
+            "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" />",
+            "start": 5536,
+            "end": 5614
+          },
+          {
+            "value": "McCandlish, Sam",
+            "quote": "<meta name=\"citation_author\" content=\"McCandlish, Sam\" />",
+            "start": 7140,
+            "end": 7197
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:65b6f62f8ad5fd270263",
+        "target": "v3:paper:2005.14165",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" /><meta name=\"citation_author\" content=\"Mann, Benjamin\" /><meta name=\"citation_author\" content=\"Ryder, Nick\" /><meta name=\"citation_author\" content=\"Subbiah, Melanie\" /><meta name=\"citation_author\" content=\"Kaplan, Jared\" /><meta name=\"citation_author\" content=\"Dhariwal, Prafulla\" /><meta name=\"citation_author\" content=\"Neelakantan, Arvind\" /><meta name=\"citation_author\" content=\"Shyam, Pranav\" /><meta name=\"citation_author\" content=\"Sastry, Girish\" /><meta name=\"citation_author\" content=\"Askell, Amanda\" /><meta name=\"citation_author\" content=\"Agarwal, Sandhini\" /><meta name=\"citation_author\" content=\"Herbert-Voss, Ariel\" /><meta name=\"citation_author\" content=\"Krueger, Gretchen\" /><meta name=\"citation_author\" content=\"Henighan, Tom\" /><meta name=\"citation_author\" content=\"Child, Rewon\" /><meta name=\"citation_author\" content=\"Ramesh, Aditya\" /><meta name=\"citation_author\" content=\"Ziegler, Daniel M.\" /><meta name=\"citation_author\" content=\"Wu, Jeffrey\" /><meta name=\"citation_author\" content=\"Winter, Clemens\" /><meta name=\"citation_author\" content=\"Hesse, Christopher\" /><meta name=\"citation_author\" content=\"Chen, Mark\" /><meta name=\"citation_author\" content=\"Sigler, Eric\" /><meta name=\"citation_author\" content=\"Litwin, Mateusz\" /><meta name=\"citation_author\" content=\"Gray, Scott\" /><meta name=\"citation_author\" content=\"Chess, Benjamin\" /><meta name=\"citation_author\" content=\"Clark, Jack\" /><meta name=\"citation_author\" content=\"Berner, Christopher\" /><meta name=\"citation_author\" content=\"McCandlish, Sam\" /><meta name=\"citation_author\" content=\"Radford, Alec\" />",
+        "evidence_start": 5536,
+        "evidence_end": 7252,
+        "evidence_parts": [
+          {
+            "value": "Language Models are Few-Shot Learners",
+            "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" />",
+            "start": 5536,
+            "end": 5614
+          },
+          {
+            "value": "Radford, Alec",
+            "quote": "<meta name=\"citation_author\" content=\"Radford, Alec\" />",
+            "start": 7197,
+            "end": 7252
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:49ae3dda3a8083842bdc",
+        "target": "v3:paper:2005.14165",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" /><meta name=\"citation_author\" content=\"Mann, Benjamin\" /><meta name=\"citation_author\" content=\"Ryder, Nick\" /><meta name=\"citation_author\" content=\"Subbiah, Melanie\" /><meta name=\"citation_author\" content=\"Kaplan, Jared\" /><meta name=\"citation_author\" content=\"Dhariwal, Prafulla\" /><meta name=\"citation_author\" content=\"Neelakantan, Arvind\" /><meta name=\"citation_author\" content=\"Shyam, Pranav\" /><meta name=\"citation_author\" content=\"Sastry, Girish\" /><meta name=\"citation_author\" content=\"Askell, Amanda\" /><meta name=\"citation_author\" content=\"Agarwal, Sandhini\" /><meta name=\"citation_author\" content=\"Herbert-Voss, Ariel\" /><meta name=\"citation_author\" content=\"Krueger, Gretchen\" /><meta name=\"citation_author\" content=\"Henighan, Tom\" /><meta name=\"citation_author\" content=\"Child, Rewon\" /><meta name=\"citation_author\" content=\"Ramesh, Aditya\" /><meta name=\"citation_author\" content=\"Ziegler, Daniel M.\" /><meta name=\"citation_author\" content=\"Wu, Jeffrey\" /><meta name=\"citation_author\" content=\"Winter, Clemens\" /><meta name=\"citation_author\" content=\"Hesse, Christopher\" /><meta name=\"citation_author\" content=\"Chen, Mark\" /><meta name=\"citation_author\" content=\"Sigler, Eric\" /><meta name=\"citation_author\" content=\"Litwin, Mateusz\" /><meta name=\"citation_author\" content=\"Gray, Scott\" /><meta name=\"citation_author\" content=\"Chess, Benjamin\" /><meta name=\"citation_author\" content=\"Clark, Jack\" /><meta name=\"citation_author\" content=\"Berner, Christopher\" /><meta name=\"citation_author\" content=\"McCandlish, Sam\" /><meta name=\"citation_author\" content=\"Radford, Alec\" /><meta name=\"citation_author\" content=\"Sutskever, Ilya\" />",
+        "evidence_start": 5536,
+        "evidence_end": 7309,
+        "evidence_parts": [
+          {
+            "value": "Language Models are Few-Shot Learners",
+            "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" />",
+            "start": 5536,
+            "end": 5614
+          },
+          {
+            "value": "Sutskever, Ilya",
+            "quote": "<meta name=\"citation_author\" content=\"Sutskever, Ilya\" />",
+            "start": 7252,
+            "end": 7309
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:c80dd7193e8558716e7e",
+        "target": "v3:paper:2005.14165",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" /><meta name=\"citation_author\" content=\"Brown, Tom B.\" /><meta name=\"citation_author\" content=\"Mann, Benjamin\" /><meta name=\"citation_author\" content=\"Ryder, Nick\" /><meta name=\"citation_author\" content=\"Subbiah, Melanie\" /><meta name=\"citation_author\" content=\"Kaplan, Jared\" /><meta name=\"citation_author\" content=\"Dhariwal, Prafulla\" /><meta name=\"citation_author\" content=\"Neelakantan, Arvind\" /><meta name=\"citation_author\" content=\"Shyam, Pranav\" /><meta name=\"citation_author\" content=\"Sastry, Girish\" /><meta name=\"citation_author\" content=\"Askell, Amanda\" /><meta name=\"citation_author\" content=\"Agarwal, Sandhini\" /><meta name=\"citation_author\" content=\"Herbert-Voss, Ariel\" /><meta name=\"citation_author\" content=\"Krueger, Gretchen\" /><meta name=\"citation_author\" content=\"Henighan, Tom\" /><meta name=\"citation_author\" content=\"Child, Rewon\" /><meta name=\"citation_author\" content=\"Ramesh, Aditya\" /><meta name=\"citation_author\" content=\"Ziegler, Daniel M.\" /><meta name=\"citation_author\" content=\"Wu, Jeffrey\" /><meta name=\"citation_author\" content=\"Winter, Clemens\" /><meta name=\"citation_author\" content=\"Hesse, Christopher\" /><meta name=\"citation_author\" content=\"Chen, Mark\" /><meta name=\"citation_author\" content=\"Sigler, Eric\" /><meta name=\"citation_author\" content=\"Litwin, Mateusz\" /><meta name=\"citation_author\" content=\"Gray, Scott\" /><meta name=\"citation_author\" content=\"Chess, Benjamin\" /><meta name=\"citation_author\" content=\"Clark, Jack\" /><meta name=\"citation_author\" content=\"Berner, Christopher\" /><meta name=\"citation_author\" content=\"McCandlish, Sam\" /><meta name=\"citation_author\" content=\"Radford, Alec\" /><meta name=\"citation_author\" content=\"Sutskever, Ilya\" /><meta name=\"citation_author\" content=\"Amodei, Dario\" />",
+        "evidence_start": 5536,
+        "evidence_end": 7364,
+        "evidence_parts": [
+          {
+            "value": "Language Models are Few-Shot Learners",
+            "quote": "<meta name=\"citation_title\" content=\"Language Models are Few-Shot Learners\" />",
+            "start": 5536,
+            "end": 5614
+          },
+          {
+            "value": "Amodei, Dario",
+            "quote": "<meta name=\"citation_author\" content=\"Amodei, Dario\" />",
+            "start": 7309,
+            "end": 7364
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:paper:2005.14165",
+        "target": "v3:topic:05ad72bca39f3f544731",
+        "type": "ABOUT",
+        "quote": "pre-training on a large corpus of text followed by fine-tuning on a specific task",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      },
+      {
+        "source": "v3:paper:2005.14165",
+        "target": "v3:topic:4c306bcd8be69976b898",
+        "type": "ABOUT",
+        "quote": "scaling up language models greatly improves task-agnostic, few-shot performance",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      },
+      {
+        "source": "v3:paper:2005.14165",
+        "target": "v3:topic:70647950c4f788b4c151",
+        "type": "ABOUT",
+        "quote": "GPT-3 achieves strong performance on many NLP datasets, including translation, question-answering",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      }
+    ]
+  },
+  "mode": "deterministic_html_metadata",
+  "arxiv_id": "2005.14165",
+  "abstract": "Recent work has demonstrated substantial gains on many NLP tasks and benchmarks by pre-training on a large corpus of text followed by fine-tuning on a specific task. While typically task-agnostic in architecture, this method still requires task-specific fine-tuning datasets of thousands or tens of thousands of examples. By contrast, humans can generally perform a new language task from only a few examples or from simple instructions - something which current NLP systems still largely struggle to do. Here we show that scaling up language models greatly improves task-agnostic, few-shot performance, sometimes even reaching competitiveness with prior state-of-the-art fine-tuning approaches. Specifically, we train GPT-3, an autoregressive language model with 175 billion parameters, 10x more than any previous non-sparse language model, and test its performance in the few-shot setting. For all tasks, GPT-3 is applied without any gradient updates or fine-tuning, with tasks and few-shot demonstrations specified purely via text interaction with the model. GPT-3 achieves strong performance on many NLP datasets, including translation, question-answering, and cloze tasks, as well as several tasks that require on-the-fly reasoning or domain adaptation, such as unscrambling words, using a novel word in a sentence, or performing 3-digit arithmetic. At the same time, we also identify some datasets where GPT-3's few-shot learning still struggles, as well as some datasets where GPT-3 faces methodological issues related to training on large web corpora. Finally, we find that GPT-3 can generate samples of news articles which human evaluators have difficulty distinguishing from articles written by humans. We discuss broader societal impacts of this finding and of GPT-3 in general.",
+  "llm_calls": 0,
+  "source_sha256": "ab71cfaa5b3b9faff9f0624cdb9ce4fa74d843448f2e7e7343fe926616ab98cf"
+}

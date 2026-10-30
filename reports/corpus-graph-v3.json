@@ -1,0 +1,22 @@
+{
+  "version": "v3",
+  "papers": 25,
+  "documents": 28,
+  "entity_count": 289,
+  "entities_by_type": {
+    "Paper": 25,
+    "Author": 242,
+    "Topic": 14,
+    "Institution": 8
+  },
+  "relations_by_type": {
+    "AUTHORED": 293,
+    "ABOUT": 60,
+    "AFFILIATED_WITH": 29
+  },
+  "topic_model": "gemini-3.1-flash-lite",
+  "topics_completed": 25,
+  "references_used_for_construction": false,
+  "neo4j_label": "ResearchV3",
+  "reference_review": "pending_independent_human_review"
+}

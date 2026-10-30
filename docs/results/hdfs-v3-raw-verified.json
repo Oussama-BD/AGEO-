@@ -1,0 +1,106 @@
+{
+  "count": 25,
+  "hdfs_path": "/knowledge/v3/raw-html",
+  "files": [
+    {
+      "file": "1706.03762.html",
+      "sha256": "4dc896b86d954997eb7b2572b29a761da642de00f4229bf648da3580b2ca7785"
+    },
+    {
+      "file": "1802.05365.html",
+      "sha256": "fd999bd962042632c1212c6dd80ff7bbb30db3077d4bed4742844e8b2a92654c"
+    },
+    {
+      "file": "1810.04805.html",
+      "sha256": "dab568b0a86ade336c02d873fa9156dc8da5d7326b1ba04cedf21f96f0f46aac"
+    },
+    {
+      "file": "1906.00300.html",
+      "sha256": "7152a77c7ddfb75b2ab140b21c03ab359ba277ca0ca633dfa3be7b4ca8e12936"
+    },
+    {
+      "file": "1907.11692.html",
+      "sha256": "a3dfb0c2a8a3a7b2edd1237857ce0fb27b9211ff93d07e61e5951ddfaec7c270"
+    },
+    {
+      "file": "1910.10683.html",
+      "sha256": "d63a2e5dcb42efa321cc48415b8243233ef5c5ab5ab72da05cf340acf22ba01e"
+    },
+    {
+      "file": "1911.00172.html",
+      "sha256": "a48229286ba80eb39d0f7980de80f7e4cbad72ffd09c45242162c120747ba65b"
+    },
+    {
+      "file": "2001.08361.html",
+      "sha256": "7dab5fc3e98d848c84c647d541e20ca72306e39da69f3488f93b12759e02ab77"
+    },
+    {
+      "file": "2002.08909.html",
+      "sha256": "f61165a4c9fcf6772937265fbe4dd2efe5b0ebbf3631604cd10518c6104998e2"
+    },
+    {
+      "file": "2004.04906.html",
+      "sha256": "c2562a87ef8f3486b265a9666c7b72ad9c9d5850dffe5397b150a0e992a16c16"
+    },
+    {
+      "file": "2004.05150.html",
+      "sha256": "63de0a5496e0bc9cde0a891168b6dd8fed787a9371636aa1283d1b44790eb04e"
+    },
+    {
+      "file": "2005.11401.html",
+      "sha256": "e61987bdbb0d90c7c823a071619c48b361b71538ddb4279f581724f5c59bb860"
+    },
+    {
+      "file": "2005.14165.html",
+      "sha256": "ab71cfaa5b3b9faff9f0624cdb9ce4fa74d843448f2e7e7343fe926616ab98cf"
+    },
+    {
+      "file": "2007.14062.html",
+      "sha256": "b5f690ae7ca63c583a43a387cff3e0079dc03d0a2a89566db0c19e7e60c87f16"
+    },
+    {
+      "file": "2104.07567.html",
+      "sha256": "ecc8ac35231e3a5350d98322b5399aee5d8f8fcb9264bd34ce1d1f3e5c9d037b"
+    },
+    {
+      "file": "2201.11903.html",
+      "sha256": "80d9091ef794ee5b348d82ea20866ff9b06e328b21fd5baf26bb4dc11bfa7c5e"
+    },
+    {
+      "file": "2203.02155.html",
+      "sha256": "99d50e2457718f5da23285039862192ca48a44b6fd00f46006e2ba4fecd79fd8"
+    },
+    {
+      "file": "2205.11916.html",
+      "sha256": "015ad30c13c043598e88095decd4a7a0b885b4b8bef4df9c44672b65e086a9bd"
+    },
+    {
+      "file": "2210.03629.html",
+      "sha256": "3ff741a07ecb128c0258ee656a47da1be5e37d35c89011c1d4b35a50aaddb6bc"
+    },
+    {
+      "file": "2212.10496.html",
+      "sha256": "4e5a0a9f5780e455542dd4a7d0bd52505d248e7270759be505c78184141e8cf1"
+    },
+    {
+      "file": "2302.13971.html",
+      "sha256": "404d4c1b5ae2b6353512f534e63cb8e860b683657a634101bdde94063dedbd4e"
+    },
+    {
+      "file": "2305.10601.html",
+      "sha256": "cc7d44b56526a920fc7c4d73b4ebcb4b28c2b46012412a28206280dcbecd9dff"
+    },
+    {
+      "file": "2307.09288.html",
+      "sha256": "dc1d70fbc4b89deac366532a20b30cfb8f7fd9f53104810688e40e5c93f2791f"
+    },
+    {
+      "file": "2310.06825.html",
+      "sha256": "0149ce291b37bc49e1fa0e338f8d5dc94780dcadf1a3a8ec9e09ea894e5d6279"
+    },
+    {
+      "file": "2404.16130.html",
+      "sha256": "ca7c30847d41afdfcb885b1dd877717bfc30b7413f2450941ba58d2cc882b32c"
+    }
+  ]
+}

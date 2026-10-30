@@ -1,0 +1,81 @@
+{
+  "model": "gemini-3.1-flash-lite",
+  "scope": "25 abstracts; ABOUT only",
+  "reference_review": "pending_independent_human_review",
+  "reference_assertions": 64,
+  "predicted_assertions": 60,
+  "micro_metrics_provisional": {
+    "precision": 0.9,
+    "recall": 0.84375,
+    "f1": 0.870967741935484,
+    "empty_case": false
+  },
+  "missing_provisional_reference": [
+    [
+      "1906.00300",
+      "dense retrieval"
+    ],
+    [
+      "1906.00300",
+      "language-model pretraining"
+    ],
+    [
+      "1911.00172",
+      "dense retrieval"
+    ],
+    [
+      "2002.08909",
+      "external memory"
+    ],
+    [
+      "2004.04906",
+      "question answering"
+    ],
+    [
+      "2005.11401",
+      "external memory"
+    ],
+    [
+      "2104.07567",
+      "dense retrieval"
+    ],
+    [
+      "2104.07567",
+      "external memory"
+    ],
+    [
+      "2210.03629",
+      "few-shot learning"
+    ],
+    [
+      "2404.16130",
+      "external memory"
+    ]
+  ],
+  "extra_vs_provisional_reference": [
+    [
+      "1907.11692",
+      "question answering"
+    ],
+    [
+      "2001.08361",
+      "language-model pretraining"
+    ],
+    [
+      "2205.11916",
+      "few-shot learning"
+    ],
+    [
+      "2210.03629",
+      "external memory"
+    ],
+    [
+      "2212.10496",
+      "instruction tuning"
+    ],
+    [
+      "2212.10496",
+      "question answering"
+    ]
+  ]
+}

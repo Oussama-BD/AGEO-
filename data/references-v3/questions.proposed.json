@@ -1,0 +1,141 @@
+{
+  "review_status": "pending_independent_human_review",
+  "reference_origin": "assistant abstract review plus arXiv author metadata and original proposed PDF references",
+  "scope": "semantic answers are operationalized by the frozen topic ontology, not all possible interpretations",
+  "questions": [
+    {
+      "id": "mh1",
+      "question": "Quelles institutions sont associées aux auteurs de Attention Is All You Need ?",
+      "mode": "paper_institutions",
+      "first": "v3:paper:1706.03762",
+      "second": "",
+      "expected": [
+        "Google Brain",
+        "Google Research",
+        "University of Toronto"
+      ],
+      "hops": 2
+    },
+    {
+      "id": "mh2",
+      "question": "Quels articles portent sur la génération augmentée par récupération ?",
+      "mode": "topic_papers",
+      "first": "v3:topic:031abfa15d712ae66a3c",
+      "second": "",
+      "expected": [
+        "From Local to Global: A Graph RAG Approach to Query-Focused Summarization",
+        "REALM: Retrieval-Augmented Language Model Pre-Training",
+        "Retrieval Augmentation Reduces Hallucination in Conversation",
+        "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"
+      ],
+      "hops": 1
+    },
+    {
+      "id": "mh3",
+      "question": "Quels sujets sont reliés aux publications de Darren Edge ?",
+      "mode": "author_topics",
+      "first": "v3:author:85ea19a08e485a4a211e",
+      "second": "",
+      "expected": [
+        "external memory",
+        "knowledge graphs",
+        "question answering",
+        "retrieval-augmented generation",
+        "summarization"
+      ],
+      "hops": 2
+    },
+    {
+      "id": "mh4",
+      "question": "Quelles institutions sont reliées aux travaux sur les graphes de connaissances ?",
+      "mode": "topic_institutions",
+      "first": "v3:topic:d049237643c0c86ebb91",
+      "second": "",
+      "expected": [
+        "Microsoft Office of the CTO",
+        "Microsoft Research",
+        "Microsoft Strategic Missions and Technologies"
+      ],
+      "hops": 3
+    },
+    {
+      "id": "mh5",
+      "question": "Quels autres articles partagent au moins un sujet avec Attention Is All You Need ?",
+      "mode": "related_papers",
+      "first": "v3:paper:1706.03762",
+      "second": "",
+      "expected": [
+        "Big Bird: Transformers for Longer Sequences",
+        "Longformer: The Long-Document Transformer",
+        "Mistral 7B"
+      ],
+      "hops": 2
+    },
+    {
+      "id": "mh6",
+      "question": "Quels sujets Big Bird et Longformer ont-ils en commun ?",
+      "mode": "common_topics",
+      "first": "v3:paper:2007.14062",
+      "second": "v3:paper:2004.05150",
+      "expected": [
+        "attention mechanisms",
+        "long-context modeling",
+        "question answering",
+        "summarization"
+      ],
+      "hops": 2
+    },
+    {
+      "id": "mh7",
+      "question": "Quels auteurs ont signé à la fois Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks et Retrieval Augmentation Reduces Hallucination in Conversation ?",
+      "mode": "shared_authors",
+      "first": "v3:paper:2005.11401",
+      "second": "v3:paper:2104.07567",
+      "expected": [
+        "Douwe Kiela"
+      ],
+      "hops": 2
+    },
+    {
+      "id": "mh8",
+      "question": "Quels articles sur la récupération dense ont été écrits par au moins un auteur de Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks ?",
+      "mode": "coauthor_topic_papers",
+      "first": "v3:paper:2005.11401",
+      "second": "v3:topic:f479b1004f72cc3862e1",
+      "expected": [
+        "Dense Passage Retrieval for Open-Domain Question Answering",
+        "Generalization through Memorization: Nearest Neighbor Language Models",
+        "Retrieval Augmentation Reduces Hallucination in Conversation",
+        "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"
+      ],
+      "hops": 3
+    },
+    {
+      "id": "sem1",
+      "question": "Quels articles proposent des méthodes pour guider le raisonnement des modèles ?",
+      "mode": "topic_papers",
+      "first": "v3:topic:1fb3a740773aa66efa9b",
+      "second": "",
+      "expected": [
+        "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+        "Large Language Models are Zero-Shot Reasoners",
+        "ReAct: Synergizing Reasoning and Acting in Language Models",
+        "Tree of Thoughts: Deliberate Problem Solving with Large Language Models"
+      ],
+      "hops": 1
+    },
+    {
+      "id": "sem2",
+      "question": "Quels articles traitent de la prise en charge de longs contextes ?",
+      "mode": "topic_papers",
+      "first": "v3:topic:8718578cf714ac81a4be",
+      "second": "",
+      "expected": [
+        "Big Bird: Transformers for Longer Sequences",
+        "Longformer: The Long-Document Transformer",
+        "Mistral 7B"
+      ],
+      "hops": 1
+    }
+  ]
+}

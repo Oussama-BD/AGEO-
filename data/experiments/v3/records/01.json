@@ -1,0 +1,410 @@
+{
+  "document": {
+    "id": "v3:html:2005.11401",
+    "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "source": "https://arxiv.org/abs/2005.11401"
+  },
+  "graph": {
+    "entities": [
+      {
+        "id": "v3:paper:2005.11401",
+        "name": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+        "type": "Paper"
+      },
+      {
+        "id": "v3:author:d16f740572c61fd2bddf",
+        "name": "Patrick Lewis",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:d6cc5094f341f6279a23",
+        "name": "Ethan Perez",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:904e808349f4f1f022a8",
+        "name": "Aleksandra Piktus",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:b348b40c4684de44f3a7",
+        "name": "Fabio Petroni",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:65098aa7b00155206800",
+        "name": "Vladimir Karpukhin",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:b473ae6f6e5b071c55dd",
+        "name": "Naman Goyal",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:6298ab9f7b4a02ad7c80",
+        "name": "Heinrich Küttler",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:fcd336ece37a47966adc",
+        "name": "Mike Lewis",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:1ce67ad8ee2de9f27f02",
+        "name": "Wen-tau Yih",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:9751683091d411d4e60f",
+        "name": "Tim Rocktäschel",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:b8fa2336a7c823b62abd",
+        "name": "Sebastian Riedel",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:0ef80719966b7d98cad4",
+        "name": "Douwe Kiela",
+        "type": "Author"
+      },
+      {
+        "id": "v3:topic:031abfa15d712ae66a3c",
+        "name": "retrieval-augmented generation",
+        "type": "Topic"
+      },
+      {
+        "id": "v3:topic:f479b1004f72cc3862e1",
+        "name": "dense retrieval",
+        "type": "Topic"
+      },
+      {
+        "id": "v3:topic:70647950c4f788b4c151",
+        "name": "question answering",
+        "type": "Topic"
+      }
+    ],
+    "relations": [
+      {
+        "source": "v3:author:d16f740572c61fd2bddf",
+        "target": "v3:paper:2005.11401",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks\" /><meta name=\"citation_author\" content=\"Lewis, Patrick\" />",
+        "evidence_start": 5476,
+        "evidence_end": 5637,
+        "evidence_parts": [
+          {
+            "value": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+            "quote": "<meta name=\"citation_title\" content=\"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks\" />",
+            "start": 5476,
+            "end": 5581
+          },
+          {
+            "value": "Lewis, Patrick",
+            "quote": "<meta name=\"citation_author\" content=\"Lewis, Patrick\" />",
+            "start": 5581,
+            "end": 5637
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:d6cc5094f341f6279a23",
+        "target": "v3:paper:2005.11401",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks\" /><meta name=\"citation_author\" content=\"Lewis, Patrick\" /><meta name=\"citation_author\" content=\"Perez, Ethan\" />",
+        "evidence_start": 5476,
+        "evidence_end": 5691,
+        "evidence_parts": [
+          {
+            "value": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+            "quote": "<meta name=\"citation_title\" content=\"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks\" />",
+            "start": 5476,
+            "end": 5581
+          },
+          {
+            "value": "Perez, Ethan",
+            "quote": "<meta name=\"citation_author\" content=\"Perez, Ethan\" />",
+            "start": 5637,
+            "end": 5691
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:904e808349f4f1f022a8",
+        "target": "v3:paper:2005.11401",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks\" /><meta name=\"citation_author\" content=\"Lewis, Patrick\" /><meta name=\"citation_author\" content=\"Perez, Ethan\" /><meta name=\"citation_author\" content=\"Piktus, Aleksandra\" />",
+        "evidence_start": 5476,
+        "evidence_end": 5751,
+        "evidence_parts": [
+          {
+            "value": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+            "quote": "<meta name=\"citation_title\" content=\"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks\" />",
+            "start": 5476,
+            "end": 5581
+          },
+          {
+            "value": "Piktus, Aleksandra",
+            "quote": "<meta name=\"citation_author\" content=\"Piktus, Aleksandra\" />",
+            "start": 5691,
+            "end": 5751
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:b348b40c4684de44f3a7",
+        "target": "v3:paper:2005.11401",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks\" /><meta name=\"citation_author\" content=\"Lewis, Patrick\" /><meta name=\"citation_author\" content=\"Perez, Ethan\" /><meta name=\"citation_author\" content=\"Piktus, Aleksandra\" /><meta name=\"citation_author\" content=\"Petroni, Fabio\" />",
+        "evidence_start": 5476,
+        "evidence_end": 5807,
+        "evidence_parts": [
+          {
+            "value": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+            "quote": "<meta name=\"citation_title\" content=\"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks\" />",
+            "start": 5476,
+            "end": 5581
+          },
+          {
+            "value": "Petroni, Fabio",
+            "quote": "<meta name=\"citation_author\" content=\"Petroni, Fabio\" />",
+            "start": 5751,
+            "end": 5807
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:65098aa7b00155206800",
+        "target": "v3:paper:2005.11401",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks\" /><meta name=\"citation_author\" content=\"Lewis, Patrick\" /><meta name=\"citation_author\" content=\"Perez, Ethan\" /><meta name=\"citation_author\" content=\"Piktus, Aleksandra\" /><meta name=\"citation_author\" content=\"Petroni, Fabio\" /><meta name=\"citation_author\" content=\"Karpukhin, Vladimir\" />",
+        "evidence_start": 5476,
+        "evidence_end": 5868,
+        "evidence_parts": [
+          {
+            "value": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+            "quote": "<meta name=\"citation_title\" content=\"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks\" />",
+            "start": 5476,
+            "end": 5581
+          },
+          {
+            "value": "Karpukhin, Vladimir",
+            "quote": "<meta name=\"citation_author\" content=\"Karpukhin, Vladimir\" />",
+            "start": 5807,
+            "end": 5868
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:b473ae6f6e5b071c55dd",
+        "target": "v3:paper:2005.11401",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks\" /><meta name=\"citation_author\" content=\"Lewis, Patrick\" /><meta name=\"citation_author\" content=\"Perez, Ethan\" /><meta name=\"citation_author\" content=\"Piktus, Aleksandra\" /><meta name=\"citation_author\" content=\"Petroni, Fabio\" /><meta name=\"citation_author\" content=\"Karpukhin, Vladimir\" /><meta name=\"citation_author\" content=\"Goyal, Naman\" />",
+        "evidence_start": 5476,
+        "evidence_end": 5922,
+        "evidence_parts": [
+          {
+            "value": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+            "quote": "<meta name=\"citation_title\" content=\"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks\" />",
+            "start": 5476,
+            "end": 5581
+          },
+          {
+            "value": "Goyal, Naman",
+            "quote": "<meta name=\"citation_author\" content=\"Goyal, Naman\" />",
+            "start": 5868,
+            "end": 5922
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:6298ab9f7b4a02ad7c80",
+        "target": "v3:paper:2005.11401",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks\" /><meta name=\"citation_author\" content=\"Lewis, Patrick\" /><meta name=\"citation_author\" content=\"Perez, Ethan\" /><meta name=\"citation_author\" content=\"Piktus, Aleksandra\" /><meta name=\"citation_author\" content=\"Petroni, Fabio\" /><meta name=\"citation_author\" content=\"Karpukhin, Vladimir\" /><meta name=\"citation_author\" content=\"Goyal, Naman\" /><meta name=\"citation_author\" content=\"Küttler, Heinrich\" />",
+        "evidence_start": 5476,
+        "evidence_end": 5981,
+        "evidence_parts": [
+          {
+            "value": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+            "quote": "<meta name=\"citation_title\" content=\"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks\" />",
+            "start": 5476,
+            "end": 5581
+          },
+          {
+            "value": "Küttler, Heinrich",
+            "quote": "<meta name=\"citation_author\" content=\"Küttler, Heinrich\" />",
+            "start": 5922,
+            "end": 5981
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:fcd336ece37a47966adc",
+        "target": "v3:paper:2005.11401",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks\" /><meta name=\"citation_author\" content=\"Lewis, Patrick\" /><meta name=\"citation_author\" content=\"Perez, Ethan\" /><meta name=\"citation_author\" content=\"Piktus, Aleksandra\" /><meta name=\"citation_author\" content=\"Petroni, Fabio\" /><meta name=\"citation_author\" content=\"Karpukhin, Vladimir\" /><meta name=\"citation_author\" content=\"Goyal, Naman\" /><meta name=\"citation_author\" content=\"Küttler, Heinrich\" /><meta name=\"citation_author\" content=\"Lewis, Mike\" />",
+        "evidence_start": 5476,
+        "evidence_end": 6034,
+        "evidence_parts": [
+          {
+            "value": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+            "quote": "<meta name=\"citation_title\" content=\"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks\" />",
+            "start": 5476,
+            "end": 5581
+          },
+          {
+            "value": "Lewis, Mike",
+            "quote": "<meta name=\"citation_author\" content=\"Lewis, Mike\" />",
+            "start": 5981,
+            "end": 6034
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:1ce67ad8ee2de9f27f02",
+        "target": "v3:paper:2005.11401",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks\" /><meta name=\"citation_author\" content=\"Lewis, Patrick\" /><meta name=\"citation_author\" content=\"Perez, Ethan\" /><meta name=\"citation_author\" content=\"Piktus, Aleksandra\" /><meta name=\"citation_author\" content=\"Petroni, Fabio\" /><meta name=\"citation_author\" content=\"Karpukhin, Vladimir\" /><meta name=\"citation_author\" content=\"Goyal, Naman\" /><meta name=\"citation_author\" content=\"Küttler, Heinrich\" /><meta name=\"citation_author\" content=\"Lewis, Mike\" /><meta name=\"citation_author\" content=\"Yih, Wen-tau\" />",
+        "evidence_start": 5476,
+        "evidence_end": 6088,
+        "evidence_parts": [
+          {
+            "value": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+            "quote": "<meta name=\"citation_title\" content=\"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks\" />",
+            "start": 5476,
+            "end": 5581
+          },
+          {
+            "value": "Yih, Wen-tau",
+            "quote": "<meta name=\"citation_author\" content=\"Yih, Wen-tau\" />",
+            "start": 6034,
+            "end": 6088
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:9751683091d411d4e60f",
+        "target": "v3:paper:2005.11401",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks\" /><meta name=\"citation_author\" content=\"Lewis, Patrick\" /><meta name=\"citation_author\" content=\"Perez, Ethan\" /><meta name=\"citation_author\" content=\"Piktus, Aleksandra\" /><meta name=\"citation_author\" content=\"Petroni, Fabio\" /><meta name=\"citation_author\" content=\"Karpukhin, Vladimir\" /><meta name=\"citation_author\" content=\"Goyal, Naman\" /><meta name=\"citation_author\" content=\"Küttler, Heinrich\" /><meta name=\"citation_author\" content=\"Lewis, Mike\" /><meta name=\"citation_author\" content=\"Yih, Wen-tau\" /><meta name=\"citation_author\" content=\"Rocktäschel, Tim\" />",
+        "evidence_start": 5476,
+        "evidence_end": 6146,
+        "evidence_parts": [
+          {
+            "value": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+            "quote": "<meta name=\"citation_title\" content=\"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks\" />",
+            "start": 5476,
+            "end": 5581
+          },
+          {
+            "value": "Rocktäschel, Tim",
+            "quote": "<meta name=\"citation_author\" content=\"Rocktäschel, Tim\" />",
+            "start": 6088,
+            "end": 6146
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:b8fa2336a7c823b62abd",
+        "target": "v3:paper:2005.11401",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks\" /><meta name=\"citation_author\" content=\"Lewis, Patrick\" /><meta name=\"citation_author\" content=\"Perez, Ethan\" /><meta name=\"citation_author\" content=\"Piktus, Aleksandra\" /><meta name=\"citation_author\" content=\"Petroni, Fabio\" /><meta name=\"citation_author\" content=\"Karpukhin, Vladimir\" /><meta name=\"citation_author\" content=\"Goyal, Naman\" /><meta name=\"citation_author\" content=\"Küttler, Heinrich\" /><meta name=\"citation_author\" content=\"Lewis, Mike\" /><meta name=\"citation_author\" content=\"Yih, Wen-tau\" /><meta name=\"citation_author\" content=\"Rocktäschel, Tim\" /><meta name=\"citation_author\" content=\"Riedel, Sebastian\" />",
+        "evidence_start": 5476,
+        "evidence_end": 6205,
+        "evidence_parts": [
+          {
+            "value": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+            "quote": "<meta name=\"citation_title\" content=\"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks\" />",
+            "start": 5476,
+            "end": 5581
+          },
+          {
+            "value": "Riedel, Sebastian",
+            "quote": "<meta name=\"citation_author\" content=\"Riedel, Sebastian\" />",
+            "start": 6146,
+            "end": 6205
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:0ef80719966b7d98cad4",
+        "target": "v3:paper:2005.11401",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks\" /><meta name=\"citation_author\" content=\"Lewis, Patrick\" /><meta name=\"citation_author\" content=\"Perez, Ethan\" /><meta name=\"citation_author\" content=\"Piktus, Aleksandra\" /><meta name=\"citation_author\" content=\"Petroni, Fabio\" /><meta name=\"citation_author\" content=\"Karpukhin, Vladimir\" /><meta name=\"citation_author\" content=\"Goyal, Naman\" /><meta name=\"citation_author\" content=\"Küttler, Heinrich\" /><meta name=\"citation_author\" content=\"Lewis, Mike\" /><meta name=\"citation_author\" content=\"Yih, Wen-tau\" /><meta name=\"citation_author\" content=\"Rocktäschel, Tim\" /><meta name=\"citation_author\" content=\"Riedel, Sebastian\" /><meta name=\"citation_author\" content=\"Kiela, Douwe\" />",
+        "evidence_start": 5476,
+        "evidence_end": 6259,
+        "evidence_parts": [
+          {
+            "value": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+            "quote": "<meta name=\"citation_title\" content=\"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks\" />",
+            "start": 5476,
+            "end": 5581
+          },
+          {
+            "value": "Kiela, Douwe",
+            "quote": "<meta name=\"citation_author\" content=\"Kiela, Douwe\" />",
+            "start": 6205,
+            "end": 6259
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:paper:2005.11401",
+        "target": "v3:topic:031abfa15d712ae66a3c",
+        "type": "ABOUT",
+        "quote": "We explore a general-purpose fine-tuning recipe for retrieval-augmented generation (RAG)",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      },
+      {
+        "source": "v3:paper:2005.11401",
+        "target": "v3:topic:f479b1004f72cc3862e1",
+        "type": "ABOUT",
+        "quote": "the non-parametric memory is a dense vector index of Wikipedia, accessed with a pre-trained neural retriever",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      },
+      {
+        "source": "v3:paper:2005.11401",
+        "target": "v3:topic:70647950c4f788b4c151",
+        "type": "ABOUT",
+        "quote": "set the state-of-the-art on three open domain QA tasks",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      }
+    ]
+  },
+  "mode": "deterministic_html_metadata",
+  "arxiv_id": "2005.11401",
+  "abstract": "Large pre-trained language models have been shown to store factual knowledge in their parameters, and achieve state-of-the-art results when fine-tuned on downstream NLP tasks. However, their ability to access and precisely manipulate knowledge is still limited, and hence on knowledge-intensive tasks, their performance lags behind task-specific architectures. Additionally, providing provenance for their decisions and updating their world knowledge remain open research problems. Pre-trained models with a differentiable access mechanism to explicit non-parametric memory can overcome this issue, but have so far been only investigated for extractive downstream tasks. We explore a general-purpose fine-tuning recipe for retrieval-augmented generation (RAG) -- models which combine pre-trained parametric and non-parametric memory for language generation. We introduce RAG models where the parametric memory is a pre-trained seq2seq model and the non-parametric memory is a dense vector index of Wikipedia, accessed with a pre-trained neural retriever. We compare two RAG formulations, one which conditions on the same retrieved passages across the whole generated sequence, the other can use different passages per token. We fine-tune and evaluate our models on a wide range of knowledge-intensive NLP tasks and set the state-of-the-art on three open domain QA tasks, outperforming parametric seq2seq models and task-specific retrieve-and-extract architectures. For language generation tasks, we find that RAG models generate more specific, diverse and factual language than a state-of-the-art parametric-only seq2seq baseline.",
+  "llm_calls": 0,
+  "source_sha256": "e61987bdbb0d90c7c823a071619c48b361b71538ddb4279f581724f5c59bb860"
+}

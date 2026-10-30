@@ -1,0 +1,53 @@
+services:
+  neo4j:
+    image: neo4j:5.26-community
+    mem_limit: 1g
+    environment:
+      NEO4J_AUTH: neo4j/${NEO4J_PASSWORD:?Configure .env}
+      NEO4J_PLUGINS: '["graph-data-science"]'
+      NEO4J_dbms_security_procedures_unrestricted: gds.*
+      NEO4J_server_memory_heap_initial__size: 128m
+      NEO4J_server_memory_heap_max__size: 256m
+      NEO4J_server_memory_pagecache_size: 128m
+    ports: ["127.0.0.1:7474:7474", "127.0.0.1:7687:7687"]
+    volumes: ["neo4j-data:/data"]
+  namenode:
+    image: apache/hadoop:3.4.1
+    mem_limit: 768m
+    environment:
+      HADOOP_HEAPSIZE_MAX: 256
+    hostname: namenode
+    user: root
+    command: ["bash", "/config/start-hdfs.sh", "namenode"]
+    volumes: ["./hadoop:/config:ro", "hdfs-name:/data/name"]
+    ports: ["127.0.0.1:9870:9870"]
+  datanode:
+    image: apache/hadoop:3.4.1
+    mem_limit: 768m
+    environment:
+      HADOOP_HEAPSIZE_MAX: 256
+    hostname: datanode
+    user: root
+    command: ["bash", "/config/start-hdfs.sh", "datanode"]
+    depends_on: [namenode]
+    volumes: ["./hadoop:/config:ro", "hdfs-data:/data/data"]
+  api:
+    build: .
+    env_file: .env
+    ports: ["127.0.0.1:8000:8000"]
+    volumes: ["./data:/app/data", "./reports:/app/reports", "./app:/app/app:ro", "./static:/app/static:ro"]
+    depends_on: [neo4j]
+  spark:
+    image: apache/spark:3.5.3-java17-python3
+    mem_limit: 1g
+    profiles: [batch]
+    user: root
+    volumes: ["./:/project", "./hadoop:/config:ro"]
+    environment:
+      HADOOP_CONF_DIR: /config
+    entrypoint: ["/opt/spark/bin/spark-submit", "--master", "local[2]", "--driver-memory", "512m", "/project/jobs/transform.py"]
+    depends_on: [namenode, datanode]
+volumes:
+  neo4j-data:
+  hdfs-name:
+  hdfs-data:

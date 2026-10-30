@@ -1,0 +1,102 @@
+[
+  {
+    "id": "real1",
+    "mode": "authors",
+    "term": "Attention Is All You Need",
+    "question": "Qui sont les auteurs de l'article Attention Is All You Need ?",
+    "expected": [
+      "Ashish Vaswani",
+      "Noam Shazeer",
+      "Niki Parmar",
+      "Jakob Uszkoreit",
+      "Llion Jones",
+      "Aidan N. Gomez",
+      "Łukasz Kaiser",
+      "Illia Polosukhin"
+    ]
+  },
+  {
+    "id": "real2",
+    "mode": "authors",
+    "term": "From Local to Global: A GraphRAG Approach to Query-Focused Summarization",
+    "question": "Qui a redige l'article From Local to Global: A GraphRAG Approach to Query-Focused Summarization ?",
+    "expected": [
+      "Darren Edge",
+      "Ha Trinh",
+      "Newman Cheng",
+      "Joshua Bradley",
+      "Alex Chao",
+      "Apurva Mody",
+      "Steven Truitt",
+      "Dasha Metropolitansky",
+      "Robert Osazuwa Ness",
+      "Jonathan Larson"
+    ]
+  },
+  {
+    "id": "real3",
+    "mode": "authors",
+    "term": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "question": "Donne les auteurs de Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.",
+    "expected": [
+      "Patrick Lewis",
+      "Ethan Perez",
+      "Aleksandra Piktus",
+      "Fabio Petroni",
+      "Vladimir Karpukhin",
+      "Naman Goyal",
+      "Heinrich Küttler",
+      "Mike Lewis",
+      "Wen-tau Yih",
+      "Tim Rocktäschel",
+      "Sebastian Riedel",
+      "Douwe Kiela"
+    ]
+  },
+  {
+    "id": "real4",
+    "mode": "institutions",
+    "term": "Patrick Lewis",
+    "question": "Quelles affiliations sont indiquees pour Patrick Lewis ?",
+    "expected": [
+      "Facebook AI Research",
+      "University College London"
+    ]
+  },
+  {
+    "id": "real5",
+    "mode": "institutions",
+    "term": "Darren Edge",
+    "question": "A quelle institution Darren Edge est-il rattache ?",
+    "expected": [
+      "Microsoft Research"
+    ]
+  },
+  {
+    "id": "real6",
+    "mode": "paper_institutions",
+    "term": "Attention Is All You Need",
+    "question": "Quelles institutions sont representees par les auteurs de Attention Is All You Need ?",
+    "expected": [
+      "Google Brain",
+      "Google Research",
+      "University of Toronto"
+    ]
+  },
+  {
+    "id": "real7",
+    "mode": "papers",
+    "term": "Ha Trinh",
+    "question": "Quels articles du corpus ont ete ecrits par Ha Trinh ?",
+    "expected": [
+      "From Local to Global: A GraphRAG Approach to Query-Focused Summarization"
+    ]
+  },
+  {
+    "id": "real8",
+    "mode": "institutions",
+    "term": "Auteur Inconnu XYZ",
+    "question": "Quelles sont les affiliations de Auteur Inconnu XYZ ?",
+    "expected": []
+  }
+]

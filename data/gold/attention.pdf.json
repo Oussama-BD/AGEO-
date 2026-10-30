@@ -1,0 +1,208 @@
+{
+  "document": {
+    "id": "real-7bb68717ccda16dfd64dbf111d141190d61df8c502504c3dac121285c4deb1af",
+    "title": "Attention Is All You Need",
+    "source": "https://arxiv.org/abs/1706.03762#page=1"
+  },
+  "text": "Provided proper attribution is provided, Google hereby grants permission to\nreproduce the tables and figures in this paper solely for use in journalistic or\nscholarly works.\nAttention Is All You Need\nAshish Vaswani∗\nGoogle Brain\navaswani@google.com\nNoam Shazeer∗\nGoogle Brain\nnoam@google.com\nNiki Parmar∗\nGoogle Research\nnikip@google.com\nJakob Uszkoreit∗\nGoogle Research\nusz@google.com\nLlion Jones∗\nGoogle Research\nllion@google.com\nAidan N. Gomez∗ †\nUniversity of Toronto\naidan@cs.toronto.edu\nŁukasz Kaiser∗\nGoogle Brain\nlukaszkaiser@google.com\nIllia Polosukhin∗ ‡\nillia.polosukhin@gmail.com\n",
+  "graph": {
+    "entities": [
+      {
+        "id": "a3d32fc6294d6bddf1e5fff8",
+        "name": "Attention Is All You Need",
+        "type": "Paper"
+      },
+      {
+        "id": "8a334a0c76a6b96b2031ce5c",
+        "name": "Ashish Vaswani",
+        "type": "Author"
+      },
+      {
+        "id": "2d9536837d736f5a01f8eabe",
+        "name": "Google Brain",
+        "type": "Institution"
+      },
+      {
+        "id": "bbd76ce1763bf24503f02ab9",
+        "name": "Noam Shazeer",
+        "type": "Author"
+      },
+      {
+        "id": "1833b8011ee216b08c4b8cfc",
+        "name": "Niki Parmar",
+        "type": "Author"
+      },
+      {
+        "id": "78eca86bcb1adf0ea65e7345",
+        "name": "Google Research",
+        "type": "Institution"
+      },
+      {
+        "id": "b5118e06eddbdebee9bdb8fa",
+        "name": "Jakob Uszkoreit",
+        "type": "Author"
+      },
+      {
+        "id": "361bb83577d4c24a52bf9087",
+        "name": "Llion Jones",
+        "type": "Author"
+      },
+      {
+        "id": "3eb1df558d8058043e664bde",
+        "name": "Aidan N. Gomez",
+        "type": "Author"
+      },
+      {
+        "id": "e083d66c0f1757d2d87140ae",
+        "name": "University of Toronto",
+        "type": "Institution"
+      },
+      {
+        "id": "75d5dfc6044c6cbd1a6a2fb0",
+        "name": "Łukasz Kaiser",
+        "type": "Author"
+      },
+      {
+        "id": "1a7773d95c8276a6f67f6429",
+        "name": "Illia Polosukhin",
+        "type": "Author"
+      }
+    ],
+    "relations": [
+      {
+        "source": "8a334a0c76a6b96b2031ce5c",
+        "target": "a3d32fc6294d6bddf1e5fff8",
+        "type": "AUTHORED",
+        "quote": "Provided proper attribution is provided, Google hereby grants permission to\nreproduce the tables and figures in this paper solely for use in journalistic or\nscholarly works.\nAttention Is All You Need\nAshish Vaswani∗\nGoogle Brain\navaswani@google.com\nNoam Shazeer∗\nGoogle Brain\nnoam@google.com\nNiki Parmar∗\nGoogle Research\nnikip@google.com\nJakob Uszkoreit∗\nGoogle Research\nusz@google.com\nLlion Jones∗\nGoogle Research\nllion@google.com\nAidan N. Gomez∗ †\nUniversity of Toronto\naidan@cs.toronto.edu\nŁukasz Kaiser∗\nGoogle Brain\nlukaszkaiser@google.com\nIllia Polosukhin∗ ‡\nillia.polosukhin@gmail.com",
+        "evidence_start": 0,
+        "evidence_end": 591
+      },
+      {
+        "source": "8a334a0c76a6b96b2031ce5c",
+        "target": "2d9536837d736f5a01f8eabe",
+        "type": "AFFILIATED_WITH",
+        "quote": "Provided proper attribution is provided, Google hereby grants permission to\nreproduce the tables and figures in this paper solely for use in journalistic or\nscholarly works.\nAttention Is All You Need\nAshish Vaswani∗\nGoogle Brain\navaswani@google.com\nNoam Shazeer∗\nGoogle Brain\nnoam@google.com\nNiki Parmar∗\nGoogle Research\nnikip@google.com\nJakob Uszkoreit∗\nGoogle Research\nusz@google.com\nLlion Jones∗\nGoogle Research\nllion@google.com\nAidan N. Gomez∗ †\nUniversity of Toronto\naidan@cs.toronto.edu\nŁukasz Kaiser∗\nGoogle Brain\nlukaszkaiser@google.com\nIllia Polosukhin∗ ‡\nillia.polosukhin@gmail.com",
+        "evidence_start": 0,
+        "evidence_end": 591
+      },
+      {
+        "source": "bbd76ce1763bf24503f02ab9",
+        "target": "a3d32fc6294d6bddf1e5fff8",
+        "type": "AUTHORED",
+        "quote": "Provided proper attribution is provided, Google hereby grants permission to\nreproduce the tables and figures in this paper solely for use in journalistic or\nscholarly works.\nAttention Is All You Need\nAshish Vaswani∗\nGoogle Brain\navaswani@google.com\nNoam Shazeer∗\nGoogle Brain\nnoam@google.com\nNiki Parmar∗\nGoogle Research\nnikip@google.com\nJakob Uszkoreit∗\nGoogle Research\nusz@google.com\nLlion Jones∗\nGoogle Research\nllion@google.com\nAidan N. Gomez∗ †\nUniversity of Toronto\naidan@cs.toronto.edu\nŁukasz Kaiser∗\nGoogle Brain\nlukaszkaiser@google.com\nIllia Polosukhin∗ ‡\nillia.polosukhin@gmail.com",
+        "evidence_start": 0,
+        "evidence_end": 591
+      },
+      {
+        "source": "bbd76ce1763bf24503f02ab9",
+        "target": "2d9536837d736f5a01f8eabe",
+        "type": "AFFILIATED_WITH",
+        "quote": "Provided proper attribution is provided, Google hereby grants permission to\nreproduce the tables and figures in this paper solely for use in journalistic or\nscholarly works.\nAttention Is All You Need\nAshish Vaswani∗\nGoogle Brain\navaswani@google.com\nNoam Shazeer∗\nGoogle Brain\nnoam@google.com\nNiki Parmar∗\nGoogle Research\nnikip@google.com\nJakob Uszkoreit∗\nGoogle Research\nusz@google.com\nLlion Jones∗\nGoogle Research\nllion@google.com\nAidan N. Gomez∗ †\nUniversity of Toronto\naidan@cs.toronto.edu\nŁukasz Kaiser∗\nGoogle Brain\nlukaszkaiser@google.com\nIllia Polosukhin∗ ‡\nillia.polosukhin@gmail.com",
+        "evidence_start": 0,
+        "evidence_end": 591
+      },
+      {
+        "source": "1833b8011ee216b08c4b8cfc",
+        "target": "a3d32fc6294d6bddf1e5fff8",
+        "type": "AUTHORED",
+        "quote": "Provided proper attribution is provided, Google hereby grants permission to\nreproduce the tables and figures in this paper solely for use in journalistic or\nscholarly works.\nAttention Is All You Need\nAshish Vaswani∗\nGoogle Brain\navaswani@google.com\nNoam Shazeer∗\nGoogle Brain\nnoam@google.com\nNiki Parmar∗\nGoogle Research\nnikip@google.com\nJakob Uszkoreit∗\nGoogle Research\nusz@google.com\nLlion Jones∗\nGoogle Research\nllion@google.com\nAidan N. Gomez∗ †\nUniversity of Toronto\naidan@cs.toronto.edu\nŁukasz Kaiser∗\nGoogle Brain\nlukaszkaiser@google.com\nIllia Polosukhin∗ ‡\nillia.polosukhin@gmail.com",
+        "evidence_start": 0,
+        "evidence_end": 591
+      },
+      {
+        "source": "1833b8011ee216b08c4b8cfc",
+        "target": "78eca86bcb1adf0ea65e7345",
+        "type": "AFFILIATED_WITH",
+        "quote": "Provided proper attribution is provided, Google hereby grants permission to\nreproduce the tables and figures in this paper solely for use in journalistic or\nscholarly works.\nAttention Is All You Need\nAshish Vaswani∗\nGoogle Brain\navaswani@google.com\nNoam Shazeer∗\nGoogle Brain\nnoam@google.com\nNiki Parmar∗\nGoogle Research\nnikip@google.com\nJakob Uszkoreit∗\nGoogle Research\nusz@google.com\nLlion Jones∗\nGoogle Research\nllion@google.com\nAidan N. Gomez∗ †\nUniversity of Toronto\naidan@cs.toronto.edu\nŁukasz Kaiser∗\nGoogle Brain\nlukaszkaiser@google.com\nIllia Polosukhin∗ ‡\nillia.polosukhin@gmail.com",
+        "evidence_start": 0,
+        "evidence_end": 591
+      },
+      {
+        "source": "b5118e06eddbdebee9bdb8fa",
+        "target": "a3d32fc6294d6bddf1e5fff8",
+        "type": "AUTHORED",
+        "quote": "Provided proper attribution is provided, Google hereby grants permission to\nreproduce the tables and figures in this paper solely for use in journalistic or\nscholarly works.\nAttention Is All You Need\nAshish Vaswani∗\nGoogle Brain\navaswani@google.com\nNoam Shazeer∗\nGoogle Brain\nnoam@google.com\nNiki Parmar∗\nGoogle Research\nnikip@google.com\nJakob Uszkoreit∗\nGoogle Research\nusz@google.com\nLlion Jones∗\nGoogle Research\nllion@google.com\nAidan N. Gomez∗ †\nUniversity of Toronto\naidan@cs.toronto.edu\nŁukasz Kaiser∗\nGoogle Brain\nlukaszkaiser@google.com\nIllia Polosukhin∗ ‡\nillia.polosukhin@gmail.com",
+        "evidence_start": 0,
+        "evidence_end": 591
+      },
+      {
+        "source": "b5118e06eddbdebee9bdb8fa",
+        "target": "78eca86bcb1adf0ea65e7345",
+        "type": "AFFILIATED_WITH",
+        "quote": "Provided proper attribution is provided, Google hereby grants permission to\nreproduce the tables and figures in this paper solely for use in journalistic or\nscholarly works.\nAttention Is All You Need\nAshish Vaswani∗\nGoogle Brain\navaswani@google.com\nNoam Shazeer∗\nGoogle Brain\nnoam@google.com\nNiki Parmar∗\nGoogle Research\nnikip@google.com\nJakob Uszkoreit∗\nGoogle Research\nusz@google.com\nLlion Jones∗\nGoogle Research\nllion@google.com\nAidan N. Gomez∗ †\nUniversity of Toronto\naidan@cs.toronto.edu\nŁukasz Kaiser∗\nGoogle Brain\nlukaszkaiser@google.com\nIllia Polosukhin∗ ‡\nillia.polosukhin@gmail.com",
+        "evidence_start": 0,
+        "evidence_end": 591
+      },
+      {
+        "source": "361bb83577d4c24a52bf9087",
+        "target": "a3d32fc6294d6bddf1e5fff8",
+        "type": "AUTHORED",
+        "quote": "Provided proper attribution is provided, Google hereby grants permission to\nreproduce the tables and figures in this paper solely for use in journalistic or\nscholarly works.\nAttention Is All You Need\nAshish Vaswani∗\nGoogle Brain\navaswani@google.com\nNoam Shazeer∗\nGoogle Brain\nnoam@google.com\nNiki Parmar∗\nGoogle Research\nnikip@google.com\nJakob Uszkoreit∗\nGoogle Research\nusz@google.com\nLlion Jones∗\nGoogle Research\nllion@google.com\nAidan N. Gomez∗ †\nUniversity of Toronto\naidan@cs.toronto.edu\nŁukasz Kaiser∗\nGoogle Brain\nlukaszkaiser@google.com\nIllia Polosukhin∗ ‡\nillia.polosukhin@gmail.com",
+        "evidence_start": 0,
+        "evidence_end": 591
+      },
+      {
+        "source": "361bb83577d4c24a52bf9087",
+        "target": "78eca86bcb1adf0ea65e7345",
+        "type": "AFFILIATED_WITH",
+        "quote": "Provided proper attribution is provided, Google hereby grants permission to\nreproduce the tables and figures in this paper solely for use in journalistic or\nscholarly works.\nAttention Is All You Need\nAshish Vaswani∗\nGoogle Brain\navaswani@google.com\nNoam Shazeer∗\nGoogle Brain\nnoam@google.com\nNiki Parmar∗\nGoogle Research\nnikip@google.com\nJakob Uszkoreit∗\nGoogle Research\nusz@google.com\nLlion Jones∗\nGoogle Research\nllion@google.com\nAidan N. Gomez∗ †\nUniversity of Toronto\naidan@cs.toronto.edu\nŁukasz Kaiser∗\nGoogle Brain\nlukaszkaiser@google.com\nIllia Polosukhin∗ ‡\nillia.polosukhin@gmail.com",
+        "evidence_start": 0,
+        "evidence_end": 591
+      },
+      {
+        "source": "3eb1df558d8058043e664bde",
+        "target": "a3d32fc6294d6bddf1e5fff8",
+        "type": "AUTHORED",
+        "quote": "Provided proper attribution is provided, Google hereby grants permission to\nreproduce the tables and figures in this paper solely for use in journalistic or\nscholarly works.\nAttention Is All You Need\nAshish Vaswani∗\nGoogle Brain\navaswani@google.com\nNoam Shazeer∗\nGoogle Brain\nnoam@google.com\nNiki Parmar∗\nGoogle Research\nnikip@google.com\nJakob Uszkoreit∗\nGoogle Research\nusz@google.com\nLlion Jones∗\nGoogle Research\nllion@google.com\nAidan N. Gomez∗ †\nUniversity of Toronto\naidan@cs.toronto.edu\nŁukasz Kaiser∗\nGoogle Brain\nlukaszkaiser@google.com\nIllia Polosukhin∗ ‡\nillia.polosukhin@gmail.com",
+        "evidence_start": 0,
+        "evidence_end": 591
+      },
+      {
+        "source": "3eb1df558d8058043e664bde",
+        "target": "e083d66c0f1757d2d87140ae",
+        "type": "AFFILIATED_WITH",
+        "quote": "Provided proper attribution is provided, Google hereby grants permission to\nreproduce the tables and figures in this paper solely for use in journalistic or\nscholarly works.\nAttention Is All You Need\nAshish Vaswani∗\nGoogle Brain\navaswani@google.com\nNoam Shazeer∗\nGoogle Brain\nnoam@google.com\nNiki Parmar∗\nGoogle Research\nnikip@google.com\nJakob Uszkoreit∗\nGoogle Research\nusz@google.com\nLlion Jones∗\nGoogle Research\nllion@google.com\nAidan N. Gomez∗ †\nUniversity of Toronto\naidan@cs.toronto.edu\nŁukasz Kaiser∗\nGoogle Brain\nlukaszkaiser@google.com\nIllia Polosukhin∗ ‡\nillia.polosukhin@gmail.com",
+        "evidence_start": 0,
+        "evidence_end": 591
+      },
+      {
+        "source": "75d5dfc6044c6cbd1a6a2fb0",
+        "target": "a3d32fc6294d6bddf1e5fff8",
+        "type": "AUTHORED",
+        "quote": "Provided proper attribution is provided, Google hereby grants permission to\nreproduce the tables and figures in this paper solely for use in journalistic or\nscholarly works.\nAttention Is All You Need\nAshish Vaswani∗\nGoogle Brain\navaswani@google.com\nNoam Shazeer∗\nGoogle Brain\nnoam@google.com\nNiki Parmar∗\nGoogle Research\nnikip@google.com\nJakob Uszkoreit∗\nGoogle Research\nusz@google.com\nLlion Jones∗\nGoogle Research\nllion@google.com\nAidan N. Gomez∗ †\nUniversity of Toronto\naidan@cs.toronto.edu\nŁukasz Kaiser∗\nGoogle Brain\nlukaszkaiser@google.com\nIllia Polosukhin∗ ‡\nillia.polosukhin@gmail.com",
+        "evidence_start": 0,
+        "evidence_end": 591
+      },
+      {
+        "source": "75d5dfc6044c6cbd1a6a2fb0",
+        "target": "2d9536837d736f5a01f8eabe",
+        "type": "AFFILIATED_WITH",
+        "quote": "Provided proper attribution is provided, Google hereby grants permission to\nreproduce the tables and figures in this paper solely for use in journalistic or\nscholarly works.\nAttention Is All You Need\nAshish Vaswani∗\nGoogle Brain\navaswani@google.com\nNoam Shazeer∗\nGoogle Brain\nnoam@google.com\nNiki Parmar∗\nGoogle Research\nnikip@google.com\nJakob Uszkoreit∗\nGoogle Research\nusz@google.com\nLlion Jones∗\nGoogle Research\nllion@google.com\nAidan N. Gomez∗ †\nUniversity of Toronto\naidan@cs.toronto.edu\nŁukasz Kaiser∗\nGoogle Brain\nlukaszkaiser@google.com\nIllia Polosukhin∗ ‡\nillia.polosukhin@gmail.com",
+        "evidence_start": 0,
+        "evidence_end": 591
+      },
+      {
+        "source": "1a7773d95c8276a6f67f6429",
+        "target": "a3d32fc6294d6bddf1e5fff8",
+        "type": "AUTHORED",
+        "quote": "Provided proper attribution is provided, Google hereby grants permission to\nreproduce the tables and figures in this paper solely for use in journalistic or\nscholarly works.\nAttention Is All You Need\nAshish Vaswani∗\nGoogle Brain\navaswani@google.com\nNoam Shazeer∗\nGoogle Brain\nnoam@google.com\nNiki Parmar∗\nGoogle Research\nnikip@google.com\nJakob Uszkoreit∗\nGoogle Research\nusz@google.com\nLlion Jones∗\nGoogle Research\nllion@google.com\nAidan N. Gomez∗ †\nUniversity of Toronto\naidan@cs.toronto.edu\nŁukasz Kaiser∗\nGoogle Brain\nlukaszkaiser@google.com\nIllia Polosukhin∗ ‡\nillia.polosukhin@gmail.com",
+        "evidence_start": 0,
+        "evidence_end": 591
+      }
+    ]
+  },
+  "source_file": "attention.pdf",
+  "page": 1,
+  "annotation_scope": "Title, full author listing and current affiliations in front matter; no footnote historical affiliations",
+  "annotated_by": "assistant_source_review",
+  "review_status": "pending_independent_human_review",
+  "evaluation_types": [
+    "Author",
+    "Institution",
+    "Paper"
+  ],
+  "evaluation_relations": [
+    "AUTHORED",
+    "AFFILIATED_WITH"
+  ]
+}

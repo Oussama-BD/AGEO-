@@ -1,0 +1,144 @@
+{
+  "status": "complete",
+  "model": "gemini-3.1-flash-lite",
+  "fingerprint": "7a06aca37a3f116273faaa4e679c1239b294446c9c1a621cb2efdf9456689a80",
+  "reference_review": "pending_independent_human_review",
+  "paired_trials": 60,
+  "expected_pairs": 60,
+  "distinct_questions_completed": 10,
+  "protocols": {
+    "controlled": {
+      "cypher": {
+        "trials": 30,
+        "mean_f1": 0.9555555555555556,
+        "exact_match_rate": 0.8,
+        "median_method_latency_s": 0.023820700007490814,
+        "p95_method_latency_s": 0.040543199982494116,
+        "median_end_to_end_including_shared_planner_s": 0.023820700007490814,
+        "repetitions_completed": {
+          "1": 10,
+          "2": 10,
+          "3": 10
+        }
+      },
+      "graphrag": {
+        "trials": 30,
+        "mean_f1": 0.9555555555555556,
+        "exact_match_rate": 0.8,
+        "median_method_latency_s": 12.981749800004764,
+        "p95_method_latency_s": 50.58499140001368,
+        "median_end_to_end_including_shared_planner_s": 12.981749800004764,
+        "repetitions_completed": {
+          "1": 10,
+          "2": 10,
+          "3": 10
+        },
+        "median_provider_request_wall_s": 2.77282805001596,
+        "median_rate_and_retry_wait_s": 10.820545250026044,
+        "input_tokens": 797025,
+        "output_tokens": 4599
+      }
+    },
+    "question_only": {
+      "cypher": {
+        "trials": 30,
+        "mean_f1": 0.9555555555555556,
+        "exact_match_rate": 0.8,
+        "median_method_latency_s": 0.024967500008642673,
+        "p95_method_latency_s": 0.033756199991330504,
+        "median_end_to_end_including_shared_planner_s": 15.10437479999382,
+        "repetitions_completed": {
+          "1": 10,
+          "2": 10,
+          "3": 10
+        }
+      },
+      "graphrag": {
+        "trials": 30,
+        "mean_f1": 0.9555555555555556,
+        "exact_match_rate": 0.8,
+        "median_method_latency_s": 11.64766415001941,
+        "p95_method_latency_s": 35.72518670000136,
+        "median_end_to_end_including_shared_planner_s": 25.983945349988062,
+        "repetitions_completed": {
+          "1": 10,
+          "2": 10,
+          "3": 10
+        },
+        "median_provider_request_wall_s": 2.1859857499948703,
+        "median_rate_and_retry_wait_s": 6.523893850011518,
+        "input_tokens": 797025,
+        "output_tokens": 4599
+      }
+    }
+  },
+  "limitations": [
+    "Provisional assistant reference annotations pending independent review",
+    "10 questions; repetitions are not 30 independent questions",
+    "A shared planner is used by both methods in question_only",
+    "Network/SDK/provider wall time is not GPU compute time",
+    "Small corpus, local[2] Spark, PDF affiliations limited to three papers"
+  ],
+  "question_results": [
+    {
+      "id": "mh1",
+      "question": "Quelles institutions sont associées aux auteurs de Attention Is All You Need ?",
+      "cypher_mean_f1": 1.0,
+      "graphrag_mean_f1": 1.0
+    },
+    {
+      "id": "mh2",
+      "question": "Quels articles portent sur la génération augmentée par récupération ?",
+      "cypher_mean_f1": 1.0,
+      "graphrag_mean_f1": 1.0
+    },
+    {
+      "id": "mh3",
+      "question": "Quels sujets sont reliés aux publications de Darren Edge ?",
+      "cypher_mean_f1": 0.888888888888889,
+      "graphrag_mean_f1": 0.888888888888889
+    },
+    {
+      "id": "mh4",
+      "question": "Quelles institutions sont reliées aux travaux sur les graphes de connaissances ?",
+      "cypher_mean_f1": 1.0,
+      "graphrag_mean_f1": 1.0
+    },
+    {
+      "id": "mh5",
+      "question": "Quels autres articles partagent au moins un sujet avec Attention Is All You Need ?",
+      "cypher_mean_f1": 1.0,
+      "graphrag_mean_f1": 1.0
+    },
+    {
+      "id": "mh6",
+      "question": "Quels sujets Big Bird et Longformer ont-ils en commun ?",
+      "cypher_mean_f1": 1.0,
+      "graphrag_mean_f1": 1.0
+    },
+    {
+      "id": "mh7",
+      "question": "Quels auteurs ont signé à la fois Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks et Retrieval Augmentation Reduces Hallucination in Conversation ?",
+      "cypher_mean_f1": 1.0,
+      "graphrag_mean_f1": 1.0
+    },
+    {
+      "id": "mh8",
+      "question": "Quels articles sur la récupération dense ont été écrits par au moins un auteur de Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks ?",
+      "cypher_mean_f1": 0.6666666666666666,
+      "graphrag_mean_f1": 0.6666666666666666
+    },
+    {
+      "id": "sem1",
+      "question": "Quels articles proposent des méthodes pour guider le raisonnement des modèles ?",
+      "cypher_mean_f1": 1.0,
+      "graphrag_mean_f1": 1.0
+    },
+    {
+      "id": "sem2",
+      "question": "Quels articles traitent de la prise en charge de longs contextes ?",
+      "cypher_mean_f1": 1.0,
+      "graphrag_mean_f1": 1.0
+    }
+  ]
+}

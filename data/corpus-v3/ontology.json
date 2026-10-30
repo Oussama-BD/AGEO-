@@ -1,0 +1,16 @@
+{
+  "attention mechanisms": "Study or introduce an attention architecture, not merely mention a Transformer model.",
+  "long-context modeling": "Introduce mechanisms to handle long sequences or documents.",
+  "retrieval-augmented generation": "Combine document retrieval and a language generation or language-model pipeline.",
+  "dense retrieval": "Dense embedding or nearest-neighbor based document/passage retrieval is a substantive component.",
+  "question answering": "Question answering is a substantive task or evaluated application.",
+  "language-model pretraining": "Pretraining objectives, representations, datasets or foundational language-model training are substantive.",
+  "scaling laws": "Study empirical scaling relations and compute/data/model size trade-offs.",
+  "few-shot learning": "Study task learning or adaptation from examples in the prompt.",
+  "instruction tuning": "Train or fine-tune language models to follow instructions.",
+  "reasoning methods": "Propose or study a deliberate prompting/reasoning procedure, not just score a reasoning benchmark.",
+  "conversational generation": "Dialogue/chat generation is a primary application.",
+  "external memory": "Use an explicit external knowledge store or corpus beyond model parameters.",
+  "knowledge graphs": "Entity knowledge graphs are a substantive component.",
+  "summarization": "Summarization is a substantive method or evaluated application."
+}

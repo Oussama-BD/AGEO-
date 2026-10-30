@@ -1,0 +1,323 @@
+{
+  "document": {
+    "id": "v3:html:1910.10683",
+    "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+    "source": "https://arxiv.org/abs/1910.10683"
+  },
+  "graph": {
+    "entities": [
+      {
+        "id": "v3:paper:1910.10683",
+        "name": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+        "type": "Paper"
+      },
+      {
+        "id": "v3:author:2c1997e9bed1995d574f",
+        "name": "Colin Raffel",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:d64e5827d8620bd0a7b8",
+        "name": "Noam Shazeer",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:c1e2c852364370270119",
+        "name": "Adam Roberts",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:15eff959e65471b11fb5",
+        "name": "Katherine Lee",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:2347968519ceab045d71",
+        "name": "Sharan Narang",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:dec227753e61ad73998b",
+        "name": "Michael Matena",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:bd2b554293159018f03f",
+        "name": "Yanqi Zhou",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:b2b5fdada64800cfacb2",
+        "name": "Wei Li",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:e7e46298c8b98935795a",
+        "name": "Peter J. Liu",
+        "type": "Author"
+      },
+      {
+        "id": "v3:topic:05ad72bca39f3f544731",
+        "name": "language-model pretraining",
+        "type": "Topic"
+      },
+      {
+        "id": "v3:topic:7846ce4ebb5b98bf8b80",
+        "name": "summarization",
+        "type": "Topic"
+      },
+      {
+        "id": "v3:topic:70647950c4f788b4c151",
+        "name": "question answering",
+        "type": "Topic"
+      }
+    ],
+    "relations": [
+      {
+        "source": "v3:author:2c1997e9bed1995d574f",
+        "target": "v3:paper:1910.10683",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\" /><meta name=\"citation_author\" content=\"Raffel, Colin\" />",
+        "evidence_start": 4916,
+        "evidence_end": 5093,
+        "evidence_parts": [
+          {
+            "value": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "quote": "<meta name=\"citation_title\" content=\"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\" />",
+            "start": 4916,
+            "end": 5038
+          },
+          {
+            "value": "Raffel, Colin",
+            "quote": "<meta name=\"citation_author\" content=\"Raffel, Colin\" />",
+            "start": 5038,
+            "end": 5093
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:d64e5827d8620bd0a7b8",
+        "target": "v3:paper:1910.10683",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\" /><meta name=\"citation_author\" content=\"Raffel, Colin\" /><meta name=\"citation_author\" content=\"Shazeer, Noam\" />",
+        "evidence_start": 4916,
+        "evidence_end": 5148,
+        "evidence_parts": [
+          {
+            "value": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "quote": "<meta name=\"citation_title\" content=\"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\" />",
+            "start": 4916,
+            "end": 5038
+          },
+          {
+            "value": "Shazeer, Noam",
+            "quote": "<meta name=\"citation_author\" content=\"Shazeer, Noam\" />",
+            "start": 5093,
+            "end": 5148
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:c1e2c852364370270119",
+        "target": "v3:paper:1910.10683",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\" /><meta name=\"citation_author\" content=\"Raffel, Colin\" /><meta name=\"citation_author\" content=\"Shazeer, Noam\" /><meta name=\"citation_author\" content=\"Roberts, Adam\" />",
+        "evidence_start": 4916,
+        "evidence_end": 5203,
+        "evidence_parts": [
+          {
+            "value": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "quote": "<meta name=\"citation_title\" content=\"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\" />",
+            "start": 4916,
+            "end": 5038
+          },
+          {
+            "value": "Roberts, Adam",
+            "quote": "<meta name=\"citation_author\" content=\"Roberts, Adam\" />",
+            "start": 5148,
+            "end": 5203
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:15eff959e65471b11fb5",
+        "target": "v3:paper:1910.10683",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\" /><meta name=\"citation_author\" content=\"Raffel, Colin\" /><meta name=\"citation_author\" content=\"Shazeer, Noam\" /><meta name=\"citation_author\" content=\"Roberts, Adam\" /><meta name=\"citation_author\" content=\"Lee, Katherine\" />",
+        "evidence_start": 4916,
+        "evidence_end": 5259,
+        "evidence_parts": [
+          {
+            "value": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "quote": "<meta name=\"citation_title\" content=\"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\" />",
+            "start": 4916,
+            "end": 5038
+          },
+          {
+            "value": "Lee, Katherine",
+            "quote": "<meta name=\"citation_author\" content=\"Lee, Katherine\" />",
+            "start": 5203,
+            "end": 5259
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:2347968519ceab045d71",
+        "target": "v3:paper:1910.10683",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\" /><meta name=\"citation_author\" content=\"Raffel, Colin\" /><meta name=\"citation_author\" content=\"Shazeer, Noam\" /><meta name=\"citation_author\" content=\"Roberts, Adam\" /><meta name=\"citation_author\" content=\"Lee, Katherine\" /><meta name=\"citation_author\" content=\"Narang, Sharan\" />",
+        "evidence_start": 4916,
+        "evidence_end": 5315,
+        "evidence_parts": [
+          {
+            "value": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "quote": "<meta name=\"citation_title\" content=\"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\" />",
+            "start": 4916,
+            "end": 5038
+          },
+          {
+            "value": "Narang, Sharan",
+            "quote": "<meta name=\"citation_author\" content=\"Narang, Sharan\" />",
+            "start": 5259,
+            "end": 5315
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:dec227753e61ad73998b",
+        "target": "v3:paper:1910.10683",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\" /><meta name=\"citation_author\" content=\"Raffel, Colin\" /><meta name=\"citation_author\" content=\"Shazeer, Noam\" /><meta name=\"citation_author\" content=\"Roberts, Adam\" /><meta name=\"citation_author\" content=\"Lee, Katherine\" /><meta name=\"citation_author\" content=\"Narang, Sharan\" /><meta name=\"citation_author\" content=\"Matena, Michael\" />",
+        "evidence_start": 4916,
+        "evidence_end": 5372,
+        "evidence_parts": [
+          {
+            "value": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "quote": "<meta name=\"citation_title\" content=\"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\" />",
+            "start": 4916,
+            "end": 5038
+          },
+          {
+            "value": "Matena, Michael",
+            "quote": "<meta name=\"citation_author\" content=\"Matena, Michael\" />",
+            "start": 5315,
+            "end": 5372
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:bd2b554293159018f03f",
+        "target": "v3:paper:1910.10683",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\" /><meta name=\"citation_author\" content=\"Raffel, Colin\" /><meta name=\"citation_author\" content=\"Shazeer, Noam\" /><meta name=\"citation_author\" content=\"Roberts, Adam\" /><meta name=\"citation_author\" content=\"Lee, Katherine\" /><meta name=\"citation_author\" content=\"Narang, Sharan\" /><meta name=\"citation_author\" content=\"Matena, Michael\" /><meta name=\"citation_author\" content=\"Zhou, Yanqi\" />",
+        "evidence_start": 4916,
+        "evidence_end": 5425,
+        "evidence_parts": [
+          {
+            "value": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "quote": "<meta name=\"citation_title\" content=\"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\" />",
+            "start": 4916,
+            "end": 5038
+          },
+          {
+            "value": "Zhou, Yanqi",
+            "quote": "<meta name=\"citation_author\" content=\"Zhou, Yanqi\" />",
+            "start": 5372,
+            "end": 5425
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:b2b5fdada64800cfacb2",
+        "target": "v3:paper:1910.10683",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\" /><meta name=\"citation_author\" content=\"Raffel, Colin\" /><meta name=\"citation_author\" content=\"Shazeer, Noam\" /><meta name=\"citation_author\" content=\"Roberts, Adam\" /><meta name=\"citation_author\" content=\"Lee, Katherine\" /><meta name=\"citation_author\" content=\"Narang, Sharan\" /><meta name=\"citation_author\" content=\"Matena, Michael\" /><meta name=\"citation_author\" content=\"Zhou, Yanqi\" /><meta name=\"citation_author\" content=\"Li, Wei\" />",
+        "evidence_start": 4916,
+        "evidence_end": 5474,
+        "evidence_parts": [
+          {
+            "value": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "quote": "<meta name=\"citation_title\" content=\"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\" />",
+            "start": 4916,
+            "end": 5038
+          },
+          {
+            "value": "Li, Wei",
+            "quote": "<meta name=\"citation_author\" content=\"Li, Wei\" />",
+            "start": 5425,
+            "end": 5474
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:e7e46298c8b98935795a",
+        "target": "v3:paper:1910.10683",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\" /><meta name=\"citation_author\" content=\"Raffel, Colin\" /><meta name=\"citation_author\" content=\"Shazeer, Noam\" /><meta name=\"citation_author\" content=\"Roberts, Adam\" /><meta name=\"citation_author\" content=\"Lee, Katherine\" /><meta name=\"citation_author\" content=\"Narang, Sharan\" /><meta name=\"citation_author\" content=\"Matena, Michael\" /><meta name=\"citation_author\" content=\"Zhou, Yanqi\" /><meta name=\"citation_author\" content=\"Li, Wei\" /><meta name=\"citation_author\" content=\"Liu, Peter J.\" />",
+        "evidence_start": 4916,
+        "evidence_end": 5529,
+        "evidence_parts": [
+          {
+            "value": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "quote": "<meta name=\"citation_title\" content=\"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\" />",
+            "start": 4916,
+            "end": 5038
+          },
+          {
+            "value": "Liu, Peter J.",
+            "quote": "<meta name=\"citation_author\" content=\"Liu, Peter J.\" />",
+            "start": 5474,
+            "end": 5529
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:paper:1910.10683",
+        "target": "v3:topic:05ad72bca39f3f544731",
+        "type": "ABOUT",
+        "quote": "Our systematic study compares pre-training objectives, architectures, unlabeled data sets",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      },
+      {
+        "source": "v3:paper:1910.10683",
+        "target": "v3:topic:7846ce4ebb5b98bf8b80",
+        "type": "ABOUT",
+        "quote": "benchmarks covering summarization, question answering, text classification, and more.",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      },
+      {
+        "source": "v3:paper:1910.10683",
+        "target": "v3:topic:70647950c4f788b4c151",
+        "type": "ABOUT",
+        "quote": "benchmarks covering summarization, question answering, text classification, and more.",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      }
+    ]
+  },
+  "mode": "deterministic_html_metadata",
+  "arxiv_id": "1910.10683",
+  "abstract": "Transfer learning, where a model is first pre-trained on a data-rich task before being fine-tuned on a downstream task, has emerged as a powerful technique in natural language processing (NLP). The effectiveness of transfer learning has given rise to a diversity of approaches, methodology, and practice. In this paper, we explore the landscape of transfer learning techniques for NLP by introducing a unified framework that converts all text-based language problems into a text-to-text format. Our systematic study compares pre-training objectives, architectures, unlabeled data sets, transfer approaches, and other factors on dozens of language understanding tasks. By combining the insights from our exploration with scale and our new ``Colossal Clean Crawled Corpus'', we achieve state-of-the-art results on many benchmarks covering summarization, question answering, text classification, and more. To facilitate future work on transfer learning for NLP, we release our data set, pre-trained models, and code.",
+  "llm_calls": 0,
+  "source_sha256": "d63a2e5dcb42efa321cc48415b8243233ef5c5ab5ab72da05cf340acf22ba01e"
+}

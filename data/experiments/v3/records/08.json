@@ -1,0 +1,394 @@
+{
+  "document": {
+    "id": "v3:html:2007.14062",
+    "title": "Big Bird: Transformers for Longer Sequences",
+    "source": "https://arxiv.org/abs/2007.14062"
+  },
+  "graph": {
+    "entities": [
+      {
+        "id": "v3:paper:2007.14062",
+        "name": "Big Bird: Transformers for Longer Sequences",
+        "type": "Paper"
+      },
+      {
+        "id": "v3:author:3b9d76b4a92a01bac8f7",
+        "name": "Manzil Zaheer",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:cd711283eee5953eb484",
+        "name": "Guru Guruganesh",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:a88384a3340f3778c09e",
+        "name": "Avinava Dubey",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:38864f2b642493810f09",
+        "name": "Joshua Ainslie",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:e7247398967b61ef19e5",
+        "name": "Chris Alberti",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:e1c968552479e14f16ca",
+        "name": "Santiago Ontanon",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:8f2978d1a7e13b38afe9",
+        "name": "Philip Pham",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:a852983f66d8b6b3f6aa",
+        "name": "Anirudh Ravula",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:ce4288690103ee483396",
+        "name": "Qifan Wang",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:feadc97e6d4d59502067",
+        "name": "Li Yang",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:a2243c3b0278930ef130",
+        "name": "Amr Ahmed",
+        "type": "Author"
+      },
+      {
+        "id": "v3:topic:b083988cc669ffb845aa",
+        "name": "attention mechanisms",
+        "type": "Topic"
+      },
+      {
+        "id": "v3:topic:8718578cf714ac81a4be",
+        "name": "long-context modeling",
+        "type": "Topic"
+      },
+      {
+        "id": "v3:topic:70647950c4f788b4c151",
+        "name": "question answering",
+        "type": "Topic"
+      },
+      {
+        "id": "v3:topic:7846ce4ebb5b98bf8b80",
+        "name": "summarization",
+        "type": "Topic"
+      }
+    ],
+    "relations": [
+      {
+        "source": "v3:author:3b9d76b4a92a01bac8f7",
+        "target": "v3:paper:2007.14062",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Big Bird: Transformers for Longer Sequences\" /><meta name=\"citation_author\" content=\"Zaheer, Manzil\" />",
+        "evidence_start": 4861,
+        "evidence_end": 5001,
+        "evidence_parts": [
+          {
+            "value": "Big Bird: Transformers for Longer Sequences",
+            "quote": "<meta name=\"citation_title\" content=\"Big Bird: Transformers for Longer Sequences\" />",
+            "start": 4861,
+            "end": 4945
+          },
+          {
+            "value": "Zaheer, Manzil",
+            "quote": "<meta name=\"citation_author\" content=\"Zaheer, Manzil\" />",
+            "start": 4945,
+            "end": 5001
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:cd711283eee5953eb484",
+        "target": "v3:paper:2007.14062",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Big Bird: Transformers for Longer Sequences\" /><meta name=\"citation_author\" content=\"Zaheer, Manzil\" /><meta name=\"citation_author\" content=\"Guruganesh, Guru\" />",
+        "evidence_start": 4861,
+        "evidence_end": 5059,
+        "evidence_parts": [
+          {
+            "value": "Big Bird: Transformers for Longer Sequences",
+            "quote": "<meta name=\"citation_title\" content=\"Big Bird: Transformers for Longer Sequences\" />",
+            "start": 4861,
+            "end": 4945
+          },
+          {
+            "value": "Guruganesh, Guru",
+            "quote": "<meta name=\"citation_author\" content=\"Guruganesh, Guru\" />",
+            "start": 5001,
+            "end": 5059
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:a88384a3340f3778c09e",
+        "target": "v3:paper:2007.14062",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Big Bird: Transformers for Longer Sequences\" /><meta name=\"citation_author\" content=\"Zaheer, Manzil\" /><meta name=\"citation_author\" content=\"Guruganesh, Guru\" /><meta name=\"citation_author\" content=\"Dubey, Avinava\" />",
+        "evidence_start": 4861,
+        "evidence_end": 5115,
+        "evidence_parts": [
+          {
+            "value": "Big Bird: Transformers for Longer Sequences",
+            "quote": "<meta name=\"citation_title\" content=\"Big Bird: Transformers for Longer Sequences\" />",
+            "start": 4861,
+            "end": 4945
+          },
+          {
+            "value": "Dubey, Avinava",
+            "quote": "<meta name=\"citation_author\" content=\"Dubey, Avinava\" />",
+            "start": 5059,
+            "end": 5115
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:38864f2b642493810f09",
+        "target": "v3:paper:2007.14062",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Big Bird: Transformers for Longer Sequences\" /><meta name=\"citation_author\" content=\"Zaheer, Manzil\" /><meta name=\"citation_author\" content=\"Guruganesh, Guru\" /><meta name=\"citation_author\" content=\"Dubey, Avinava\" /><meta name=\"citation_author\" content=\"Ainslie, Joshua\" />",
+        "evidence_start": 4861,
+        "evidence_end": 5172,
+        "evidence_parts": [
+          {
+            "value": "Big Bird: Transformers for Longer Sequences",
+            "quote": "<meta name=\"citation_title\" content=\"Big Bird: Transformers for Longer Sequences\" />",
+            "start": 4861,
+            "end": 4945
+          },
+          {
+            "value": "Ainslie, Joshua",
+            "quote": "<meta name=\"citation_author\" content=\"Ainslie, Joshua\" />",
+            "start": 5115,
+            "end": 5172
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:e7247398967b61ef19e5",
+        "target": "v3:paper:2007.14062",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Big Bird: Transformers for Longer Sequences\" /><meta name=\"citation_author\" content=\"Zaheer, Manzil\" /><meta name=\"citation_author\" content=\"Guruganesh, Guru\" /><meta name=\"citation_author\" content=\"Dubey, Avinava\" /><meta name=\"citation_author\" content=\"Ainslie, Joshua\" /><meta name=\"citation_author\" content=\"Alberti, Chris\" />",
+        "evidence_start": 4861,
+        "evidence_end": 5228,
+        "evidence_parts": [
+          {
+            "value": "Big Bird: Transformers for Longer Sequences",
+            "quote": "<meta name=\"citation_title\" content=\"Big Bird: Transformers for Longer Sequences\" />",
+            "start": 4861,
+            "end": 4945
+          },
+          {
+            "value": "Alberti, Chris",
+            "quote": "<meta name=\"citation_author\" content=\"Alberti, Chris\" />",
+            "start": 5172,
+            "end": 5228
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:e1c968552479e14f16ca",
+        "target": "v3:paper:2007.14062",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Big Bird: Transformers for Longer Sequences\" /><meta name=\"citation_author\" content=\"Zaheer, Manzil\" /><meta name=\"citation_author\" content=\"Guruganesh, Guru\" /><meta name=\"citation_author\" content=\"Dubey, Avinava\" /><meta name=\"citation_author\" content=\"Ainslie, Joshua\" /><meta name=\"citation_author\" content=\"Alberti, Chris\" /><meta name=\"citation_author\" content=\"Ontanon, Santiago\" />",
+        "evidence_start": 4861,
+        "evidence_end": 5287,
+        "evidence_parts": [
+          {
+            "value": "Big Bird: Transformers for Longer Sequences",
+            "quote": "<meta name=\"citation_title\" content=\"Big Bird: Transformers for Longer Sequences\" />",
+            "start": 4861,
+            "end": 4945
+          },
+          {
+            "value": "Ontanon, Santiago",
+            "quote": "<meta name=\"citation_author\" content=\"Ontanon, Santiago\" />",
+            "start": 5228,
+            "end": 5287
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:8f2978d1a7e13b38afe9",
+        "target": "v3:paper:2007.14062",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Big Bird: Transformers for Longer Sequences\" /><meta name=\"citation_author\" content=\"Zaheer, Manzil\" /><meta name=\"citation_author\" content=\"Guruganesh, Guru\" /><meta name=\"citation_author\" content=\"Dubey, Avinava\" /><meta name=\"citation_author\" content=\"Ainslie, Joshua\" /><meta name=\"citation_author\" content=\"Alberti, Chris\" /><meta name=\"citation_author\" content=\"Ontanon, Santiago\" /><meta name=\"citation_author\" content=\"Pham, Philip\" />",
+        "evidence_start": 4861,
+        "evidence_end": 5341,
+        "evidence_parts": [
+          {
+            "value": "Big Bird: Transformers for Longer Sequences",
+            "quote": "<meta name=\"citation_title\" content=\"Big Bird: Transformers for Longer Sequences\" />",
+            "start": 4861,
+            "end": 4945
+          },
+          {
+            "value": "Pham, Philip",
+            "quote": "<meta name=\"citation_author\" content=\"Pham, Philip\" />",
+            "start": 5287,
+            "end": 5341
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:a852983f66d8b6b3f6aa",
+        "target": "v3:paper:2007.14062",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Big Bird: Transformers for Longer Sequences\" /><meta name=\"citation_author\" content=\"Zaheer, Manzil\" /><meta name=\"citation_author\" content=\"Guruganesh, Guru\" /><meta name=\"citation_author\" content=\"Dubey, Avinava\" /><meta name=\"citation_author\" content=\"Ainslie, Joshua\" /><meta name=\"citation_author\" content=\"Alberti, Chris\" /><meta name=\"citation_author\" content=\"Ontanon, Santiago\" /><meta name=\"citation_author\" content=\"Pham, Philip\" /><meta name=\"citation_author\" content=\"Ravula, Anirudh\" />",
+        "evidence_start": 4861,
+        "evidence_end": 5398,
+        "evidence_parts": [
+          {
+            "value": "Big Bird: Transformers for Longer Sequences",
+            "quote": "<meta name=\"citation_title\" content=\"Big Bird: Transformers for Longer Sequences\" />",
+            "start": 4861,
+            "end": 4945
+          },
+          {
+            "value": "Ravula, Anirudh",
+            "quote": "<meta name=\"citation_author\" content=\"Ravula, Anirudh\" />",
+            "start": 5341,
+            "end": 5398
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:ce4288690103ee483396",
+        "target": "v3:paper:2007.14062",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Big Bird: Transformers for Longer Sequences\" /><meta name=\"citation_author\" content=\"Zaheer, Manzil\" /><meta name=\"citation_author\" content=\"Guruganesh, Guru\" /><meta name=\"citation_author\" content=\"Dubey, Avinava\" /><meta name=\"citation_author\" content=\"Ainslie, Joshua\" /><meta name=\"citation_author\" content=\"Alberti, Chris\" /><meta name=\"citation_author\" content=\"Ontanon, Santiago\" /><meta name=\"citation_author\" content=\"Pham, Philip\" /><meta name=\"citation_author\" content=\"Ravula, Anirudh\" /><meta name=\"citation_author\" content=\"Wang, Qifan\" />",
+        "evidence_start": 4861,
+        "evidence_end": 5451,
+        "evidence_parts": [
+          {
+            "value": "Big Bird: Transformers for Longer Sequences",
+            "quote": "<meta name=\"citation_title\" content=\"Big Bird: Transformers for Longer Sequences\" />",
+            "start": 4861,
+            "end": 4945
+          },
+          {
+            "value": "Wang, Qifan",
+            "quote": "<meta name=\"citation_author\" content=\"Wang, Qifan\" />",
+            "start": 5398,
+            "end": 5451
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:feadc97e6d4d59502067",
+        "target": "v3:paper:2007.14062",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Big Bird: Transformers for Longer Sequences\" /><meta name=\"citation_author\" content=\"Zaheer, Manzil\" /><meta name=\"citation_author\" content=\"Guruganesh, Guru\" /><meta name=\"citation_author\" content=\"Dubey, Avinava\" /><meta name=\"citation_author\" content=\"Ainslie, Joshua\" /><meta name=\"citation_author\" content=\"Alberti, Chris\" /><meta name=\"citation_author\" content=\"Ontanon, Santiago\" /><meta name=\"citation_author\" content=\"Pham, Philip\" /><meta name=\"citation_author\" content=\"Ravula, Anirudh\" /><meta name=\"citation_author\" content=\"Wang, Qifan\" /><meta name=\"citation_author\" content=\"Yang, Li\" />",
+        "evidence_start": 4861,
+        "evidence_end": 5501,
+        "evidence_parts": [
+          {
+            "value": "Big Bird: Transformers for Longer Sequences",
+            "quote": "<meta name=\"citation_title\" content=\"Big Bird: Transformers for Longer Sequences\" />",
+            "start": 4861,
+            "end": 4945
+          },
+          {
+            "value": "Yang, Li",
+            "quote": "<meta name=\"citation_author\" content=\"Yang, Li\" />",
+            "start": 5451,
+            "end": 5501
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:a2243c3b0278930ef130",
+        "target": "v3:paper:2007.14062",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Big Bird: Transformers for Longer Sequences\" /><meta name=\"citation_author\" content=\"Zaheer, Manzil\" /><meta name=\"citation_author\" content=\"Guruganesh, Guru\" /><meta name=\"citation_author\" content=\"Dubey, Avinava\" /><meta name=\"citation_author\" content=\"Ainslie, Joshua\" /><meta name=\"citation_author\" content=\"Alberti, Chris\" /><meta name=\"citation_author\" content=\"Ontanon, Santiago\" /><meta name=\"citation_author\" content=\"Pham, Philip\" /><meta name=\"citation_author\" content=\"Ravula, Anirudh\" /><meta name=\"citation_author\" content=\"Wang, Qifan\" /><meta name=\"citation_author\" content=\"Yang, Li\" /><meta name=\"citation_author\" content=\"Ahmed, Amr\" />",
+        "evidence_start": 4861,
+        "evidence_end": 5553,
+        "evidence_parts": [
+          {
+            "value": "Big Bird: Transformers for Longer Sequences",
+            "quote": "<meta name=\"citation_title\" content=\"Big Bird: Transformers for Longer Sequences\" />",
+            "start": 4861,
+            "end": 4945
+          },
+          {
+            "value": "Ahmed, Amr",
+            "quote": "<meta name=\"citation_author\" content=\"Ahmed, Amr\" />",
+            "start": 5501,
+            "end": 5553
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:paper:2007.14062",
+        "target": "v3:topic:b083988cc669ffb845aa",
+        "type": "ABOUT",
+        "quote": "we propose, BigBird, a sparse attention mechanism that reduces this quadratic dependency to linear.",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      },
+      {
+        "source": "v3:paper:2007.14062",
+        "target": "v3:topic:8718578cf714ac81a4be",
+        "type": "ABOUT",
+        "quote": "The proposed sparse attention can handle sequences of length up to 8x of what was previously possible",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      },
+      {
+        "source": "v3:paper:2007.14062",
+        "target": "v3:topic:70647950c4f788b4c151",
+        "type": "ABOUT",
+        "quote": "BigBird drastically improves performance on various NLP tasks such as question answering and summarization.",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      },
+      {
+        "source": "v3:paper:2007.14062",
+        "target": "v3:topic:7846ce4ebb5b98bf8b80",
+        "type": "ABOUT",
+        "quote": "BigBird drastically improves performance on various NLP tasks such as question answering and summarization.",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      }
+    ]
+  },
+  "mode": "deterministic_html_metadata",
+  "arxiv_id": "2007.14062",
+  "abstract": "Transformers-based models, such as BERT, have been one of the most successful deep learning models for NLP. Unfortunately, one of their core limitations is the quadratic dependency (mainly in terms of memory) on the sequence length due to their full attention mechanism. To remedy this, we propose, BigBird, a sparse attention mechanism that reduces this quadratic dependency to linear. We show that BigBird is a universal approximator of sequence functions and is Turing complete, thereby preserving these properties of the quadratic, full attention model. Along the way, our theoretical analysis reveals some of the benefits of having $O(1)$ global tokens (such as CLS), that attend to the entire sequence as part of the sparse attention mechanism. The proposed sparse attention can handle sequences of length up to 8x of what was previously possible using similar hardware. As a consequence of the capability to handle longer context, BigBird drastically improves performance on various NLP tasks such as question answering and summarization. We also propose novel applications to genomics data.",
+  "llm_calls": 0,
+  "source_sha256": "b5f690ae7ca63c583a43a387cff3e0079dc03d0a2a89566db0c19e7e60c87f16"
+}

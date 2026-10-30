@@ -1,0 +1,220 @@
+{
+  "document": {
+    "id": "v3:html:2002.08909",
+    "title": "REALM: Retrieval-Augmented Language Model Pre-Training",
+    "source": "https://arxiv.org/abs/2002.08909"
+  },
+  "graph": {
+    "entities": [
+      {
+        "id": "v3:paper:2002.08909",
+        "name": "REALM: Retrieval-Augmented Language Model Pre-Training",
+        "type": "Paper"
+      },
+      {
+        "id": "v3:author:e49d706982d99502ccaa",
+        "name": "Kelvin Guu",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:49d2d01ca7353e495630",
+        "name": "Kenton Lee",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:298e232dfaa3e599ca30",
+        "name": "Zora Tung",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:13ef82b127a832406a4d",
+        "name": "Panupong Pasupat",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:8ab039c45c9edb3daf94",
+        "name": "Ming-Wei Chang",
+        "type": "Author"
+      },
+      {
+        "id": "v3:topic:05ad72bca39f3f544731",
+        "name": "language-model pretraining",
+        "type": "Topic"
+      },
+      {
+        "id": "v3:topic:031abfa15d712ae66a3c",
+        "name": "retrieval-augmented generation",
+        "type": "Topic"
+      },
+      {
+        "id": "v3:topic:f479b1004f72cc3862e1",
+        "name": "dense retrieval",
+        "type": "Topic"
+      },
+      {
+        "id": "v3:topic:70647950c4f788b4c151",
+        "name": "question answering",
+        "type": "Topic"
+      }
+    ],
+    "relations": [
+      {
+        "source": "v3:author:e49d706982d99502ccaa",
+        "target": "v3:paper:2002.08909",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"REALM: Retrieval-Augmented Language Model Pre-Training\" /><meta name=\"citation_author\" content=\"Guu, Kelvin\" />",
+        "evidence_start": 5025,
+        "evidence_end": 5173,
+        "evidence_parts": [
+          {
+            "value": "REALM: Retrieval-Augmented Language Model Pre-Training",
+            "quote": "<meta name=\"citation_title\" content=\"REALM: Retrieval-Augmented Language Model Pre-Training\" />",
+            "start": 5025,
+            "end": 5120
+          },
+          {
+            "value": "Guu, Kelvin",
+            "quote": "<meta name=\"citation_author\" content=\"Guu, Kelvin\" />",
+            "start": 5120,
+            "end": 5173
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:49d2d01ca7353e495630",
+        "target": "v3:paper:2002.08909",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"REALM: Retrieval-Augmented Language Model Pre-Training\" /><meta name=\"citation_author\" content=\"Guu, Kelvin\" /><meta name=\"citation_author\" content=\"Lee, Kenton\" />",
+        "evidence_start": 5025,
+        "evidence_end": 5226,
+        "evidence_parts": [
+          {
+            "value": "REALM: Retrieval-Augmented Language Model Pre-Training",
+            "quote": "<meta name=\"citation_title\" content=\"REALM: Retrieval-Augmented Language Model Pre-Training\" />",
+            "start": 5025,
+            "end": 5120
+          },
+          {
+            "value": "Lee, Kenton",
+            "quote": "<meta name=\"citation_author\" content=\"Lee, Kenton\" />",
+            "start": 5173,
+            "end": 5226
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:298e232dfaa3e599ca30",
+        "target": "v3:paper:2002.08909",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"REALM: Retrieval-Augmented Language Model Pre-Training\" /><meta name=\"citation_author\" content=\"Guu, Kelvin\" /><meta name=\"citation_author\" content=\"Lee, Kenton\" /><meta name=\"citation_author\" content=\"Tung, Zora\" />",
+        "evidence_start": 5025,
+        "evidence_end": 5278,
+        "evidence_parts": [
+          {
+            "value": "REALM: Retrieval-Augmented Language Model Pre-Training",
+            "quote": "<meta name=\"citation_title\" content=\"REALM: Retrieval-Augmented Language Model Pre-Training\" />",
+            "start": 5025,
+            "end": 5120
+          },
+          {
+            "value": "Tung, Zora",
+            "quote": "<meta name=\"citation_author\" content=\"Tung, Zora\" />",
+            "start": 5226,
+            "end": 5278
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:13ef82b127a832406a4d",
+        "target": "v3:paper:2002.08909",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"REALM: Retrieval-Augmented Language Model Pre-Training\" /><meta name=\"citation_author\" content=\"Guu, Kelvin\" /><meta name=\"citation_author\" content=\"Lee, Kenton\" /><meta name=\"citation_author\" content=\"Tung, Zora\" /><meta name=\"citation_author\" content=\"Pasupat, Panupong\" />",
+        "evidence_start": 5025,
+        "evidence_end": 5337,
+        "evidence_parts": [
+          {
+            "value": "REALM: Retrieval-Augmented Language Model Pre-Training",
+            "quote": "<meta name=\"citation_title\" content=\"REALM: Retrieval-Augmented Language Model Pre-Training\" />",
+            "start": 5025,
+            "end": 5120
+          },
+          {
+            "value": "Pasupat, Panupong",
+            "quote": "<meta name=\"citation_author\" content=\"Pasupat, Panupong\" />",
+            "start": 5278,
+            "end": 5337
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:8ab039c45c9edb3daf94",
+        "target": "v3:paper:2002.08909",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"REALM: Retrieval-Augmented Language Model Pre-Training\" /><meta name=\"citation_author\" content=\"Guu, Kelvin\" /><meta name=\"citation_author\" content=\"Lee, Kenton\" /><meta name=\"citation_author\" content=\"Tung, Zora\" /><meta name=\"citation_author\" content=\"Pasupat, Panupong\" /><meta name=\"citation_author\" content=\"Chang, Ming-Wei\" />",
+        "evidence_start": 5025,
+        "evidence_end": 5394,
+        "evidence_parts": [
+          {
+            "value": "REALM: Retrieval-Augmented Language Model Pre-Training",
+            "quote": "<meta name=\"citation_title\" content=\"REALM: Retrieval-Augmented Language Model Pre-Training\" />",
+            "start": 5025,
+            "end": 5120
+          },
+          {
+            "value": "Chang, Ming-Wei",
+            "quote": "<meta name=\"citation_author\" content=\"Chang, Ming-Wei\" />",
+            "start": 5337,
+            "end": 5394
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:paper:2002.08909",
+        "target": "v3:topic:05ad72bca39f3f544731",
+        "type": "ABOUT",
+        "quote": "we augment language model pre-training with a latent knowledge retriever",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      },
+      {
+        "source": "v3:paper:2002.08909",
+        "target": "v3:topic:031abfa15d712ae66a3c",
+        "type": "ABOUT",
+        "quote": "we augment language model pre-training with a latent knowledge retriever, which allows the model to retrieve and attend over documents",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      },
+      {
+        "source": "v3:paper:2002.08909",
+        "target": "v3:topic:f479b1004f72cc3862e1",
+        "type": "ABOUT",
+        "quote": "backpropagating through a retrieval step that considers millions of documents",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      },
+      {
+        "source": "v3:paper:2002.08909",
+        "target": "v3:topic:70647950c4f788b4c151",
+        "type": "ABOUT",
+        "quote": "fine-tuning on the challenging task of Open-domain Question Answering",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      }
+    ]
+  },
+  "mode": "deterministic_html_metadata",
+  "arxiv_id": "2002.08909",
+  "abstract": "Language model pre-training has been shown to capture a surprising amount of world knowledge, crucial for NLP tasks such as question answering. However, this knowledge is stored implicitly in the parameters of a neural network, requiring ever-larger networks to cover more facts. To capture knowledge in a more modular and interpretable way, we augment language model pre-training with a latent knowledge retriever, which allows the model to retrieve and attend over documents from a large corpus such as Wikipedia, used during pre-training, fine-tuning and inference. For the first time, we show how to pre-train such a knowledge retriever in an unsupervised manner, using masked language modeling as the learning signal and backpropagating through a retrieval step that considers millions of documents. We demonstrate the effectiveness of Retrieval-Augmented Language Model pre-training (REALM) by fine-tuning on the challenging task of Open-domain Question Answering (Open-QA). We compare against state-of-the-art models for both explicit and implicit knowledge storage on three popular Open-QA benchmarks, and find that we outperform all previous methods by a significant margin (4-16% absolute accuracy), while also providing qualitative benefits such as interpretability and modularity.",
+  "llm_calls": 0,
+  "source_sha256": "f61165a4c9fcf6772937265fbe4dd2efe5b0ebbf3631604cd10518c6104998e2"
+}

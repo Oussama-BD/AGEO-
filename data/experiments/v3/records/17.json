@@ -1,0 +1,584 @@
+{
+  "document": {
+    "id": "v3:html:2310.06825",
+    "title": "Mistral 7B",
+    "source": "https://arxiv.org/abs/2310.06825"
+  },
+  "graph": {
+    "entities": [
+      {
+        "id": "v3:paper:2310.06825",
+        "name": "Mistral 7B",
+        "type": "Paper"
+      },
+      {
+        "id": "v3:author:2c5b49d3c6c77a3041c9",
+        "name": "Albert Q. Jiang",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:84a18ecc5bd23c7f7817",
+        "name": "Alexandre Sablayrolles",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:f0c02048eaad465963c9",
+        "name": "Arthur Mensch",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:9dc52c31350dc0e5c0dd",
+        "name": "Chris Bamford",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:2d6c51dcf75b4ca0ea85",
+        "name": "Devendra Singh Chaplot",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:5febdcad99bb449a9d40",
+        "name": "Diego de las Casas",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:da9013e6d689e3f7668b",
+        "name": "Florian Bressand",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:be0a185f569e5ca8dd43",
+        "name": "Gianna Lengyel",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:69c8a9d44c4fb63b7572",
+        "name": "Guillaume Lample",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:5e994a188caa17f6d392",
+        "name": "Lucile Saulnier",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:7cc4039c885bd4b51af6",
+        "name": "Lélio Renard Lavaud",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:18403faf48de582dcd5d",
+        "name": "Marie-Anne Lachaux",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:8764f5b98abea7a5c130",
+        "name": "Pierre Stock",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:3d2cf2b7f97c857b9e44",
+        "name": "Teven Le Scao",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:d8b345c6b8559a9b21ea",
+        "name": "Thibaut Lavril",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:9daf4ff4c84ccc739a84",
+        "name": "Thomas Wang",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:5b0d75079dfc33a66e52",
+        "name": "Timothée Lacroix",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:0ebf97c8b456ce068938",
+        "name": "William El Sayed",
+        "type": "Author"
+      },
+      {
+        "id": "v3:topic:b083988cc669ffb845aa",
+        "name": "attention mechanisms",
+        "type": "Topic"
+      },
+      {
+        "id": "v3:topic:8718578cf714ac81a4be",
+        "name": "long-context modeling",
+        "type": "Topic"
+      },
+      {
+        "id": "v3:topic:ac5a22ba5334bd466586",
+        "name": "instruction tuning",
+        "type": "Topic"
+      }
+    ],
+    "relations": [
+      {
+        "source": "v3:author:2c5b49d3c6c77a3041c9",
+        "target": "v3:paper:2310.06825",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Mistral 7B\" /><meta name=\"citation_author\" content=\"Jiang, Albert Q.\" />",
+        "evidence_start": 4307,
+        "evidence_end": 4416,
+        "evidence_parts": [
+          {
+            "value": "Mistral 7B",
+            "quote": "<meta name=\"citation_title\" content=\"Mistral 7B\" />",
+            "start": 4307,
+            "end": 4358
+          },
+          {
+            "value": "Jiang, Albert Q.",
+            "quote": "<meta name=\"citation_author\" content=\"Jiang, Albert Q.\" />",
+            "start": 4358,
+            "end": 4416
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:84a18ecc5bd23c7f7817",
+        "target": "v3:paper:2310.06825",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Mistral 7B\" /><meta name=\"citation_author\" content=\"Jiang, Albert Q.\" /><meta name=\"citation_author\" content=\"Sablayrolles, Alexandre\" />",
+        "evidence_start": 4307,
+        "evidence_end": 4481,
+        "evidence_parts": [
+          {
+            "value": "Mistral 7B",
+            "quote": "<meta name=\"citation_title\" content=\"Mistral 7B\" />",
+            "start": 4307,
+            "end": 4358
+          },
+          {
+            "value": "Sablayrolles, Alexandre",
+            "quote": "<meta name=\"citation_author\" content=\"Sablayrolles, Alexandre\" />",
+            "start": 4416,
+            "end": 4481
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:f0c02048eaad465963c9",
+        "target": "v3:paper:2310.06825",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Mistral 7B\" /><meta name=\"citation_author\" content=\"Jiang, Albert Q.\" /><meta name=\"citation_author\" content=\"Sablayrolles, Alexandre\" /><meta name=\"citation_author\" content=\"Mensch, Arthur\" />",
+        "evidence_start": 4307,
+        "evidence_end": 4537,
+        "evidence_parts": [
+          {
+            "value": "Mistral 7B",
+            "quote": "<meta name=\"citation_title\" content=\"Mistral 7B\" />",
+            "start": 4307,
+            "end": 4358
+          },
+          {
+            "value": "Mensch, Arthur",
+            "quote": "<meta name=\"citation_author\" content=\"Mensch, Arthur\" />",
+            "start": 4481,
+            "end": 4537
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:9dc52c31350dc0e5c0dd",
+        "target": "v3:paper:2310.06825",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Mistral 7B\" /><meta name=\"citation_author\" content=\"Jiang, Albert Q.\" /><meta name=\"citation_author\" content=\"Sablayrolles, Alexandre\" /><meta name=\"citation_author\" content=\"Mensch, Arthur\" /><meta name=\"citation_author\" content=\"Bamford, Chris\" />",
+        "evidence_start": 4307,
+        "evidence_end": 4593,
+        "evidence_parts": [
+          {
+            "value": "Mistral 7B",
+            "quote": "<meta name=\"citation_title\" content=\"Mistral 7B\" />",
+            "start": 4307,
+            "end": 4358
+          },
+          {
+            "value": "Bamford, Chris",
+            "quote": "<meta name=\"citation_author\" content=\"Bamford, Chris\" />",
+            "start": 4537,
+            "end": 4593
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:2d6c51dcf75b4ca0ea85",
+        "target": "v3:paper:2310.06825",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Mistral 7B\" /><meta name=\"citation_author\" content=\"Jiang, Albert Q.\" /><meta name=\"citation_author\" content=\"Sablayrolles, Alexandre\" /><meta name=\"citation_author\" content=\"Mensch, Arthur\" /><meta name=\"citation_author\" content=\"Bamford, Chris\" /><meta name=\"citation_author\" content=\"Chaplot, Devendra Singh\" />",
+        "evidence_start": 4307,
+        "evidence_end": 4658,
+        "evidence_parts": [
+          {
+            "value": "Mistral 7B",
+            "quote": "<meta name=\"citation_title\" content=\"Mistral 7B\" />",
+            "start": 4307,
+            "end": 4358
+          },
+          {
+            "value": "Chaplot, Devendra Singh",
+            "quote": "<meta name=\"citation_author\" content=\"Chaplot, Devendra Singh\" />",
+            "start": 4593,
+            "end": 4658
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:5febdcad99bb449a9d40",
+        "target": "v3:paper:2310.06825",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Mistral 7B\" /><meta name=\"citation_author\" content=\"Jiang, Albert Q.\" /><meta name=\"citation_author\" content=\"Sablayrolles, Alexandre\" /><meta name=\"citation_author\" content=\"Mensch, Arthur\" /><meta name=\"citation_author\" content=\"Bamford, Chris\" /><meta name=\"citation_author\" content=\"Chaplot, Devendra Singh\" /><meta name=\"citation_author\" content=\"Casas, Diego de las\" />",
+        "evidence_start": 4307,
+        "evidence_end": 4719,
+        "evidence_parts": [
+          {
+            "value": "Mistral 7B",
+            "quote": "<meta name=\"citation_title\" content=\"Mistral 7B\" />",
+            "start": 4307,
+            "end": 4358
+          },
+          {
+            "value": "Casas, Diego de las",
+            "quote": "<meta name=\"citation_author\" content=\"Casas, Diego de las\" />",
+            "start": 4658,
+            "end": 4719
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:da9013e6d689e3f7668b",
+        "target": "v3:paper:2310.06825",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Mistral 7B\" /><meta name=\"citation_author\" content=\"Jiang, Albert Q.\" /><meta name=\"citation_author\" content=\"Sablayrolles, Alexandre\" /><meta name=\"citation_author\" content=\"Mensch, Arthur\" /><meta name=\"citation_author\" content=\"Bamford, Chris\" /><meta name=\"citation_author\" content=\"Chaplot, Devendra Singh\" /><meta name=\"citation_author\" content=\"Casas, Diego de las\" /><meta name=\"citation_author\" content=\"Bressand, Florian\" />",
+        "evidence_start": 4307,
+        "evidence_end": 4778,
+        "evidence_parts": [
+          {
+            "value": "Mistral 7B",
+            "quote": "<meta name=\"citation_title\" content=\"Mistral 7B\" />",
+            "start": 4307,
+            "end": 4358
+          },
+          {
+            "value": "Bressand, Florian",
+            "quote": "<meta name=\"citation_author\" content=\"Bressand, Florian\" />",
+            "start": 4719,
+            "end": 4778
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:be0a185f569e5ca8dd43",
+        "target": "v3:paper:2310.06825",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Mistral 7B\" /><meta name=\"citation_author\" content=\"Jiang, Albert Q.\" /><meta name=\"citation_author\" content=\"Sablayrolles, Alexandre\" /><meta name=\"citation_author\" content=\"Mensch, Arthur\" /><meta name=\"citation_author\" content=\"Bamford, Chris\" /><meta name=\"citation_author\" content=\"Chaplot, Devendra Singh\" /><meta name=\"citation_author\" content=\"Casas, Diego de las\" /><meta name=\"citation_author\" content=\"Bressand, Florian\" /><meta name=\"citation_author\" content=\"Lengyel, Gianna\" />",
+        "evidence_start": 4307,
+        "evidence_end": 4835,
+        "evidence_parts": [
+          {
+            "value": "Mistral 7B",
+            "quote": "<meta name=\"citation_title\" content=\"Mistral 7B\" />",
+            "start": 4307,
+            "end": 4358
+          },
+          {
+            "value": "Lengyel, Gianna",
+            "quote": "<meta name=\"citation_author\" content=\"Lengyel, Gianna\" />",
+            "start": 4778,
+            "end": 4835
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:69c8a9d44c4fb63b7572",
+        "target": "v3:paper:2310.06825",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Mistral 7B\" /><meta name=\"citation_author\" content=\"Jiang, Albert Q.\" /><meta name=\"citation_author\" content=\"Sablayrolles, Alexandre\" /><meta name=\"citation_author\" content=\"Mensch, Arthur\" /><meta name=\"citation_author\" content=\"Bamford, Chris\" /><meta name=\"citation_author\" content=\"Chaplot, Devendra Singh\" /><meta name=\"citation_author\" content=\"Casas, Diego de las\" /><meta name=\"citation_author\" content=\"Bressand, Florian\" /><meta name=\"citation_author\" content=\"Lengyel, Gianna\" /><meta name=\"citation_author\" content=\"Lample, Guillaume\" />",
+        "evidence_start": 4307,
+        "evidence_end": 4894,
+        "evidence_parts": [
+          {
+            "value": "Mistral 7B",
+            "quote": "<meta name=\"citation_title\" content=\"Mistral 7B\" />",
+            "start": 4307,
+            "end": 4358
+          },
+          {
+            "value": "Lample, Guillaume",
+            "quote": "<meta name=\"citation_author\" content=\"Lample, Guillaume\" />",
+            "start": 4835,
+            "end": 4894
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:5e994a188caa17f6d392",
+        "target": "v3:paper:2310.06825",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Mistral 7B\" /><meta name=\"citation_author\" content=\"Jiang, Albert Q.\" /><meta name=\"citation_author\" content=\"Sablayrolles, Alexandre\" /><meta name=\"citation_author\" content=\"Mensch, Arthur\" /><meta name=\"citation_author\" content=\"Bamford, Chris\" /><meta name=\"citation_author\" content=\"Chaplot, Devendra Singh\" /><meta name=\"citation_author\" content=\"Casas, Diego de las\" /><meta name=\"citation_author\" content=\"Bressand, Florian\" /><meta name=\"citation_author\" content=\"Lengyel, Gianna\" /><meta name=\"citation_author\" content=\"Lample, Guillaume\" /><meta name=\"citation_author\" content=\"Saulnier, Lucile\" />",
+        "evidence_start": 4307,
+        "evidence_end": 4952,
+        "evidence_parts": [
+          {
+            "value": "Mistral 7B",
+            "quote": "<meta name=\"citation_title\" content=\"Mistral 7B\" />",
+            "start": 4307,
+            "end": 4358
+          },
+          {
+            "value": "Saulnier, Lucile",
+            "quote": "<meta name=\"citation_author\" content=\"Saulnier, Lucile\" />",
+            "start": 4894,
+            "end": 4952
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:7cc4039c885bd4b51af6",
+        "target": "v3:paper:2310.06825",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Mistral 7B\" /><meta name=\"citation_author\" content=\"Jiang, Albert Q.\" /><meta name=\"citation_author\" content=\"Sablayrolles, Alexandre\" /><meta name=\"citation_author\" content=\"Mensch, Arthur\" /><meta name=\"citation_author\" content=\"Bamford, Chris\" /><meta name=\"citation_author\" content=\"Chaplot, Devendra Singh\" /><meta name=\"citation_author\" content=\"Casas, Diego de las\" /><meta name=\"citation_author\" content=\"Bressand, Florian\" /><meta name=\"citation_author\" content=\"Lengyel, Gianna\" /><meta name=\"citation_author\" content=\"Lample, Guillaume\" /><meta name=\"citation_author\" content=\"Saulnier, Lucile\" /><meta name=\"citation_author\" content=\"Lavaud, Lélio Renard\" />",
+        "evidence_start": 4307,
+        "evidence_end": 5014,
+        "evidence_parts": [
+          {
+            "value": "Mistral 7B",
+            "quote": "<meta name=\"citation_title\" content=\"Mistral 7B\" />",
+            "start": 4307,
+            "end": 4358
+          },
+          {
+            "value": "Lavaud, Lélio Renard",
+            "quote": "<meta name=\"citation_author\" content=\"Lavaud, Lélio Renard\" />",
+            "start": 4952,
+            "end": 5014
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:18403faf48de582dcd5d",
+        "target": "v3:paper:2310.06825",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Mistral 7B\" /><meta name=\"citation_author\" content=\"Jiang, Albert Q.\" /><meta name=\"citation_author\" content=\"Sablayrolles, Alexandre\" /><meta name=\"citation_author\" content=\"Mensch, Arthur\" /><meta name=\"citation_author\" content=\"Bamford, Chris\" /><meta name=\"citation_author\" content=\"Chaplot, Devendra Singh\" /><meta name=\"citation_author\" content=\"Casas, Diego de las\" /><meta name=\"citation_author\" content=\"Bressand, Florian\" /><meta name=\"citation_author\" content=\"Lengyel, Gianna\" /><meta name=\"citation_author\" content=\"Lample, Guillaume\" /><meta name=\"citation_author\" content=\"Saulnier, Lucile\" /><meta name=\"citation_author\" content=\"Lavaud, Lélio Renard\" /><meta name=\"citation_author\" content=\"Lachaux, Marie-Anne\" />",
+        "evidence_start": 4307,
+        "evidence_end": 5075,
+        "evidence_parts": [
+          {
+            "value": "Mistral 7B",
+            "quote": "<meta name=\"citation_title\" content=\"Mistral 7B\" />",
+            "start": 4307,
+            "end": 4358
+          },
+          {
+            "value": "Lachaux, Marie-Anne",
+            "quote": "<meta name=\"citation_author\" content=\"Lachaux, Marie-Anne\" />",
+            "start": 5014,
+            "end": 5075
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:8764f5b98abea7a5c130",
+        "target": "v3:paper:2310.06825",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Mistral 7B\" /><meta name=\"citation_author\" content=\"Jiang, Albert Q.\" /><meta name=\"citation_author\" content=\"Sablayrolles, Alexandre\" /><meta name=\"citation_author\" content=\"Mensch, Arthur\" /><meta name=\"citation_author\" content=\"Bamford, Chris\" /><meta name=\"citation_author\" content=\"Chaplot, Devendra Singh\" /><meta name=\"citation_author\" content=\"Casas, Diego de las\" /><meta name=\"citation_author\" content=\"Bressand, Florian\" /><meta name=\"citation_author\" content=\"Lengyel, Gianna\" /><meta name=\"citation_author\" content=\"Lample, Guillaume\" /><meta name=\"citation_author\" content=\"Saulnier, Lucile\" /><meta name=\"citation_author\" content=\"Lavaud, Lélio Renard\" /><meta name=\"citation_author\" content=\"Lachaux, Marie-Anne\" /><meta name=\"citation_author\" content=\"Stock, Pierre\" />",
+        "evidence_start": 4307,
+        "evidence_end": 5130,
+        "evidence_parts": [
+          {
+            "value": "Mistral 7B",
+            "quote": "<meta name=\"citation_title\" content=\"Mistral 7B\" />",
+            "start": 4307,
+            "end": 4358
+          },
+          {
+            "value": "Stock, Pierre",
+            "quote": "<meta name=\"citation_author\" content=\"Stock, Pierre\" />",
+            "start": 5075,
+            "end": 5130
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:3d2cf2b7f97c857b9e44",
+        "target": "v3:paper:2310.06825",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Mistral 7B\" /><meta name=\"citation_author\" content=\"Jiang, Albert Q.\" /><meta name=\"citation_author\" content=\"Sablayrolles, Alexandre\" /><meta name=\"citation_author\" content=\"Mensch, Arthur\" /><meta name=\"citation_author\" content=\"Bamford, Chris\" /><meta name=\"citation_author\" content=\"Chaplot, Devendra Singh\" /><meta name=\"citation_author\" content=\"Casas, Diego de las\" /><meta name=\"citation_author\" content=\"Bressand, Florian\" /><meta name=\"citation_author\" content=\"Lengyel, Gianna\" /><meta name=\"citation_author\" content=\"Lample, Guillaume\" /><meta name=\"citation_author\" content=\"Saulnier, Lucile\" /><meta name=\"citation_author\" content=\"Lavaud, Lélio Renard\" /><meta name=\"citation_author\" content=\"Lachaux, Marie-Anne\" /><meta name=\"citation_author\" content=\"Stock, Pierre\" /><meta name=\"citation_author\" content=\"Scao, Teven Le\" />",
+        "evidence_start": 4307,
+        "evidence_end": 5186,
+        "evidence_parts": [
+          {
+            "value": "Mistral 7B",
+            "quote": "<meta name=\"citation_title\" content=\"Mistral 7B\" />",
+            "start": 4307,
+            "end": 4358
+          },
+          {
+            "value": "Scao, Teven Le",
+            "quote": "<meta name=\"citation_author\" content=\"Scao, Teven Le\" />",
+            "start": 5130,
+            "end": 5186
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:d8b345c6b8559a9b21ea",
+        "target": "v3:paper:2310.06825",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Mistral 7B\" /><meta name=\"citation_author\" content=\"Jiang, Albert Q.\" /><meta name=\"citation_author\" content=\"Sablayrolles, Alexandre\" /><meta name=\"citation_author\" content=\"Mensch, Arthur\" /><meta name=\"citation_author\" content=\"Bamford, Chris\" /><meta name=\"citation_author\" content=\"Chaplot, Devendra Singh\" /><meta name=\"citation_author\" content=\"Casas, Diego de las\" /><meta name=\"citation_author\" content=\"Bressand, Florian\" /><meta name=\"citation_author\" content=\"Lengyel, Gianna\" /><meta name=\"citation_author\" content=\"Lample, Guillaume\" /><meta name=\"citation_author\" content=\"Saulnier, Lucile\" /><meta name=\"citation_author\" content=\"Lavaud, Lélio Renard\" /><meta name=\"citation_author\" content=\"Lachaux, Marie-Anne\" /><meta name=\"citation_author\" content=\"Stock, Pierre\" /><meta name=\"citation_author\" content=\"Scao, Teven Le\" /><meta name=\"citation_author\" content=\"Lavril, Thibaut\" />",
+        "evidence_start": 4307,
+        "evidence_end": 5243,
+        "evidence_parts": [
+          {
+            "value": "Mistral 7B",
+            "quote": "<meta name=\"citation_title\" content=\"Mistral 7B\" />",
+            "start": 4307,
+            "end": 4358
+          },
+          {
+            "value": "Lavril, Thibaut",
+            "quote": "<meta name=\"citation_author\" content=\"Lavril, Thibaut\" />",
+            "start": 5186,
+            "end": 5243
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:9daf4ff4c84ccc739a84",
+        "target": "v3:paper:2310.06825",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Mistral 7B\" /><meta name=\"citation_author\" content=\"Jiang, Albert Q.\" /><meta name=\"citation_author\" content=\"Sablayrolles, Alexandre\" /><meta name=\"citation_author\" content=\"Mensch, Arthur\" /><meta name=\"citation_author\" content=\"Bamford, Chris\" /><meta name=\"citation_author\" content=\"Chaplot, Devendra Singh\" /><meta name=\"citation_author\" content=\"Casas, Diego de las\" /><meta name=\"citation_author\" content=\"Bressand, Florian\" /><meta name=\"citation_author\" content=\"Lengyel, Gianna\" /><meta name=\"citation_author\" content=\"Lample, Guillaume\" /><meta name=\"citation_author\" content=\"Saulnier, Lucile\" /><meta name=\"citation_author\" content=\"Lavaud, Lélio Renard\" /><meta name=\"citation_author\" content=\"Lachaux, Marie-Anne\" /><meta name=\"citation_author\" content=\"Stock, Pierre\" /><meta name=\"citation_author\" content=\"Scao, Teven Le\" /><meta name=\"citation_author\" content=\"Lavril, Thibaut\" /><meta name=\"citation_author\" content=\"Wang, Thomas\" />",
+        "evidence_start": 4307,
+        "evidence_end": 5297,
+        "evidence_parts": [
+          {
+            "value": "Mistral 7B",
+            "quote": "<meta name=\"citation_title\" content=\"Mistral 7B\" />",
+            "start": 4307,
+            "end": 4358
+          },
+          {
+            "value": "Wang, Thomas",
+            "quote": "<meta name=\"citation_author\" content=\"Wang, Thomas\" />",
+            "start": 5243,
+            "end": 5297
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:5b0d75079dfc33a66e52",
+        "target": "v3:paper:2310.06825",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Mistral 7B\" /><meta name=\"citation_author\" content=\"Jiang, Albert Q.\" /><meta name=\"citation_author\" content=\"Sablayrolles, Alexandre\" /><meta name=\"citation_author\" content=\"Mensch, Arthur\" /><meta name=\"citation_author\" content=\"Bamford, Chris\" /><meta name=\"citation_author\" content=\"Chaplot, Devendra Singh\" /><meta name=\"citation_author\" content=\"Casas, Diego de las\" /><meta name=\"citation_author\" content=\"Bressand, Florian\" /><meta name=\"citation_author\" content=\"Lengyel, Gianna\" /><meta name=\"citation_author\" content=\"Lample, Guillaume\" /><meta name=\"citation_author\" content=\"Saulnier, Lucile\" /><meta name=\"citation_author\" content=\"Lavaud, Lélio Renard\" /><meta name=\"citation_author\" content=\"Lachaux, Marie-Anne\" /><meta name=\"citation_author\" content=\"Stock, Pierre\" /><meta name=\"citation_author\" content=\"Scao, Teven Le\" /><meta name=\"citation_author\" content=\"Lavril, Thibaut\" /><meta name=\"citation_author\" content=\"Wang, Thomas\" /><meta name=\"citation_author\" content=\"Lacroix, Timothée\" />",
+        "evidence_start": 4307,
+        "evidence_end": 5356,
+        "evidence_parts": [
+          {
+            "value": "Mistral 7B",
+            "quote": "<meta name=\"citation_title\" content=\"Mistral 7B\" />",
+            "start": 4307,
+            "end": 4358
+          },
+          {
+            "value": "Lacroix, Timothée",
+            "quote": "<meta name=\"citation_author\" content=\"Lacroix, Timothée\" />",
+            "start": 5297,
+            "end": 5356
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:0ebf97c8b456ce068938",
+        "target": "v3:paper:2310.06825",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Mistral 7B\" /><meta name=\"citation_author\" content=\"Jiang, Albert Q.\" /><meta name=\"citation_author\" content=\"Sablayrolles, Alexandre\" /><meta name=\"citation_author\" content=\"Mensch, Arthur\" /><meta name=\"citation_author\" content=\"Bamford, Chris\" /><meta name=\"citation_author\" content=\"Chaplot, Devendra Singh\" /><meta name=\"citation_author\" content=\"Casas, Diego de las\" /><meta name=\"citation_author\" content=\"Bressand, Florian\" /><meta name=\"citation_author\" content=\"Lengyel, Gianna\" /><meta name=\"citation_author\" content=\"Lample, Guillaume\" /><meta name=\"citation_author\" content=\"Saulnier, Lucile\" /><meta name=\"citation_author\" content=\"Lavaud, Lélio Renard\" /><meta name=\"citation_author\" content=\"Lachaux, Marie-Anne\" /><meta name=\"citation_author\" content=\"Stock, Pierre\" /><meta name=\"citation_author\" content=\"Scao, Teven Le\" /><meta name=\"citation_author\" content=\"Lavril, Thibaut\" /><meta name=\"citation_author\" content=\"Wang, Thomas\" /><meta name=\"citation_author\" content=\"Lacroix, Timothée\" /><meta name=\"citation_author\" content=\"Sayed, William El\" />",
+        "evidence_start": 4307,
+        "evidence_end": 5415,
+        "evidence_parts": [
+          {
+            "value": "Mistral 7B",
+            "quote": "<meta name=\"citation_title\" content=\"Mistral 7B\" />",
+            "start": 4307,
+            "end": 4358
+          },
+          {
+            "value": "Sayed, William El",
+            "quote": "<meta name=\"citation_author\" content=\"Sayed, William El\" />",
+            "start": 5356,
+            "end": 5415
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:paper:2310.06825",
+        "target": "v3:topic:b083988cc669ffb845aa",
+        "type": "ABOUT",
+        "quote": "Our model leverages grouped-query attention (GQA) for faster inference, coupled with sliding window attention (SWA)",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      },
+      {
+        "source": "v3:paper:2310.06825",
+        "target": "v3:topic:8718578cf714ac81a4be",
+        "type": "ABOUT",
+        "quote": "sliding window attention (SWA) to effectively handle sequences of arbitrary length",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      },
+      {
+        "source": "v3:paper:2310.06825",
+        "target": "v3:topic:ac5a22ba5334bd466586",
+        "type": "ABOUT",
+        "quote": "We also provide a model fine-tuned to follow instructions",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      }
+    ]
+  },
+  "mode": "deterministic_html_metadata",
+  "arxiv_id": "2310.06825",
+  "abstract": "We introduce Mistral 7B v0.1, a 7-billion-parameter language model engineered for superior performance and efficiency. Mistral 7B outperforms Llama 2 13B across all evaluated benchmarks, and Llama 1 34B in reasoning, mathematics, and code generation. Our model leverages grouped-query attention (GQA) for faster inference, coupled with sliding window attention (SWA) to effectively handle sequences of arbitrary length with a reduced inference cost. We also provide a model fine-tuned to follow instructions, Mistral 7B -- Instruct, that surpasses the Llama 2 13B -- Chat model both on human and automated benchmarks. Our models are released under the Apache 2.0 license.",
+  "llm_calls": 0,
+  "source_sha256": "0149ce291b37bc49e1fa0e338f8d5dc94780dcadf1a3a8ec9e09ea894e5d6279"
+}

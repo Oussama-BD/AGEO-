@@ -1,0 +1,239 @@
+{
+  "document": {
+    "id": "v3:html:2305.10601",
+    "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+    "source": "https://arxiv.org/abs/2305.10601"
+  },
+  "graph": {
+    "entities": [
+      {
+        "id": "v3:paper:2305.10601",
+        "name": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+        "type": "Paper"
+      },
+      {
+        "id": "v3:author:59fddcc1270084d11bd9",
+        "name": "Shunyu Yao",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:7db9797acbcb178c6bc2",
+        "name": "Dian Yu",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:4d4af3100504becd5718",
+        "name": "Jeffrey Zhao",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:aad0b2803c411f811773",
+        "name": "Izhak Shafran",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:5ccd9836b776995edcd2",
+        "name": "Thomas L. Griffiths",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:f79208acb1f8eee93dae",
+        "name": "Yuan Cao",
+        "type": "Author"
+      },
+      {
+        "id": "v3:author:1268d8bb013dfe013a4c",
+        "name": "Karthik Narasimhan",
+        "type": "Author"
+      },
+      {
+        "id": "v3:topic:1fb3a740773aa66efa9b",
+        "name": "reasoning methods",
+        "type": "Topic"
+      }
+    ],
+    "relations": [
+      {
+        "source": "v3:author:59fddcc1270084d11bd9",
+        "target": "v3:paper:2305.10601",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Tree of Thoughts: Deliberate Problem Solving with Large Language Models\" /><meta name=\"citation_author\" content=\"Yao, Shunyu\" />",
+        "evidence_start": 5221,
+        "evidence_end": 5386,
+        "evidence_parts": [
+          {
+            "value": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"Tree of Thoughts: Deliberate Problem Solving with Large Language Models\" />",
+            "start": 5221,
+            "end": 5333
+          },
+          {
+            "value": "Yao, Shunyu",
+            "quote": "<meta name=\"citation_author\" content=\"Yao, Shunyu\" />",
+            "start": 5333,
+            "end": 5386
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:7db9797acbcb178c6bc2",
+        "target": "v3:paper:2305.10601",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Tree of Thoughts: Deliberate Problem Solving with Large Language Models\" /><meta name=\"citation_author\" content=\"Yao, Shunyu\" /><meta name=\"citation_author\" content=\"Yu, Dian\" />",
+        "evidence_start": 5221,
+        "evidence_end": 5436,
+        "evidence_parts": [
+          {
+            "value": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"Tree of Thoughts: Deliberate Problem Solving with Large Language Models\" />",
+            "start": 5221,
+            "end": 5333
+          },
+          {
+            "value": "Yu, Dian",
+            "quote": "<meta name=\"citation_author\" content=\"Yu, Dian\" />",
+            "start": 5386,
+            "end": 5436
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:4d4af3100504becd5718",
+        "target": "v3:paper:2305.10601",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Tree of Thoughts: Deliberate Problem Solving with Large Language Models\" /><meta name=\"citation_author\" content=\"Yao, Shunyu\" /><meta name=\"citation_author\" content=\"Yu, Dian\" /><meta name=\"citation_author\" content=\"Zhao, Jeffrey\" />",
+        "evidence_start": 5221,
+        "evidence_end": 5491,
+        "evidence_parts": [
+          {
+            "value": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"Tree of Thoughts: Deliberate Problem Solving with Large Language Models\" />",
+            "start": 5221,
+            "end": 5333
+          },
+          {
+            "value": "Zhao, Jeffrey",
+            "quote": "<meta name=\"citation_author\" content=\"Zhao, Jeffrey\" />",
+            "start": 5436,
+            "end": 5491
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:aad0b2803c411f811773",
+        "target": "v3:paper:2305.10601",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Tree of Thoughts: Deliberate Problem Solving with Large Language Models\" /><meta name=\"citation_author\" content=\"Yao, Shunyu\" /><meta name=\"citation_author\" content=\"Yu, Dian\" /><meta name=\"citation_author\" content=\"Zhao, Jeffrey\" /><meta name=\"citation_author\" content=\"Shafran, Izhak\" />",
+        "evidence_start": 5221,
+        "evidence_end": 5547,
+        "evidence_parts": [
+          {
+            "value": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"Tree of Thoughts: Deliberate Problem Solving with Large Language Models\" />",
+            "start": 5221,
+            "end": 5333
+          },
+          {
+            "value": "Shafran, Izhak",
+            "quote": "<meta name=\"citation_author\" content=\"Shafran, Izhak\" />",
+            "start": 5491,
+            "end": 5547
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:5ccd9836b776995edcd2",
+        "target": "v3:paper:2305.10601",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Tree of Thoughts: Deliberate Problem Solving with Large Language Models\" /><meta name=\"citation_author\" content=\"Yao, Shunyu\" /><meta name=\"citation_author\" content=\"Yu, Dian\" /><meta name=\"citation_author\" content=\"Zhao, Jeffrey\" /><meta name=\"citation_author\" content=\"Shafran, Izhak\" /><meta name=\"citation_author\" content=\"Griffiths, Thomas L.\" />",
+        "evidence_start": 5221,
+        "evidence_end": 5609,
+        "evidence_parts": [
+          {
+            "value": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"Tree of Thoughts: Deliberate Problem Solving with Large Language Models\" />",
+            "start": 5221,
+            "end": 5333
+          },
+          {
+            "value": "Griffiths, Thomas L.",
+            "quote": "<meta name=\"citation_author\" content=\"Griffiths, Thomas L.\" />",
+            "start": 5547,
+            "end": 5609
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:f79208acb1f8eee93dae",
+        "target": "v3:paper:2305.10601",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Tree of Thoughts: Deliberate Problem Solving with Large Language Models\" /><meta name=\"citation_author\" content=\"Yao, Shunyu\" /><meta name=\"citation_author\" content=\"Yu, Dian\" /><meta name=\"citation_author\" content=\"Zhao, Jeffrey\" /><meta name=\"citation_author\" content=\"Shafran, Izhak\" /><meta name=\"citation_author\" content=\"Griffiths, Thomas L.\" /><meta name=\"citation_author\" content=\"Cao, Yuan\" />",
+        "evidence_start": 5221,
+        "evidence_end": 5660,
+        "evidence_parts": [
+          {
+            "value": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"Tree of Thoughts: Deliberate Problem Solving with Large Language Models\" />",
+            "start": 5221,
+            "end": 5333
+          },
+          {
+            "value": "Cao, Yuan",
+            "quote": "<meta name=\"citation_author\" content=\"Cao, Yuan\" />",
+            "start": 5609,
+            "end": 5660
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:author:1268d8bb013dfe013a4c",
+        "target": "v3:paper:2305.10601",
+        "type": "AUTHORED",
+        "quote": "<meta name=\"citation_title\" content=\"Tree of Thoughts: Deliberate Problem Solving with Large Language Models\" /><meta name=\"citation_author\" content=\"Yao, Shunyu\" /><meta name=\"citation_author\" content=\"Yu, Dian\" /><meta name=\"citation_author\" content=\"Zhao, Jeffrey\" /><meta name=\"citation_author\" content=\"Shafran, Izhak\" /><meta name=\"citation_author\" content=\"Griffiths, Thomas L.\" /><meta name=\"citation_author\" content=\"Cao, Yuan\" /><meta name=\"citation_author\" content=\"Narasimhan, Karthik\" />",
+        "evidence_start": 5221,
+        "evidence_end": 5721,
+        "evidence_parts": [
+          {
+            "value": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+            "quote": "<meta name=\"citation_title\" content=\"Tree of Thoughts: Deliberate Problem Solving with Large Language Models\" />",
+            "start": 5221,
+            "end": 5333
+          },
+          {
+            "value": "Narasimhan, Karthik",
+            "quote": "<meta name=\"citation_author\" content=\"Narasimhan, Karthik\" />",
+            "start": 5660,
+            "end": 5721
+          }
+        ],
+        "method": "arxiv_citation_metadata",
+        "source_kind": "raw_html_metadata"
+      },
+      {
+        "source": "v3:paper:2305.10601",
+        "target": "v3:topic:1fb3a740773aa66efa9b",
+        "type": "ABOUT",
+        "quote": "we introduce a new framework for language model inference, Tree of Thoughts (ToT), which generalizes over the popular Chain of Thought approach",
+        "source_kind": "decoded_citation_abstract",
+        "method": "gemini-3.1-flash-lite"
+      }
+    ]
+  },
+  "mode": "deterministic_html_metadata",
+  "arxiv_id": "2305.10601",
+  "abstract": "Language models are increasingly being deployed for general problem solving across a wide range of tasks, but are still confined to token-level, left-to-right decision-making processes during inference. This means they can fall short in tasks that require exploration, strategic lookahead, or where initial decisions play a pivotal role. To surmount these challenges, we introduce a new framework for language model inference, Tree of Thoughts (ToT), which generalizes over the popular Chain of Thought approach to prompting language models, and enables exploration over coherent units of text (thoughts) that serve as intermediate steps toward problem solving. ToT allows LMs to perform deliberate decision making by considering multiple different reasoning paths and self-evaluating choices to decide the next course of action, as well as looking ahead or backtracking when necessary to make global choices. Our experiments show that ToT significantly enhances language models' problem-solving abilities on three novel tasks requiring non-trivial planning or search: Game of 24, Creative Writing, and Mini Crosswords. For instance, in Game of 24, while GPT-4 with chain-of-thought prompting only solved 4% of tasks, our method achieved a success rate of 74%. Code repo with all prompts: https://github.com/princeton-nlp/tree-of-thought-llm.",
+  "llm_calls": 0,
+  "source_sha256": "cc7d44b56526a920fc7c4d73b4ebcb4b28c2b46012412a28206280dcbecd9dff"
+}
