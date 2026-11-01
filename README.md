@@ -97,6 +97,4 @@ Les auteurs viennent des métadonnées HTML ; les sujets des résumés ; les aff
 
 Le rapport d’origine et ses captures sont dans `docs/rapport-projet-v3.pdf`. Voir `docs/deploiement-observe.md` pour l’historique des incidents. Le Dockerfile et les tests utilisent `requirements.lock.txt`, généré à partir de la nouvelle image Linux réellement construite et testée. `requirements.txt` décrit les contraintes de versions ; le verrou conserve les versions résolues.
 
-## Données et droits
 
-Les publications et métadonnées proviennent d’arXiv, avec leurs liens sources dans le corpus. Elles restent soumises aux droits et conditions de leurs auteurs et d’arXiv. Aucune licence de code n’a été choisie au nom du propriétaire : la publication GitHub n’accorde pas automatiquement une licence de réutilisation.
